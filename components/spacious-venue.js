@@ -186,8 +186,8 @@ const SpaciousVenue = (props) => {
             transform: scale(1);
             box-shadow: 1px 2px 25px 1px rgba(50, 0, 255, 0.4);
             border-color: var(--dl-color-primary-logo-color-2);
-            border-style: dotted;
-            border-width: 0.5px;
+            border-style: solid;
+            border-width: 1px;
             background-color: rgba(61, 19, 234, 0.3);
           }
           .spacious-venue-content {
@@ -312,9 +312,10 @@ const SpaciousVenue = (props) => {
           }
           @media (max-width: 991px) {
             .spacious-venue-spacious-venue {
-              gap: var(--dl-space-space-twounits);
+              gap: var(--dl-space-space-unit);
               align-self: stretch;
               flex-direction: column;
+              padding-bottom: var(--dl-space-space-unit);
             }
             .spacious-venue-container1 {
               gap: var(--dl-space-space-halfunit);
@@ -324,9 +325,14 @@ const SpaciousVenue = (props) => {
             .spacious-venue-image1 {
               width: 100%;
             }
+            .spacious-venue-link {
+              font-size: 14px;
+            }
             .spacious-venue-content {
               gap: var(--dl-space-space-oneandhalfunits);
               width: 100%;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
             }
             .spacious-venue-list {
               gap: var(--dl-space-space-halfunit);
@@ -373,7 +379,23 @@ const SpaciousVenue = (props) => {
           }
           @media (max-width: 399px) {
             .spacious-venue-list {
-              flex-direction: row;
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .spacious-venue-list-item1 {
+              gap: var(--dl-space-space-halfunit);
+              width: 100%;
+              max-width: 100%;
+            }
+            .spacious-venue-text14 {
+              font-size: 14px;
+            }
+            .spacious-venue-list-item2 {
+              gap: var(--dl-space-space-halfunit);
+              width: 100%;
+            }
+            .spacious-venue-text16 {
+              font-size: 14px;
             }
           }
         `}

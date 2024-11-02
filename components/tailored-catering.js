@@ -45,11 +45,11 @@ const TailoredCatering = (props) => {
                 </Fragment>
               )}
             </span>
-            <h2 className="tailored-catering-text12">
+            <h2 className="tailored-catering-text12 Ubuntu-Light-16">
               {props.sectionTitle2 ?? (
                 <Fragment>
                   <span className="tailored-catering-text27">
-                    Tailored Catering Services to Delight Every Palate
+                    Tailored Catering Services to Delight Every Plate
                   </span>
                 </Fragment>
               )}
@@ -210,12 +210,6 @@ const TailoredCatering = (props) => {
           .tailored-catering-text12 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 18px;
-            font-family: 'Ubuntu';
-            font-weight: 300;
-            line-height: 1.4;
-            text-transform: none;
-            text-decoration: none;
           }
           .tailored-catering-text13 {
             fill: var(--dl-color-theme-accent1);
@@ -321,7 +315,9 @@ const TailoredCatering = (props) => {
             .tailored-catering-tailored-catering {
               gap: var(--dl-space-space-twounits);
               align-self: stretch;
+              margin-bottom: var(--dl-space-space-unit);
               flex-direction: column;
+              padding-bottom: var(--dl-space-space-unit);
             }
             .tailored-catering-container1 {
               gap: var(--dl-space-space-halfunit);
@@ -333,15 +329,21 @@ const TailoredCatering = (props) => {
             .tailored-catering-content {
               gap: var(--dl-space-space-oneandhalfunits);
               width: 100%;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
             }
             .tailored-catering-list {
               gap: var(--dl-space-space-halfunit);
+              flex-direction: row;
             }
             .tailored-catering-list-item1 {
+              gap: var(--dl-space-space-halfunit);
               width: 50%;
             }
             .tailored-catering-list-item2 {
+              gap: var(--dl-space-space-halfunit);
               width: 50%;
+              max-width: 50%;
             }
           }
           @media (max-width: 599px) {
@@ -371,6 +373,33 @@ const TailoredCatering = (props) => {
             }
             .tailored-catering-list {
               flex-direction: column;
+            }
+          }
+          @media (max-width: 399px) {
+            .tailored-catering-link {
+              font-size: 14px;
+              font-family: Ubuntu;
+            }
+            .tailored-catering-text12 {
+              font-size: 16px;
+            }
+            .tailored-catering-list {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .tailored-catering-list-item1 {
+              width: 100%;
+              min-width: 100%;
+            }
+            .tailored-catering-text14 {
+              font-size: 14px;
+            }
+            .tailored-catering-list-item2 {
+              width: 100%;
+              max-width: 100%;
+            }
+            .tailored-catering-text16 {
+              font-size: 14px;
             }
           }
         `}
