@@ -70,7 +70,7 @@ const TailoredCatering = (props) => {
           </div>
           <div className="tailored-catering-list thq-flex-row">
             <div className="tailored-catering-list-item1 UbuntuLight-14 thq-flex-column">
-              <h3 className="tailored-catering-text14">
+              <h3 className="tailored-catering-text14 Ubuntu-Light-16">
                 {props.feature1Title2 ?? (
                   <Fragment>
                     <span className="tailored-catering-text26">
@@ -93,7 +93,7 @@ const TailoredCatering = (props) => {
               </span>
             </div>
             <div className="tailored-catering-list-item2 UbuntuLight-14 thq-flex-column">
-              <h3 className="tailored-catering-text16">
+              <h3 className="tailored-catering-text16 Ubuntu-Light-16">
                 {props.feature2Title2 ?? (
                   <Fragment>
                     <span className="tailored-catering-text21">
@@ -230,9 +230,7 @@ const TailoredCatering = (props) => {
           .tailored-catering-text14 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .tailored-catering-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -248,9 +246,7 @@ const TailoredCatering = (props) => {
           .tailored-catering-text16 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .tailored-catering-text17 {
             fill: var(--dl-color-theme-accent1);
@@ -350,12 +346,27 @@ const TailoredCatering = (props) => {
             .tailored-catering-actions {
               align-self: center;
             }
+            .tailored-catering-section-title {
+              gap: var(--dl-space-space-halfunit);
+            }
             .tailored-catering-text11 {
               font-size: 10px;
+            }
+            .tailored-catering-list {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .tailored-catering-list-item1 {
+              width: 100%;
+              min-width: 100%;
             }
             .tailored-catering-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .tailored-catering-list-item2 {
+              width: 100%;
+              max-width: 100%;
             }
             .tailored-catering-text17 {
               font-size: 12px;

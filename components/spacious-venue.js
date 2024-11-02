@@ -70,7 +70,7 @@ const SpaciousVenue = (props) => {
           </div>
           <div className="spacious-venue-list thq-flex-row">
             <div className="spacious-venue-list-item1 UbuntuLight-14 thq-flex-column">
-              <h3 className="spacious-venue-text14">
+              <h3 className="spacious-venue-text14 Ubuntu-Light-16">
                 {props.feature1Title ?? (
                   <Fragment>
                     <span className="spacious-venue-text26">
@@ -94,7 +94,7 @@ const SpaciousVenue = (props) => {
               </span>
             </div>
             <div className="spacious-venue-list-item2 UbuntuLight-14 thq-flex-column">
-              <h3 className="spacious-venue-text16">
+              <h3 className="spacious-venue-text16 Ubuntu-Light-16">
                 {props.feature2Title ?? (
                   <Fragment>
                     <span className="spacious-venue-text23">
@@ -227,10 +227,7 @@ const SpaciousVenue = (props) => {
           .spacious-venue-text14 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-family: 'Ubuntu';
-            font-weight: 300;
           }
           .spacious-venue-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -246,10 +243,7 @@ const SpaciousVenue = (props) => {
           .spacious-venue-text16 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-family: 'Ubuntu';
-            font-weight: 300;
           }
           .spacious-venue-text17 {
             fill: var(--dl-color-theme-accent1);
@@ -349,15 +343,29 @@ const SpaciousVenue = (props) => {
             .spacious-venue-actions {
               align-self: center;
             }
+            .spacious-venue-section-title {
+              gap: var(--dl-space-space-halfunit);
+            }
             .spacious-venue-text11 {
               font-size: 10px;
             }
             .spacious-venue-list {
-              flex-direction: row;
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+              justify-content: flex-start;
+            }
+            .spacious-venue-list-item1 {
+              gap: var(--dl-space-space-halfunit);
+              width: 100%;
+              max-width: 100%;
             }
             .spacious-venue-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .spacious-venue-list-item2 {
+              gap: var(--dl-space-space-halfunit);
+              width: 100%;
             }
             .spacious-venue-text17 {
               font-size: 12px;
@@ -380,10 +388,9 @@ const SpaciousVenue = (props) => {
           @media (max-width: 399px) {
             .spacious-venue-list {
               gap: var(--dl-space-space-unit);
-              flex-direction: column;
+              justify-content: flex-start;
             }
             .spacious-venue-list-item1 {
-              gap: var(--dl-space-space-halfunit);
               width: 100%;
               max-width: 100%;
             }
@@ -391,7 +398,6 @@ const SpaciousVenue = (props) => {
               font-size: 14px;
             }
             .spacious-venue-list-item2 {
-              gap: var(--dl-space-space-halfunit);
               width: 100%;
             }
             .spacious-venue-text16 {

@@ -393,7 +393,7 @@
   flex-direction: column;
 }
 .thq-flex-row {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-space-space-unit);
   display: flex;
   overflow: hidden;
   position: relative;

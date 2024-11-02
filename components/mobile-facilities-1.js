@@ -1366,9 +1366,7 @@ const MobileFacilities1 = (props) => {
           .mobile-facilities-1-text81 {
             display: inline-block;
           }
-          .mobile-facilities-1root-class-name {
-            background-color: transparent;
-          }
+
           @media (max-width: 1200px) {
             .mobile-facilities-1-text11 {
               max-width: 85%;
@@ -1376,9 +1374,6 @@ const MobileFacilities1 = (props) => {
             .mobile-facilities-1-link {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
-            }
-            .mobile-facilities-1root-class-name {
-              background-color: transparent;
             }
           }
           @media (max-width: 991px) {
@@ -1399,10 +1394,6 @@ const MobileFacilities1 = (props) => {
             }
             .mobile-facilities-1-container13 {
               padding: var(--dl-space-space-halfunit);
-            }
-            .mobile-facilities-1root-class-name {
-              display: flex;
-              background-color: transparent;
             }
           }
           @media (max-width: 599px) {
@@ -1518,9 +1509,6 @@ const MobileFacilities1 = (props) => {
               line-height: 1.4;
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
-            }
-            .mobile-facilities-1root-class-name {
-              display: flex;
             }
           }
           @media (max-width: 479px) {
