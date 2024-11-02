@@ -6,7 +6,9 @@ import PropTypes from 'prop-types'
 const EventSpacesComponent = (props) => {
   return (
     <>
-      <div className="event-spaces-component-container UbuntuLight-14 thq-flex-column">
+      <div
+        className={`event-spaces-component-container UbuntuLight-14 thq-flex-column ${props.rootClassName} `}
+      >
         <img
           alt={props.featureImageAlt}
           sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
@@ -78,6 +80,7 @@ const EventSpacesComponent = (props) => {
           .event-spaces-component-text2 {
             display: inline-block;
           }
+
           @media (max-width: 1200px) {
             .event-spaces-component-container {
               justify-content: center;
@@ -115,13 +118,15 @@ const EventSpacesComponent = (props) => {
 }
 
 EventSpacesComponent.defaultProps = {
-  featureImageAlt: 'Luxurious Venue at Marigold Banquet Hall',
   action23: undefined,
+  featureImageAlt: 'Luxurious Venue at Marigold Banquet Hall',
+  rootClassName: '',
 }
 
 EventSpacesComponent.propTypes = {
-  featureImageAlt: PropTypes.string,
   action23: PropTypes.element,
+  featureImageAlt: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default EventSpacesComponent

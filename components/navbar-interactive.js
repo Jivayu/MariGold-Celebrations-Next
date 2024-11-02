@@ -13,11 +13,6 @@ const NavbarInteractive = (props) => {
           data-thq="thq-navbar"
           className="navbar-interactive-navbar-interactive"
         >
-          <img
-            alt={props.imageAlt}
-            src={props.imageSrc}
-            className="navbar-interactive-image"
-          />
           <BrandLogo rootClassName="brand-logoroot-class-name"></BrandLogo>
           <div
             data-thq="thq-navbar-nav"
@@ -238,7 +233,7 @@ const NavbarInteractive = (props) => {
             position: fixed;
             animation: inherit;
             box-shadow: 1px 3px 25px 0px rgba(9, 0, 64, 0.7);
-            border-color: var(--dl-color-primary-logo-color-1);
+            border-color: rgba(245, 184, 60, 0.96);
             border-style: dotted;
             border-width: 1px;
             justify-content: center;
@@ -257,10 +252,6 @@ const NavbarInteractive = (props) => {
             backdrop-filter: blur(7px);
             justify-content: space-between;
             background-color: rgba(245, 184, 60, 0.2);
-          }
-          .navbar-interactive-image {
-            height: 3.4rem;
-            display: none;
           }
           .navbar-interactive-desktop-menu {
             flex: 1;
@@ -727,7 +718,10 @@ const NavbarInteractive = (props) => {
           }
           @media (max-width: 399px) {
             .navbar-interactive-navbar-interactive {
-              padding: var(--dl-space-space-halfunit);
+              padding-top: var(--dl-space-space-halfunit);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-halfunit);
             }
             .navbar-interactive-icon14 {
               fill: auto;
@@ -787,9 +781,7 @@ NavbarInteractive.defaultProps = {
   login: undefined,
   mmenu3: undefined,
   menu3: undefined,
-  imageSrc: '/images/marigold-logo1.svg',
   login1: undefined,
-  imageAlt: 'logo',
   rootClassName: '',
   mmenu2: undefined,
   menu6: undefined,
@@ -810,9 +802,7 @@ NavbarInteractive.propTypes = {
   login: PropTypes.element,
   mmenu3: PropTypes.element,
   menu3: PropTypes.element,
-  imageSrc: PropTypes.string,
   login1: PropTypes.element,
-  imageAlt: PropTypes.string,
   rootClassName: PropTypes.string,
   mmenu2: PropTypes.element,
   menu6: PropTypes.element,

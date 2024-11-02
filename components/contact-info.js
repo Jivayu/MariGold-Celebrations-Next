@@ -642,7 +642,7 @@ const ContactInfo = (props) => {
             display: inline-block;
           }
           .contact-inforoot-class-name {
-            margin-top: var(--dl-space-space-fourunits);
+            margin-top: 0px;
           }
           @media (max-width: 1200px) {
             .contact-info-content3 {

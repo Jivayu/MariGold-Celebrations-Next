@@ -19,6 +19,7 @@ const TailoredCatering = (props) => {
               </span>
             </Fragment>
           }
+          rootClassName="catering-componentroot-class-name"
         ></CateringComponent>
         <div className="tailored-catering-content UbuntuLight-14 thq-flex-column">
           <div className="tailored-catering-section-title UbuntuLight-14 thq-flex-column">

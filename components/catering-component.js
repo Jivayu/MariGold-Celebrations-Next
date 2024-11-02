@@ -6,11 +6,13 @@ import PropTypes from 'prop-types'
 const CateringComponent = (props) => {
   return (
     <>
-      <div className="catering-component-container UbuntuLight-14 thq-flex-column">
+      <div
+        className={`catering-component-container UbuntuLight-14 thq-flex-column ${props.rootClassName} `}
+      >
         <img
           alt={props.featureImageAlt2}
           src="/images/Marigold Images/buffet-2-200h.webp"
-          className="catering-component-image1 thq-img-ratio-4-3"
+          className="thq-img-ratio-4-3 catering-component-image1"
         />
         <div className="catering-component-actions thq-flex-row">
           <button className="catering-component-button menu">
@@ -34,9 +36,6 @@ const CateringComponent = (props) => {
             gap: var(--dl-space-space-halfunit);
             position: relative;
             max-width: 25%;
-          }
-          .catering-component-image1 {
-            width: 100%;
           }
           .catering-component-actions {
             padding: var(--dl-space-space-unit);
@@ -80,6 +79,9 @@ const CateringComponent = (props) => {
           .catering-component-text2 {
             display: inline-block;
           }
+          .catering-componentroot-class-name {
+            width: 100%;
+          }
           @media (max-width: 1200px) {
             .catering-component-container {
               justify-content: center;
@@ -119,13 +121,15 @@ const CateringComponent = (props) => {
 }
 
 CateringComponent.defaultProps = {
-  featureImageAlt2: 'Luxurious Venue at Marigold Banquet Hall',
   action231: undefined,
+  featureImageAlt2: 'Luxurious Venue at Marigold Banquet Hall',
+  rootClassName: '',
 }
 
 CateringComponent.propTypes = {
-  featureImageAlt2: PropTypes.string,
   action231: PropTypes.element,
+  featureImageAlt2: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default CateringComponent

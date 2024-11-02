@@ -34,8 +34,8 @@ const BrandLogo = (props) => {
             transform: scale(1);
           }
           .brand-logoroot-class-name {
-            width: 3.4rem;
-            height: 3.4rem;
+            width: 50px;
+            height: auto;
           }
           .brand-logoroot-class-name1 {
             width: 100px;
@@ -52,6 +52,10 @@ const BrandLogo = (props) => {
             align-self: center;
           }
           @media (max-width: 1200px) {
+            .brand-logoroot-class-name {
+              width: 50px;
+              height: auto;
+            }
             .brand-logoroot-class-name3 {
               align-self: center;
             }
@@ -71,6 +75,10 @@ const BrandLogo = (props) => {
               width: auto;
               align-self: center;
             }
+            .brand-logoroot-class-name {
+              width: auto;
+              height: 50px;
+            }
             .brand-logoroot-class-name3 {
               flex: 1;
               width: 20%;
@@ -81,6 +89,10 @@ const BrandLogo = (props) => {
           @media (max-width: 399px) {
             .brand-logo-image {
               height: auto;
+            }
+            .brand-logoroot-class-name {
+              width: 75px;
+              height: 50px;
             }
             .brand-logoroot-class-name3 {
               width: 30%;

@@ -46,11 +46,6 @@ class CustomDocument extends Document {
           ></link>
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap"
-            data-tag="font"
-          ></link>
-          <link
-            rel="stylesheet"
             href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
           ></link>
           <noscript
