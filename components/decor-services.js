@@ -189,6 +189,7 @@ const DecorServices = (props) => {
             border-right-width: 0px;
           }
           .decor-services-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .decor-services-image1 {
@@ -237,6 +238,7 @@ const DecorServices = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .decor-services-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .decor-services-text11 {
@@ -270,6 +272,7 @@ const DecorServices = (props) => {
             align-items: flex-start;
           }
           .decor-services-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 50%;
             align-items: flex-start;
           }
@@ -289,6 +292,7 @@ const DecorServices = (props) => {
             font-weight: 300;
           }
           .decor-services-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .decor-services-text16 {
@@ -311,6 +315,7 @@ const DecorServices = (props) => {
             align-items: flex-start;
           }
           .decor-services-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 50%;
             align-items: flex-start;
           }
@@ -330,6 +335,7 @@ const DecorServices = (props) => {
             font-weight: 300;
           }
           .decor-services-list-item4 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .decor-services-text20 {
@@ -423,8 +429,11 @@ const DecorServices = (props) => {
               width: 100%;
             }
             .decor-services-content {
-              gap: var(--dl-space-space-oneandhalfunits);
+              gap: var(--dl-space-space-unit);
               width: 100%;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .decor-services-list1 {
               gap: var(--dl-space-space-halfunit);

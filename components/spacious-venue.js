@@ -144,12 +144,12 @@ const SpaciousVenue = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .spacious-venue-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .spacious-venue-actions {
@@ -194,6 +194,7 @@ const SpaciousVenue = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .spacious-venue-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .spacious-venue-text11 {
@@ -221,6 +222,7 @@ const SpaciousVenue = (props) => {
             align-items: flex-start;
           }
           .spacious-venue-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 50%;
             align-items: flex-start;
           }
@@ -238,6 +240,7 @@ const SpaciousVenue = (props) => {
             font-weight: 300;
           }
           .spacious-venue-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .spacious-venue-text16 {
@@ -327,6 +330,7 @@ const SpaciousVenue = (props) => {
               width: 100%;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .spacious-venue-list {
               gap: var(--dl-space-space-halfunit);

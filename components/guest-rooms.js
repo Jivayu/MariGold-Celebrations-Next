@@ -178,12 +178,12 @@ const GuestRooms = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .guest-rooms-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .guest-rooms-image1 {
@@ -232,6 +232,7 @@ const GuestRooms = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .guest-rooms-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .guest-rooms-text11 {
@@ -265,6 +266,7 @@ const GuestRooms = (props) => {
             align-items: flex-start;
           }
           .guest-rooms-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 50%;
             align-items: flex-start;
           }
@@ -284,6 +286,7 @@ const GuestRooms = (props) => {
             font-weight: 300;
           }
           .guest-rooms-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .guest-rooms-text16 {
@@ -306,6 +309,7 @@ const GuestRooms = (props) => {
             align-items: flex-start;
           }
           .guest-rooms-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 100%;
             align-items: flex-start;
           }
@@ -409,7 +413,10 @@ const GuestRooms = (props) => {
             .guest-rooms-guest-rooms {
               gap: var(--dl-space-space-twounits);
               align-self: stretch;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
               flex-direction: column;
+              padding-bottom: var(--dl-space-space-unit);
             }
             .guest-rooms-container1 {
               max-width: 100%;
@@ -448,9 +455,20 @@ const GuestRooms = (props) => {
             .guest-rooms-text11 {
               font-size: 10px;
             }
+            .guest-rooms-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .guest-rooms-list-item1 {
+              width: 100%;
+              max-width: 100%;
+            }
             .guest-rooms-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .guest-rooms-list-item2 {
+              width: 100%;
             }
             .guest-rooms-text17 {
               font-size: 12px;

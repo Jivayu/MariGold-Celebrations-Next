@@ -181,7 +181,6 @@ const PhotographyVideographyServices = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
@@ -232,6 +231,7 @@ const PhotographyVideographyServices = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .photography-videography-services-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .photography-videography-services-text11 {
@@ -265,6 +265,7 @@ const PhotographyVideographyServices = (props) => {
             align-items: flex-start;
           }
           .photography-videography-services-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             width: 50%;
             max-width: 50%;
             align-items: flex-start;
@@ -286,6 +287,7 @@ const PhotographyVideographyServices = (props) => {
             font-weight: 300;
           }
           .photography-videography-services-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             width: 50%;
             align-items: flex-start;
           }
@@ -310,6 +312,7 @@ const PhotographyVideographyServices = (props) => {
             align-items: flex-start;
           }
           .photography-videography-services-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 100%;
             align-items: flex-start;
           }
@@ -425,19 +428,30 @@ const PhotographyVideographyServices = (props) => {
             .photography-videography-services-image1 {
               width: 100%;
             }
+            .photography-videography-services-text10 {
+              font-size: 14px;
+            }
             .photography-videography-services-content {
-              gap: var(--dl-space-space-oneandhalfunits);
+              gap: var(--dl-space-space-unit);
               width: 100%;
               height: auto;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
+            .photography-videography-services-section-title {
+              gap: var(--dl-space-space-halfunit);
             }
             .photography-videography-services-list1 {
               gap: var(--dl-space-space-halfunit);
               justify-content: center;
             }
             .photography-videography-services-list-item1 {
+              gap: var(--dl-space-space-halfunit);
               width: 50%;
             }
             .photography-videography-services-list-item2 {
+              gap: var(--dl-space-space-halfunit);
               width: 50%;
             }
             .photography-videography-services-list2 {
@@ -445,6 +459,7 @@ const PhotographyVideographyServices = (props) => {
               justify-content: center;
             }
             .photography-videography-services-list-item3 {
+              gap: var(--dl-space-space-halfunit);
               width: 100%;
             }
             .photography-videography-services-list-item4 {
@@ -455,18 +470,39 @@ const PhotographyVideographyServices = (props) => {
             .photography-videography-services-actions {
               align-self: center;
             }
+            .photography-videography-services-content {
+              gap: var(--dl-space-space-unit);
+            }
+            .photography-videography-services-section-title {
+              gap: var(--dl-space-space-halfunit);
+            }
             .photography-videography-services-text11 {
               font-size: 10px;
+            }
+            .photography-videography-services-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .photography-videography-services-list-item1 {
+              gap: var(--dl-space-space-halfunit);
+              width: 100%;
+              max-width: 100%;
             }
             .photography-videography-services-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .photography-videography-services-list-item2 {
+              gap: var(--dl-space-space-halfunit);
+              width: 100%;
+              max-width: 100%;
             }
             .photography-videography-services-text17 {
               font-size: 12px;
               font-family: Ubuntu;
             }
             .photography-videography-services-list-item3 {
+              gap: var(--dl-space-space-halfunit);
               width: 100%;
             }
             .photography-videography-services-text19 {

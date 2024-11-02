@@ -143,12 +143,12 @@ const TailoredCatering = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .tailored-catering-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .tailored-catering-image1 {
@@ -197,6 +197,7 @@ const TailoredCatering = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .tailored-catering-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .tailored-catering-text11 {
@@ -224,6 +225,7 @@ const TailoredCatering = (props) => {
             align-items: flex-start;
           }
           .tailored-catering-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             min-width: 50%;
             align-items: flex-start;
           }
@@ -241,6 +243,7 @@ const TailoredCatering = (props) => {
             font-weight: 300;
           }
           .tailored-catering-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .tailored-catering-text16 {
@@ -327,6 +330,7 @@ const TailoredCatering = (props) => {
               width: 100%;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .tailored-catering-list {
               gap: var(--dl-space-space-halfunit);

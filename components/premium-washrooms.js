@@ -42,7 +42,7 @@ const PremiumWashrooms = (props) => {
                 </Fragment>
               )}
             </span>
-            <h2 className="premium-washrooms-text12">
+            <h2 className="premium-washrooms-text12 Ubuntu-Light-16">
               {props.sectionTitle31 ?? (
                 <Fragment>
                   <span className="premium-washrooms-text30">
@@ -67,7 +67,7 @@ const PremiumWashrooms = (props) => {
           </div>
           <div className="premium-washrooms-list1 thq-flex-row">
             <div className="premium-washrooms-list-item1 UbuntuLight-14 thq-flex-column">
-              <h3 className="premium-washrooms-text14">
+              <h3 className="premium-washrooms-text14 Ubuntu-Light-16">
                 {props.feature1Title32 ?? (
                   <Fragment>
                     <span className="premium-washrooms-text28">
@@ -89,7 +89,7 @@ const PremiumWashrooms = (props) => {
               </span>
             </div>
             <div className="premium-washrooms-list-item2 UbuntuLight-14 thq-flex-column">
-              <h3 className="premium-washrooms-text16">
+              <h3 className="premium-washrooms-text16 Ubuntu-Light-16">
                 {props.feature2Title32 ?? (
                   <Fragment>
                     <span className="premium-washrooms-text24">
@@ -113,7 +113,7 @@ const PremiumWashrooms = (props) => {
           </div>
           <div className="premium-washrooms-list2 thq-flex-row">
             <div className="premium-washrooms-list-item3 UbuntuLight-14 thq-flex-column">
-              <h3 className="premium-washrooms-text18">
+              <h3 className="premium-washrooms-text18 Ubuntu-Light-16">
                 {props.feature1Title311 ?? (
                   <Fragment>
                     <span className="premium-washrooms-text26">
@@ -182,12 +182,12 @@ const PremiumWashrooms = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .premium-washrooms-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .premium-washrooms-actions {
@@ -233,6 +233,7 @@ const PremiumWashrooms = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .premium-washrooms-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .premium-washrooms-text11 {
@@ -246,12 +247,6 @@ const PremiumWashrooms = (props) => {
           .premium-washrooms-text12 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 18px;
-            font-family: 'Ubuntu';
-            font-weight: 300;
-            line-height: 1.4;
-            text-transform: none;
-            text-decoration: none;
           }
           .premium-washrooms-text13 {
             fill: var(--dl-color-theme-accent1);
@@ -266,16 +261,14 @@ const PremiumWashrooms = (props) => {
             align-items: flex-start;
           }
           .premium-washrooms-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 50%;
             align-items: flex-start;
           }
           .premium-washrooms-text14 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-family: 'Ubuntu';
-            font-weight: 300;
           }
           .premium-washrooms-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -286,16 +279,14 @@ const PremiumWashrooms = (props) => {
             font-weight: 300;
           }
           .premium-washrooms-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             width: 50%;
             align-items: flex-start;
           }
           .premium-washrooms-text16 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-family: 'Ubuntu';
-            font-weight: 300;
           }
           .premium-washrooms-text17 {
             fill: var(--dl-color-theme-accent1);
@@ -310,16 +301,14 @@ const PremiumWashrooms = (props) => {
             align-items: flex-start;
           }
           .premium-washrooms-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 100%;
             align-items: flex-start;
           }
           .premium-washrooms-text18 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-family: 'Ubuntu';
-            font-weight: 300;
           }
           .premium-washrooms-text19 {
             fill: var(--dl-color-theme-accent1);
@@ -425,8 +414,11 @@ const PremiumWashrooms = (props) => {
               width: 100%;
             }
             .premium-washrooms-content {
-              gap: var(--dl-space-space-oneandhalfunits);
+              gap: var(--dl-space-space-unit);
               width: 100%;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .premium-washrooms-list1 {
               gap: var(--dl-space-space-halfunit);
@@ -456,9 +448,20 @@ const PremiumWashrooms = (props) => {
             .premium-washrooms-text11 {
               font-size: 10px;
             }
+            .premium-washrooms-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .premium-washrooms-list-item1 {
+              width: 100%;
+              max-width: 100%;
+            }
             .premium-washrooms-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .premium-washrooms-list-item2 {
+              width: 100%;
             }
             .premium-washrooms-text17 {
               font-size: 12px;

@@ -42,7 +42,7 @@ const GeneratorBackup = (props) => {
                 </Fragment>
               )}
             </span>
-            <h2 className="generator-backup-text12">
+            <h2 className="generator-backup-text12 Ubuntu-Light-16">
               {props.sectionTitle22 ?? (
                 <Fragment>
                   <span className="generator-backup-text23">
@@ -66,7 +66,7 @@ const GeneratorBackup = (props) => {
           </div>
           <div className="generator-backup-list1 thq-flex-row">
             <div className="generator-backup-list-item1 UbuntuLight-14 thq-flex-column">
-              <h3 className="generator-backup-text14">
+              <h3 className="generator-backup-text14 Ubuntu-Light-16">
                 {props.feature1Title22 ?? (
                   <Fragment>
                     <span className="generator-backup-text29">
@@ -88,7 +88,7 @@ const GeneratorBackup = (props) => {
               </span>
             </div>
             <div className="generator-backup-list-item2 UbuntuLight-14 thq-flex-column">
-              <h3 className="generator-backup-text16">
+              <h3 className="generator-backup-text16 Ubuntu-Light-16">
                 {props.feature2Title22 ?? (
                   <Fragment>
                     <span className="generator-backup-text25">
@@ -112,7 +112,7 @@ const GeneratorBackup = (props) => {
           </div>
           <div className="generator-backup-list2 thq-flex-row">
             <div className="generator-backup-list-item3 UbuntuLight-14 thq-flex-column">
-              <h3 className="generator-backup-text18">
+              <h3 className="generator-backup-text18 Ubuntu-Light-16">
                 {props.feature1Title221 ?? (
                   <Fragment>
                     <span className="generator-backup-text26">
@@ -180,12 +180,12 @@ const GeneratorBackup = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .generator-backup-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .generator-backup-image1 {
@@ -234,6 +234,7 @@ const GeneratorBackup = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .generator-backup-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .generator-backup-text11 {
@@ -247,12 +248,6 @@ const GeneratorBackup = (props) => {
           .generator-backup-text12 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 18px;
-            font-family: 'Ubuntu';
-            font-weight: 300;
-            line-height: 1.4;
-            text-transform: none;
-            text-decoration: none;
           }
           .generator-backup-text13 {
             fill: var(--dl-color-theme-accent1);
@@ -267,15 +262,14 @@ const GeneratorBackup = (props) => {
             align-items: flex-start;
           }
           .generator-backup-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             min-width: 50%;
             align-items: flex-start;
           }
           .generator-backup-text14 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .generator-backup-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -286,14 +280,13 @@ const GeneratorBackup = (props) => {
             font-weight: 300;
           }
           .generator-backup-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .generator-backup-text16 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .generator-backup-text17 {
             fill: var(--dl-color-theme-accent1);
@@ -308,15 +301,14 @@ const GeneratorBackup = (props) => {
             align-items: flex-start;
           }
           .generator-backup-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             min-width: 50%;
             align-items: flex-start;
           }
           .generator-backup-text18 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .generator-backup-text19 {
             fill: var(--dl-color-theme-accent1);
@@ -420,7 +412,7 @@ const GeneratorBackup = (props) => {
               width: 100%;
             }
             .generator-backup-content {
-              gap: var(--dl-space-space-oneandhalfunits);
+              gap: var(--dl-space-space-unit);
               width: 100%;
             }
             .generator-backup-list1 {
@@ -446,12 +438,28 @@ const GeneratorBackup = (props) => {
             .generator-backup-actions {
               align-self: center;
             }
+            .generator-backup-content {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
+            }
             .generator-backup-text11 {
               font-size: 10px;
+            }
+            .generator-backup-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .generator-backup-list-item1 {
+              width: 100%;
+              min-width: 100%;
             }
             .generator-backup-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .generator-backup-list-item2 {
+              width: 100%;
             }
             .generator-backup-text17 {
               font-size: 12px;
@@ -459,6 +467,7 @@ const GeneratorBackup = (props) => {
             }
             .generator-backup-list-item3 {
               width: 100%;
+              min-width: 100%;
             }
             .generator-backup-text19 {
               font-size: 12px;

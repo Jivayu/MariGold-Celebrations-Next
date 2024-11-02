@@ -9,7 +9,7 @@ const SoundProofHall = (props) => {
         id="SoundProof-Hall"
         className="sound-proof-hall-sound-proof-hall thq-flex-row thq-section-max-width"
       >
-        <div className="sound-proof-hall-container1 UbuntuLight-14 thq-flex-column">
+        <div className="sound-proof-hall-container UbuntuLight-14 thq-flex-column">
           <img
             alt={props.featureImageAlt211}
             sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
@@ -135,23 +135,9 @@ const SoundProofHall = (props) => {
                   </Fragment>
                 )}
               </span>
-              <div className="sound-proof-hall-container2">
-                <p className="sound-proof-hall-text20 thq-body-large">
-                  {props.featureDescription2111 ?? (
-                    <Fragment>
-                      <span className="sound-proof-hall-text30">
-                        Marigold’s soundproof hall provides a refined and
-                        distraction-free atmosphere, making it the perfect
-                        setting for events that demand attention to every
-                        detail.
-                      </span>
-                    </Fragment>
-                  )}
-                </p>
-              </div>
             </div>
             <div className="sound-proof-hall-list-item4 UbuntuLight-14 thq-flex-column">
-              <h3 className="sound-proof-hall-text21">
+              <h3 className="sound-proof-hall-text20">
                 {props.feature2Title2111 ?? (
                   <Fragment>
                     <span className="sound-proof-hall-text27">
@@ -160,7 +146,7 @@ const SoundProofHall = (props) => {
                   </Fragment>
                 )}
               </h3>
-              <span className="sound-proof-hall-text22 thq-body-small">
+              <span className="sound-proof-hall-text21 thq-body-small">
                 {props.feature2Description2111 ?? (
                   <Fragment>
                     <span className="sound-proof-hall-text28">
@@ -173,6 +159,17 @@ const SoundProofHall = (props) => {
               </span>
             </div>
           </div>
+          <p className="sound-proof-hall-text22 thq-body-large">
+            {props.featureDescription2111 ?? (
+              <Fragment>
+                <span className="sound-proof-hall-text30">
+                  Marigold’s soundproof hall provides a refined and
+                  distraction-free atmosphere, making it the perfect setting for
+                  events that demand attention to every detail.
+                </span>
+              </Fragment>
+            )}
+          </p>
         </div>
       </section>
       <style jsx>
@@ -184,12 +181,12 @@ const SoundProofHall = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .sound-proof-hall-container1 {
+          .sound-proof-hall-container {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .sound-proof-hall-image1 {
@@ -238,6 +235,7 @@ const SoundProofHall = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .sound-proof-hall-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .sound-proof-hall-text11 {
@@ -271,6 +269,7 @@ const SoundProofHall = (props) => {
             align-items: flex-start;
           }
           .sound-proof-hall-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 50%;
             align-items: flex-start;
           }
@@ -290,6 +289,7 @@ const SoundProofHall = (props) => {
             font-weight: 300;
           }
           .sound-proof-hall-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .sound-proof-hall-text16 {
@@ -308,10 +308,12 @@ const SoundProofHall = (props) => {
             font-weight: 300;
           }
           .sound-proof-hall-list2 {
+            gap: var(--dl-space-space-halfunit);
             align-self: stretch;
             align-items: flex-start;
           }
           .sound-proof-hall-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 100%;
             align-items: flex-start;
           }
@@ -330,14 +332,18 @@ const SoundProofHall = (props) => {
             font-family: 'Ubuntu';
             font-weight: 300;
           }
-          .sound-proof-hall-container2 {
-            width: 100%;
-            display: flex;
+          .sound-proof-hall-list-item4 {
+            display: none;
             align-items: flex-start;
-            flex-direction: column;
-            justify-content: center;
           }
           .sound-proof-hall-text20 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+          }
+          .sound-proof-hall-text21 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
@@ -345,21 +351,11 @@ const SoundProofHall = (props) => {
             font-family: 'Ubuntu';
             font-weight: 300;
           }
-          .sound-proof-hall-list-item4 {
-            display: none;
-            align-items: flex-start;
-          }
-          .sound-proof-hall-text21 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 300;
-          }
           .sound-proof-hall-text22 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
+            align-self: flex-start;
             font-style: normal;
             font-family: 'Ubuntu';
             font-weight: 300;
@@ -407,7 +403,7 @@ const SoundProofHall = (props) => {
             .sound-proof-hall-sound-proof-hall {
               align-items: stretch;
             }
-            .sound-proof-hall-container1 {
+            .sound-proof-hall-container {
               justify-content: center;
             }
           }
@@ -417,7 +413,7 @@ const SoundProofHall = (props) => {
               align-self: stretch;
               flex-direction: column;
             }
-            .sound-proof-hall-container1 {
+            .sound-proof-hall-container {
               max-width: 100%;
             }
             .sound-proof-hall-image1 {
@@ -426,6 +422,9 @@ const SoundProofHall = (props) => {
             .sound-proof-hall-content {
               gap: var(--dl-space-space-oneandhalfunits);
               width: 100%;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .sound-proof-hall-list1 {
               gap: var(--dl-space-space-halfunit);
@@ -453,9 +452,20 @@ const SoundProofHall = (props) => {
             .sound-proof-hall-text11 {
               font-size: 10px;
             }
+            .sound-proof-hall-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .sound-proof-hall-list-item1 {
+              width: 100%;
+              max-width: 100%;
+            }
             .sound-proof-hall-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .sound-proof-hall-list-item2 {
+              width: 100%;
             }
             .sound-proof-hall-text17 {
               font-size: 12px;
@@ -465,7 +475,7 @@ const SoundProofHall = (props) => {
               font-size: 12px;
               font-family: Ubuntu;
             }
-            .sound-proof-hall-text22 {
+            .sound-proof-hall-text21 {
               font-size: 12px;
               font-family: Ubuntu;
             }

@@ -42,7 +42,7 @@ const LiftAccessibility = (props) => {
                 </Fragment>
               )}
             </span>
-            <h2 className="lift-accessibility-text12">
+            <h2 className="lift-accessibility-text12 Ubuntu-Light-16">
               {props.sectionTitle3 ?? (
                 <Fragment>
                   <span className="lift-accessibility-text26">
@@ -67,7 +67,7 @@ const LiftAccessibility = (props) => {
           </div>
           <div className="lift-accessibility-list1 thq-flex-row">
             <div className="lift-accessibility-list-item1 UbuntuLight-14 thq-flex-column">
-              <h3 className="lift-accessibility-text14">
+              <h3 className="lift-accessibility-text14 Ubuntu-Light-16">
                 {props.feature1Title3 ?? (
                   <Fragment>
                     <span className="lift-accessibility-text31">
@@ -92,7 +92,7 @@ const LiftAccessibility = (props) => {
               </span>
             </div>
             <div className="lift-accessibility-list-item2 UbuntuLight-14 thq-flex-column">
-              <h3 className="lift-accessibility-text16">
+              <h3 className="lift-accessibility-text16 Ubuntu-Light-16">
                 {props.feature2Title3 ?? (
                   <Fragment>
                     <span className="lift-accessibility-text29">
@@ -116,7 +116,7 @@ const LiftAccessibility = (props) => {
           </div>
           <div className="lift-accessibility-list2 thq-flex-row">
             <div className="lift-accessibility-list-item3 UbuntuLight-14 thq-flex-column">
-              <h3 className="lift-accessibility-text18">
+              <h3 className="lift-accessibility-text18 Ubuntu-Light-16">
                 {props.feature1Title31 ?? (
                   <Fragment>
                     <span className="lift-accessibility-text27">
@@ -185,12 +185,12 @@ const LiftAccessibility = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .lift-accessibility-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .lift-accessibility-actions {
@@ -236,6 +236,7 @@ const LiftAccessibility = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .lift-accessibility-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .lift-accessibility-text11 {
@@ -249,12 +250,6 @@ const LiftAccessibility = (props) => {
           .lift-accessibility-text12 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 18px;
-            font-family: 'Ubuntu';
-            font-weight: 300;
-            line-height: 1.4;
-            text-transform: none;
-            text-decoration: none;
           }
           .lift-accessibility-text13 {
             fill: var(--dl-color-theme-accent1);
@@ -269,16 +264,14 @@ const LiftAccessibility = (props) => {
             align-items: flex-start;
           }
           .lift-accessibility-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 50%;
             align-items: flex-start;
           }
           .lift-accessibility-text14 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-family: 'Ubuntu';
-            font-weight: 300;
           }
           .lift-accessibility-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -289,15 +282,13 @@ const LiftAccessibility = (props) => {
             font-weight: 300;
           }
           .lift-accessibility-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .lift-accessibility-text16 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-family: 'Ubuntu';
-            font-weight: 300;
           }
           .lift-accessibility-text17 {
             fill: var(--dl-color-theme-accent1);
@@ -312,16 +303,14 @@ const LiftAccessibility = (props) => {
             align-items: flex-start;
           }
           .lift-accessibility-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 100%;
             align-items: flex-start;
           }
           .lift-accessibility-text18 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-family: 'Ubuntu';
-            font-weight: 300;
           }
           .lift-accessibility-text19 {
             fill: var(--dl-color-theme-accent1);
@@ -427,8 +416,11 @@ const LiftAccessibility = (props) => {
               width: 100%;
             }
             .lift-accessibility-content {
-              gap: var(--dl-space-space-oneandhalfunits);
+              gap: var(--dl-space-space-unit);
               width: 100%;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .lift-accessibility-list1 {
               gap: var(--dl-space-space-halfunit);
@@ -458,9 +450,20 @@ const LiftAccessibility = (props) => {
             .lift-accessibility-text11 {
               font-size: 10px;
             }
+            .lift-accessibility-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .lift-accessibility-list-item1 {
+              width: 100%;
+              max-width: 100%;
+            }
             .lift-accessibility-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .lift-accessibility-list-item2 {
+              width: 100%;
             }
             .lift-accessibility-text17 {
               font-size: 12px;

@@ -42,7 +42,7 @@ const LocationWithHighwayAccess = (props) => {
                 </Fragment>
               )}
             </span>
-            <h2 className="location-with-highway-access-text12">
+            <h2 className="location-with-highway-access-text12 Ubuntu-Light-16">
               {props.sectionTitle2211 ?? (
                 <Fragment>
                   <span className="location-with-highway-access-text27">
@@ -67,7 +67,7 @@ const LocationWithHighwayAccess = (props) => {
           </div>
           <div className="location-with-highway-access-list1 thq-flex-row">
             <div className="location-with-highway-access-list-item1 UbuntuLight-14 thq-flex-column">
-              <h3 className="location-with-highway-access-text14">
+              <h3 className="location-with-highway-access-text14 Ubuntu-Light-16">
                 {props.feature1Title2221 ?? (
                   <Fragment>
                     <span className="location-with-highway-access-text24">
@@ -90,7 +90,7 @@ const LocationWithHighwayAccess = (props) => {
               </span>
             </div>
             <div className="location-with-highway-access-list-item2 UbuntuLight-14 thq-flex-column">
-              <h3 className="location-with-highway-access-text16">
+              <h3 className="location-with-highway-access-text16 Ubuntu-Light-16">
                 {props.feature2Title2221 ?? (
                   <Fragment>
                     <span className="location-with-highway-access-text29">
@@ -114,7 +114,7 @@ const LocationWithHighwayAccess = (props) => {
           </div>
           <div className="location-with-highway-access-list2 thq-flex-row">
             <div className="location-with-highway-access-list-item3 UbuntuLight-14 thq-flex-column">
-              <h3 className="location-with-highway-access-text18">
+              <h3 className="location-with-highway-access-text18 Ubuntu-Light-16">
                 {props.feature1Title22111 ?? (
                   <Fragment>
                     <span className="location-with-highway-access-text33">
@@ -183,12 +183,12 @@ const LocationWithHighwayAccess = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .location-with-highway-access-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .location-with-highway-access-image1 {
@@ -237,6 +237,7 @@ const LocationWithHighwayAccess = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .location-with-highway-access-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .location-with-highway-access-text11 {
@@ -250,12 +251,6 @@ const LocationWithHighwayAccess = (props) => {
           .location-with-highway-access-text12 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 18px;
-            font-family: 'Ubuntu';
-            font-weight: 300;
-            line-height: 1.4;
-            text-transform: none;
-            text-decoration: none;
           }
           .location-with-highway-access-text13 {
             fill: var(--dl-color-theme-accent1);
@@ -270,15 +265,14 @@ const LocationWithHighwayAccess = (props) => {
             align-items: flex-start;
           }
           .location-with-highway-access-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             width: 50%;
             align-items: flex-start;
           }
           .location-with-highway-access-text14 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .location-with-highway-access-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -289,15 +283,14 @@ const LocationWithHighwayAccess = (props) => {
             font-weight: 300;
           }
           .location-with-highway-access-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             width: 50%;
             align-items: flex-start;
           }
           .location-with-highway-access-text16 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .location-with-highway-access-text17 {
             fill: var(--dl-color-theme-accent1);
@@ -312,6 +305,7 @@ const LocationWithHighwayAccess = (props) => {
             align-items: flex-start;
           }
           .location-with-highway-access-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             width: 100%;
             min-width: 50%;
             align-items: flex-start;
@@ -319,9 +313,7 @@ const LocationWithHighwayAccess = (props) => {
           .location-with-highway-access-text18 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .location-with-highway-access-text19 {
             fill: var(--dl-color-theme-accent1);
@@ -425,9 +417,12 @@ const LocationWithHighwayAccess = (props) => {
               width: 100%;
             }
             .location-with-highway-access-content {
-              gap: var(--dl-space-space-oneandhalfunits);
+              gap: var(--dl-space-space-unit);
               width: 100%;
               height: auto;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .location-with-highway-access-list1 {
               gap: var(--dl-space-space-halfunit);
@@ -456,9 +451,20 @@ const LocationWithHighwayAccess = (props) => {
             .location-with-highway-access-text11 {
               font-size: 10px;
             }
+            .location-with-highway-access-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .location-with-highway-access-list-item1 {
+              width: 100%;
+            }
             .location-with-highway-access-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .location-with-highway-access-list-item2 {
+              width: 100%;
+              height: auto;
             }
             .location-with-highway-access-text17 {
               font-size: 12px;

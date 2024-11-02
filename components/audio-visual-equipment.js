@@ -42,7 +42,7 @@ const AudioVisualEquipment = (props) => {
                 </Fragment>
               )}
             </span>
-            <h2 className="audio-visual-equipment-text12">
+            <h2 className="audio-visual-equipment-text12 Ubuntu-Light-16">
               {props.sectionTitle221 ?? (
                 <Fragment>
                   <span className="audio-visual-equipment-text23">
@@ -68,7 +68,7 @@ const AudioVisualEquipment = (props) => {
           </div>
           <div className="audio-visual-equipment-list1 thq-flex-row">
             <div className="audio-visual-equipment-list-item1 UbuntuLight-14 thq-flex-column">
-              <h3 className="audio-visual-equipment-text14">
+              <h3 className="audio-visual-equipment-text14 Ubuntu-Light-16">
                 {props.feature1Title222 ?? (
                   <Fragment>
                     <span className="audio-visual-equipment-text34">
@@ -90,7 +90,7 @@ const AudioVisualEquipment = (props) => {
               </span>
             </div>
             <div className="audio-visual-equipment-list-item2 UbuntuLight-14 thq-flex-column">
-              <h3 className="audio-visual-equipment-text16">
+              <h3 className="audio-visual-equipment-text16 Ubuntu-Light-16">
                 {props.feature2Title222 ?? (
                   <Fragment>
                     <span className="audio-visual-equipment-text32">
@@ -114,7 +114,7 @@ const AudioVisualEquipment = (props) => {
           </div>
           <div className="audio-visual-equipment-list2 thq-flex-row">
             <div className="audio-visual-equipment-list-item3 UbuntuLight-14 thq-flex-column">
-              <h3 className="audio-visual-equipment-text18">
+              <h3 className="audio-visual-equipment-text18 Ubuntu-Light-16">
                 {props.feature1Title2211 ?? (
                   <Fragment>
                     <span className="audio-visual-equipment-text29">
@@ -182,12 +182,12 @@ const AudioVisualEquipment = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .audio-visual-equipment-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .audio-visual-equipment-image1 {
@@ -236,6 +236,7 @@ const AudioVisualEquipment = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .audio-visual-equipment-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .audio-visual-equipment-text11 {
@@ -249,12 +250,6 @@ const AudioVisualEquipment = (props) => {
           .audio-visual-equipment-text12 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 18px;
-            font-family: 'Ubuntu';
-            font-weight: 300;
-            line-height: 1.4;
-            text-transform: none;
-            text-decoration: none;
           }
           .audio-visual-equipment-text13 {
             fill: var(--dl-color-theme-accent1);
@@ -269,15 +264,14 @@ const AudioVisualEquipment = (props) => {
             align-items: flex-start;
           }
           .audio-visual-equipment-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             min-width: 50%;
             align-items: flex-start;
           }
           .audio-visual-equipment-text14 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .audio-visual-equipment-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -288,14 +282,13 @@ const AudioVisualEquipment = (props) => {
             font-weight: 300;
           }
           .audio-visual-equipment-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .audio-visual-equipment-text16 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .audio-visual-equipment-text17 {
             fill: var(--dl-color-theme-accent1);
@@ -310,15 +303,14 @@ const AudioVisualEquipment = (props) => {
             align-items: flex-start;
           }
           .audio-visual-equipment-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             min-width: 50%;
             align-items: flex-start;
           }
           .audio-visual-equipment-text18 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
-            font-size: 16px;
             font-style: normal;
-            font-weight: 300;
           }
           .audio-visual-equipment-text19 {
             fill: var(--dl-color-theme-accent1);
@@ -425,6 +417,9 @@ const AudioVisualEquipment = (props) => {
               gap: var(--dl-space-space-oneandhalfunits);
               width: 100%;
               height: auto;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .audio-visual-equipment-list1 {
               gap: var(--dl-space-space-halfunit);
@@ -452,9 +447,20 @@ const AudioVisualEquipment = (props) => {
             .audio-visual-equipment-text11 {
               font-size: 10px;
             }
+            .audio-visual-equipment-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .audio-visual-equipment-list-item1 {
+              width: 100%;
+              min-width: 100%;
+            }
             .audio-visual-equipment-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .audio-visual-equipment-list-item2 {
+              width: 100%;
             }
             .audio-visual-equipment-text17 {
               font-size: 12px;

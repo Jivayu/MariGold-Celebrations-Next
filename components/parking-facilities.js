@@ -181,12 +181,12 @@ const ParkingFacilities = (props) => {
             border-style: dotted;
             border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
             border-top-width: 0px;
             border-left-width: 0px;
             border-right-width: 0px;
           }
           .parking-facilities-container1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 25%;
           }
           .parking-facilities-image1 {
@@ -235,6 +235,7 @@ const ParkingFacilities = (props) => {
             gap: var(--dl-space-space-unit);
           }
           .parking-facilities-section-title {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .parking-facilities-text11 {
@@ -268,6 +269,7 @@ const ParkingFacilities = (props) => {
             align-items: flex-start;
           }
           .parking-facilities-list-item1 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 50%;
             align-items: flex-start;
           }
@@ -287,6 +289,7 @@ const ParkingFacilities = (props) => {
             font-weight: 300;
           }
           .parking-facilities-list-item2 {
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .parking-facilities-text16 {
@@ -309,6 +312,7 @@ const ParkingFacilities = (props) => {
             align-items: flex-start;
           }
           .parking-facilities-list-item3 {
+            gap: var(--dl-space-space-halfunit);
             max-width: 100%;
             align-items: flex-start;
           }
@@ -412,7 +416,10 @@ const ParkingFacilities = (props) => {
             .parking-facilities-parking-facilities {
               gap: var(--dl-space-space-twounits);
               align-self: stretch;
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
               flex-direction: column;
+              padding-bottom: var(--dl-space-space-unit);
             }
             .parking-facilities-container1 {
               max-width: 100%;
@@ -450,9 +457,20 @@ const ParkingFacilities = (props) => {
             .parking-facilities-text11 {
               font-size: 10px;
             }
+            .parking-facilities-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .parking-facilities-list-item1 {
+              width: 100%;
+              max-width: 100%;
+            }
             .parking-facilities-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .parking-facilities-list-item2 {
+              width: 100%;
             }
             .parking-facilities-text17 {
               font-size: 12px;
