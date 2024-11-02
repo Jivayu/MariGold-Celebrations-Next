@@ -1366,7 +1366,9 @@ const MobileFacilities1 = (props) => {
           .mobile-facilities-1-text81 {
             display: inline-block;
           }
-
+          .mobile-facilities-1root-class-name {
+            display: none;
+          }
           @media (max-width: 1200px) {
             .mobile-facilities-1-text11 {
               max-width: 85%;
@@ -1395,7 +1397,7 @@ const MobileFacilities1 = (props) => {
               padding: var(--dl-space-space-halfunit);
             }
             .mobile-facilities-1root-class-name {
-              display: flex;
+              display: none;
             }
           }
           @media (max-width: 599px) {

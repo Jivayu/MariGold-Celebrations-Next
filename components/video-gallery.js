@@ -117,8 +117,8 @@ const VideoGallery = (props) => {
             id="marigold-celebration-video"
             src={props.videoSrc}
             muted="true"
-            poster="/images/icons8-circled-play-100-1400w.webp"
             controls="true"
+            poster="/images/icons8-circled-play-50-1400w.webp"
             className="video-gallery-video thq-img-ratio-16-9"
           ></video>
         </div>
@@ -295,7 +295,6 @@ const VideoGallery = (props) => {
           }
           .video-gallery-video {
             flex: 1;
-            height: auto;
             border-radius: var(--dl-radius-radius-radius10);
           }
           .video-gallery-text15 {

@@ -212,11 +212,9 @@ const Home = (props) => {
           }
         ></AboutMariGold1>
         <MobileFacilities1
-          heading={
+          action231={
             <Fragment>
-              <span className="home-text43">
-                Facilities We Provide at Marigold Celebration
-              </span>
+              <span className="home-text43">Explore More Facilities</span>
             </Fragment>
           }
           heading2={
@@ -230,14 +228,16 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          action231={
+          faq4Question={
             <Fragment>
-              <span className="home-text45">Explore More Facilities</span>
+              <span className="home-text45">Décor &amp; Design Services</span>
             </Fragment>
           }
-          faq1Question={
+          heading={
             <Fragment>
-              <span className="home-text46">Spacious Venue with Capacity</span>
+              <span className="home-text46">
+                Facilities We Provide at Marigold Celebration
+              </span>
             </Fragment>
           }
           faq2Question={
@@ -252,9 +252,9 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          faq4Question={
+          faq1Question={
             <Fragment>
-              <span className="home-text49">Décor &amp; Design Services</span>
+              <span className="home-text49">Spacious Venue with Capacity</span>
             </Fragment>
           }
           rootClassName="mobile-facilities1root-class-name"
