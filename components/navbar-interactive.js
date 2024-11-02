@@ -3,6 +3,8 @@ import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
+import BrandLogo from './brand-logo'
+
 const NavbarInteractive = (props) => {
   return (
     <>
@@ -16,6 +18,7 @@ const NavbarInteractive = (props) => {
             src={props.imageSrc}
             className="navbar-interactive-image"
           />
+          <BrandLogo rootClassName="brand-logoroot-class-name"></BrandLogo>
           <div
             data-thq="thq-navbar-nav"
             className="navbar-interactive-desktop-menu"
@@ -257,6 +260,7 @@ const NavbarInteractive = (props) => {
           }
           .navbar-interactive-image {
             height: 3.4rem;
+            display: none;
           }
           .navbar-interactive-desktop-menu {
             flex: 1;
@@ -723,7 +727,7 @@ const NavbarInteractive = (props) => {
           }
           @media (max-width: 399px) {
             .navbar-interactive-navbar-interactive {
-              padding: var(--dl-space-space-oneandhalfunits);
+              padding: var(--dl-space-space-halfunit);
             }
             .navbar-interactive-icon14 {
               fill: auto;

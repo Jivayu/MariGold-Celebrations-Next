@@ -3,6 +3,8 @@ import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
+import BrandLogo from './brand-logo'
+
 const Footer = (props) => {
   return (
     <>
@@ -18,6 +20,7 @@ const Footer = (props) => {
                 src={props.logoSrc}
                 className="footer-image1"
               />
+              <BrandLogo rootClassName="brand-logoroot-class-name3"></BrandLogo>
               <p className="footer-content1">
                 &quot;Celebrate Life’s Special Moments at Marigold Banquet Hall.
                 Perfect Weddings, Grand Events, and unforgettable Memories await
@@ -339,6 +342,7 @@ const Footer = (props) => {
           }
           .footer-image1 {
             height: 5rem;
+            display: none;
             align-self: center;
           }
           .footer-content1 {

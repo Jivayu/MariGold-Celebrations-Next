@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Head from 'next/head'
 
 import NavbarInteractive from '../components/navbar-interactive'
-import PageHeaders from '../components/page-headers'
+import PageHeadersFacilities from '../components/page-headers-facilities'
 import AllFacilitiesOfMarigold from '../components/all-facilities-of-marigold'
 import Footer from '../components/footer'
 
@@ -111,7 +111,7 @@ const Facilities = (props) => {
           }
           rootClassName="navbar-interactiveroot-class-name2"
         ></NavbarInteractive>
-        <PageHeaders
+        <PageHeadersFacilities
           action1={
             <Fragment>
               <span className="facilities-text25">Contact Us</span>
@@ -138,8 +138,8 @@ const Facilities = (props) => {
               <span className="facilities-text28">Book Your Event Today</span>
             </Fragment>
           }
-          rootClassName="page-headersroot-class-name"
-        ></PageHeaders>
+          rootClassName="page-headers-facilitiesroot-class-name"
+        ></PageHeadersFacilities>
         <AllFacilitiesOfMarigold
           rootClassName="all-facilities-of-marigoldroot-class-name"
           featureDescription212111={

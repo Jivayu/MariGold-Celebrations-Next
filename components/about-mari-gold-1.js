@@ -2,6 +2,8 @@ import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
+import BrandLogo from './brand-logo'
+
 const AboutMariGold1 = (props) => {
   const [faq2Visible, setFaq2Visible] = useState(false)
   const [faq3Visible, setFaq3Visible] = useState(false)
@@ -102,6 +104,7 @@ const AboutMariGold1 = (props) => {
               src={props.imageSrc1}
               className="about-mari-gold-1-image"
             />
+            <BrandLogo rootClassName="brand-logoroot-class-name1"></BrandLogo>
             <div className="about-mari-gold-1-faq1">
               <div
                 onClick={() => setFaq1Visible(!faq1Visible)}
@@ -451,6 +454,7 @@ const AboutMariGold1 = (props) => {
           }
           .about-mari-gold-1-image {
             width: 100px;
+            display: none;
             object-fit: cover;
           }
           .about-mari-gold-1-faq1 {

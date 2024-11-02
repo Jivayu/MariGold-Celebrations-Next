@@ -2,6 +2,8 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
+import BrandLogo from './brand-logo'
+
 const VideoGallery = (props) => {
   return (
     <>
@@ -17,6 +19,7 @@ const VideoGallery = (props) => {
                 src="/images/marigold-logo1.svg"
                 className="video-gallery-logo"
               />
+              <BrandLogo rootClassName="brand-logoroot-class-name2"></BrandLogo>
               <div className="video-gallery-container1">
                 <div className="video-gallery-container2">
                   <svg
@@ -151,17 +154,13 @@ const VideoGallery = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             fill: var(--dl-color-theme-primary1);
             display: flex;
+            align-self: center;
             align-items: center;
             flex-direction: column;
           }
           .video-gallery-logo {
             height: 4rem;
-            animation-name: flash;
-            animation-delay: 0s;
-            animation-duration: 600ms;
-            animation-direction: normal;
-            animation-iteration-count: 4;
-            animation-timing-function: linear;
+            display: none;
           }
           .video-gallery-container1 {
             display: flex;
@@ -312,7 +311,9 @@ const VideoGallery = (props) => {
           .video-gallery-text19 {
             display: inline-block;
           }
-
+          .video-galleryroot-class-name {
+            margin-top: 0px;
+          }
           .video-galleryroot-class-name1 {
             margin-top: 0px;
           }
