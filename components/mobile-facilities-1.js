@@ -770,7 +770,7 @@ const MobileFacilities1 = (props) => {
             gap: 4px;
             width: 100%;
             height: auto;
-            display: flex;
+            display: none;
             overflow: hidden;
             position: relative;
             align-items: center;
@@ -1367,7 +1367,7 @@ const MobileFacilities1 = (props) => {
             display: inline-block;
           }
           .mobile-facilities-1root-class-name {
-            display: none;
+            background-color: transparent;
           }
           @media (max-width: 1200px) {
             .mobile-facilities-1-text11 {
@@ -1376,6 +1376,9 @@ const MobileFacilities1 = (props) => {
             .mobile-facilities-1-link {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-halfunit);
+            }
+            .mobile-facilities-1root-class-name {
+              background-color: transparent;
             }
           }
           @media (max-width: 991px) {
@@ -1397,16 +1400,19 @@ const MobileFacilities1 = (props) => {
               padding: var(--dl-space-space-halfunit);
             }
             .mobile-facilities-1root-class-name {
-              display: none;
+              display: flex;
+              background-color: transparent;
             }
           }
           @media (max-width: 599px) {
             .mobile-facilities-1faq8 {
+              display: flex;
               padding-top: var(--dl-space-space-unit);
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: 0px;
               justify-content: center;
+              background-color: rgba(0, 0, 0, 0.59);
             }
             .mobile-facilities-1-list {
               padding-top: var(--dl-space-space-unit);
