@@ -819,7 +819,7 @@ const Footer = (props) => {
             }
             .footer-footer-links3 {
               gap: var(--dl-space-space-halfunit);
-              width: 45%;
+              width: auto;
               align-self: flex-end;
               align-items: center;
               flex-direction: row;
@@ -968,7 +968,7 @@ const Footer = (props) => {
               text-align: center;
             }
             .footer-footer-links3 {
-              width: 60%;
+              width: auto;
               flex-direction: row;
             }
           }
