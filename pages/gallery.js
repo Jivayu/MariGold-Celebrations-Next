@@ -34,17 +34,19 @@ const Gallery = (props) => {
           <meta name="robots" content="noindex" />
         </Head>
         <PageHeadersGallery
-          heading1={
+          action1={
             <Fragment>
-              <span className="gallery-text10">
-                Welcome to Marigold Celebration Hall - Where Every Detail
-                Matters
-              </span>
+              <span className="gallery-text10">Contact Us</span>
+            </Fragment>
+          }
+          action2={
+            <Fragment>
+              <span className="gallery-text11">View Event Spaces</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="gallery-text11">
+              <span className="gallery-text12">
                 Marigold Celebration Hall in Hingna, Nagpur, is designed to
                 offer an unmatched experience for every event, whether it&apos;s
                 a wedding, corporate function, birthday, or grand celebration.
@@ -53,14 +55,12 @@ const Gallery = (props) => {
               </span>
             </Fragment>
           }
-          action1={
+          heading1={
             <Fragment>
-              <span className="gallery-text12">Contact Us</span>
-            </Fragment>
-          }
-          action2={
-            <Fragment>
-              <span className="gallery-text13">View Event Spaces</span>
+              <span className="gallery-text13">
+                Welcome to Marigold Celebration Hall - Where Every Detail
+                Matters
+              </span>
             </Fragment>
           }
           rootClassName="page-headers-galleryroot-class-name"
@@ -182,111 +182,111 @@ const Gallery = (props) => {
           rootClassName="navbar-interactiveroot-class-name3"
         ></NavbarInteractive>
         <Footer
-          privacyLink1={
+          link1={
             <Fragment>
-              <span className="gallery-text34">P P</span>
-            </Fragment>
-          }
-          content3={
-            <Fragment>
-              <span className="gallery-text35">MariGold Celebration</span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="gallery-text36">Events</span>
-            </Fragment>
-          }
-          column1Title={
-            <Fragment>
-              <span className="gallery-text37">Contact Us</span>
-            </Fragment>
-          }
-          termsLink1={
-            <Fragment>
-              <span className="gallery-text38">T &amp; C</span>
+              <span className="gallery-text34">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="gallery-text39">Facilities</span>
+              <span className="gallery-text35">Facilities</span>
             </Fragment>
           }
-          link10={
+          link3={
             <Fragment>
-              <span className="gallery-text40">Book Now</span>
+              <span className="gallery-text36">Gallery</span>
             </Fragment>
           }
-          link6={
+          link4={
             <Fragment>
-              <span className="gallery-text41">Corporate Events</span>
-            </Fragment>
-          }
-          termsLink={
-            <Fragment>
-              <span className="gallery-text42">terms &amp; conditions.</span>
+              <span className="gallery-text37">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="gallery-text43">Contacts</span>
+              <span className="gallery-text38">Contacts</span>
+            </Fragment>
+          }
+          link6={
+            <Fragment>
+              <span className="gallery-text39">Corporate Events</span>
+            </Fragment>
+          }
+          link7={
+            <Fragment>
+              <span className="gallery-text40">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="gallery-text44">
+              <span className="gallery-text41">
                 <span>Events Management</span>
                 <br></br>
               </span>
             </Fragment>
           }
-          cookiesLink={
-            <Fragment>
-              <span className="gallery-text47">cookie policy.</span>
-            </Fragment>
-          }
-          link1={
-            <Fragment>
-              <span className="gallery-text48">Home</span>
-            </Fragment>
-          }
           link9={
             <Fragment>
-              <span className="gallery-text49">Special Occasions</span>
+              <span className="gallery-text44">Special Occasions</span>
             </Fragment>
           }
-          cookiesLink1={
+          link10={
             <Fragment>
-              <span className="gallery-text50">C &amp; P</span>
-            </Fragment>
-          }
-          column2Title={
-            <Fragment>
-              <span className="gallery-text51">Services</span>
-            </Fragment>
-          }
-          link7={
-            <Fragment>
-              <span className="gallery-text52">Weddings Plannings</span>
-            </Fragment>
-          }
-          link3={
-            <Fragment>
-              <span className="gallery-text53">Gallery</span>
+              <span className="gallery-text45">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="gallery-text54">
+              <span className="gallery-text46">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
               </span>
             </Fragment>
           }
+          content3={
+            <Fragment>
+              <span className="gallery-text47">MariGold Celebration</span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="gallery-text48">terms &amp; conditions.</span>
+            </Fragment>
+          }
+          termsLink1={
+            <Fragment>
+              <span className="gallery-text49">T &amp; C</span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="gallery-text50">cookie policy.</span>
+            </Fragment>
+          }
           privacyLink={
             <Fragment>
-              <span className="gallery-text55">privacy policy.</span>
+              <span className="gallery-text51">privacy policy.</span>
+            </Fragment>
+          }
+          column1Title={
+            <Fragment>
+              <span className="gallery-text52">Contact Us</span>
+            </Fragment>
+          }
+          column2Title={
+            <Fragment>
+              <span className="gallery-text53">Services</span>
+            </Fragment>
+          }
+          cookiesLink1={
+            <Fragment>
+              <span className="gallery-text54">C &amp; P</span>
+            </Fragment>
+          }
+          privacyLink1={
+            <Fragment>
+              <span className="gallery-text55">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name3"
@@ -400,13 +400,13 @@ const Gallery = (props) => {
           .gallery-text41 {
             display: inline-block;
           }
-          .gallery-text42 {
-            display: inline-block;
-          }
-          .gallery-text43 {
-            display: inline-block;
-          }
           .gallery-text44 {
+            display: inline-block;
+          }
+          .gallery-text45 {
+            display: inline-block;
+          }
+          .gallery-text46 {
             display: inline-block;
           }
           .gallery-text47 {

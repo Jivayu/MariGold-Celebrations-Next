@@ -19,7 +19,7 @@ const PageHeadersGallery = (props) => {
               <h2 className="page-headers-gallery-text1 h2 thq-heading-2">
                 {props.heading1 ?? (
                   <Fragment>
-                    <span className="page-headers-gallery-text5">
+                    <span className="page-headers-gallery-text7">
                       Welcome to Marigold Celebration Hall - Where Every Detail
                       Matters
                     </span>
@@ -46,7 +46,7 @@ const PageHeadersGallery = (props) => {
                 <span>
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="page-headers-gallery-text7">
+                      <span className="page-headers-gallery-text8">
                         Contact Us
                       </span>
                     </Fragment>
@@ -57,7 +57,7 @@ const PageHeadersGallery = (props) => {
                 <span>
                   {props.action2 ?? (
                     <Fragment>
-                      <span className="page-headers-gallery-text8">
+                      <span className="page-headers-gallery-text5">
                         View Event Spaces
                       </span>
                     </Fragment>
@@ -187,24 +187,24 @@ const PageHeadersGallery = (props) => {
 }
 
 PageHeadersGallery.defaultProps = {
+  action2: undefined,
+  content1: undefined,
   rootClassName: '',
+  heading1: undefined,
   backgroundImageAlt: 'Banquet Hall',
   backgroundImageSrc:
     'https://images.unsplash.com/photo-1617610690765-178c88b48d05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDE4MjE2NHw&ixlib=rb-4.0.3&q=80&w=1080',
-  heading1: undefined,
-  content1: undefined,
   action1: undefined,
-  action2: undefined,
 }
 
 PageHeadersGallery.propTypes = {
+  action2: PropTypes.element,
+  content1: PropTypes.element,
   rootClassName: PropTypes.string,
+  heading1: PropTypes.element,
   backgroundImageAlt: PropTypes.string,
   backgroundImageSrc: PropTypes.string,
-  heading1: PropTypes.element,
-  content1: PropTypes.element,
   action1: PropTypes.element,
-  action2: PropTypes.element,
 }
 
 export default PageHeadersGallery

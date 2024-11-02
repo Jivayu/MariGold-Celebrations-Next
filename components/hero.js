@@ -3,7 +3,13 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import HeroBrandWall from './hero-brand-wall'
+import HeroPlaceholderImage4 from './hero-placeholder-image4'
 import HeroPlaceholderImage1 from './hero-placeholder-image1'
+import HeroPlaceholderImage5 from './hero-placeholder-image5'
+import HeroPlaceholderImage6 from './hero-placeholder-image6'
+import HeroPlaceholderImage2 from './hero-placeholder-image2'
+import HeroPlaceholderImage3 from './hero-placeholder-image3'
+import HeroPlaceholderImage7 from './hero-placeholder-image7'
 
 const Hero = (props) => {
   return (
@@ -11,26 +17,26 @@ const Hero = (props) => {
       <main id="hero" className={`hero-header77 ${props.rootClassName} `}>
         <div id="hero-11" className="hero-max-width thq-section-max-width">
           <HeroBrandWall
-            heading1={
-              <Fragment>
-                <span className="hero-text1">
-                  Banquet Hall &amp; Big Events Services in Hingna, Nagpur
-                </span>
-              </Fragment>
-            }
             action1={
               <Fragment>
-                <span className="hero-text2">Shop Now</span>
+                <span className="hero-text1">Shop Now</span>
               </Fragment>
             }
             action2={
               <Fragment>
-                <span className="hero-text3">Services</span>
+                <span className="hero-text2">Services</span>
               </Fragment>
             }
             action21={
               <Fragment>
-                <span className="hero-text4">Explore Our Facilities</span>
+                <span className="hero-text3">Explore Our Facilities</span>
+              </Fragment>
+            }
+            heading1={
+              <Fragment>
+                <span className="hero-text4">
+                  Banquet Hall &amp; Big Events Services in Hingna, Nagpur
+                </span>
               </Fragment>
             }
           ></HeroBrandWall>
@@ -53,47 +59,15 @@ const Hero = (props) => {
               />
             </div>
             <div className="hero-row2">
-              <img
-                id="hero-1"
-                alt={props.image5Alt1}
-                src={props.image5Src1}
-                className="hero-placeholder-image4 thq-img-ratio-1-1"
-              />
+              <HeroPlaceholderImage4></HeroPlaceholderImage4>
               <HeroPlaceholderImage1></HeroPlaceholderImage1>
-              <img
-                id="hero-3"
-                alt={props.image6Alt12}
-                src={props.image6Src12}
-                className="hero-placeholder-image5 thq-img-ratio-1-1"
-              />
+              <HeroPlaceholderImage5></HeroPlaceholderImage5>
             </div>
             <div className="hero-row3">
-              <img
-                alt={props.image4Alt11}
-                sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
-                src="/images/Marigold Images/marigold11-1400w.webp"
-                srcSet="/images/Marigold Images//marigold11-1400w.webp 1200w, /images/Marigold Images/marigold11-tablet.webp 800w, /images/Marigold Images/marigold11-mobile.webp 480w"
-                className="hero-placeholder-image6 thq-img-ratio-1-1"
-              />
-              <img
-                id="hero-4"
-                alt={props.image5Alt11}
-                src={props.image5Src11}
-                className="hero-placeholder-image7 thq-img-ratio-1-1"
-              />
-              <img
-                id="hero-5"
-                alt={props.image6Alt11}
-                src={props.image6Src11}
-                className="hero-placeholder-image8 thq-img-ratio-1-1"
-              />
-              <img
-                alt={props.image7Alt11}
-                sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
-                src="/images/Marigold Images/marigold11-1400w.webp"
-                srcSet="/images/Marigold Images//marigold11-1400w.webp 1200w, /images/Marigold Images/marigold11-tablet.webp 800w, /images/Marigold Images/marigold11-mobile.webp 480w"
-                className="hero-placeholder-image9 thq-img-ratio-1-1"
-              />
+              <HeroPlaceholderImage6></HeroPlaceholderImage6>
+              <HeroPlaceholderImage2></HeroPlaceholderImage2>
+              <HeroPlaceholderImage3></HeroPlaceholderImage3>
+              <HeroPlaceholderImage7></HeroPlaceholderImage7>
             </div>
           </div>
         </div>
@@ -194,22 +168,6 @@ const Hero = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .hero-placeholder-image4 {
-            width: 360px;
-            height: 360px;
-            align-self: stretch;
-            border-color: var(--dl-color-primary-logo-color-1);
-            border-width: 2px;
-            border-radius: var(--dl-radius-radius-radius10);
-          }
-          .hero-placeholder-image5 {
-            width: 360px;
-            height: 360px;
-            align-self: stretch;
-            border-color: var(--dl-color-primary-logo-color-1);
-            border-width: 2px;
-            border-radius: var(--dl-radius-radius-radius10);
-          }
           .hero-row3 {
             gap: var(--dl-space-space-halfunit);
             flex: 1;
@@ -217,38 +175,6 @@ const Hero = (props) => {
             display: flex;
             align-items: flex-start;
             justify-content: center;
-          }
-          .hero-placeholder-image6 {
-            width: 360px;
-            height: 360px;
-            align-self: stretch;
-            border-color: var(--dl-color-primary-logo-color-1);
-            border-width: 2px;
-            border-radius: var(--dl-radius-radius-radius10);
-          }
-          .hero-placeholder-image7 {
-            width: 360px;
-            height: 360px;
-            align-self: stretch;
-            border-color: var(--dl-color-primary-logo-color-1);
-            border-width: 2px;
-            border-radius: var(--dl-radius-radius-radius10);
-          }
-          .hero-placeholder-image8 {
-            width: 360px;
-            height: 360px;
-            align-self: stretch;
-            border-color: var(--dl-color-primary-logo-color-1);
-            border-width: 2px;
-            border-radius: var(--dl-radius-radius-radius10);
-          }
-          .hero-placeholder-image9 {
-            width: 360px;
-            height: 360px;
-            align-self: stretch;
-            border-color: var(--dl-color-primary-logo-color-1);
-            border-width: 2px;
-            border-radius: var(--dl-radius-radius-radius10);
           }
 
           @media (max-width: 1200px) {
@@ -360,35 +286,15 @@ const Hero = (props) => {
 Hero.defaultProps = {
   rootClassName: '',
   image1Src: '/images/Marigold Images/hallpic-4-1400w.webp',
-  image5Src11: '/images/Marigold Images/hallpic-1-1400w.webp',
-  image6Alt12: 'Image of our customer support team',
-  image6Src12: '/images/Marigold Images/hallpic-4-1400w.webp',
   image3Alt: 'Image representing customer satisfaction',
-  image5Alt1: 'Image highlighting our top-rated products',
-  image5Src1: '/images/Marigold Images/hallpic-4-1400w.webp',
-  image6Alt11: 'Image of our customer support team',
-  image4Alt11: 'Image showing our latest offers',
   image1Alt: 'Image showcasing our products',
-  image7Alt11: 'Image displaying our company values',
-  image6Src11: '/images/Marigold Images/hallpic-5-1400w.webp',
-  image5Alt11: 'Image highlighting our top-rated products',
 }
 
 Hero.propTypes = {
   rootClassName: PropTypes.string,
   image1Src: PropTypes.string,
-  image5Src11: PropTypes.string,
-  image6Alt12: PropTypes.string,
-  image6Src12: PropTypes.string,
   image3Alt: PropTypes.string,
-  image5Alt1: PropTypes.string,
-  image5Src1: PropTypes.string,
-  image6Alt11: PropTypes.string,
-  image4Alt11: PropTypes.string,
   image1Alt: PropTypes.string,
-  image7Alt11: PropTypes.string,
-  image6Src11: PropTypes.string,
-  image5Alt11: PropTypes.string,
 }
 
 export default Hero

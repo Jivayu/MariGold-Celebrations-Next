@@ -15,11 +15,6 @@ const Footer = (props) => {
         <div className="footer-max-width thq-section-max-width">
           <div className="footer-content">
             <div className="footer-newsletter">
-              <img
-                alt={props.logoAlt}
-                src={props.logoSrc}
-                className="footer-image1"
-              />
               <BrandLogo rootClassName="brand-logoroot-class-name3"></BrandLogo>
               <p className="footer-content1">
                 &quot;Celebrate Life’s Special Moments at Marigold Banquet Hall.
@@ -339,11 +334,6 @@ const Footer = (props) => {
             align-self: center;
             flex-shrink: 0;
             flex-direction: column;
-          }
-          .footer-image1 {
-            height: 5rem;
-            display: none;
-            align-self: center;
           }
           .footer-content1 {
             fill: var(--dl-color-primary-logo-color-3);
@@ -828,8 +818,11 @@ const Footer = (props) => {
               font-size: 12px;
             }
             .footer-footer-links3 {
+              gap: var(--dl-space-space-halfunit);
               width: 45%;
               align-self: flex-end;
+              align-items: center;
+              flex-direction: row;
               justify-content: flex-end;
             }
             .footer-container1 {
@@ -987,7 +980,6 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   privacyLink1: undefined,
-  logoSrc: '/images/marigold-logo1.svg',
   rootClassName: '',
   content3: undefined,
   link4: undefined,
@@ -1006,14 +998,12 @@ Footer.defaultProps = {
   column2Title: undefined,
   link7: undefined,
   link3: undefined,
-  logoAlt: 'logo',
   content2: undefined,
   privacyLink: undefined,
 }
 
 Footer.propTypes = {
   privacyLink1: PropTypes.element,
-  logoSrc: PropTypes.string,
   rootClassName: PropTypes.string,
   content3: PropTypes.element,
   link4: PropTypes.element,
@@ -1032,7 +1022,6 @@ Footer.propTypes = {
   column2Title: PropTypes.element,
   link7: PropTypes.element,
   link3: PropTypes.element,
-  logoAlt: PropTypes.string,
   content2: PropTypes.element,
   privacyLink: PropTypes.element,
 }

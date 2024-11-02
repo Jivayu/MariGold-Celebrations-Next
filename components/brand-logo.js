@@ -23,7 +23,9 @@ const BrandLogo = (props) => {
             text-decoration: none;
           }
           .brand-logo-image {
-            width: 200px;
+            flex: 1;
+            width: 100%;
+            height: 100%;
             transform: scale(0.95);
             object-fit: cover;
             transition: 0.3s;
@@ -44,8 +46,46 @@ const BrandLogo = (props) => {
             align-self: center;
           }
           .brand-logoroot-class-name3 {
-            width: 5rem;
+            flex: 1;
+            width: 12%;
+            height: auto;
             align-self: center;
+          }
+          @media (max-width: 1200px) {
+            .brand-logoroot-class-name3 {
+              align-self: center;
+            }
+          }
+          @media (max-width: 991px) {
+            .brand-logoroot-class-name3 {
+              width: 20%;
+              align-self: center;
+            }
+          }
+          @media (max-width: 599px) {
+            .brand-logo-container {
+              gap: var(--dl-space-space-halfunit);
+            }
+            .brand-logo-image {
+              flex: 1;
+              width: auto;
+              align-self: center;
+            }
+            .brand-logoroot-class-name3 {
+              flex: 1;
+              width: 20%;
+              height: auto;
+              align-self: center;
+            }
+          }
+          @media (max-width: 399px) {
+            .brand-logo-image {
+              height: auto;
+            }
+            .brand-logoroot-class-name3 {
+              width: 30%;
+              height: 40px;
+            }
           }
         `}
       </style>
@@ -55,14 +95,14 @@ const BrandLogo = (props) => {
 
 BrandLogo.defaultProps = {
   imageAlt: 'image',
-  imageSrc: '/images/marigold-logo1.svg',
   rootClassName: '',
+  imageSrc: '/images/marigold-logo1.svg',
 }
 
 BrandLogo.propTypes = {
   imageAlt: PropTypes.string,
-  imageSrc: PropTypes.string,
   rootClassName: PropTypes.string,
+  imageSrc: PropTypes.string,
 }
 
 export default BrandLogo

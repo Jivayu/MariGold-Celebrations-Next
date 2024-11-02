@@ -25,7 +25,7 @@ const MobileFacilities1 = (props) => {
               <h1 className="mobile-facilities-1-text10 Ubuntu-Light-16">
                 {props.heading ?? (
                   <Fragment>
-                    <span className="mobile-facilities-1-text78">
+                    <span className="mobile-facilities-1-text76">
                       Facilities We Provide at Marigold Celebration
                     </span>
                   </Fragment>
@@ -37,7 +37,7 @@ const MobileFacilities1 = (props) => {
               >
                 {props.heading2 ?? (
                   <Fragment>
-                    <span className="mobile-facilities-1-text76">
+                    <span className="mobile-facilities-1-text74">
                       At Marigold Banquet Hall, we offer an exceptional range of
                       facilities to ensure your event is as smooth, memorable,
                       and stress-free as possible. Our venue is designed to
@@ -67,7 +67,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq1-question UbuntuLight-14">
                   {props.faq1Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text81">
+                      <span className="mobile-facilities-1-text79">
                         Spacious Venue with Capacity
                       </span>
                     </Fragment>
@@ -126,30 +126,23 @@ const MobileFacilities1 = (props) => {
                         </span>
                       </Fragment>
                     }
-                    action23={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text16">
-                          Explore Our Gallery Video
-                        </span>
-                      </Fragment>
-                    }
                     sectionTitle={
                       <Fragment>
-                        <span className="mobile-facilities-1-text17">
+                        <span className="mobile-facilities-1-text16">
                           Versatile Event Spaces for Every Occasion
                         </span>
                       </Fragment>
                     }
                     feature1Title={
                       <Fragment>
-                        <span className="mobile-facilities-1-text18">
+                        <span className="mobile-facilities-1-text17">
                           The Grand Banquet Hall
                         </span>
                       </Fragment>
                     }
                     feature2Title={
                       <Fragment>
-                        <span className="mobile-facilities-1-text19">
+                        <span className="mobile-facilities-1-text18">
                           Private Event Rooms
                         </span>
                       </Fragment>
@@ -157,7 +150,7 @@ const MobileFacilities1 = (props) => {
                     rootClassName="spacious-venueroot-class-name"
                     featureDescription={
                       <Fragment>
-                        <span className="mobile-facilities-1-text20">
+                        <span className="mobile-facilities-1-text19">
                           At Marigold Celebration Hall, we offer adaptable event
                           spaces designed to cater to a variety of gatherings,
                           from intimate gatherings to grand celebrations. Each
@@ -169,7 +162,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature1Description={
                       <Fragment>
-                        <span className="mobile-facilities-1-text21">
+                        <span className="mobile-facilities-1-text20">
                           Perfect for large-scale events such as weddings,
                           corporate galas, and conferences, our main hall boasts
                           a spacious, elegant design with the capacity to host
@@ -180,7 +173,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature2Description={
                       <Fragment>
-                        <span className="mobile-facilities-1-text22">
+                        <span className="mobile-facilities-1-text21">
                           For more personal celebrations like engagement
                           parties, milestone birthdays, or smaller business
                           meetings, our flexible private rooms offer an intimate
@@ -191,7 +184,7 @@ const MobileFacilities1 = (props) => {
                     }
                     featureDescription2={
                       <Fragment>
-                        <span className="mobile-facilities-1-text23">
+                        <span className="mobile-facilities-1-text22">
                           Each space is equipped with high-end amenities and the
                           latest audio-visual technology, ensuring an
                           unforgettable experience for both you and your guests.
@@ -230,7 +223,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq2-question1 UbuntuLight-14">
                   {props.faq2Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text79">
+                      <span className="mobile-facilities-1-text77">
                         Fine Dining Catering
                       </span>
                     </Fragment>
@@ -262,7 +255,7 @@ const MobileFacilities1 = (props) => {
               {faq2Visible && (
                 <div className="mobile-facilities-1-container16">
                   <div className="mobile-facilities-1-icon-container1"></div>
-                  <p className="mobile-facilities-1-text24 Ubuntu-Light-Gap-12">
+                  <p className="mobile-facilities-1-text23 Ubuntu-Light-Gap-12">
                     <span className="p">
                       Celebrate life’s milestones at Marigold Banquet Hall with
                       a memorable birthday or anniversary event. Whether you’re
@@ -289,43 +282,36 @@ const MobileFacilities1 = (props) => {
                   <TailoredCatering
                     slogan2={
                       <Fragment>
-                        <span className="mobile-facilities-1-text29">
+                        <span className="mobile-facilities-1-text28">
                           Elegance Redefined
-                        </span>
-                      </Fragment>
-                    }
-                    action231={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text30">
-                          Explore Our Gallery Video
                         </span>
                       </Fragment>
                     }
                     rootClassName="tailored-cateringroot-class-name"
                     sectionTitle2={
                       <Fragment>
-                        <span className="mobile-facilities-1-text31">
+                        <span className="mobile-facilities-1-text29">
                           Tailored Catering Services to Delight Every Palate
                         </span>
                       </Fragment>
                     }
                     feature1Title2={
                       <Fragment>
-                        <span className="mobile-facilities-1-text32">
+                        <span className="mobile-facilities-1-text30">
                           Customizable Menus
                         </span>
                       </Fragment>
                     }
                     feature2Title2={
                       <Fragment>
-                        <span className="mobile-facilities-1-text33">
+                        <span className="mobile-facilities-1-text31">
                           Flawless Presentation
                         </span>
                       </Fragment>
                     }
                     featureDescription3={
                       <Fragment>
-                        <span className="mobile-facilities-1-text34">
+                        <span className="mobile-facilities-1-text32">
                           At Marigold Celebration Hall, we understand that
                           exceptional cuisine is at the heart of every memorable
                           event. Our tailored catering services offer a wide
@@ -337,7 +323,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature1Description2={
                       <Fragment>
-                        <span className="mobile-facilities-1-text35">
+                        <span className="mobile-facilities-1-text33">
                           From traditional Indian flavors to contemporary
                           international dishes, our expert culinary team
                           collaborates with you to design a menu that perfectly
@@ -347,7 +333,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature2Description2={
                       <Fragment>
-                        <span className="mobile-facilities-1-text36">
+                        <span className="mobile-facilities-1-text34">
                           Each dish is presented with style and elegance, adding
                           visual appeal that complements the theme and ambiance
                           of your event. Our attentive staff ensures smooth,
@@ -359,7 +345,7 @@ const MobileFacilities1 = (props) => {
                     }
                     featureDescription21={
                       <Fragment>
-                        <span className="mobile-facilities-1-text37">
+                        <span className="mobile-facilities-1-text35">
                           Our attentive staff ensures smooth, professional
                           service from start to finish, allowing you and your
                           guests to enjoy a seamless dining experience. With
@@ -392,7 +378,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq2-question2 UbuntuLight-14">
                   {props.faq3Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text80">
+                      <span className="mobile-facilities-1-text78">
                         Photography &amp; Videography Services
                       </span>
                     </Fragment>
@@ -424,7 +410,7 @@ const MobileFacilities1 = (props) => {
               {faq3Visible && (
                 <div className="mobile-facilities-1-container19">
                   <div className="mobile-facilities-1-icon-container2"></div>
-                  <p className="mobile-facilities-1-text38 Ubuntu-Light-Gap-12">
+                  <p className="mobile-facilities-1-text36 Ubuntu-Light-Gap-12">
                     <span className="p">
                       Marigold Banquet Hall is the ideal venue for hosting
                       professional corporate events, including conferences,
@@ -449,14 +435,14 @@ const MobileFacilities1 = (props) => {
                   <PhotographyVideographyServices
                     slogan311={
                       <Fragment>
-                        <span className="mobile-facilities-1-text43">
+                        <span className="mobile-facilities-1-text41">
                           Elegance Redefined
                         </span>
                       </Fragment>
                     }
                     action23411={
                       <Fragment>
-                        <span className="mobile-facilities-1-text44">
+                        <span className="mobile-facilities-1-text42">
                           Explore Our Facilities
                         </span>
                       </Fragment>
@@ -464,7 +450,7 @@ const MobileFacilities1 = (props) => {
                     rootClassName="photography-videography-servicesroot-class-name"
                     sectionTitle311={
                       <Fragment>
-                        <span className="mobile-facilities-1-text45">
+                        <span className="mobile-facilities-1-text43">
                           Photography and Videography Services to Capture Every
                           Moment
                         </span>
@@ -472,35 +458,35 @@ const MobileFacilities1 = (props) => {
                     }
                     feature1Title321={
                       <Fragment>
-                        <span className="mobile-facilities-1-text46">
+                        <span className="mobile-facilities-1-text44">
                           Experienced Professionals
                         </span>
                       </Fragment>
                     }
                     feature2Title321={
                       <Fragment>
-                        <span className="mobile-facilities-1-text47">
+                        <span className="mobile-facilities-1-text45">
                           State-of-the-Art Equipment
                         </span>
                       </Fragment>
                     }
                     feature1Title3111={
                       <Fragment>
-                        <span className="mobile-facilities-1-text48">
+                        <span className="mobile-facilities-1-text46">
                           Customized Packages
                         </span>
                       </Fragment>
                     }
                     feature2Title3111={
                       <Fragment>
-                        <span className="mobile-facilities-1-text49">
+                        <span className="mobile-facilities-1-text47">
                           Accessible for All Guests
                         </span>
                       </Fragment>
                     }
                     featureDescription411={
                       <Fragment>
-                        <span className="mobile-facilities-1-text50">
+                        <span className="mobile-facilities-1-text48">
                           Marigold Celebration Hall offers professional
                           photography and videography support to preserve the
                           unforgettable moments of your special event. Our
@@ -512,7 +498,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature1Description321={
                       <Fragment>
-                        <span className="mobile-facilities-1-text51">
+                        <span className="mobile-facilities-1-text49">
                           Our skilled photographers and videographers specialize
                           in capturing every detail, from candid moments to
                           grand celebrations.
@@ -521,7 +507,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature2Description321={
                       <Fragment>
-                        <span className="mobile-facilities-1-text52">
+                        <span className="mobile-facilities-1-text50">
                           Using high-quality cameras, lighting, and editing
                           tools, we deliver crisp, vibrant photos and videos
                           that tell the story of your event.
@@ -530,7 +516,7 @@ const MobileFacilities1 = (props) => {
                     }
                     featureDescription2211={
                       <Fragment>
-                        <span className="mobile-facilities-1-text53">
+                        <span className="mobile-facilities-1-text51">
                           With Marigold’s photography and videography services,
                           you can relive the magic of your event through
                           stunning visuals that last a lifetime.
@@ -539,7 +525,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature1Description3111={
                       <Fragment>
-                        <span className="mobile-facilities-1-text54">
+                        <span className="mobile-facilities-1-text52">
                           Whether you need full coverage or specific highlights,
                           our flexible service packages cater to your unique
                           requirements and budget.
@@ -548,7 +534,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature2Description3111={
                       <Fragment>
-                        <span className="mobile-facilities-1-text55">
+                        <span className="mobile-facilities-1-text53">
                           We prioritize inclusivity, ensuring that all event
                           areas are fully accessible to guests of all abilities,
                           providing comfort and convenience for everyone.
@@ -579,7 +565,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq2-question3 UbuntuLight-14">
                   {props.faq4Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text77">
+                      <span className="mobile-facilities-1-text75">
                         Décor &amp; Design Services
                       </span>
                     </Fragment>
@@ -611,7 +597,7 @@ const MobileFacilities1 = (props) => {
               {faq4Visible && (
                 <div className="mobile-facilities-1-container22">
                   <div className="mobile-facilities-1-icon-container3"></div>
-                  <p className="mobile-facilities-1-text56 Ubuntu-Light-Gap-12">
+                  <p className="mobile-facilities-1-text54 Ubuntu-Light-Gap-12">
                     <span className="p">
                       From religious ceremonies to cultural festivals, Marigold
                       Banquet Hall offers a serene and spacious environment to
@@ -635,14 +621,14 @@ const MobileFacilities1 = (props) => {
                   <DecorServices
                     slogan21={
                       <Fragment>
-                        <span className="mobile-facilities-1-text61">
+                        <span className="mobile-facilities-1-text59">
                           Elegance Redefined
                         </span>
                       </Fragment>
                     }
                     action232={
                       <Fragment>
-                        <span className="mobile-facilities-1-text62">
+                        <span className="mobile-facilities-1-text60">
                           Explore Our Facilities
                         </span>
                       </Fragment>
@@ -650,42 +636,42 @@ const MobileFacilities1 = (props) => {
                     rootClassName="decor-servicesroot-class-name"
                     sectionTitle21={
                       <Fragment>
-                        <span className="mobile-facilities-1-text63">
+                        <span className="mobile-facilities-1-text61">
                           Professional Decor Services to Elevate Every Event
                         </span>
                       </Fragment>
                     }
                     feature1Title21={
                       <Fragment>
-                        <span className="mobile-facilities-1-text64">
+                        <span className="mobile-facilities-1-text62">
                           Custom Themes &amp; Styling
                         </span>
                       </Fragment>
                     }
                     feature2Title21={
                       <Fragment>
-                        <span className="mobile-facilities-1-text65">
+                        <span className="mobile-facilities-1-text63">
                           Floral Arrangements &amp; Centerpieces
                         </span>
                       </Fragment>
                     }
                     feature1Title211={
                       <Fragment>
-                        <span className="mobile-facilities-1-text66">
+                        <span className="mobile-facilities-1-text64">
                           Lighting &amp; Ambiance
                         </span>
                       </Fragment>
                     }
                     feature2Title211={
                       <Fragment>
-                        <span className="mobile-facilities-1-text67">
+                        <span className="mobile-facilities-1-text65">
                           Attention to Detail
                         </span>
                       </Fragment>
                     }
                     featureDescription31={
                       <Fragment>
-                        <span className="mobile-facilities-1-text68">
+                        <span className="mobile-facilities-1-text66">
                           Marigold Celebration Hall offers premier decor
                           services designed to transform your vision into a
                           captivating reality. Whether it’s a luxurious wedding,
@@ -697,7 +683,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature1Description21={
                       <Fragment>
-                        <span className="mobile-facilities-1-text69">
+                        <span className="mobile-facilities-1-text67">
                           From classic elegance to modern sophistication, we
                           work closely with you to design decor that aligns with
                           your theme, color palette, and desired ambiance.
@@ -706,7 +692,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature2Description21={
                       <Fragment>
-                        <span className="mobile-facilities-1-text70">
+                        <span className="mobile-facilities-1-text68">
                           Stunning floral displays and bespoke centerpieces are
                           thoughtfully crafted to add elegance and personality
                           to your event setting.
@@ -715,7 +701,7 @@ const MobileFacilities1 = (props) => {
                     }
                     featureDescription211={
                       <Fragment>
-                        <span className="mobile-facilities-1-text71">
+                        <span className="mobile-facilities-1-text69">
                           With Marigold Celebration Hall’s professional decor
                           services, each event becomes a memorable masterpiece,
                           reflecting your unique style and leaving a lasting
@@ -725,7 +711,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature1Description211={
                       <Fragment>
-                        <span className="mobile-facilities-1-text72">
+                        <span className="mobile-facilities-1-text70">
                           Our customizable lighting options enhance every space,
                           creating the perfect mood for your celebration,
                           whether it’s a soft romantic glow or a vibrant and
@@ -735,7 +721,7 @@ const MobileFacilities1 = (props) => {
                     }
                     feature2Description211={
                       <Fragment>
-                        <span className="mobile-facilities-1-text73">
+                        <span className="mobile-facilities-1-text71">
                           From backdrops to table settings, every detail is
                           meticulously managed, ensuring a cohesive and visually
                           impressive experience.
@@ -754,7 +740,7 @@ const MobileFacilities1 = (props) => {
               <a className="mobile-facilities-1-link thq-button-outline">
                 {props.action231 ?? (
                   <Fragment>
-                    <span className="mobile-facilities-1-text75">
+                    <span className="mobile-facilities-1-text73">
                       Explore More Facilities
                     </span>
                   </Fragment>
@@ -937,9 +923,6 @@ const MobileFacilities1 = (props) => {
           .mobile-facilities-1-text22 {
             display: inline-block;
           }
-          .mobile-facilities-1-text23 {
-            display: inline-block;
-          }
           .mobile-facilities-1-faq2 {
             width: 100%;
             display: flex;
@@ -1020,10 +1003,13 @@ const MobileFacilities1 = (props) => {
             align-self: flex-start;
             flex-direction: column;
           }
-          .mobile-facilities-1-text24 {
+          .mobile-facilities-1-text23 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             display: none;
+          }
+          .mobile-facilities-1-text28 {
+            display: inline-block;
           }
           .mobile-facilities-1-text29 {
             display: inline-block;
@@ -1044,12 +1030,6 @@ const MobileFacilities1 = (props) => {
             display: inline-block;
           }
           .mobile-facilities-1-text35 {
-            display: inline-block;
-          }
-          .mobile-facilities-1-text36 {
-            display: inline-block;
-          }
-          .mobile-facilities-1-text37 {
             display: inline-block;
           }
           .mobile-facilities-1-faq3 {
@@ -1133,10 +1113,16 @@ const MobileFacilities1 = (props) => {
             align-self: flex-start;
             flex-direction: column;
           }
-          .mobile-facilities-1-text38 {
+          .mobile-facilities-1-text36 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             display: none;
+          }
+          .mobile-facilities-1-text41 {
+            display: inline-block;
+          }
+          .mobile-facilities-1-text42 {
+            display: inline-block;
           }
           .mobile-facilities-1-text43 {
             display: inline-block;
@@ -1169,12 +1155,6 @@ const MobileFacilities1 = (props) => {
             display: inline-block;
           }
           .mobile-facilities-1-text53 {
-            display: inline-block;
-          }
-          .mobile-facilities-1-text54 {
-            display: inline-block;
-          }
-          .mobile-facilities-1-text55 {
             display: inline-block;
           }
           .mobile-facilities-1-faq4 {
@@ -1258,10 +1238,16 @@ const MobileFacilities1 = (props) => {
             align-self: flex-start;
             flex-direction: column;
           }
-          .mobile-facilities-1-text56 {
+          .mobile-facilities-1-text54 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             display: none;
+          }
+          .mobile-facilities-1-text59 {
+            display: inline-block;
+          }
+          .mobile-facilities-1-text60 {
+            display: inline-block;
           }
           .mobile-facilities-1-text61 {
             display: inline-block;
@@ -1294,12 +1280,6 @@ const MobileFacilities1 = (props) => {
             display: inline-block;
           }
           .mobile-facilities-1-text71 {
-            display: inline-block;
-          }
-          .mobile-facilities-1-text72 {
-            display: inline-block;
-          }
-          .mobile-facilities-1-text73 {
             display: inline-block;
           }
           .mobile-facilities-1-actions {
@@ -1345,6 +1325,12 @@ const MobileFacilities1 = (props) => {
             border-width: 0.5px;
             background-color: rgba(61, 19, 234, 0.3);
           }
+          .mobile-facilities-1-text73 {
+            display: inline-block;
+          }
+          .mobile-facilities-1-text74 {
+            display: inline-block;
+          }
           .mobile-facilities-1-text75 {
             display: inline-block;
           }
@@ -1358,12 +1344,6 @@ const MobileFacilities1 = (props) => {
             display: inline-block;
           }
           .mobile-facilities-1-text79 {
-            display: inline-block;
-          }
-          .mobile-facilities-1-text80 {
-            display: inline-block;
-          }
-          .mobile-facilities-1-text81 {
             display: inline-block;
           }
 

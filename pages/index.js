@@ -190,9 +190,11 @@ const Home = (props) => {
           }
         ></AboutMariGold1>
         <MobileFacilities1
-          action231={
+          heading={
             <Fragment>
-              <span className="home-text39">Explore More Facilities</span>
+              <span className="home-text39">
+                Facilities We Provide at Marigold Celebration
+              </span>
             </Fragment>
           }
           heading2={
@@ -206,16 +208,14 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          faq4Question={
+          action231={
             <Fragment>
-              <span className="home-text41">Décor &amp; Design Services</span>
+              <span className="home-text41">Explore More Facilities</span>
             </Fragment>
           }
-          heading={
+          faq1Question={
             <Fragment>
-              <span className="home-text42">
-                Facilities We Provide at Marigold Celebration
-              </span>
+              <span className="home-text42">Spacious Venue with Capacity</span>
             </Fragment>
           }
           faq2Question={
@@ -230,9 +230,9 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          faq1Question={
+          faq4Question={
             <Fragment>
-              <span className="home-text45">Spacious Venue with Capacity</span>
+              <span className="home-text45">Décor &amp; Design Services</span>
             </Fragment>
           }
           rootClassName="mobile-facilities1root-class-name"
@@ -276,111 +276,111 @@ const Home = (props) => {
           }
         ></VideoGallery>
         <Footer
-          link1={
+          privacyLink1={
             <Fragment>
-              <span className="home-text51">Home</span>
+              <span className="home-text51">P P</span>
             </Fragment>
           }
-          link2={
+          content3={
             <Fragment>
-              <span className="home-text52">Facilities</span>
-            </Fragment>
-          }
-          link3={
-            <Fragment>
-              <span className="home-text53">Gallery</span>
+              <span className="home-text52">MariGold Celebration</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="home-text54">Events</span>
+              <span className="home-text53">Events</span>
             </Fragment>
           }
-          link5={
+          column1Title={
             <Fragment>
-              <span className="home-text55">Contacts</span>
+              <span className="home-text54">Contact Us</span>
+            </Fragment>
+          }
+          termsLink1={
+            <Fragment>
+              <span className="home-text55">T &amp; C</span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="home-text56">Facilities</span>
+            </Fragment>
+          }
+          link10={
+            <Fragment>
+              <span className="home-text57">Book Now</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="home-text56">Corporate Events</span>
+              <span className="home-text58">Corporate Events</span>
             </Fragment>
           }
-          link7={
+          termsLink={
             <Fragment>
-              <span className="home-text57">Weddings Plannings</span>
+              <span className="home-text59">terms &amp; conditions.</span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="home-text60">Contacts</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="home-text58">
+              <span className="home-text61">
                 <span>Events Management</span>
                 <br></br>
               </span>
             </Fragment>
           }
-          link9={
+          cookiesLink={
             <Fragment>
-              <span className="home-text61">Special Occasions</span>
+              <span className="home-text64">cookie policy.</span>
             </Fragment>
           }
-          link10={
+          link1={
             <Fragment>
-              <span className="home-text62">Book Now</span>
+              <span className="home-text65">Home</span>
+            </Fragment>
+          }
+          link9={
+            <Fragment>
+              <span className="home-text66">Special Occasions</span>
+            </Fragment>
+          }
+          cookiesLink1={
+            <Fragment>
+              <span className="home-text67">C &amp; P</span>
+            </Fragment>
+          }
+          column2Title={
+            <Fragment>
+              <span className="home-text68">Services</span>
+            </Fragment>
+          }
+          link7={
+            <Fragment>
+              <span className="home-text69">Weddings Plannings</span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="home-text70">Gallery</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="home-text63">
+              <span className="home-text71">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
               </span>
             </Fragment>
           }
-          content3={
-            <Fragment>
-              <span className="home-text64">MariGold Celebration</span>
-            </Fragment>
-          }
-          termsLink={
-            <Fragment>
-              <span className="home-text65">terms &amp; conditions.</span>
-            </Fragment>
-          }
-          termsLink1={
-            <Fragment>
-              <span className="home-text66">T &amp; C</span>
-            </Fragment>
-          }
-          cookiesLink={
-            <Fragment>
-              <span className="home-text67">cookie policy.</span>
-            </Fragment>
-          }
           privacyLink={
             <Fragment>
-              <span className="home-text68">privacy policy.</span>
-            </Fragment>
-          }
-          column1Title={
-            <Fragment>
-              <span className="home-text69">Contact Us</span>
-            </Fragment>
-          }
-          column2Title={
-            <Fragment>
-              <span className="home-text70">Services</span>
-            </Fragment>
-          }
-          cookiesLink1={
-            <Fragment>
-              <span className="home-text71">C &amp; P</span>
-            </Fragment>
-          }
-          privacyLink1={
-            <Fragment>
-              <span className="home-text72">P P</span>
+              <span className="home-text72">privacy policy.</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name2"
@@ -532,13 +532,13 @@ const Home = (props) => {
           .home-text58 {
             display: inline-block;
           }
+          .home-text59 {
+            display: inline-block;
+          }
+          .home-text60 {
+            display: inline-block;
+          }
           .home-text61 {
-            display: inline-block;
-          }
-          .home-text62 {
-            display: inline-block;
-          }
-          .home-text63 {
             display: inline-block;
           }
           .home-text64 {

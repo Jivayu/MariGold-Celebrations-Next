@@ -461,17 +461,40 @@ const DecorServices = (props) => {
             .decor-services-text11 {
               font-size: 10px;
             }
+            .decor-services-list1 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .decor-services-list-item1 {
+              width: 100%;
+              max-width: 100%;
+            }
             .decor-services-text15 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .decor-services-list-item2 {
+              width: 100%;
             }
             .decor-services-text17 {
               font-size: 12px;
               font-family: Ubuntu;
             }
+            .decor-services-list2 {
+              gap: var(--dl-space-space-unit);
+              flex-direction: column;
+            }
+            .decor-services-list-item3 {
+              width: 100%;
+              max-width: 100%;
+            }
             .decor-services-text19 {
               font-size: 12px;
               font-family: Ubuntu;
+            }
+            .decor-services-list-item4 {
+              width: 100%;
+              max-width: 100%;
             }
             .decor-services-text21 {
               font-size: 12px;

@@ -17,13 +17,13 @@ const HeroBrandWall = (props) => {
           >
             {props.heading1 ?? (
               <Fragment>
-                <span className="hero-brand-wall-text6">
+                <span className="hero-brand-wall-text7">
                   Banquet Hall &amp; Big Events Services in Hingna, Nagpur
                 </span>
               </Fragment>
             )}
           </h1>
-          <p id="Brandline" className="hero-brand-wall-text2 Ubuntu-Regular-14">
+          <p id="Brandline" className="hero-brand-wall-text2 UbuntuLight-14">
             &quot;Celebrate Life’s Special Moments at Marigold Banquet Hall.
             Perfect Weddings, Grand Events, and unforgettable Memories await in
             our Elegant, Spacious Venue.&quot;
@@ -33,7 +33,7 @@ const HeroBrandWall = (props) => {
               <span className="thq-body-small">
                 {props.action1 ?? (
                   <Fragment>
-                    <span className="hero-brand-wall-text7">Shop Now</span>
+                    <span className="hero-brand-wall-text6">Shop Now</span>
                   </Fragment>
                 )}
               </span>
@@ -73,7 +73,7 @@ const HeroBrandWall = (props) => {
             display: flex;
             padding: var(--dl-space-space-threeunits);
             position: relative;
-            transform: scale(0.99);
+            transform: scale(0.98);
             align-self: stretch;
             align-items: center;
             border-color: var(--dl-color-primary-logo-color-1);
@@ -250,15 +250,15 @@ const HeroBrandWall = (props) => {
 }
 
 HeroBrandWall.defaultProps = {
-  heading1: undefined,
   action1: undefined,
+  heading1: undefined,
   action2: undefined,
   action21: undefined,
 }
 
 HeroBrandWall.propTypes = {
-  heading1: PropTypes.element,
   action1: PropTypes.element,
+  heading1: PropTypes.element,
   action2: PropTypes.element,
   action21: PropTypes.element,
 }

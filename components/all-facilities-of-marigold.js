@@ -30,37 +30,30 @@ const AllFacilitiesOfMarigold = (props) => {
                 </span>
               </Fragment>
             }
-            action23={
-              <Fragment>
-                <span className="all-facilities-of-marigold-text101">
-                  Explore Our Gallery Video
-                </span>
-              </Fragment>
-            }
             sectionTitle={
               <Fragment>
-                <span className="all-facilities-of-marigold-text102">
+                <span className="all-facilities-of-marigold-text101">
                   Versatile Event Spaces for Every Occasion
                 </span>
               </Fragment>
             }
             feature1Title={
               <Fragment>
-                <span className="all-facilities-of-marigold-text103">
+                <span className="all-facilities-of-marigold-text102">
                   The Grand Banquet Hall
                 </span>
               </Fragment>
             }
             feature2Title={
               <Fragment>
-                <span className="all-facilities-of-marigold-text104">
+                <span className="all-facilities-of-marigold-text103">
                   Private Event Rooms
                 </span>
               </Fragment>
             }
             featureDescription={
               <Fragment>
-                <span className="all-facilities-of-marigold-text105">
+                <span className="all-facilities-of-marigold-text104">
                   At Marigold Celebration Hall, we offer adaptable event spaces
                   designed to cater to a variety of gatherings, from intimate
                   gatherings to grand celebrations. Each space is thoughtfully
@@ -71,7 +64,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description={
               <Fragment>
-                <span className="all-facilities-of-marigold-text106">
+                <span className="all-facilities-of-marigold-text105">
                   Perfect for large-scale events such as weddings, corporate
                   galas, and conferences, our main hall boasts a spacious,
                   elegant design with the capacity to host up to 2000 guests.
@@ -82,7 +75,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description={
               <Fragment>
-                <span className="all-facilities-of-marigold-text107">
+                <span className="all-facilities-of-marigold-text106">
                   For more personal celebrations like engagement parties,
                   milestone birthdays, or smaller business meetings, our
                   flexible private rooms offer an intimate ambiance with
@@ -93,7 +86,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription2={
               <Fragment>
-                <span className="all-facilities-of-marigold-text108">
+                <span className="all-facilities-of-marigold-text107">
                   Each space is equipped with high-end amenities and the latest
                   audio-visual technology, ensuring an unforgettable experience
                   for both you and your guests. Whatever the occasion, Marigold
@@ -106,42 +99,35 @@ const AllFacilitiesOfMarigold = (props) => {
           <TailoredCatering
             slogan2={
               <Fragment>
-                <span className="all-facilities-of-marigold-text109">
+                <span className="all-facilities-of-marigold-text108">
                   Elegance Redefined
-                </span>
-              </Fragment>
-            }
-            action231={
-              <Fragment>
-                <span className="all-facilities-of-marigold-text110">
-                  Explore Our Gallery Video
                 </span>
               </Fragment>
             }
             sectionTitle2={
               <Fragment>
-                <span className="all-facilities-of-marigold-text111">
+                <span className="all-facilities-of-marigold-text109">
                   Tailored Catering Services to Delight Every Palate
                 </span>
               </Fragment>
             }
             feature1Title2={
               <Fragment>
-                <span className="all-facilities-of-marigold-text112">
+                <span className="all-facilities-of-marigold-text110">
                   Customizable Menus
                 </span>
               </Fragment>
             }
             feature2Title2={
               <Fragment>
-                <span className="all-facilities-of-marigold-text113">
+                <span className="all-facilities-of-marigold-text111">
                   Flawless Presentation
                 </span>
               </Fragment>
             }
             featureDescription3={
               <Fragment>
-                <span className="all-facilities-of-marigold-text114">
+                <span className="all-facilities-of-marigold-text112">
                   At Marigold Celebration Hall, we understand that exceptional
                   cuisine is at the heart of every memorable event. Our tailored
                   catering services offer a wide selection of culinary
@@ -152,7 +138,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description2={
               <Fragment>
-                <span className="all-facilities-of-marigold-text115">
+                <span className="all-facilities-of-marigold-text113">
                   From traditional Indian flavors to contemporary international
                   dishes, our expert culinary team collaborates with you to
                   design a menu that perfectly reflects your tastes and enhances
@@ -162,7 +148,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description2={
               <Fragment>
-                <span className="all-facilities-of-marigold-text116">
+                <span className="all-facilities-of-marigold-text114">
                   Each dish is presented with style and elegance, adding visual
                   appeal that complements the theme and ambiance of your
                   event. Our attentive staff ensures smooth, professional
@@ -173,7 +159,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription21={
               <Fragment>
-                <span className="all-facilities-of-marigold-text117">
+                <span className="all-facilities-of-marigold-text115">
                   Our attentive staff ensures smooth, professional service from
                   start to finish, allowing you and your guests to enjoy a
                   seamless dining experience. With Marigold’s catering services,
@@ -188,56 +174,56 @@ const AllFacilitiesOfMarigold = (props) => {
           <DecorServices
             slogan21={
               <Fragment>
-                <span className="all-facilities-of-marigold-text118">
+                <span className="all-facilities-of-marigold-text116">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             action232={
               <Fragment>
-                <span className="all-facilities-of-marigold-text119">
+                <span className="all-facilities-of-marigold-text117">
                   Explore Our Facilities
                 </span>
               </Fragment>
             }
             sectionTitle21={
               <Fragment>
-                <span className="all-facilities-of-marigold-text120">
+                <span className="all-facilities-of-marigold-text118">
                   Professional Decor Services to Elevate Every Event
                 </span>
               </Fragment>
             }
             feature1Title21={
               <Fragment>
-                <span className="all-facilities-of-marigold-text121">
+                <span className="all-facilities-of-marigold-text119">
                   Custom Themes &amp; Styling
                 </span>
               </Fragment>
             }
             feature2Title21={
               <Fragment>
-                <span className="all-facilities-of-marigold-text122">
+                <span className="all-facilities-of-marigold-text120">
                   Floral Arrangements &amp; Centerpieces
                 </span>
               </Fragment>
             }
             feature1Title211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text123">
+                <span className="all-facilities-of-marigold-text121">
                   Lighting &amp; Ambiance
                 </span>
               </Fragment>
             }
             feature2Title211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text124">
+                <span className="all-facilities-of-marigold-text122">
                   Attention to Detail
                 </span>
               </Fragment>
             }
             featureDescription31={
               <Fragment>
-                <span className="all-facilities-of-marigold-text125">
+                <span className="all-facilities-of-marigold-text123">
                   Marigold Celebration Hall offers premier decor services
                   designed to transform your vision into a captivating reality.
                   Whether it’s a luxurious wedding, a corporate event, or an
@@ -248,7 +234,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description21={
               <Fragment>
-                <span className="all-facilities-of-marigold-text126">
+                <span className="all-facilities-of-marigold-text124">
                   From classic elegance to modern sophistication, we work
                   closely with you to design decor that aligns with your theme,
                   color palette, and desired ambiance.
@@ -257,7 +243,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description21={
               <Fragment>
-                <span className="all-facilities-of-marigold-text127">
+                <span className="all-facilities-of-marigold-text125">
                   Stunning floral displays and bespoke centerpieces are
                   thoughtfully crafted to add elegance and personality to your
                   event setting.
@@ -266,7 +252,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text128">
+                <span className="all-facilities-of-marigold-text126">
                   With Marigold Celebration Hall’s professional decor services,
                   each event becomes a memorable masterpiece, reflecting your
                   unique style and leaving a lasting impression on your guests.
@@ -275,7 +261,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text129">
+                <span className="all-facilities-of-marigold-text127">
                   Our customizable lighting options enhance every space,
                   creating the perfect mood for your celebration, whether it’s a
                   soft romantic glow or a vibrant and energetic atmosphere.
@@ -284,7 +270,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text130">
+                <span className="all-facilities-of-marigold-text128">
                   From backdrops to table settings, every detail is meticulously
                   managed, ensuring a cohesive and visually impressive
                   experience.
@@ -295,56 +281,56 @@ const AllFacilitiesOfMarigold = (props) => {
           <SoundProofHall
             action233={
               <Fragment>
-                <span className="all-facilities-of-marigold-text131">
+                <span className="all-facilities-of-marigold-text129">
                   Explore Our Gallery Video
                 </span>
               </Fragment>
             }
             slogan211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text132">
+                <span className="all-facilities-of-marigold-text130">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             sectionTitle211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text133">
+                <span className="all-facilities-of-marigold-text131">
                   Soundproof Hall for Uninterrupted Events
                 </span>
               </Fragment>
             }
             feature1Title212={
               <Fragment>
-                <span className="all-facilities-of-marigold-text134">
+                <span className="all-facilities-of-marigold-text132">
                   Enhanced Acoustics
                 </span>
               </Fragment>
             }
             feature2Title212={
               <Fragment>
-                <span className="all-facilities-of-marigold-text135">
+                <span className="all-facilities-of-marigold-text133">
                   Privacy &amp; Exclusivity
                 </span>
               </Fragment>
             }
             feature1Title2111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text136">
+                <span className="all-facilities-of-marigold-text134">
                   Uninterrupted Experience
                 </span>
               </Fragment>
             }
             feature2Title2111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text137">
+                <span className="all-facilities-of-marigold-text135">
                   Attention to Detail
                 </span>
               </Fragment>
             }
             featureDescription311={
               <Fragment>
-                <span className="all-facilities-of-marigold-text138">
+                <span className="all-facilities-of-marigold-text136">
                   At Marigold Celebration Hall, we prioritize an immersive and
                   focused experience for every event. Our soundproof hall is
                   designed to eliminate outside noise, ensuring that all
@@ -356,7 +342,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description212={
               <Fragment>
-                <span className="all-facilities-of-marigold-text139">
+                <span className="all-facilities-of-marigold-text137">
                   The hall’s soundproofing not only prevents external noise
                   interference but also optimizes internal acoustics, delivering
                   clear and impactful sound for speeches, music, and
@@ -366,7 +352,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description212={
               <Fragment>
-                <span className="all-facilities-of-marigold-text140">
+                <span className="all-facilities-of-marigold-text138">
                   Guests can enjoy an intimate, private setting without
                   distractions, ideal for celebrations and business functions
                   where confidentiality and focus are paramount.
@@ -375,7 +361,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription2111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text141">
+                <span className="all-facilities-of-marigold-text139">
                   Marigold’s soundproof hall provides a refined and
                   distraction-free atmosphere, making it the perfect setting for
                   events that demand attention to every detail.
@@ -384,7 +370,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description2111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text142">
+                <span className="all-facilities-of-marigold-text140">
                   Our soundproof hall ensures that your event proceeds
                   seamlessly, with no disturbances, allowing guests to fully
                   immerse themselves in the experience.
@@ -393,7 +379,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description2111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text143">
+                <span className="all-facilities-of-marigold-text141">
                   From backdrops to table settings, every detail is meticulously
                   managed, ensuring a cohesive and visually impressive
                   experience.
@@ -406,56 +392,56 @@ const AllFacilitiesOfMarigold = (props) => {
           <GuestRooms
             slogan212={
               <Fragment>
-                <span className="all-facilities-of-marigold-text144">
+                <span className="all-facilities-of-marigold-text142">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             action2321={
               <Fragment>
-                <span className="all-facilities-of-marigold-text145">
+                <span className="all-facilities-of-marigold-text143">
                   Explore Our Gallery Video
                 </span>
               </Fragment>
             }
             sectionTitle212={
               <Fragment>
-                <span className="all-facilities-of-marigold-text146">
+                <span className="all-facilities-of-marigold-text144">
                   Guest Rooms for Overnight Stays
                 </span>
               </Fragment>
             }
             feature1Title213={
               <Fragment>
-                <span className="all-facilities-of-marigold-text147">
+                <span className="all-facilities-of-marigold-text145">
                   Elegant and Comfortable
                 </span>
               </Fragment>
             }
             feature2Title213={
               <Fragment>
-                <span className="all-facilities-of-marigold-text148">
+                <span className="all-facilities-of-marigold-text146">
                   Privacy and Convenience
                 </span>
               </Fragment>
             }
             feature1Title2112={
               <Fragment>
-                <span className="all-facilities-of-marigold-text149">
+                <span className="all-facilities-of-marigold-text147">
                   Ideal for Wedding Parties &amp; Business Guests
                 </span>
               </Fragment>
             }
             feature2Title2112={
               <Fragment>
-                <span className="all-facilities-of-marigold-text150">
+                <span className="all-facilities-of-marigold-text148">
                   Attention to Detail
                 </span>
               </Fragment>
             }
             featureDescription312={
               <Fragment>
-                <span className="all-facilities-of-marigold-text151">
+                <span className="all-facilities-of-marigold-text149">
                   Marigold Celebration Hall offers well-appointed guest rooms to
                   accommodate your out-of-town attendees, providing comfort and
                   convenience for those staying overnight. Our guest rooms are
@@ -466,7 +452,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description213={
               <Fragment>
-                <span className="all-facilities-of-marigold-text152">
+                <span className="all-facilities-of-marigold-text150">
                   Each room is furnished with plush bedding and modern
                   amenities, allowing guests to unwind in style and comfort.
                 </span>
@@ -474,7 +460,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description213={
               <Fragment>
-                <span className="all-facilities-of-marigold-text153">
+                <span className="all-facilities-of-marigold-text151">
                   With private, well-equipped spaces, your guests can enjoy a
                   peaceful retreat right on-site, enhancing the overall
                   experience of multi-day events.
@@ -483,7 +469,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription2112={
               <Fragment>
-                <span className="all-facilities-of-marigold-text154">
+                <span className="all-facilities-of-marigold-text152">
                   Offering seamless hospitality, Marigold’s guest accommodations
                   ensure that your guests enjoy a memorable, comfortable stay
                   close to the celebration.
@@ -492,7 +478,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description2112={
               <Fragment>
-                <span className="all-facilities-of-marigold-text155">
+                <span className="all-facilities-of-marigold-text153">
                   Perfect for wedding parties needing proximity or business
                   guests requiring a restful space, our guest rooms offer
                   unmatched convenience and accessibility.
@@ -501,7 +487,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description2112={
               <Fragment>
-                <span className="all-facilities-of-marigold-text156">
+                <span className="all-facilities-of-marigold-text154">
                   From backdrops to table settings, every detail is meticulously
                   managed, ensuring a cohesive and visually impressive
                   experience.
@@ -512,56 +498,56 @@ const AllFacilitiesOfMarigold = (props) => {
           <ParkingFacilities
             action2331={
               <Fragment>
-                <span className="all-facilities-of-marigold-text157">
+                <span className="all-facilities-of-marigold-text155">
                   Explore Our Facilities
                 </span>
               </Fragment>
             }
             slogan2111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text158">
+                <span className="all-facilities-of-marigold-text156">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             sectionTitle2111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text159">
+                <span className="all-facilities-of-marigold-text157">
                   Convenient Inside &amp; Outside Parking Facilities
                 </span>
               </Fragment>
             }
             feature1Title2121={
               <Fragment>
-                <span className="all-facilities-of-marigold-text160">
+                <span className="all-facilities-of-marigold-text158">
                   Spacious Parking Capacity
                 </span>
               </Fragment>
             }
             feature2Title2121={
               <Fragment>
-                <span className="all-facilities-of-marigold-text161">
+                <span className="all-facilities-of-marigold-text159">
                   On-Site Assistance
                 </span>
               </Fragment>
             }
             feature1Title21111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text162">
+                <span className="all-facilities-of-marigold-text160">
                   Secure and Accessible
                 </span>
               </Fragment>
             }
             feature2Title21111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text163">
+                <span className="all-facilities-of-marigold-text161">
                   Attention to Detail
                 </span>
               </Fragment>
             }
             featureDescription3111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text164">
+                <span className="all-facilities-of-marigold-text162">
                   Marigold Celebration Hall offers spacious and secure parking
                   facilities to ensure a stress-free arrival and departure
                   experience for all your guests. With ample parking spaces both
@@ -572,7 +558,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description2121={
               <Fragment>
-                <span className="all-facilities-of-marigold-text165">
+                <span className="all-facilities-of-marigold-text163">
                   Our parking area is designed to accommodate a high volume of
                   vehicles, providing easy access for all attendees.
                 </span>
@@ -580,7 +566,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description2121={
               <Fragment>
-                <span className="all-facilities-of-marigold-text166">
+                <span className="all-facilities-of-marigold-text164">
                   Dedicated attendants are available to guide guests to parking
                   spaces, offering convenience and efficient traffic flow.
                 </span>
@@ -588,7 +574,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription21111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text167">
+                <span className="all-facilities-of-marigold-text165">
                   Our inside and outside parking facilities enhance the overall
                   guest experience, allowing everyone to arrive with ease and
                   focus on enjoying the occasion at Marigold Celebration Hall.
@@ -597,7 +583,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description21111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text168">
+                <span className="all-facilities-of-marigold-text166">
                   With security measures in place, guests can feel confident
                   leaving their vehicles while they enjoy the event, while
                   designated parking areas ensure accessibility for all.
@@ -606,7 +592,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description21111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text169">
+                <span className="all-facilities-of-marigold-text167">
                   From backdrops to table settings, every detail is meticulously
                   managed, ensuring a cohesive and visually impressive
                   experience.
@@ -619,56 +605,56 @@ const AllFacilitiesOfMarigold = (props) => {
           <LiftAccessibility
             slogan3={
               <Fragment>
-                <span className="all-facilities-of-marigold-text170">
+                <span className="all-facilities-of-marigold-text168">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             action234={
               <Fragment>
-                <span className="all-facilities-of-marigold-text171">
+                <span className="all-facilities-of-marigold-text169">
                   Explore Our Gallery Video
                 </span>
               </Fragment>
             }
             sectionTitle3={
               <Fragment>
-                <span className="all-facilities-of-marigold-text172">
+                <span className="all-facilities-of-marigold-text170">
                   Seamless Access with 2 Spacious Lifts and Full Accessibility
                 </span>
               </Fragment>
             }
             feature1Title3={
               <Fragment>
-                <span className="all-facilities-of-marigold-text173">
+                <span className="all-facilities-of-marigold-text171">
                   Spacious, High-Capacity Lifts
                 </span>
               </Fragment>
             }
             feature2Title3={
               <Fragment>
-                <span className="all-facilities-of-marigold-text174">
+                <span className="all-facilities-of-marigold-text172">
                   Accessible for All Guests
                 </span>
               </Fragment>
             }
             feature1Title31={
               <Fragment>
-                <span className="all-facilities-of-marigold-text175">
+                <span className="all-facilities-of-marigold-text173">
                   Efficient Event Flow
                 </span>
               </Fragment>
             }
             feature2Title31={
               <Fragment>
-                <span className="all-facilities-of-marigold-text176">
+                <span className="all-facilities-of-marigold-text174">
                   Accessible for All Guests
                 </span>
               </Fragment>
             }
             featureDescription4={
               <Fragment>
-                <span className="all-facilities-of-marigold-text177">
+                <span className="all-facilities-of-marigold-text175">
                   Marigold Celebration Hall is designed with guest convenience
                   in mind, featuring two large, modern lifts to ensure smooth
                   and efficient access to all event spaces. Our commitment to
@@ -679,7 +665,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description3={
               <Fragment>
-                <span className="all-facilities-of-marigold-text178">
+                <span className="all-facilities-of-marigold-text176">
                   <span>
                     Our two large lifts are built to accommodate groups with
                     ease, minimizing wait times and allowing for quick
@@ -691,7 +677,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description3={
               <Fragment>
-                <span className="all-facilities-of-marigold-text181">
+                <span className="all-facilities-of-marigold-text179">
                   We prioritize inclusivity, ensuring that all event areas are
                   fully accessible to guests of all abilities, providing comfort
                   and convenience for everyone.
@@ -700,7 +686,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription22={
               <Fragment>
-                <span className="all-facilities-of-marigold-text182">
+                <span className="all-facilities-of-marigold-text180">
                   Marigold Celebration Hall’s lift and accessibility features
                   add to a seamless and enjoyable experience, catering to the
                   needs of every guest attending your special occasion.
@@ -709,7 +695,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description31={
               <Fragment>
-                <span className="all-facilities-of-marigold-text183">
+                <span className="all-facilities-of-marigold-text181">
                   With easy access to all halls and facilities, our lifts
                   support the smooth flow of guests throughout your event,
                   enhancing the overall experience.
@@ -718,7 +704,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description31={
               <Fragment>
-                <span className="all-facilities-of-marigold-text184">
+                <span className="all-facilities-of-marigold-text182">
                   We prioritize inclusivity, ensuring that all event areas are
                   fully accessible to guests of all abilities, providing comfort
                   and convenience for everyone.
@@ -729,56 +715,56 @@ const AllFacilitiesOfMarigold = (props) => {
           <GeneratorBackup
             slogan22={
               <Fragment>
-                <span className="all-facilities-of-marigold-text185">
+                <span className="all-facilities-of-marigold-text183">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             action2311={
               <Fragment>
-                <span className="all-facilities-of-marigold-text186">
+                <span className="all-facilities-of-marigold-text184">
                   Explore Our Facilities
                 </span>
               </Fragment>
             }
             sectionTitle22={
               <Fragment>
-                <span className="all-facilities-of-marigold-text187">
+                <span className="all-facilities-of-marigold-text185">
                   Reliable 24/7 Generator Backup for Uninterrupted Events
                 </span>
               </Fragment>
             }
             feature1Title22={
               <Fragment>
-                <span className="all-facilities-of-marigold-text188">
+                <span className="all-facilities-of-marigold-text186">
                   Continuous Power Supply
                 </span>
               </Fragment>
             }
             feature2Title22={
               <Fragment>
-                <span className="all-facilities-of-marigold-text189">
+                <span className="all-facilities-of-marigold-text187">
                   Enhanced Guest Comfort
                 </span>
               </Fragment>
             }
             feature1Title221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text190">
+                <span className="all-facilities-of-marigold-text188">
                   Peace of Mind
                 </span>
               </Fragment>
             }
             feature2Title221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text191">
+                <span className="all-facilities-of-marigold-text189">
                   Enhanced Guest Comfort
                 </span>
               </Fragment>
             }
             featureDescription32={
               <Fragment>
-                <span className="all-facilities-of-marigold-text192">
+                <span className="all-facilities-of-marigold-text190">
                   At Marigold Celebration Hall, we understand the importance of
                   a flawless event experience. Our 24/7 generator backup ensures
                   that your celebration proceeds without disruption, regardless
@@ -788,7 +774,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description22={
               <Fragment>
-                <span className="all-facilities-of-marigold-text193">
+                <span className="all-facilities-of-marigold-text191">
                   Our backup generator activates instantly during any power
                   fluctuation, providing uninterrupted lighting, sound, and
                   comfort throughout your event.
@@ -797,7 +783,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description22={
               <Fragment>
-                <span className="all-facilities-of-marigold-text194">
+                <span className="all-facilities-of-marigold-text192">
                   From air conditioning to audio-visual systems, every essential
                   service remains fully operational, ensuring your guests’
                   experience is seamless and enjoyable.
@@ -806,7 +792,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription212={
               <Fragment>
-                <span className="all-facilities-of-marigold-text195">
+                <span className="all-facilities-of-marigold-text193">
                   Marigold Celebration Hall’s generator backup adds an essential
                   layer of security to your event, allowing you to celebrate
                   with confidence and ease.
@@ -815,7 +801,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text196">
+                <span className="all-facilities-of-marigold-text194">
                   With our reliable power backup, you can relax and focus on the
                   event, knowing that every detail will run smoothly, regardless
                   of external factors.
@@ -824,7 +810,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text197">
+                <span className="all-facilities-of-marigold-text195">
                   From air conditioning to audio-visual systems, every essential
                   service remains fully operational, ensuring your guests’
                   experience is seamless and enjoyable.
@@ -837,56 +823,56 @@ const AllFacilitiesOfMarigold = (props) => {
           <PremiumWashrooms
             slogan31={
               <Fragment>
-                <span className="all-facilities-of-marigold-text198">
+                <span className="all-facilities-of-marigold-text196">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             action2341={
               <Fragment>
-                <span className="all-facilities-of-marigold-text199">
+                <span className="all-facilities-of-marigold-text197">
                   Explore Our Gallery Video
                 </span>
               </Fragment>
             }
             sectionTitle31={
               <Fragment>
-                <span className="all-facilities-of-marigold-text200">
+                <span className="all-facilities-of-marigold-text198">
                   Premium Washrooms and Changing Areas for Guest Comfort
                 </span>
               </Fragment>
             }
             feature1Title32={
               <Fragment>
-                <span className="all-facilities-of-marigold-text201">
+                <span className="all-facilities-of-marigold-text199">
                   Modern &amp; Spacious
                 </span>
               </Fragment>
             }
             feature2Title32={
               <Fragment>
-                <span className="all-facilities-of-marigold-text202">
+                <span className="all-facilities-of-marigold-text200">
                   Impeccably Maintained
                 </span>
               </Fragment>
             }
             feature1Title311={
               <Fragment>
-                <span className="all-facilities-of-marigold-text203">
+                <span className="all-facilities-of-marigold-text201">
                   Private Changing Areas
                 </span>
               </Fragment>
             }
             feature2Title311={
               <Fragment>
-                <span className="all-facilities-of-marigold-text204">
+                <span className="all-facilities-of-marigold-text202">
                   Accessible for All Guests
                 </span>
               </Fragment>
             }
             featureDescription41={
               <Fragment>
-                <span className="all-facilities-of-marigold-text205">
+                <span className="all-facilities-of-marigold-text203">
                   Marigold Celebration Hall offers top-tier washrooms and
                   private changing areas, ensuring the highest standards of
                   comfort and convenience for you and your guests. Our
@@ -897,7 +883,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description32={
               <Fragment>
-                <span className="all-facilities-of-marigold-text206">
+                <span className="all-facilities-of-marigold-text204">
                   Our premium washrooms feature contemporary design, ample
                   space, and superior amenities, adding a touch of luxury to
                   your event.
@@ -906,7 +892,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description32={
               <Fragment>
-                <span className="all-facilities-of-marigold-text207">
+                <span className="all-facilities-of-marigold-text205">
                   Our team ensures that washrooms and changing areas remain
                   clean and well-stocked throughout the event, prioritizing
                   guest satisfaction.
@@ -915,7 +901,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text208">
+                <span className="all-facilities-of-marigold-text206">
                   With Marigold Celebration Hall’s premium facilities, every
                   aspect of your event reflects sophistication, ensuring an
                   enjoyable and comfortable experience for all attendees.
@@ -924,7 +910,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description311={
               <Fragment>
-                <span className="all-facilities-of-marigold-text209">
+                <span className="all-facilities-of-marigold-text207">
                   Designed for privacy and convenience, our changing areas allow
                   guests to refresh or prepare with ease, making them ideal for
                   weddings and multi-event gatherings.
@@ -933,7 +919,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description311={
               <Fragment>
-                <span className="all-facilities-of-marigold-text210">
+                <span className="all-facilities-of-marigold-text208">
                   We prioritize inclusivity, ensuring that all event areas are
                   fully accessible to guests of all abilities, providing comfort
                   and convenience for everyone.
@@ -944,21 +930,21 @@ const AllFacilitiesOfMarigold = (props) => {
           <AudioVisualEquipment
             slogan221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text211">
+                <span className="all-facilities-of-marigold-text209">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             action23111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text212">
+                <span className="all-facilities-of-marigold-text210">
                   Explore Our Facilities
                 </span>
               </Fragment>
             }
             sectionTitle221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text213">
+                <span className="all-facilities-of-marigold-text211">
                   Advanced Audio-Visual Equipment and Technology for Impactful
                   Events
                 </span>
@@ -966,35 +952,35 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Title222={
               <Fragment>
-                <span className="all-facilities-of-marigold-text214">
+                <span className="all-facilities-of-marigold-text212">
                   High-Definition Sound &amp; Projection
                 </span>
               </Fragment>
             }
             feature2Title222={
               <Fragment>
-                <span className="all-facilities-of-marigold-text215">
+                <span className="all-facilities-of-marigold-text213">
                   Seamless Connectivity
                 </span>
               </Fragment>
             }
             feature1Title2211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text216">
+                <span className="all-facilities-of-marigold-text214">
                   On-Site Technical Support
                 </span>
               </Fragment>
             }
             feature2Title2211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text217">
+                <span className="all-facilities-of-marigold-text215">
                   Enhanced Guest Comfort
                 </span>
               </Fragment>
             }
             featureDescription321={
               <Fragment>
-                <span className="all-facilities-of-marigold-text218">
+                <span className="all-facilities-of-marigold-text216">
                   Marigold Celebration Hall is equipped with state-of-the-art
                   audio-visual technology to elevate every event, ensuring
                   powerful and immersive experiences for your guests. From
@@ -1005,7 +991,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description222={
               <Fragment>
-                <span className="all-facilities-of-marigold-text219">
+                <span className="all-facilities-of-marigold-text217">
                   Our advanced sound systems and high-resolution projectors
                   bring crystal-clear audio and visuals, adding vibrancy to
                   speeches, music, and multimedia displays.
@@ -1014,7 +1000,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description222={
               <Fragment>
-                <span className="all-facilities-of-marigold-text220">
+                <span className="all-facilities-of-marigold-text218">
                   With easy-to-use connectivity options, our AV technology
                   supports various devices, enabling smooth transitions and
                   flawless presentations.
@@ -1023,7 +1009,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription2121={
               <Fragment>
-                <span className="all-facilities-of-marigold-text221">
+                <span className="all-facilities-of-marigold-text219">
                   With Marigold Celebration Hall’s cutting-edge audio-visual
                   equipment, every event becomes a dynamic experience, leaving a
                   lasting impression on your guests.
@@ -1032,7 +1018,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description2211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text222">
+                <span className="all-facilities-of-marigold-text220">
                   Our dedicated AV team provides expert assistance, ensuring
                   equipment operates seamlessly, so you can focus on your event
                   without any interruptions.
@@ -1041,7 +1027,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description2211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text223">
+                <span className="all-facilities-of-marigold-text221">
                   From air conditioning to audio-visual systems, every essential
                   service remains fully operational, ensuring your guests’
                   experience is seamless and enjoyable.
@@ -1054,56 +1040,56 @@ const AllFacilitiesOfMarigold = (props) => {
           <PhotographyVideographyServices
             slogan311={
               <Fragment>
-                <span className="all-facilities-of-marigold-text224">
+                <span className="all-facilities-of-marigold-text222">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             action23411={
               <Fragment>
-                <span className="all-facilities-of-marigold-text225">
+                <span className="all-facilities-of-marigold-text223">
                   Explore Our Facilities
                 </span>
               </Fragment>
             }
             sectionTitle311={
               <Fragment>
-                <span className="all-facilities-of-marigold-text226">
+                <span className="all-facilities-of-marigold-text224">
                   Photography and Videography Services to Capture Every Moment
                 </span>
               </Fragment>
             }
             feature1Title321={
               <Fragment>
-                <span className="all-facilities-of-marigold-text227">
+                <span className="all-facilities-of-marigold-text225">
                   Experienced Professionals
                 </span>
               </Fragment>
             }
             feature2Title321={
               <Fragment>
-                <span className="all-facilities-of-marigold-text228">
+                <span className="all-facilities-of-marigold-text226">
                   State-of-the-Art Equipment
                 </span>
               </Fragment>
             }
             feature1Title3111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text229">
+                <span className="all-facilities-of-marigold-text227">
                   Customized Packages
                 </span>
               </Fragment>
             }
             feature2Title3111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text230">
+                <span className="all-facilities-of-marigold-text228">
                   Accessible for All Guests
                 </span>
               </Fragment>
             }
             featureDescription411={
               <Fragment>
-                <span className="all-facilities-of-marigold-text231">
+                <span className="all-facilities-of-marigold-text229">
                   Marigold Celebration Hall offers professional photography and
                   videography support to preserve the unforgettable moments of
                   your special event. Our experienced team ensures that each
@@ -1114,7 +1100,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description321={
               <Fragment>
-                <span className="all-facilities-of-marigold-text232">
+                <span className="all-facilities-of-marigold-text230">
                   Our skilled photographers and videographers specialize in
                   capturing every detail, from candid moments to grand
                   celebrations.
@@ -1123,7 +1109,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description321={
               <Fragment>
-                <span className="all-facilities-of-marigold-text233">
+                <span className="all-facilities-of-marigold-text231">
                   Using high-quality cameras, lighting, and editing tools, we
                   deliver crisp, vibrant photos and videos that tell the story
                   of your event.
@@ -1132,7 +1118,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription2211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text234">
+                <span className="all-facilities-of-marigold-text232">
                   With Marigold’s photography and videography services, you can
                   relive the magic of your event through stunning visuals that
                   last a lifetime.
@@ -1141,7 +1127,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description3111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text235">
+                <span className="all-facilities-of-marigold-text233">
                   Whether you need full coverage or specific highlights, our
                   flexible service packages cater to your unique requirements
                   and budget.
@@ -1150,7 +1136,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description3111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text236">
+                <span className="all-facilities-of-marigold-text234">
                   We prioritize inclusivity, ensuring that all event areas are
                   fully accessible to guests of all abilities, providing comfort
                   and convenience for everyone.
@@ -1161,21 +1147,21 @@ const AllFacilitiesOfMarigold = (props) => {
           <LocationWithHighwayAccess
             slogan2211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text237">
+                <span className="all-facilities-of-marigold-text235">
                   Elegance Redefined
                 </span>
               </Fragment>
             }
             action231111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text238">
+                <span className="all-facilities-of-marigold-text236">
                   Explore Our Facilities
                 </span>
               </Fragment>
             }
             sectionTitle2211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text239">
+                <span className="all-facilities-of-marigold-text237">
                   Prime, Iconic Location with Easy Highway Access and Google
                   Maps Convenience
                 </span>
@@ -1183,35 +1169,35 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Title2221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text240">
+                <span className="all-facilities-of-marigold-text238">
                   Highly Accessible Location
                 </span>
               </Fragment>
             }
             feature2Title2221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text241">
+                <span className="all-facilities-of-marigold-text239">
                   Effortless Navigation via Google Maps
                 </span>
               </Fragment>
             }
             feature1Title22111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text242">
+                <span className="all-facilities-of-marigold-text240">
                   Prestigious &amp; Central Setting
                 </span>
               </Fragment>
             }
             feature2Title22111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text243">
+                <span className="all-facilities-of-marigold-text241">
                   Enhanced Guest Comfort
                 </span>
               </Fragment>
             }
             featureDescription3211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text244">
+                <span className="all-facilities-of-marigold-text242">
                   Located in the heart of Hingna, Nagpur, Marigold Celebration
                   Hall boasts an iconic, central position with broad highway
                   connectivity and easy Google Maps navigation for seamless
@@ -1221,7 +1207,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description2221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text245">
+                <span className="all-facilities-of-marigold-text243">
                   Positioned strategically in Hingna, Nagpur, our venue offers
                   straightforward access from major highways, making it
                   convenient for guests coming from all parts of the city and
@@ -1231,7 +1217,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description2221={
               <Fragment>
-                <span className="all-facilities-of-marigold-text246">
+                <span className="all-facilities-of-marigold-text244">
                   Our precise Google Maps location ensures smooth navigation for
                   all attendees, enhancing the ease of reaching the venue
                   without hassle.
@@ -1240,7 +1226,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             featureDescription21211={
               <Fragment>
-                <span className="all-facilities-of-marigold-text247">
+                <span className="all-facilities-of-marigold-text245">
                   Marigold’s prime location and accessible layout ensure an
                   unforgettable, stress-free experience for hosts and guests
                   alike.
@@ -1249,7 +1235,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature1Description22111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text248">
+                <span className="all-facilities-of-marigold-text246">
                   Known for its iconic presence, Marigold Celebration Hall
                   provides an impressive backdrop for any event, contributing to
                   the overall experience and convenience of your celebration.
@@ -1258,7 +1244,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
             feature2Description22111={
               <Fragment>
-                <span className="all-facilities-of-marigold-text249">
+                <span className="all-facilities-of-marigold-text247">
                   From air conditioning to audio-visual systems, every essential
                   service remains fully operational, ensuring your guests’
                   experience is seamless and enjoyable.
@@ -1267,10 +1253,10 @@ const AllFacilitiesOfMarigold = (props) => {
             }
           ></LocationWithHighwayAccess>
         </div>
-        <p className="all-facilities-of-marigold-text250 thq-body-large">
+        <p className="all-facilities-of-marigold-text248 thq-body-large">
           {props.featureDescription212111 ?? (
             <Fragment>
-              <span className="all-facilities-of-marigold-text251">
+              <span className="all-facilities-of-marigold-text249">
                 All Images are for Demonstration Purpose, Customer Can Verify By
                 Taking Visits at Location.
               </span>
@@ -1347,18 +1333,18 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text115 {
             display: inline-block;
           }
-          .all-facilities-of-marigold-text116 {
-            display: inline-block;
-          }
-          .all-facilities-of-marigold-text117 {
-            display: inline-block;
-          }
           .all-facilities-of-marigold-container2 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
+          }
+          .all-facilities-of-marigold-text116 {
+            display: inline-block;
+          }
+          .all-facilities-of-marigold-text117 {
+            display: inline-block;
           }
           .all-facilities-of-marigold-text118 {
             display: inline-block;
@@ -1432,18 +1418,18 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text141 {
             display: inline-block;
           }
-          .all-facilities-of-marigold-text142 {
-            display: inline-block;
-          }
-          .all-facilities-of-marigold-text143 {
-            display: inline-block;
-          }
           .all-facilities-of-marigold-container3 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
+          }
+          .all-facilities-of-marigold-text142 {
+            display: inline-block;
+          }
+          .all-facilities-of-marigold-text143 {
+            display: inline-block;
           }
           .all-facilities-of-marigold-text144 {
             display: inline-block;
@@ -1517,18 +1503,18 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text167 {
             display: inline-block;
           }
-          .all-facilities-of-marigold-text168 {
-            display: inline-block;
-          }
-          .all-facilities-of-marigold-text169 {
-            display: inline-block;
-          }
           .all-facilities-of-marigold-container4 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
+          }
+          .all-facilities-of-marigold-text168 {
+            display: inline-block;
+          }
+          .all-facilities-of-marigold-text169 {
+            display: inline-block;
           }
           .all-facilities-of-marigold-text170 {
             display: inline-block;
@@ -1551,10 +1537,10 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text176 {
             display: inline-block;
           }
-          .all-facilities-of-marigold-text177 {
+          .all-facilities-of-marigold-text179 {
             display: inline-block;
           }
-          .all-facilities-of-marigold-text178 {
+          .all-facilities-of-marigold-text180 {
             display: inline-block;
           }
           .all-facilities-of-marigold-text181 {
@@ -1602,18 +1588,18 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text195 {
             display: inline-block;
           }
-          .all-facilities-of-marigold-text196 {
-            display: inline-block;
-          }
-          .all-facilities-of-marigold-text197 {
-            display: inline-block;
-          }
           .all-facilities-of-marigold-container5 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
+          }
+          .all-facilities-of-marigold-text196 {
+            display: inline-block;
+          }
+          .all-facilities-of-marigold-text197 {
+            display: inline-block;
           }
           .all-facilities-of-marigold-text198 {
             display: inline-block;
@@ -1687,18 +1673,18 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text221 {
             display: inline-block;
           }
-          .all-facilities-of-marigold-text222 {
-            display: inline-block;
-          }
-          .all-facilities-of-marigold-text223 {
-            display: inline-block;
-          }
           .all-facilities-of-marigold-container6 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: center;
             flex-direction: column;
             justify-content: center;
+          }
+          .all-facilities-of-marigold-text222 {
+            display: inline-block;
+          }
+          .all-facilities-of-marigold-text223 {
+            display: inline-block;
           }
           .all-facilities-of-marigold-text224 {
             display: inline-block;
@@ -1773,12 +1759,6 @@ const AllFacilitiesOfMarigold = (props) => {
             display: inline-block;
           }
           .all-facilities-of-marigold-text248 {
-            display: inline-block;
-          }
-          .all-facilities-of-marigold-text249 {
-            display: inline-block;
-          }
-          .all-facilities-of-marigold-text250 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 12px;
@@ -1786,7 +1766,7 @@ const AllFacilitiesOfMarigold = (props) => {
             font-family: 'Ubuntu';
             font-weight: 300;
           }
-          .all-facilities-of-marigold-text251 {
+          .all-facilities-of-marigold-text249 {
             display: inline-block;
           }
 
