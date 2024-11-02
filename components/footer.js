@@ -972,6 +972,7 @@ const Footer = (props) => {
             }
             .footer-footer-links3 {
               width: 60%;
+              flex-direction: row;
             }
           }
         `}
