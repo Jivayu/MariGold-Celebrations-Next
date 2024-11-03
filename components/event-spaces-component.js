@@ -13,6 +13,7 @@ const EventSpacesComponent = (props) => {
           alt={props.featureImageAlt}
           sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
           src="/images/Marigold Images/big-hall-1500w.webp"
+          loading="lazy"
           srcSet="/images/Marigold Images//big-hall-1500w.webp 1200w, /images/Marigold Images/big-hall-tablet.webp 800w, /images/Marigold Images/big-hall-mobile.webp 480w"
           className="thq-img-ratio-4-3 event-spaces-component-image1"
         />

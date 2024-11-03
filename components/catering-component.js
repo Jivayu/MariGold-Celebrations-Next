@@ -12,6 +12,7 @@ const CateringComponent = (props) => {
         <img
           alt={props.featureImageAlt2}
           src="/images/Marigold Images/buffet-2-200h.webp"
+          loading="lazy"
           className="thq-img-ratio-4-3 catering-component-image1"
         />
         <div className="catering-component-actions thq-flex-row">

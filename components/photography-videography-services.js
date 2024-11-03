@@ -14,6 +14,7 @@ const PhotographyVideographyServices = (props) => {
             alt={props.featureImageAlt311}
             sizes="(min-width: 992px) 1200px, (min-width: 768px) 800px, 480px"
             src="/images/Marigold Images/photo-video-services-1500w.webp"
+            loading="lazy"
             srcSet="/images/Marigold Images//photo-video-services-1500w.webp 1200w, /images/Marigold Images/photo-video-services-tablet.webp 800w, /images/Marigold Images/photo-video-services-mobile.webp 480w"
             className="thq-img-ratio-4-3 photography-videography-services-image1"
           />
