@@ -51,7 +51,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><style>\r\n  html {\r\n    scroll-behavior: smooth;\r\n  }\r\n</style>\r\n<script src="https://unpkg.com/scrollreveal"></script>\r\n<script>\r\n    ScrollReveal({ reset: true });\r\n</script><noscript>',
+                '</noscript><style>\r\n  html {\r\n    scroll-behavior: smooth;\r\n  }\r\n</style>\r\n<script src="https://unpkg.com/scrollreveal"></script>\r\n<script>\r\n    ScrollReveal({ reset: true });\r\n</script>\r\n<meta property="og:site_name" content="MariGold Celebration Hall"><noscript>',
             }}
           ></noscript>
         </Head>
