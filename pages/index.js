@@ -70,22 +70,22 @@ const Home = (props) => {
               <span className="home-text16">Facilities</span>
             </Fragment>
           }
-          login1={
-            <Fragment>
-              <span className="home-text17">Login</span>
-            </Fragment>
-          }
           register={
             <Fragment>
-              <span className="home-text18">Enquiry</span>
+              <span className="home-text17">Enquiry</span>
             </Fragment>
           }
           register1={
             <Fragment>
-              <span className="home-text19">Enquiry</span>
+              <span className="home-text18">Call Us Now !</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name"
+          register11={
+            <Fragment>
+              <span className="home-text19">Call Us Now !</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
         <Hero
           image4Src="/images/circle-background.svg"
@@ -573,6 +573,22 @@ const Home = (props) => {
           }
           .home-container5 {
             display: contents;
+          }
+          @media (max-width: 599px) {
+            .home-text18 {
+              font-size: 16px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.4;
+            }
+            .home-text19 {
+              font-size: 16px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.4;
+            }
           }
         `}
       </style>

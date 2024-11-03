@@ -29,7 +29,7 @@ const PageHeadersContacts = (props) => {
               <p className="page-headers-contacts-text2 thq-body-large">
                 {props.content1 ?? (
                   <Fragment>
-                    <span className="page-headers-contacts-text6">
+                    <span className="page-headers-contacts-text8">
                       Marigold Celebration Hall in Hingna, Nagpur, is designed
                       to offer an unmatched experience for every event, whether
                       it&apos;s a wedding, corporate function, birthday, or
@@ -46,7 +46,7 @@ const PageHeadersContacts = (props) => {
                 <span>
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="page-headers-contacts-text7">
+                      <span className="page-headers-contacts-text6">
                         Contact Us
                       </span>
                     </Fragment>
@@ -57,7 +57,7 @@ const PageHeadersContacts = (props) => {
                 <span>
                   {props.action2 ?? (
                     <Fragment>
-                      <span className="page-headers-contacts-text8">
+                      <span className="page-headers-contacts-text7">
                         View Event Spaces
                       </span>
                     </Fragment>
@@ -187,24 +187,24 @@ const PageHeadersContacts = (props) => {
 }
 
 PageHeadersContacts.defaultProps = {
-  rootClassName: '',
   backgroundImageAlt: 'Banquet Hall',
-  backgroundImageSrc:
-    'https://images.unsplash.com/photo-1617610690765-178c88b48d05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDE4MjE2NHw&ixlib=rb-4.0.3&q=80&w=1080',
   heading1: undefined,
-  content1: undefined,
   action1: undefined,
   action2: undefined,
+  content1: undefined,
+  rootClassName: '',
+  backgroundImageSrc:
+    'https://images.unsplash.com/photo-1617610690765-178c88b48d05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDE4MjE2NHw&ixlib=rb-4.0.3&q=80&w=1080',
 }
 
 PageHeadersContacts.propTypes = {
-  rootClassName: PropTypes.string,
   backgroundImageAlt: PropTypes.string,
-  backgroundImageSrc: PropTypes.string,
   heading1: PropTypes.element,
-  content1: PropTypes.element,
   action1: PropTypes.element,
   action2: PropTypes.element,
+  content1: PropTypes.element,
+  rootClassName: PropTypes.string,
+  backgroundImageSrc: PropTypes.string,
 }
 
 export default PageHeadersContacts

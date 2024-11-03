@@ -69,47 +69,47 @@ const Facilities = (props) => {
               <span className="facilities-text16">Facilities</span>
             </Fragment>
           }
-          login1={
-            <Fragment>
-              <span className="facilities-text17">Login</span>
-            </Fragment>
-          }
           mmenu1={
             <Fragment>
-              <span className="facilities-text18">Home</span>
+              <span className="facilities-text17">Home</span>
             </Fragment>
           }
           mmenu2={
             <Fragment>
-              <span className="facilities-text19">Facilities</span>
+              <span className="facilities-text18">Facilities</span>
             </Fragment>
           }
           mmenu3={
             <Fragment>
-              <span className="facilities-text20">Gallery</span>
+              <span className="facilities-text19">Gallery</span>
             </Fragment>
           }
           mmenu4={
             <Fragment>
-              <span className="facilities-text21">Events</span>
+              <span className="facilities-text20">Events</span>
             </Fragment>
           }
           mmenu5={
             <Fragment>
-              <span className="facilities-text22">Contacts</span>
+              <span className="facilities-text21">Contacts</span>
             </Fragment>
           }
           register={
             <Fragment>
-              <span className="facilities-text23">Enquiry</span>
+              <span className="facilities-text22">Enquiry</span>
             </Fragment>
           }
           register1={
             <Fragment>
-              <span className="facilities-text24">Enquiry</span>
+              <span className="facilities-text23">Call Us Now !</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name2"
+          register11={
+            <Fragment>
+              <span className="facilities-text24">Call Us Now !</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
         <PageHeadersFacilities
           action1={
@@ -393,6 +393,22 @@ const Facilities = (props) => {
           }
           .facilities-text51 {
             display: inline-block;
+          }
+          @media (max-width: 599px) {
+            .facilities-text23 {
+              font-size: 16px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.4;
+            }
+            .facilities-text24 {
+              font-size: 16px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.4;
+            }
           }
         `}
       </style>

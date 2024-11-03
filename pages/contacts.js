@@ -34,17 +34,19 @@ const Contacts = (props) => {
           <meta name="robots" content="noindex" />
         </Head>
         <PageHeadersContacts
-          heading1={
+          action1={
             <Fragment>
-              <span className="contacts-text10">
-                Welcome to Marigold Celebration Hall - Where Every Detail
-                Matters
-              </span>
+              <span className="contacts-text10">Contact Us</span>
+            </Fragment>
+          }
+          action2={
+            <Fragment>
+              <span className="contacts-text11">View Event Spaces</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="contacts-text11">
+              <span className="contacts-text12">
                 Marigold Celebration Hall in Hingna, Nagpur, is designed to
                 offer an unmatched experience for every event, whether it&apos;s
                 a wedding, corporate function, birthday, or grand celebration.
@@ -53,14 +55,12 @@ const Contacts = (props) => {
               </span>
             </Fragment>
           }
-          action1={
+          heading1={
             <Fragment>
-              <span className="contacts-text12">Contact Us</span>
-            </Fragment>
-          }
-          action2={
-            <Fragment>
-              <span className="contacts-text13">View Event Spaces</span>
+              <span className="contacts-text13">
+                Welcome to Marigold Celebration Hall - Where Every Detail
+                Matters
+              </span>
             </Fragment>
           }
           rootClassName="page-headers-contactsroot-class-name"
@@ -278,47 +278,47 @@ const Contacts = (props) => {
               <span className="contacts-text52">Facilities</span>
             </Fragment>
           }
-          login1={
-            <Fragment>
-              <span className="contacts-text53">Login</span>
-            </Fragment>
-          }
           mmenu1={
             <Fragment>
-              <span className="contacts-text54">Home</span>
+              <span className="contacts-text53">Home</span>
             </Fragment>
           }
           mmenu2={
             <Fragment>
-              <span className="contacts-text55">Facilities</span>
+              <span className="contacts-text54">Facilities</span>
             </Fragment>
           }
           mmenu3={
             <Fragment>
-              <span className="contacts-text56">Gallery</span>
+              <span className="contacts-text55">Gallery</span>
             </Fragment>
           }
           mmenu4={
             <Fragment>
-              <span className="contacts-text57">Events</span>
+              <span className="contacts-text56">Events</span>
             </Fragment>
           }
           mmenu5={
             <Fragment>
-              <span className="contacts-text58">Contacts</span>
+              <span className="contacts-text57">Contacts</span>
             </Fragment>
           }
           register={
             <Fragment>
-              <span className="contacts-text59">Enquiry</span>
+              <span className="contacts-text58">Enquiry</span>
             </Fragment>
           }
           register1={
             <Fragment>
-              <span className="contacts-text60">Enquiry</span>
+              <span className="contacts-text59">Call Us Now !</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name1"
+          register11={
+            <Fragment>
+              <span className="contacts-text60">Call Us Now !</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
       </div>
       <style jsx>
@@ -479,6 +479,22 @@ const Contacts = (props) => {
           }
           .contacts-text60 {
             display: inline-block;
+          }
+          @media (max-width: 599px) {
+            .contacts-text59 {
+              font-size: 16px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.4;
+            }
+            .contacts-text60 {
+              font-size: 16px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.4;
+            }
           }
         `}
       </style>

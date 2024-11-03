@@ -119,14 +119,14 @@ const EventSpacesComponent = (props) => {
 
 EventSpacesComponent.defaultProps = {
   action23: undefined,
-  featureImageAlt: 'Luxurious Venue at Marigold Banquet Hall',
   rootClassName: '',
+  featureImageAlt: 'Luxurious Venue at Marigold Banquet Hall',
 }
 
 EventSpacesComponent.propTypes = {
   action23: PropTypes.element,
-  featureImageAlt: PropTypes.string,
   rootClassName: PropTypes.string,
+  featureImageAlt: PropTypes.string,
 }
 
 export default EventSpacesComponent

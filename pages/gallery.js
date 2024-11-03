@@ -139,47 +139,47 @@ const Gallery = (props) => {
               <span className="gallery-text25">Facilities</span>
             </Fragment>
           }
-          login1={
-            <Fragment>
-              <span className="gallery-text26">Login</span>
-            </Fragment>
-          }
           mmenu1={
             <Fragment>
-              <span className="gallery-text27">Home</span>
+              <span className="gallery-text26">Home</span>
             </Fragment>
           }
           mmenu2={
             <Fragment>
-              <span className="gallery-text28">Facilities</span>
+              <span className="gallery-text27">Facilities</span>
             </Fragment>
           }
           mmenu3={
             <Fragment>
-              <span className="gallery-text29">Gallery</span>
+              <span className="gallery-text28">Gallery</span>
             </Fragment>
           }
           mmenu4={
             <Fragment>
-              <span className="gallery-text30">Events</span>
+              <span className="gallery-text29">Events</span>
             </Fragment>
           }
           mmenu5={
             <Fragment>
-              <span className="gallery-text31">Contacts</span>
+              <span className="gallery-text30">Contacts</span>
             </Fragment>
           }
           register={
             <Fragment>
-              <span className="gallery-text32">Enquiry</span>
+              <span className="gallery-text31">Enquiry</span>
             </Fragment>
           }
           register1={
             <Fragment>
-              <span className="gallery-text33">Enquiry</span>
+              <span className="gallery-text32">Call Us Now !</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name3"
+          register11={
+            <Fragment>
+              <span className="gallery-text33">Call Us Now !</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
         <Footer
           link1={
@@ -435,6 +435,22 @@ const Gallery = (props) => {
           }
           .gallery-text55 {
             display: inline-block;
+          }
+          @media (max-width: 599px) {
+            .gallery-text32 {
+              font-size: 16px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.4;
+            }
+            .gallery-text33 {
+              font-size: 16px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.4;
+            }
           }
         `}
       </style>
