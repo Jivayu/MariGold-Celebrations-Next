@@ -698,20 +698,26 @@ const NavbarInteractive = (props) => {
               border-color: var(--dl-color-primary-logo-color-1);
               border-width: 2px;
               border-radius: var(--dl-radius-radius-cardradius);
-              background-color: var(--dl-color-primary-richblue);
+              background-color: #080035;
               border-top-left-radius: var(--dl-radius-radius-buttonradius);
               border-top-right-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-nav {
               display: flex;
+              border-radius: var(--dl-radius-radius-radius4);
+              border-top-left-radius: var(--dl-radius-radius-buttonradius);
+              border-top-right-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-top {
               padding: var(--dl-space-space-unit);
               box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.25);
-              border-color: var(--dl-color-primary-richblue);
-              border-width: 1px;
+              border-color: var(--dl-color-primary-logo-color-2);
+              border-style: dotted;
+              border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
-              background-color: rgba(8, 0, 75, 0.9);
+              background-color: #0a0033;
+              border-bottom-left-radius: var(--dl-radius-radius-cardradius);
+              border-bottom-right-radius: var(--dl-radius-radius-cardradius);
             }
             .navbar-interactive-logo {
               height: 3.2rem;
@@ -733,60 +739,65 @@ const NavbarInteractive = (props) => {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 50%;
-              height: 34px;
+              height: 38px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.2;
-              border-color: var(--dl-color-primary-logo-color-2);
-              border-width: 1px;
+              line-height: 2.5;
+              border-color: var(--dl-color-primary-logo-color-1);
+              border-style: dotted;
+              border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link17 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 50%;
-              height: 34px;
+              height: 38px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.2;
-              border-color: var(--dl-color-primary-logo-color-2);
-              border-width: 1px;
+              line-height: 2.5;
+              border-color: var(--dl-color-primary-logo-color-1);
+              border-style: dotted;
+              border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link18 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 50%;
-              height: 34px;
+              height: 38px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.2;
-              border-color: var(--dl-color-primary-logo-color-2);
-              border-width: 1px;
+              line-height: 2.5;
+              border-color: var(--dl-color-primary-logo-color-1);
+              border-style: dotted;
+              border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link19 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 50%;
-              height: 34px;
+              height: 38px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.2;
-              border-color: var(--dl-color-primary-logo-color-2);
-              border-width: 1px;
+              line-height: 2.5;
+              border-color: var(--dl-color-primary-logo-color-1);
+              border-style: dotted;
+              border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link20 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 50%;
-              height: 34px;
+              height: 38px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.2;
-              border-color: var(--dl-color-primary-logo-color-2);
-              border-width: 1px;
+              line-height: 2.5;
+              border-color: var(--dl-color-primary-logo-color-1);
+              border-style: dotted;
+              border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-buttons2 {
