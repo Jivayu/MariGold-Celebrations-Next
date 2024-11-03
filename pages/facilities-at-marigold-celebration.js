@@ -105,26 +105,21 @@ const Facilities = (props) => {
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name2"
-          register11={
-            <Fragment>
-              <span className="facilities-text24">Call Us Now !</span>
-            </Fragment>
-          }
         ></NavbarInteractive>
         <PageHeadersFacilities
           action1={
             <Fragment>
-              <span className="facilities-text25">Contact Us</span>
+              <span className="facilities-text24">Contact Us</span>
             </Fragment>
           }
           action2={
             <Fragment>
-              <span className="facilities-text26">View Event Spaces</span>
+              <span className="facilities-text25">View Event Spaces</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="facilities-text27">
+              <span className="facilities-text26">
                 Marigold Celebration Hall in Hingna, Nagpur, is designed to
                 offer an unmatched experience for every event, whether it&apos;s
                 a wedding, corporate function, birthday, or grand celebration.
@@ -135,7 +130,7 @@ const Facilities = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="facilities-text28">Book Your Event Today</span>
+              <span className="facilities-text27">Book Your Event Today</span>
             </Fragment>
           }
           rootClassName="page-headers-facilitiesroot-class-name"
@@ -144,7 +139,7 @@ const Facilities = (props) => {
           rootClassName="all-facilities-of-marigoldroot-class-name"
           featureDescription212111={
             <Fragment>
-              <span className="facilities-text29">
+              <span className="facilities-text28">
                 All Images are for Demonstration Purpose, Customer Can Verify By
                 Taking Visits at Location.
               </span>
@@ -154,42 +149,42 @@ const Facilities = (props) => {
         <Footer
           link1={
             <Fragment>
-              <span className="facilities-text30">Home</span>
+              <span className="facilities-text29">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="facilities-text31">Facilities</span>
+              <span className="facilities-text30">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="facilities-text32">Gallery</span>
+              <span className="facilities-text31">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="facilities-text33">Events</span>
+              <span className="facilities-text32">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="facilities-text34">Contacts</span>
+              <span className="facilities-text33">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="facilities-text35">Corporate Events</span>
+              <span className="facilities-text34">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="facilities-text36">Weddings Plannings</span>
+              <span className="facilities-text35">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="facilities-text37">
+              <span className="facilities-text36">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -197,17 +192,17 @@ const Facilities = (props) => {
           }
           link9={
             <Fragment>
-              <span className="facilities-text40">Special Occasions</span>
+              <span className="facilities-text39">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="facilities-text41">Book Now</span>
+              <span className="facilities-text40">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="facilities-text42">
+              <span className="facilities-text41">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -216,47 +211,47 @@ const Facilities = (props) => {
           }
           content3={
             <Fragment>
-              <span className="facilities-text43">MariGold Celebration</span>
+              <span className="facilities-text42">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="facilities-text44">terms &amp; conditions.</span>
+              <span className="facilities-text43">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="facilities-text45">T &amp; C</span>
+              <span className="facilities-text44">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="facilities-text46">cookie policy.</span>
+              <span className="facilities-text45">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="facilities-text47">privacy policy.</span>
+              <span className="facilities-text46">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="facilities-text48">Contact Us</span>
+              <span className="facilities-text47">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="facilities-text49">Services</span>
+              <span className="facilities-text48">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="facilities-text50">C &amp; P</span>
+              <span className="facilities-text49">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="facilities-text51">P P</span>
+              <span className="facilities-text50">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name1"
@@ -355,7 +350,7 @@ const Facilities = (props) => {
           .facilities-text36 {
             display: inline-block;
           }
-          .facilities-text37 {
+          .facilities-text39 {
             display: inline-block;
           }
           .facilities-text40 {
@@ -391,18 +386,8 @@ const Facilities = (props) => {
           .facilities-text50 {
             display: inline-block;
           }
-          .facilities-text51 {
-            display: inline-block;
-          }
           @media (max-width: 599px) {
             .facilities-text23 {
-              font-size: 16px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
-              line-height: 1.4;
-            }
-            .facilities-text24 {
               font-size: 16px;
               font-style: normal;
               font-family: Ubuntu;

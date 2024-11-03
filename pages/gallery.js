@@ -175,51 +175,46 @@ const Gallery = (props) => {
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name3"
-          register11={
-            <Fragment>
-              <span className="gallery-text33">Call Us Now !</span>
-            </Fragment>
-          }
         ></NavbarInteractive>
         <Footer
           link1={
             <Fragment>
-              <span className="gallery-text34">Home</span>
+              <span className="gallery-text33">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="gallery-text35">Facilities</span>
+              <span className="gallery-text34">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="gallery-text36">Gallery</span>
+              <span className="gallery-text35">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="gallery-text37">Events</span>
+              <span className="gallery-text36">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="gallery-text38">Contacts</span>
+              <span className="gallery-text37">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="gallery-text39">Corporate Events</span>
+              <span className="gallery-text38">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="gallery-text40">Weddings Plannings</span>
+              <span className="gallery-text39">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="gallery-text41">
+              <span className="gallery-text40">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -227,17 +222,17 @@ const Gallery = (props) => {
           }
           link9={
             <Fragment>
-              <span className="gallery-text44">Special Occasions</span>
+              <span className="gallery-text43">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="gallery-text45">Book Now</span>
+              <span className="gallery-text44">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="gallery-text46">
+              <span className="gallery-text45">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -246,47 +241,47 @@ const Gallery = (props) => {
           }
           content3={
             <Fragment>
-              <span className="gallery-text47">MariGold Celebration</span>
+              <span className="gallery-text46">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="gallery-text48">terms &amp; conditions.</span>
+              <span className="gallery-text47">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="gallery-text49">T &amp; C</span>
+              <span className="gallery-text48">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="gallery-text50">cookie policy.</span>
+              <span className="gallery-text49">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="gallery-text51">privacy policy.</span>
+              <span className="gallery-text50">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="gallery-text52">Contact Us</span>
+              <span className="gallery-text51">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="gallery-text53">Services</span>
+              <span className="gallery-text52">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="gallery-text54">C &amp; P</span>
+              <span className="gallery-text53">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="gallery-text55">P P</span>
+              <span className="gallery-text54">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name3"
@@ -397,7 +392,7 @@ const Gallery = (props) => {
           .gallery-text40 {
             display: inline-block;
           }
-          .gallery-text41 {
+          .gallery-text43 {
             display: inline-block;
           }
           .gallery-text44 {
@@ -433,18 +428,8 @@ const Gallery = (props) => {
           .gallery-text54 {
             display: inline-block;
           }
-          .gallery-text55 {
-            display: inline-block;
-          }
           @media (max-width: 599px) {
             .gallery-text32 {
-              font-size: 16px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
-              line-height: 1.4;
-            }
-            .gallery-text33 {
               font-size: 16px;
               font-style: normal;
               font-family: Ubuntu;

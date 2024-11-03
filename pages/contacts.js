@@ -314,11 +314,6 @@ const Contacts = (props) => {
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name1"
-          register11={
-            <Fragment>
-              <span className="contacts-text60">Call Us Now !</span>
-            </Fragment>
-          }
         ></NavbarInteractive>
       </div>
       <style jsx>
@@ -477,18 +472,8 @@ const Contacts = (props) => {
           .contacts-text59 {
             display: inline-block;
           }
-          .contacts-text60 {
-            display: inline-block;
-          }
           @media (max-width: 599px) {
             .contacts-text59 {
-              font-size: 16px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
-              line-height: 1.4;
-            }
-            .contacts-text60 {
               font-size: 16px;
               font-style: normal;
               font-family: Ubuntu;

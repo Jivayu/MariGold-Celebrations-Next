@@ -33,7 +33,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link11">
                   {props.menu1 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text18">Home</span>
+                      <span className="navbar-interactive-text17">Home</span>
                     </Fragment>
                   )}
                 </a>
@@ -42,7 +42,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link12">
                   {props.menu2 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text17">
+                      <span className="navbar-interactive-text16">
                         Facilities
                       </span>
                     </Fragment>
@@ -52,7 +52,7 @@ const NavbarInteractive = (props) => {
               <span className="navbar-interactive-text10">
                 {props.menu6 ?? (
                   <Fragment>
-                    <span className="navbar-interactive-text27">
+                    <span className="navbar-interactive-text26">
                       Facilities
                     </span>
                   </Fragment>
@@ -62,7 +62,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link13">
                   {props.menu3 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text25">Gallery</span>
+                      <span className="navbar-interactive-text24">Gallery</span>
                     </Fragment>
                   )}
                 </a>
@@ -70,7 +70,7 @@ const NavbarInteractive = (props) => {
               <span className="navbar-interactive-text11">
                 {props.menu4 ?? (
                   <Fragment>
-                    <span className="navbar-interactive-text22">Events</span>
+                    <span className="navbar-interactive-text21">Events</span>
                   </Fragment>
                 )}
               </span>
@@ -78,7 +78,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link14">
                   {props.menu5 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text21">
+                      <span className="navbar-interactive-text20">
                         Contacts
                       </span>
                     </Fragment>
@@ -91,7 +91,7 @@ const NavbarInteractive = (props) => {
                 <span>
                   {props.login ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text23">Login</span>
+                      <span className="navbar-interactive-text22">Login</span>
                     </Fragment>
                   )}
                 </span>
@@ -103,7 +103,7 @@ const NavbarInteractive = (props) => {
                 <span className="navbar-interactive-text13">
                   {props.register ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text28">Enquiry</span>
+                      <span className="navbar-interactive-text27">Enquiry</span>
                     </Fragment>
                   )}
                 </span>
@@ -150,19 +150,19 @@ const NavbarInteractive = (props) => {
               </div>
               <nav className="navbar-interactive-links2">
                 <Link href="/">
-                  <a className="navbar-interactive-link16 menu">
+                  <a className="navbar-interactive-link16">
                     {props.mmenu1 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text16">Home</span>
+                        <span className="navbar-interactive-text15">Home</span>
                       </Fragment>
                     )}
                   </a>
                 </Link>
                 <Link href="/facilities-at-marigold-celebration">
-                  <a className="navbar-interactive-link17 menu">
+                  <a className="navbar-interactive-link17">
                     {props.mmenu2 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text26">
+                        <span className="navbar-interactive-text25">
                           Facilities
                         </span>
                       </Fragment>
@@ -170,10 +170,10 @@ const NavbarInteractive = (props) => {
                   </a>
                 </Link>
                 <Link href="/gallery">
-                  <a className="navbar-interactive-link18 menu">
+                  <a className="navbar-interactive-link18">
                     {props.mmenu3 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text24">
+                        <span className="navbar-interactive-text23">
                           Gallery
                         </span>
                       </Fragment>
@@ -181,10 +181,10 @@ const NavbarInteractive = (props) => {
                   </a>
                 </Link>
                 <Link href="/events">
-                  <a className="navbar-interactive-link19 menu">
+                  <a className="navbar-interactive-link19">
                     {props.mmenu4 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text20">
+                        <span className="navbar-interactive-text19">
                           Events
                         </span>
                       </Fragment>
@@ -192,10 +192,10 @@ const NavbarInteractive = (props) => {
                   </a>
                 </Link>
                 <Link href="/contacts">
-                  <a className="navbar-interactive-link20 menu">
+                  <a className="navbar-interactive-link20">
                     {props.mmenu5 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text29">
+                        <span className="navbar-interactive-text28">
                           Contacts
                         </span>
                       </Fragment>
@@ -206,28 +206,12 @@ const NavbarInteractive = (props) => {
               <div className="navbar-interactive-buttons2">
                 <a
                   href="tel:+919356251657"
-                  className="navbar-interactive-register1 button"
+                  className="navbar-interactive-register button"
                 >
                   <span className="navbar-interactive-text14">
                     {props.register1 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text19">
-                          Call Us Now !
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </a>
-              </div>
-              <div className="navbar-interactive-buttons-g-code">
-                <a
-                  href="tel:+919356251657"
-                  className="navbar-interactive-register2 button"
-                >
-                  <span className="navbar-interactive-text15">
-                    {props.register11 ?? (
-                      <Fragment>
-                        <span className="navbar-interactive-text30">
+                        <span className="navbar-interactive-text18">
                           Call Us Now !
                         </span>
                       </Fragment>
@@ -544,23 +528,48 @@ const NavbarInteractive = (props) => {
             flex-direction: column;
           }
           .navbar-interactive-link16 {
+            font-size: 14px;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+            line-height: 1.4;
             margin-bottom: var(--dl-space-space-unit);
+            text-transform: none;
             text-decoration: none;
           }
           .navbar-interactive-link17 {
+            font-size: 14px;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+            line-height: 1.4;
             margin-bottom: var(--dl-space-space-unit);
+            text-transform: none;
             text-decoration: none;
           }
           .navbar-interactive-link18 {
+            font-size: 14px;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+            line-height: 1.4;
             margin-bottom: var(--dl-space-space-unit);
+            text-transform: none;
             text-decoration: none;
           }
           .navbar-interactive-link19 {
+            font-size: 14px;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+            line-height: 1.4;
             margin-bottom: var(--dl-space-space-unit);
+            text-transform: none;
             text-decoration: none;
           }
           .navbar-interactive-link20 {
+            font-size: 14px;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+            line-height: 1.4;
             margin-bottom: var(--dl-space-space-unit);
+            text-transform: none;
             text-decoration: none;
           }
           .navbar-interactive-buttons2 {
@@ -570,28 +579,10 @@ const NavbarInteractive = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .navbar-interactive-register1 {
+          .navbar-interactive-register {
             text-decoration: none;
           }
           .navbar-interactive-text14 {
-            font-size: 14px;
-            font-family: 'Ubuntu';
-            font-weight: 400;
-            line-height: 1.4;
-            text-transform: none;
-            text-decoration: none;
-          }
-          .navbar-interactive-buttons-g-code {
-            display: flex;
-            margin-top: var(--dl-space-space-unit);
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .navbar-interactive-register2 {
-            text-decoration: none;
-          }
-          .navbar-interactive-text15 {
             font-size: 14px;
             font-family: 'Ubuntu';
             font-weight: 400;
@@ -615,6 +606,9 @@ const NavbarInteractive = (props) => {
           .navbar-interactive-icon18 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
+          }
+          .navbar-interactive-text15 {
+            display: inline-block;
           }
           .navbar-interactive-text16 {
             display: inline-block;
@@ -655,12 +649,6 @@ const NavbarInteractive = (props) => {
           .navbar-interactive-text28 {
             display: inline-block;
           }
-          .navbar-interactive-text29 {
-            display: inline-block;
-          }
-          .navbar-interactive-text30 {
-            display: inline-block;
-          }
 
           @media (max-width: 767px) {
             .navbar-interactive-navbar-interactive {
@@ -674,25 +662,6 @@ const NavbarInteractive = (props) => {
               display: flex;
               align-items: center;
               justify-content: center;
-            }
-            .navbar-interactive-link16 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .navbar-interactive-link17 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .navbar-interactive-link18 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .navbar-interactive-link19 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .navbar-interactive-link20 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 599px) {
@@ -708,7 +677,7 @@ const NavbarInteractive = (props) => {
             .navbar-interactive-image {
               flex: 1;
               width: auto;
-              height: 50px;
+              height: 3.2rem;
               align-self: center;
             }
             .navbar-interactive-desktop-menu {
@@ -719,73 +688,111 @@ const NavbarInteractive = (props) => {
             }
             .navbar-interactive-icon10 {
               fill: var(--dl-color-primary-logo-color-2);
-              width: var(--dl-size-size-small);
-              height: var(--dl-size-size-small);
+              flex: 1;
+              width: 34px;
+              height: 34px;
             }
             .navbar-interactive-mobile-menu {
               height: 90vh;
+              padding: var(--dl-space-space-oneandhalfunits);
               border-color: var(--dl-color-primary-logo-color-1);
               border-width: 2px;
               border-radius: var(--dl-radius-radius-cardradius);
               background-color: var(--dl-color-primary-richblue);
+              border-top-left-radius: var(--dl-radius-radius-buttonradius);
+              border-top-right-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-nav {
               display: flex;
             }
             .navbar-interactive-top {
               padding: var(--dl-space-space-unit);
-              box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.35);
-              border-color: #0c016b;
+              box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.25);
+              border-color: var(--dl-color-primary-richblue);
               border-width: 1px;
-              border-radius: var(--dl-radius-radius-inputradius);
-              background-color: #0c016b;
+              border-radius: var(--dl-radius-radius-buttonradius);
+              background-color: rgba(8, 0, 75, 0.9);
             }
             .navbar-interactive-logo {
               height: 3.2rem;
             }
             .navbar-interactive-icon12 {
               fill: var(--dl-color-primary-logo-color-2);
-              width: var(--dl-size-size-small);
-              height: var(--dl-size-size-small);
+              width: 34px;
+              height: 34px;
             }
             .navbar-interactive-links2 {
-              gap: var(--dl-space-space-unit);
-              width: 90%;
+              gap: var(--dl-space-space-halfunit);
+              width: 95%;
               align-self: center;
               align-items: center;
+              padding-top: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .navbar-interactive-link16 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
+              width: 50%;
+              height: 34px;
+              text-align: center;
+              font-family: Ubuntu;
+              line-height: 2.2;
+              border-color: var(--dl-color-primary-logo-color-2);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link17 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
+              width: 50%;
+              height: 34px;
+              text-align: center;
+              font-family: Ubuntu;
+              line-height: 2.2;
+              border-color: var(--dl-color-primary-logo-color-2);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link18 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
+              width: 50%;
+              height: 34px;
+              text-align: center;
+              font-family: Ubuntu;
+              line-height: 2.2;
+              border-color: var(--dl-color-primary-logo-color-2);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link19 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
+              width: 50%;
+              height: 34px;
+              text-align: center;
+              font-family: Ubuntu;
+              line-height: 2.2;
+              border-color: var(--dl-color-primary-logo-color-2);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link20 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
+              width: 50%;
+              height: 34px;
+              text-align: center;
+              font-family: Ubuntu;
+              line-height: 2.2;
+              border-color: var(--dl-color-primary-logo-color-2);
+              border-width: 1px;
+              border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-buttons2 {
               align-self: center;
             }
-            .navbar-interactive-register1 {
-              border-color: var(--dl-color-primary-logo-color-2);
-            }
-            .navbar-interactive-buttons-g-code {
-              height: 62px;
-              align-self: center;
-            }
-            .navbar-interactive-register2 {
-              display: none;
+            .navbar-interactive-register {
               border-color: var(--dl-color-primary-logo-color-2);
             }
             .navbar-interactive-icon-group {
@@ -848,14 +855,7 @@ const NavbarInteractive = (props) => {
               animation-iteration-count: 1;
               animation-timing-function: ease;
             }
-            .navbar-interactive-text19 {
-              font-size: 16px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
-              line-height: 1.4;
-            }
-            .navbar-interactive-text30 {
+            .navbar-interactive-text18 {
               font-size: 16px;
               font-style: normal;
               font-family: Ubuntu;
@@ -874,9 +874,15 @@ const NavbarInteractive = (props) => {
           @media (max-width: 399px) {
             .navbar-interactive-navbar-interactive {
               padding-top: var(--dl-space-space-halfunit);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-halfunit);
+            }
+            .navbar-interactive-mobile-menu {
+              padding: 14px;
+            }
+            .navbar-interactive-links2 {
+              width: 100%;
             }
             .navbar-interactive-icon14 {
               fill: auto;
@@ -944,7 +950,6 @@ NavbarInteractive.defaultProps = {
   logoSrc: '/images/marigold-logo1.svg',
   register: undefined,
   mmenu5: undefined,
-  register11: undefined,
 }
 
 NavbarInteractive.propTypes = {
@@ -967,7 +972,6 @@ NavbarInteractive.propTypes = {
   logoSrc: PropTypes.string,
   register: PropTypes.element,
   mmenu5: PropTypes.element,
-  register11: PropTypes.element,
 }
 
 export default NavbarInteractive
