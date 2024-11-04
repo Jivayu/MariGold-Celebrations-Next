@@ -32,7 +32,6 @@ const Home = (props) => {
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/de8e8e6e-fc3c-415d-9c09-ba0a82a476a4/42106b50-e92f-4e84-9bef-5b227b11f29d?org_if_sml=1&amp;force_format=original"
           />
-          <meta name="robots" content="noindex" />
         </Head>
         <NavbarInteractive
           login={

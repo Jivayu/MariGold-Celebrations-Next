@@ -31,7 +31,6 @@ const Contacts = (props) => {
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/de8e8e6e-fc3c-415d-9c09-ba0a82a476a4/7f7d755a-0d03-4715-ab49-e885ec4ae90d?org_if_sml=1&amp;force_format=original"
           />
-          <meta name="robots" content="noindex" />
         </Head>
         <PageHeadersContacts
           action1={

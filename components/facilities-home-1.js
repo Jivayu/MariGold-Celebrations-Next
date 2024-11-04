@@ -24,7 +24,7 @@ const FacilitiesHome1 = (props) => {
             <h2 className="facilities-home-1-text11">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="facilities-home-1-text37">
+                  <span className="facilities-home-1-text29">
                     Facilities At Marigold Celebration
                   </span>
                 </Fragment>
@@ -34,7 +34,7 @@ const FacilitiesHome1 = (props) => {
           <div className="facilities-home-1-content1">
             <div className="thq-grid-5">
               <div className="facilities-home-1-container10 UbuntuLight-14 thq-flex-column">
-                <div className="facilities-home-1-feature1 UbuntuLight-14 thq-flex-column">
+                <div className="facilities-home-1-feature11 UbuntuLight-14 thq-flex-column">
                   <div className="facilities-home-1-container11 thq-team-image-round">
                     <svg
                       width="24"
@@ -58,7 +58,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title11 h2Light">
                         {props.feature1Title ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text15">
+                            <span className="facilities-home-1-text14">
                               <span>Spacious Venue with Capacity</span>
                               <br></br>
                             </span>
@@ -69,7 +69,7 @@ const FacilitiesHome1 = (props) => {
                     <span className="facilities-home-1-description11 P-Light">
                       {props.feature1Description ?? (
                         <Fragment>
-                          <span className="facilities-home-1-text36">
+                          <span className="facilities-home-1-text27">
                             Our expansive banquet hall can accommodate up to
                             2000 guests comfortably. Whether you’re planning an
                             extravagant wedding or an intimate gathering, our
@@ -82,9 +82,9 @@ const FacilitiesHome1 = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="facilities-home-1-feature2 UbuntuLight-14 thq-flex-column">
-                <div className="facilities-home-1-container13">
-                  <div className="facilities-home-1-container14">
+              <div className="facilities-home-1-container13 UbuntuLight-14 thq-flex-column">
+                <div className="facilities-home-1-feature12 UbuntuLight-14 thq-flex-column">
+                  <div className="facilities-home-1-container14 thq-team-image-round">
                     <svg
                       width="48"
                       height="48"
@@ -105,63 +105,50 @@ const FacilitiesHome1 = (props) => {
                         <path d="M28 10V8a4 4 0 0 0-8 0v2"></path>
                       </g>
                     </svg>
-                    <svg
-                      width="32"
-                      height="32"
-                      viewBox="0 0 32 32"
-                      className="facilities-home-1-icon18 thq-team-image-round"
-                    >
-                      <g fill="currentColor">
-                        <path d="M8.5 6.128a.984.984 0 0 0-1.39 0l-1.629 1.63a.984.984 0 0 0 0 1.389l.897.897a11.4 11.4 0 0 1 2.895-3.142zm16.598 16.599a11.4 11.4 0 0 1-3.142 2.895l.898.897a.984.984 0 0 0 1.388 0l1.63-1.63a.984.984 0 0 0 0-1.388zM15.26 12.28a.627.627 0 0 1-.42.782l-2.293.686a.628.628 0 1 1-.36-1.204l2.292-.686c.332-.1.682.09.782.422m4.106 2.172a.63.63 0 0 1 .52.72l-.382 2.363a.628.628 0 0 1-1.24-.2l.382-2.363a.63.63 0 0 1 .72-.52m-4.339 6.018a.628.628 0 0 0 .884-.893l-1.7-1.684a.628.628 0 0 0-.884.892zm2.96-7.877a.662.662 0 1 1-.935-.936a.662.662 0 0 1 .935.936m1.272 8.039a.662.662 0 1 1-.936-.936a.662.662 0 0 1 .935.936m-8.834-2.831a.662.662 0 1 0 .936-.935a.662.662 0 0 0-.936.935"></path>
-                        <path d="M22.059 22.059A8.568 8.568 0 1 1 9.941 9.941a8.568 8.568 0 0 1 12.116 12.116m-5.176.93c.485.079.966.156 1.402.02c.446-.145.79-.495 1.132-.845c.208-.212.415-.424.645-.589c.227-.162.488-.293.75-.423c.44-.22.882-.44 1.16-.817c.273-.37.345-.854.418-1.34c.043-.294.087-.588.175-.858c.083-.255.215-.506.348-.76c.229-.437.463-.883.463-1.377c0-.483-.233-.931-.462-1.371a5 5 0 0 1-.349-.765c-.088-.271-.133-.566-.178-.86c-.074-.483-.148-.966-.414-1.34c-.275-.382-.72-.6-1.162-.82a5.3 5.3 0 0 1-.749-.419a5.4 5.4 0 0 1-.62-.57c-.35-.356-.703-.717-1.157-.865c-.43-.14-.905-.061-1.39.019a5.6 5.6 0 0 1-.895.098c-.29 0-.587-.048-.883-.096c-.485-.078-.966-.156-1.402-.02c-.446.145-.79.496-1.132.845c-.208.212-.415.424-.645.59a5.5 5.5 0 0 1-.75.422c-.44.22-.882.44-1.16.817c-.273.37-.345.854-.418 1.34a5.3 5.3 0 0 1-.175.859a5 5 0 0 1-.348.759c-.23.437-.463.884-.463 1.377c0 .483.233.931.462 1.371c.134.257.265.51.349.766c.088.27.133.565.178.859c.074.484.148.966.414 1.34c.275.382.72.601 1.162.82c.262.128.523.257.749.42c.217.16.418.364.62.57c.35.355.703.716 1.157.864c.442.14.923.06 1.407-.02c.294-.048.59-.097.878-.097c.29 0 .587.048.883.096"></path>
-                        <path d="M4.216 3.233a5.08 5.08 0 0 1 7.178 0l.2.2c4.675-1.634 10.081-.586 13.82 3.153s4.787 9.146 3.153 13.82l.2.2a5.08 5.08 0 0 1 0 7.178l-1.63 1.63a5.08 5.08 0 0 1-7.179 0l-.543-.544a13.31 13.31 0 0 1-12.83-3.456A13.31 13.31 0 0 1 3.13 12.585l-.544-.543a5.08 5.08 0 0 1 0-7.179zM9.98 4.648a3.08 3.08 0 0 0-4.35 0L4 6.278a3.08 3.08 0 0 0 0 4.35l1.403 1.402A11.32 11.32 0 0 0 8 24a11.32 11.32 0 0 0 11.97 2.597L21.373 28a3.08 3.08 0 0 0 4.35 0l1.63-1.63a3.08 3.08 0 0 0 0-4.35l-1.142-1.141C28.221 16.673 27.483 11.483 24 8s-8.673-4.22-12.878-2.211z"></path>
-                      </g>
-                    </svg>
                     <img
-                      alt={props.feature2ImageAlt}
-                      src={props.feature2ImageSrc}
+                      alt={props.feature1ImageAlt1}
+                      src={props.feature1ImageSrc1}
                       className="facilities-home-1-image2 thq-team-image-round"
                     />
                   </div>
-                </div>
-                <div className="facilities-home-1-content3 UbuntuLight-14 thq-flex-column">
-                  <div className="facilities-home-1-container15">
-                    <h3 className="facilities-home-1-title12 h2Light">
-                      {props.feature2Title ?? (
+                  <div className="facilities-home-1-content3 UbuntuLight-14 thq-flex-column">
+                    <div className="facilities-home-1-container15">
+                      <h3 className="facilities-home-1-title12 h2Light">
+                        {props.feature1Title1 ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text28">
+                              Fine Dining Catering
+                            </span>
+                          </Fragment>
+                        )}
+                      </h3>
+                    </div>
+                    <span className="facilities-home-1-description12 P-Light">
+                      {props.feature1Description1 ?? (
                         <Fragment>
-                          <span className="facilities-home-1-text32">
-                            <span>Fine Dining Catering</span>
-                            <br></br>
+                          <span className="facilities-home-1-text21">
+                            We offer customizable catering options to suit any
+                            event style. From lavish multi-course dinners to
+                            casual buffets, our in-house culinary team crafts
+                            delicious, bespoke menus that reflect your taste and
+                            preferences. Whether it’s traditional or
+                            contemporary cuisine, our chefs ensure a delightful
+                            dining experience for your guests.
                           </span>
                         </Fragment>
                       )}
-                    </h3>
+                    </span>
                   </div>
-                  <span className="facilities-home-1-description12 P-Light">
-                    {props.feature2Description ?? (
-                      <Fragment>
-                        <span className="facilities-home-1-text35">
-                          We offer customizable catering options to suit any
-                          event style. From lavish multi-course dinners to
-                          casual buffets, our in-house culinary team crafts
-                          delicious, bespoke menus that reflect your taste and
-                          preferences. Whether it’s traditional or contemporary
-                          cuisine, our chefs ensure a delightful dining
-                          experience for your guests.
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
                 </div>
               </div>
-              <div className="facilities-home-1-feature3 UbuntuLight-14 thq-flex-column">
-                <div className="facilities-home-1-container16">
-                  <div className="facilities-home-1-container17">
+              <div className="facilities-home-1-container16 UbuntuLight-14 thq-flex-column">
+                <div className="facilities-home-1-feature13 UbuntuLight-14 thq-flex-column">
+                  <div className="facilities-home-1-container17 thq-team-image-round">
                     <svg
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
-                      className="facilities-home-1-icon23 thq-team-image-round"
+                      className="facilities-home-1-icon18 thq-team-image-round"
                     >
                       <path
                         d="M19.65 4.5L16.91.96l3.93-.78l.78 3.92zm-2.94.57l-2.74-3.53l-1.97.39l2.75 3.53zm-4.9.98L9.07 2.5l-1.97.41l2.75 3.53zM4.16 3.5l-.98.19a1.995 1.995 0 0 0-1.57 2.35L2 8l4.9-.97zM22 8v10c0 1.11-.89 2-2 2H4a2 2 0 0 1-2-2V8zm-2 2H4v8h16zM7 24h2v-2H7zm8 0h2v-2h-2zm-4 0h2v-2h-2z"
@@ -169,145 +156,147 @@ const FacilitiesHome1 = (props) => {
                       ></path>
                     </svg>
                     <img
-                      alt={props.feature3ImageAlt}
-                      src={props.feature3ImageSrc}
+                      alt={props.feature1ImageAlt11}
+                      src={props.feature1ImageSrc11}
                       className="facilities-home-1-image3 thq-team-image-round"
                     />
                   </div>
-                </div>
-                <div className="facilities-home-1-content4 UbuntuLight-14 thq-flex-column">
-                  <div className="facilities-home-1-container18">
-                    <h3 className="facilities-home-1-title13 h2Light">
-                      {props.feature3Title ?? (
+                  <div className="facilities-home-1-content4 UbuntuLight-14 thq-flex-column">
+                    <div className="facilities-home-1-container18">
+                      <h3 className="facilities-home-1-title13 h2Light">
+                        {props.feature1Title11 ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text26">
+                              Photography &amp; Videography Services 
+                            </span>
+                          </Fragment>
+                        )}
+                      </h3>
+                    </div>
+                    <span className="facilities-home-1-description13 P-Light">
+                      {props.feature1Description11 ?? (
                         <Fragment>
-                          <span className="facilities-home-1-text24">
-                            <span>Photography &amp; Videography Services </span>
-                            <br className="h2Light"></br>
+                          <span className="facilities-home-1-text23">
+                            Preserve every special moment with our professional
+                            photography and videography services. Our
+                            experienced team specializes in capturing the
+                            essence of your event, whether it’s candid wedding
+                            moments or corporate highlights. We also provide
+                            event videography, ensuring that every detail is
+                            documented in high quality.
                           </span>
                         </Fragment>
                       )}
-                    </h3>
+                    </span>
                   </div>
-                  <span className="facilities-home-1-description13 P-Light">
-                    {props.feature3Description ?? (
-                      <Fragment>
-                        <span className="facilities-home-1-text20">
-                          Preserve every special moment with our professional
-                          photography and videography services. Our experienced
-                          team specializes in capturing the essence of your
-                          event, whether it’s candid wedding moments or
-                          corporate highlights. We also provide event
-                          videography, ensuring that every detail is documented
-                          in high quality.
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
                 </div>
               </div>
-              <div className="facilities-home-1-feature4 UbuntuLight-14 thq-flex-column">
-                <div className="facilities-home-1-container19">
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    className="facilities-home-1-icon25 thq-team-image-round"
-                  >
-                    <g fill="currentColor">
-                      <path d="M16.48 3.03c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0V4.94a1.923 1.923 0 0 0-1.91-1.91"></path>
-                      <path d="M13.81 12.1V6.56c0 1.47 1.2 2.67 2.67 2.67s2.67-1.2 2.67-2.67v7.06h-5.34v1.28h5.34v.2h.016a2.677 2.677 0 0 0 2.654 2.38a2.677 2.677 0 0 0 2.654-2.38h.016v3.557h-5.31v1.28h5.31v3.676l1.054-1.492l-.714-1.97a.5.5 0 0 1 .94-.341l.477 1.315l.722-1.022l-.708-1.93a.5.5 0 0 1 .938-.345l.471 1.282l.812-1.148a.5.5 0 0 1 .816.576l-.812 1.15l1.368.012a.5.5 0 1 1-.008 1l-2.062-.018l-.697.987l1.327.011a.5.5 0 1 1-.008 1l-2.02-.017L25.44 24h-.951h1.58c.24 0 .42.19.42.42v5.19c0 .31-.25.57-.57.57H7.03c-.31 0-.57-.26-.57-.57v-5.19c0-.23.19-.42.42-.42h.63l-.08-.143l-1.103-.41l-.996.928a.5.5 0 1 1-.682-.73l.63-.588l-.661-.246l-1.37.984a.425.425 0 0 1-.496-.69l.906-.651l-.792-.295a.5.5 0 0 1 .348-.938l.724.27l-.268-.979a.425.425 0 1 1 .82-.224l.429 1.568l1.76.654l-1.248-2.236a.5.5 0 0 1-.082-.147l-.996-1.783a.5.5 0 0 1 .874-.488l.618 1.108l.629-1.025a.5.5 0 1 1 .852.523l-.922 1.503l.468.84l.342-.557a.5.5 0 0 1 .852.524l-.635 1.034l1.039 1.862V18.12h5.34v-1.28H8.47V12.1h.016a2.677 2.677 0 0 0 2.654 2.38a2.677 2.677 0 0 0 2.654-2.38zm0 9.1v1.28h5.34V21.2zM7.46 25v2.61h18.03V25z"></path>
-                      <path d="M11.14 8.28c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0v-1.35a1.923 1.923 0 0 0-1.91-1.91m10.68 3c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0v-1.35a1.923 1.923 0 0 0-1.91-1.91"></path>
-                    </g>
-                  </svg>
-                  <img
-                    alt={props.feature4ImageAlt}
-                    src={props.feature4ImageSrc}
-                    className="facilities-home-1-image4 thq-team-image-round"
-                  />
-                </div>
-                <div className="facilities-home-1-content5 UbuntuLight-14 thq-flex-column">
-                  <div className="facilities-home-1-container20">
-                    <h3 className="facilities-home-1-title14 h2Light">
-                      {props.feature4Title ?? (
+              <div className="facilities-home-1-container19 UbuntuLight-14 thq-flex-column">
+                <div className="facilities-home-1-feature14 UbuntuLight-14 thq-flex-column">
+                  <div className="facilities-home-1-container20 thq-team-image-round">
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      className="facilities-home-1-icon20 thq-team-image-round"
+                    >
+                      <g fill="currentColor">
+                        <path d="M16.48 3.03c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0V4.94a1.923 1.923 0 0 0-1.91-1.91"></path>
+                        <path d="M13.81 12.1V6.56c0 1.47 1.2 2.67 2.67 2.67s2.67-1.2 2.67-2.67v7.06h-5.34v1.28h5.34v.2h.016a2.677 2.677 0 0 0 2.654 2.38a2.677 2.677 0 0 0 2.654-2.38h.016v3.557h-5.31v1.28h5.31v3.676l1.054-1.492l-.714-1.97a.5.5 0 0 1 .94-.341l.477 1.315l.722-1.022l-.708-1.93a.5.5 0 0 1 .938-.345l.471 1.282l.812-1.148a.5.5 0 0 1 .816.576l-.812 1.15l1.368.012a.5.5 0 1 1-.008 1l-2.062-.018l-.697.987l1.327.011a.5.5 0 1 1-.008 1l-2.02-.017L25.44 24h-.951h1.58c.24 0 .42.19.42.42v5.19c0 .31-.25.57-.57.57H7.03c-.31 0-.57-.26-.57-.57v-5.19c0-.23.19-.42.42-.42h.63l-.08-.143l-1.103-.41l-.996.928a.5.5 0 1 1-.682-.73l.63-.588l-.661-.246l-1.37.984a.425.425 0 0 1-.496-.69l.906-.651l-.792-.295a.5.5 0 0 1 .348-.938l.724.27l-.268-.979a.425.425 0 1 1 .82-.224l.429 1.568l1.76.654l-1.248-2.236a.5.5 0 0 1-.082-.147l-.996-1.783a.5.5 0 0 1 .874-.488l.618 1.108l.629-1.025a.5.5 0 1 1 .852.523l-.922 1.503l.468.84l.342-.557a.5.5 0 0 1 .852.524l-.635 1.034l1.039 1.862V18.12h5.34v-1.28H8.47V12.1h.016a2.677 2.677 0 0 0 2.654 2.38a2.677 2.677 0 0 0 2.654-2.38zm0 9.1v1.28h5.34V21.2zM7.46 25v2.61h18.03V25z"></path>
+                        <path d="M11.14 8.28c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0v-1.35a1.923 1.923 0 0 0-1.91-1.91m10.68 3c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0v-1.35a1.923 1.923 0 0 0-1.91-1.91"></path>
+                      </g>
+                    </svg>
+                    <img
+                      alt={props.feature1ImageAlt111}
+                      src={props.feature1ImageSrc111}
+                      className="facilities-home-1-image4 thq-team-image-round"
+                    />
+                  </div>
+                  <div className="facilities-home-1-content5 UbuntuLight-14 thq-flex-column">
+                    <div className="facilities-home-1-container21">
+                      <h3 className="facilities-home-1-title14 h2Light">
+                        {props.feature1Title111 ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text22">
+                              Décor &amp; Design Services
+                            </span>
+                          </Fragment>
+                        )}
+                      </h3>
+                    </div>
+                    <span className="facilities-home-1-description14 P-Light">
+                      {props.feature1Description111 ?? (
                         <Fragment>
-                          <span className="facilities-home-1-text21">
-                            <span>Décor &amp; Design Services</span>
-                            <br></br>
+                          <span className="facilities-home-1-text17">
+                            Our dedicated décor team works closely with you to
+                            bring your vision to life. From elegant wedding
+                            themes to corporate setups, we provide tailored
+                            decoration services that match your event’s style.
+                            Whether you’re looking for luxurious floral
+                            arrangements or modern minimalist designs, we have
+                            you covered.
                           </span>
                         </Fragment>
                       )}
-                    </h3>
+                    </span>
                   </div>
-                  <span className="facilities-home-1-description14 P-Light">
-                    {props.feature4Description ?? (
-                      <Fragment>
-                        <span className="facilities-home-1-text14">
-                          Our dedicated décor team works closely with you to
-                          bring your vision to life. From elegant wedding themes
-                          to corporate setups, we provide tailored decoration
-                          services that match your event’s style. Whether you’re
-                          looking for luxurious floral arrangements or modern
-                          minimalist designs, we have you covered.
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
                 </div>
               </div>
-              <div className="facilities-home-1-feature5 UbuntuLight-14 thq-flex-column">
-                <div className="facilities-home-1-container21">
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    className="facilities-home-1-icon30 thq-team-image-round"
-                  >
-                    <path
-                      d="M14 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H17v11.5a.5.5 0 0 1-1 0V7h-1.5a.5.5 0 0 1-.5-.5zM13 3H6.14a2.5 2.5 0 0 0-2.452 2.01L3.49 6h-.74a.75.75 0 0 0 0 1.5h.44l-.111.56A1.5 1.5 0 0 0 2 9.5v5A1.5 1.5 0 0 0 3.5 16H4v1a1 1 0 1 0 2 0v-1h8v1a1 1 0 0 0 1 1v-3H3.5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5H15V8H4.11l.559-2.794A1.5 1.5 0 0 1 6.139 4H13zm2 9a1 1 0 1 0-2 0a1 1 0 0 0 2 0m-8 0a1 1 0 1 0-2 0a1 1 0 0 0 2 0"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                  <img
-                    alt={props.feature5ImageAlt}
-                    src={props.feature5ImageSrc}
-                    className="facilities-home-1-image5 thq-team-image-round"
-                  />
-                </div>
-                <div className="facilities-home-1-content6 UbuntuLight-14 thq-flex-column">
-                  <div className="facilities-home-1-container22">
-                    <h3 className="facilities-home-1-title15 h2Light">
-                      {props.feature5Title ?? (
+              <div className="facilities-home-1-container22 UbuntuLight-14 thq-flex-column">
+                <div className="facilities-home-1-feature15 UbuntuLight-14 thq-flex-column">
+                  <div className="facilities-home-1-container23 thq-team-image-round">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      className="facilities-home-1-icon25 thq-team-image-round"
+                    >
+                      <path
+                        d="M14 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5H17v11.5a.5.5 0 0 1-1 0V7h-1.5a.5.5 0 0 1-.5-.5zM13 3H6.14a2.5 2.5 0 0 0-2.452 2.01L3.49 6h-.74a.75.75 0 0 0 0 1.5h.44l-.111.56A1.5 1.5 0 0 0 2 9.5v5A1.5 1.5 0 0 0 3.5 16H4v1a1 1 0 1 0 2 0v-1h8v1a1 1 0 0 0 1 1v-3H3.5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5H15V8H4.11l.559-2.794A1.5 1.5 0 0 1 6.139 4H13zm2 9a1 1 0 1 0-2 0a1 1 0 0 0 2 0m-8 0a1 1 0 1 0-2 0a1 1 0 0 0 2 0"
+                        fill="currentColor"
+                      ></path>
+                    </svg>
+                    <img
+                      alt={props.feature1ImageAlt1111}
+                      src={props.feature1ImageSrc1111}
+                      className="facilities-home-1-image5 thq-team-image-round"
+                    />
+                  </div>
+                  <div className="facilities-home-1-content6 UbuntuLight-14 thq-flex-column">
+                    <div className="facilities-home-1-container24">
+                      <h3 className="facilities-home-1-title15 h2Light">
+                        {props.feature1Title1111 ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text24">
+                              Parking &amp; Accessibility
+                            </span>
+                          </Fragment>
+                        )}
+                      </h3>
+                    </div>
+                    <span className="facilities-home-1-description15 P-Light">
+                      {props.feature1Description1111 ?? (
                         <Fragment>
-                          <span className="facilities-home-1-text27">
-                            <span>Parking &amp; Accessibility</span>
-                            <br></br>
+                          <span className="facilities-home-1-text19">
+                            Our venue offers ample parking space to accommodate
+                            all your guests, ensuring a stress-free arrival
+                            experience. For added convenience, we provide lift
+                            access to all levels, making the venue fully
+                            accessible to everyone. Additionally, our venue’s
+                            iconic central location in Hingna, Nagpur, is easily
+                            accessible from all parts of the city.
                           </span>
                         </Fragment>
                       )}
-                    </h3>
+                    </span>
                   </div>
-                  <span className="facilities-home-1-description15 P-Light">
-                    {props.feature5Description ?? (
-                      <Fragment>
-                        <span className="facilities-home-1-text31">
-                          Our venue offers ample parking space to accommodate
-                          all your guests, ensuring a stress-free arrival
-                          experience. For added convenience, we provide lift
-                          access to all levels, making the venue fully
-                          accessible to everyone. Additionally, our venue’s
-                          iconic central location in Hingna, Nagpur, is easily
-                          accessible from all parts of the city.
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
                 </div>
               </div>
             </div>
             <p className="facilities-home-1-text12 p">
               {props.sectionDescription ?? (
                 <Fragment>
-                  <span className="facilities-home-1-text19">
+                  <span className="facilities-home-1-text20">
                     At Marigold Banquet Hall, we offer an exceptional range of
                     facilities to ensure your event is as smooth, memorable, and
                     stress-free as possible. Our venue is designed to cater to
@@ -323,7 +312,7 @@ const FacilitiesHome1 = (props) => {
                   <a className="facilities-home-1-link thq-button-outline">
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="facilities-home-1-text30">
+                        <span className="facilities-home-1-text25">
                           Explore Our Facilities
                         </span>
                       </Fragment>
@@ -357,7 +346,7 @@ const FacilitiesHome1 = (props) => {
             flex-direction: column;
           }
           .facilities-home-1-section-title {
-            gap: var(--dl-space-space-unit);
+            gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
           .facilities-home-1-text10 {
@@ -394,7 +383,7 @@ const FacilitiesHome1 = (props) => {
             background-repeat: no-repeat;
             background-position: center;
           }
-          .facilities-home-1-feature1 {
+          .facilities-home-1-feature11 {
             gap: var(--dl-space-space-oneandhalfunits);
             flex: 1;
             transform: scale(0.98);
@@ -410,7 +399,7 @@ const FacilitiesHome1 = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             background-color: rgba(0, 0, 0, 0.5);
           }
-          .facilities-home-1-feature1:hover {
+          .facilities-home-1-feature11:hover {
             transform: scale(1);
             background-color: rgba(0, 0, 0, 0.6);
           }
@@ -421,8 +410,8 @@ const FacilitiesHome1 = (props) => {
             justify-content: center;
           }
           .facilities-home-1-icon10 {
-            fill: var(--dl-color-primary-logo-color-3);
-            color: var(--dl-color-primary-logo-color-3);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             padding: var(--dl-space-space-halfunit);
             border-color: var(--dl-color-theme-accent1);
             border-style: dotted;
@@ -454,9 +443,21 @@ const FacilitiesHome1 = (props) => {
             text-align: left;
             padding-left: var(--dl-space-space-halfunit);
           }
-          .facilities-home-1-feature2 {
-            gap: var(--dl-space-space-unit);
+          .facilities-home-1-container13 {
+            flex: 0 0 auto;
             width: auto;
+            height: auto;
+            display: flex;
+            border-radius: var(--dl-radius-radius-buttonradius);
+            flex-direction: column;
+            background-size: cover;
+            background-image: url('/images/Marigold Images/buffet-2-200h.webp');
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+          .facilities-home-1-feature12 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
             transform: scale(0.98);
             transition: 0.3s;
             align-items: center;
@@ -470,36 +471,24 @@ const FacilitiesHome1 = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             background-color: rgba(0, 0, 0, 0.5);
           }
-          .facilities-home-1-feature2:hover {
+          .facilities-home-1-feature12:hover {
             transform: scale(1);
-          }
-          .facilities-home-1-container13 {
-            flex: 0 0 auto;
-            width: auto;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.6);
           }
           .facilities-home-1-container14 {
             flex: 0 0 auto;
-            width: auto;
             display: flex;
             align-items: flex-start;
             justify-content: center;
           }
           .facilities-home-1-icon12 {
-            fill: var(--dl-color-primary-logo-color-3);
-            color: var(--dl-color-primary-logo-color-3);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             padding: var(--dl-space-space-halfunit);
             border-color: var(--dl-color-theme-accent1);
             border-style: dotted;
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
-          }
-          .facilities-home-1-icon18 {
-            fill: var(--dl-color-primary-logo-color-3);
-            color: var(--dl-color-primary-logo-color-3);
-            display: none;
           }
           .facilities-home-1-image2 {
             display: none;
@@ -526,9 +515,21 @@ const FacilitiesHome1 = (props) => {
             text-align: left;
             padding-left: var(--dl-space-space-halfunit);
           }
-          .facilities-home-1-feature3 {
-            gap: var(--dl-space-space-unit);
+          .facilities-home-1-container16 {
+            flex: 0 0 auto;
             width: auto;
+            height: auto;
+            display: flex;
+            border-radius: var(--dl-radius-radius-buttonradius);
+            flex-direction: column;
+            background-size: cover;
+            background-image: url('/images/Marigold Images/photo-video-services-200h.webp');
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+          .facilities-home-1-feature13 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
             transform: scale(0.98);
             transition: 0.3s;
             align-items: center;
@@ -542,15 +543,9 @@ const FacilitiesHome1 = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             background-color: rgba(0, 0, 0, 0.5);
           }
-          .facilities-home-1-feature3:hover {
+          .facilities-home-1-feature13:hover {
             transform: scale(1);
-          }
-          .facilities-home-1-container16 {
-            flex: 0 0 auto;
-            width: auto;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.6);
           }
           .facilities-home-1-container17 {
             flex: 0 0 auto;
@@ -558,9 +553,9 @@ const FacilitiesHome1 = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .facilities-home-1-icon23 {
-            fill: var(--dl-color-primary-logo-color-3);
-            color: var(--dl-color-primary-logo-color-3);
+          .facilities-home-1-icon18 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             padding: var(--dl-space-space-halfunit);
             border-color: var(--dl-color-theme-accent1);
             border-style: dotted;
@@ -592,9 +587,21 @@ const FacilitiesHome1 = (props) => {
             text-align: left;
             padding-left: var(--dl-space-space-halfunit);
           }
-          .facilities-home-1-feature4 {
-            gap: var(--dl-space-space-unit);
+          .facilities-home-1-container19 {
+            flex: 0 0 auto;
             width: auto;
+            height: auto;
+            display: flex;
+            border-radius: var(--dl-radius-radius-buttonradius);
+            flex-direction: column;
+            background-size: cover;
+            background-image: url('/images/Marigold Images/decor-2-200h.webp');
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+          .facilities-home-1-feature14 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
             transform: scale(0.98);
             transition: 0.3s;
             align-items: center;
@@ -608,19 +615,19 @@ const FacilitiesHome1 = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             background-color: rgba(0, 0, 0, 0.5);
           }
-          .facilities-home-1-feature4:hover {
+          .facilities-home-1-feature14:hover {
             transform: scale(1);
+            background-color: rgba(0, 0, 0, 0.6);
           }
-          .facilities-home-1-container19 {
+          .facilities-home-1-container20 {
             flex: 0 0 auto;
-            width: auto;
             display: flex;
             align-items: flex-start;
             justify-content: center;
           }
-          .facilities-home-1-icon25 {
-            fill: var(--dl-color-primary-logo-color-3);
-            color: var(--dl-color-primary-logo-color-3);
+          .facilities-home-1-icon20 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             padding: var(--dl-space-space-halfunit);
             border-color: var(--dl-color-theme-accent1);
             border-style: dotted;
@@ -633,7 +640,7 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-content5 {
             gap: var(--dl-space-space-halfunit);
           }
-          .facilities-home-1-container20 {
+          .facilities-home-1-container21 {
             height: 40px;
             display: flex;
             align-items: center;
@@ -652,8 +659,21 @@ const FacilitiesHome1 = (props) => {
             text-align: left;
             padding-left: var(--dl-space-space-halfunit);
           }
-          .facilities-home-1-feature5 {
-            gap: var(--dl-space-space-unit);
+          .facilities-home-1-container22 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            border-radius: var(--dl-radius-radius-buttonradius);
+            flex-direction: column;
+            background-size: cover;
+            background-image: url('/images/Marigold Images/parking-200h.webp');
+            background-repeat: no-repeat;
+            background-position: center;
+          }
+          .facilities-home-1-feature15 {
+            gap: var(--dl-space-space-oneandhalfunits);
+            flex: 1;
             transform: scale(0.98);
             transition: 0.3s;
             align-items: center;
@@ -667,24 +687,24 @@ const FacilitiesHome1 = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             background-color: rgba(0, 0, 0, 0.5);
           }
-          .facilities-home-1-feature5:hover {
+          .facilities-home-1-feature15:hover {
             transform: scale(1);
+            background-color: rgba(0, 0, 0, 0.6);
           }
-          .facilities-home-1-container21 {
+          .facilities-home-1-container23 {
             flex: 0 0 auto;
-            width: auto;
             display: flex;
-            padding: var(--dl-space-space-halfunit);
             align-items: flex-start;
+            justify-content: center;
+          }
+          .facilities-home-1-icon25 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            padding: var(--dl-space-space-halfunit);
             border-color: var(--dl-color-theme-accent1);
             border-style: dotted;
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
-            justify-content: center;
-          }
-          .facilities-home-1-icon30 {
-            fill: var(--dl-color-primary-logo-color-3);
-            color: var(--dl-color-primary-logo-color-3);
           }
           .facilities-home-1-image5 {
             display: none;
@@ -692,7 +712,7 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-content6 {
             gap: var(--dl-space-space-halfunit);
           }
-          .facilities-home-1-container22 {
+          .facilities-home-1-container24 {
             height: 40px;
             display: flex;
             align-items: center;
@@ -757,7 +777,7 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-text14 {
             display: inline-block;
           }
-          .facilities-home-1-text15 {
+          .facilities-home-1-text17 {
             display: inline-block;
           }
           .facilities-home-1-text18 {
@@ -772,29 +792,34 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-text21 {
             display: inline-block;
           }
+          .facilities-home-1-text22 {
+            display: inline-block;
+          }
+          .facilities-home-1-text23 {
+            display: inline-block;
+          }
           .facilities-home-1-text24 {
+            display: inline-block;
+          }
+          .facilities-home-1-text25 {
+            display: inline-block;
+          }
+          .facilities-home-1-text26 {
             display: inline-block;
           }
           .facilities-home-1-text27 {
             display: inline-block;
           }
-          .facilities-home-1-text30 {
+          .facilities-home-1-text28 {
             display: inline-block;
           }
-          .facilities-home-1-text31 {
+          .facilities-home-1-text29 {
             display: inline-block;
           }
-          .facilities-home-1-text32 {
-            display: inline-block;
-          }
-          .facilities-home-1-text35 {
-            display: inline-block;
-          }
-          .facilities-home-1-text36 {
-            display: inline-block;
-          }
-          .facilities-home-1-text37 {
-            display: inline-block;
+          @media (max-width: 991px) {
+            .facilities-home-1-layout302 {
+              display: none;
+            }
           }
           @media (max-width: 479px) {
             .facilities-home-1-max-width {
@@ -818,63 +843,63 @@ const FacilitiesHome1 = (props) => {
 }
 
 FacilitiesHome1.defaultProps = {
-  feature4Description: undefined,
+  feature1ImageSrc11:
+    'https://images.unsplash.com/photo-1464692805480-a69dfaafdb0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
+  feature1ImageSrc1:
+    'https://images.unsplash.com/photo-1464692805480-a69dfaafdb0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
   feature1Title: undefined,
   feature1ImageSrc:
     'https://images.unsplash.com/photo-1464692805480-a69dfaafdb0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
-  feature5ImageSrc:
-    'https://images.unsplash.com/photo-1712903277162-a151fbb661cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
+  feature1Description111: undefined,
   slogan: undefined,
-  feature4ImageSrc:
-    'https://images.unsplash.com/photo-1521034270290-43cb830a0713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2M3w&ixlib=rb-4.0.3&q=80&w=1500',
+  feature1Description1111: undefined,
   sectionDescription: undefined,
-  feature5ImageAlt: 'Events Information Image',
-  feature4ImageAlt: 'Gallery Image',
-  feature2ImageAlt: 'Facilities Image',
-  feature3Description: undefined,
-  feature4Title: undefined,
+  feature1Description1: undefined,
   feature1ImageAlt: 'Elegant Venues Image',
-  feature3Title: undefined,
-  feature3ImageAlt: 'Event Planning Image',
+  feature1ImageAlt111: 'Elegant Venues Image',
+  feature1Title111: undefined,
+  feature1ImageSrc111:
+    'https://images.unsplash.com/photo-1464692805480-a69dfaafdb0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
+  feature1Description11: undefined,
+  feature1ImageAlt11: 'Elegant Venues Image',
+  feature1ImageAlt1: 'Elegant Venues Image',
   rootClassName: '',
-  feature5Title: undefined,
+  feature1Title1111: undefined,
   action2: undefined,
-  feature3ImageSrc:
-    'https://images.unsplash.com/photo-1602562086757-78809c34ceb4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2Nnw&ixlib=rb-4.0.3&q=80&w=1500',
-  feature5Description: undefined,
-  feature2Title: undefined,
-  feature2Description: undefined,
+  feature1ImageSrc1111:
+    'https://images.unsplash.com/photo-1464692805480-a69dfaafdb0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
+  feature1ImageAlt1111: 'Elegant Venues Image',
+  feature1Title11: undefined,
   feature1Description: undefined,
-  feature2ImageSrc:
-    'https://images.unsplash.com/photo-1458336458944-27b9f90c7f38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2NXw&ixlib=rb-4.0.3&q=80&w=1500',
+  feature1Title1: undefined,
   sectionTitle: undefined,
 }
 
 FacilitiesHome1.propTypes = {
-  feature4Description: PropTypes.element,
+  feature1ImageSrc11: PropTypes.string,
+  feature1ImageSrc1: PropTypes.string,
   feature1Title: PropTypes.element,
   feature1ImageSrc: PropTypes.string,
-  feature5ImageSrc: PropTypes.string,
+  feature1Description111: PropTypes.element,
   slogan: PropTypes.element,
-  feature4ImageSrc: PropTypes.string,
+  feature1Description1111: PropTypes.element,
   sectionDescription: PropTypes.element,
-  feature5ImageAlt: PropTypes.string,
-  feature4ImageAlt: PropTypes.string,
-  feature2ImageAlt: PropTypes.string,
-  feature3Description: PropTypes.element,
-  feature4Title: PropTypes.element,
+  feature1Description1: PropTypes.element,
   feature1ImageAlt: PropTypes.string,
-  feature3Title: PropTypes.element,
-  feature3ImageAlt: PropTypes.string,
+  feature1ImageAlt111: PropTypes.string,
+  feature1Title111: PropTypes.element,
+  feature1ImageSrc111: PropTypes.string,
+  feature1Description11: PropTypes.element,
+  feature1ImageAlt11: PropTypes.string,
+  feature1ImageAlt1: PropTypes.string,
   rootClassName: PropTypes.string,
-  feature5Title: PropTypes.element,
+  feature1Title1111: PropTypes.element,
   action2: PropTypes.element,
-  feature3ImageSrc: PropTypes.string,
-  feature5Description: PropTypes.element,
-  feature2Title: PropTypes.element,
-  feature2Description: PropTypes.element,
+  feature1ImageSrc1111: PropTypes.string,
+  feature1ImageAlt1111: PropTypes.string,
+  feature1Title11: PropTypes.element,
   feature1Description: PropTypes.element,
-  feature2ImageSrc: PropTypes.string,
+  feature1Title1: PropTypes.element,
   sectionTitle: PropTypes.element,
 }
 

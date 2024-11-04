@@ -406,7 +406,7 @@
 }
 .thq-grid-5 {
   display: inline-grid;
-  grid-gap: var(--dl-space-space-halfunit);
+  grid-gap: var(--dl-space-space-unit);
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .thq-card {
