@@ -18,7 +18,7 @@ const AboutMariGold1 = (props) => {
         <div className="about-mari-gold-1-max-width thq-flex-row thq-section-max-width">
           <div className="about-mari-gold-1-section-title UbuntuLight-14 thq-flex-column">
             <div className="about-mari-gold-1-content UbuntuLight-14 thq-flex-column">
-              <h2
+              <h1
                 id="Best Banquet Hall &amp; Big Events Services in Hingna, Nagpur"
                 className="about-mari-gold-1-text10 Ubuntu-Light-16"
               >
@@ -30,7 +30,8 @@ const AboutMariGold1 = (props) => {
                     </span>
                   </Fragment>
                 )}
-              </h2>
+              </h1>
+              <div className="about-mari-gold-1-divider thq-divider-horizontal"></div>
               <p className="about-mari-gold-1-text11 UbuntuLight-14">
                 {props.content1 ?? (
                   <Fragment>
@@ -110,9 +111,9 @@ const AboutMariGold1 = (props) => {
                 onClick={() => setFaq1Visible(!faq1Visible)}
                 className="about-mari-gold-1-trigger1"
               >
-                <h3
+                <h2
                   id="Weddings &amp; Receptions | Engagement Ceremonies &amp; Pre-Wedding Functions."
-                  className="about-mari-gold-1-faq1-question h3"
+                  className="about-mari-gold-1-faq1-question UbuntuLight-14"
                 >
                   {props.faq1Question ?? (
                     <Fragment>
@@ -126,7 +127,7 @@ const AboutMariGold1 = (props) => {
                       </span>
                     </Fragment>
                   )}
-                </h3>
+                </h2>
                 <div className="about-mari-gold-1-icons-container1">
                   {!faq1Visible && (
                     <div>
@@ -185,9 +186,9 @@ const AboutMariGold1 = (props) => {
                 onClick={() => setFaq2Visible(!faq2Visible)}
                 className="about-mari-gold-1-trigger2"
               >
-                <h3
+                <h2
                   id="Birthday Parties &amp; Anniversaries | Social Gatherings &amp; Family Events."
-                  className="about-mari-gold-1-faq2-question1 h3"
+                  className="about-mari-gold-1-faq2-question1 UbuntuLight-14"
                 >
                   {props.faq2Question ?? (
                     <Fragment>
@@ -197,7 +198,7 @@ const AboutMariGold1 = (props) => {
                       </span>
                     </Fragment>
                   )}
-                </h3>
+                </h2>
                 <div className="about-mari-gold-1-icons-container2">
                   {!faq2Visible && (
                     <div>
@@ -255,9 +256,9 @@ const AboutMariGold1 = (props) => {
                 onClick={() => setFaq3Visible(!faq3Visible)}
                 className="about-mari-gold-1-trigger3"
               >
-                <h3
+                <h2
                   id="Corporate Events &amp; Conferences | Award Ceremonies &amp; Gala Dinners."
-                  className="about-mari-gold-1-faq2-question2 h3"
+                  className="about-mari-gold-1-faq2-question2 UbuntuLight-14"
                 >
                   {props.faq3Question ?? (
                     <Fragment>
@@ -267,7 +268,7 @@ const AboutMariGold1 = (props) => {
                       </span>
                     </Fragment>
                   )}
-                </h3>
+                </h2>
                 <div className="about-mari-gold-1-icons-container3">
                   {!faq3Visible && (
                     <div>
@@ -323,9 +324,9 @@ const AboutMariGold1 = (props) => {
                 onClick={() => setFaq4Visible(!faq4Visible)}
                 className="about-mari-gold-1-trigger4"
               >
-                <h3
+                <h2
                   id="Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows."
-                  className="about-mari-gold-1-faq2-question3 h3"
+                  className="about-mari-gold-1-faq2-question3 UbuntuLight-14"
                 >
                   {props.faq4Question ?? (
                     <Fragment>
@@ -335,7 +336,7 @@ const AboutMariGold1 = (props) => {
                       </span>
                     </Fragment>
                   )}
-                </h3>
+                </h2>
                 <div className="about-mari-gold-1-icons-container4">
                   {!faq4Visible && (
                     <div>
@@ -427,6 +428,9 @@ const AboutMariGold1 = (props) => {
           .about-mari-gold-1-text10 {
             fill: var(--dl-color-primary-logo-color-2);
             color: var(--dl-color-primary-logo-color-2);
+          }
+          .about-mari-gold-1-divider {
+            background-color: var(--dl-color-primary-logo-color-3);
           }
           .about-mari-gold-1-text11 {
             fill: var(--dl-color-primary-logo-color-1);

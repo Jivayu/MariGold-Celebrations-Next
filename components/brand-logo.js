@@ -35,6 +35,7 @@ const BrandLogo = (props) => {
           }
           .brand-logoroot-class-name1 {
             width: 100px;
+            display: none;
           }
           .brand-logoroot-class-name2 {
             flex: 1;

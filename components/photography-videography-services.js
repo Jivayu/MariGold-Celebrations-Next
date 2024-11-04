@@ -178,13 +178,6 @@ const PhotographyVideographyServices = (props) => {
           .photography-videography-services-premium-washrooms {
             gap: var(--dl-space-space-threeunits);
             position: relative;
-            border-color: var(--dl-color-primary-logo-color-3);
-            border-style: dotted;
-            border-width: 1px;
-            margin-bottom: var(--dl-space-space-halfunit);
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .photography-videography-services-container1 {
             max-width: 25%;

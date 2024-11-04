@@ -177,13 +177,7 @@ const SoundProofHall = (props) => {
           .sound-proof-hall-sound-proof-hall {
             gap: var(--dl-space-space-threeunits);
             position: relative;
-            border-color: var(--dl-color-primary-logo-color-3);
-            border-style: dotted;
-            border-width: 1px;
             margin-bottom: var(--dl-space-space-halfunit);
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .sound-proof-hall-container {
             gap: var(--dl-space-space-halfunit);

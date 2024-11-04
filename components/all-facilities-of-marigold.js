@@ -22,6 +22,7 @@ const AllFacilitiesOfMarigold = (props) => {
         className={`all-facilities-of-marigold-layout216 thq-section-padding ${props.rootClassName} `}
       >
         <div className="all-facilities-of-marigold-container1">
+          <div className="all-facilities-of-marigold-divider10 thq-divider-horizontal"></div>
           <SpaciousVenue
             slogan={
               <Fragment>
@@ -96,6 +97,7 @@ const AllFacilitiesOfMarigold = (props) => {
               </Fragment>
             }
           ></SpaciousVenue>
+          <div className="all-facilities-of-marigold-divider11 thq-divider-horizontal"></div>
           <TailoredCatering
             slogan2={
               <Fragment>
@@ -170,6 +172,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
           ></TailoredCatering>
         </div>
+        <div className="all-facilities-of-marigold-divider12 thq-divider-horizontal"></div>
         <div className="all-facilities-of-marigold-container2">
           <DecorServices
             slogan21={
@@ -278,6 +281,7 @@ const AllFacilitiesOfMarigold = (props) => {
               </Fragment>
             }
           ></DecorServices>
+          <div className="all-facilities-of-marigold-divider13 thq-divider-horizontal"></div>
           <SoundProofHall
             action233={
               <Fragment>
@@ -388,6 +392,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
           ></SoundProofHall>
         </div>
+        <div className="all-facilities-of-marigold-divider14 thq-divider-horizontal"></div>
         <div className="all-facilities-of-marigold-container3">
           <GuestRooms
             slogan212={
@@ -495,6 +500,7 @@ const AllFacilitiesOfMarigold = (props) => {
               </Fragment>
             }
           ></GuestRooms>
+          <div className="all-facilities-of-marigold-divider15 thq-divider-horizontal"></div>
           <ParkingFacilities
             action2331={
               <Fragment>
@@ -601,6 +607,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
           ></ParkingFacilities>
         </div>
+        <div className="all-facilities-of-marigold-divider16 thq-divider-horizontal"></div>
         <div className="all-facilities-of-marigold-container4">
           <LiftAccessibility
             slogan3={
@@ -712,6 +719,7 @@ const AllFacilitiesOfMarigold = (props) => {
               </Fragment>
             }
           ></LiftAccessibility>
+          <div className="all-facilities-of-marigold-divider17 thq-divider-horizontal"></div>
           <GeneratorBackup
             slogan22={
               <Fragment>
@@ -819,6 +827,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
           ></GeneratorBackup>
         </div>
+        <div className="all-facilities-of-marigold-divider18 thq-divider-horizontal"></div>
         <div className="all-facilities-of-marigold-container5">
           <PremiumWashrooms
             slogan31={
@@ -927,6 +936,7 @@ const AllFacilitiesOfMarigold = (props) => {
               </Fragment>
             }
           ></PremiumWashrooms>
+          <div className="all-facilities-of-marigold-divider19 thq-divider-horizontal"></div>
           <AudioVisualEquipment
             slogan221={
               <Fragment>
@@ -1036,6 +1046,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
           ></AudioVisualEquipment>
         </div>
+        <div className="all-facilities-of-marigold-divider20 thq-divider-horizontal"></div>
         <div className="all-facilities-of-marigold-container6">
           <PhotographyVideographyServices
             slogan311={
@@ -1144,6 +1155,7 @@ const AllFacilitiesOfMarigold = (props) => {
               </Fragment>
             }
           ></PhotographyVideographyServices>
+          <div className="all-facilities-of-marigold-divider21 thq-divider-horizontal"></div>
           <LocationWithHighwayAccess
             slogan2211={
               <Fragment>
@@ -1253,6 +1265,7 @@ const AllFacilitiesOfMarigold = (props) => {
             }
           ></LocationWithHighwayAccess>
         </div>
+        <div className="all-facilities-of-marigold-divider22 thq-divider-horizontal"></div>
         <p className="all-facilities-of-marigold-text248 thq-body-large">
           {props.featureDescription212111 ?? (
             <Fragment>
@@ -1285,6 +1298,9 @@ const AllFacilitiesOfMarigold = (props) => {
             flex-direction: column;
             justify-content: center;
           }
+          .all-facilities-of-marigold-divider10 {
+            background-color: var(--dl-color-primary-logo-color-3);
+          }
           .all-facilities-of-marigold-text100 {
             display: inline-block;
           }
@@ -1309,6 +1325,9 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text107 {
             display: inline-block;
           }
+          .all-facilities-of-marigold-divider11 {
+            background-color: var(--dl-color-primary-logo-color-3);
+          }
           .all-facilities-of-marigold-text108 {
             display: inline-block;
           }
@@ -1332,6 +1351,9 @@ const AllFacilitiesOfMarigold = (props) => {
           }
           .all-facilities-of-marigold-text115 {
             display: inline-block;
+          }
+          .all-facilities-of-marigold-divider12 {
+            background-color: var(--dl-color-primary-logo-color-3);
           }
           .all-facilities-of-marigold-container2 {
             gap: var(--dl-space-space-unit);
@@ -1379,6 +1401,9 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text128 {
             display: inline-block;
           }
+          .all-facilities-of-marigold-divider13 {
+            background-color: var(--dl-color-primary-logo-color-3);
+          }
           .all-facilities-of-marigold-text129 {
             display: inline-block;
           }
@@ -1417,6 +1442,9 @@ const AllFacilitiesOfMarigold = (props) => {
           }
           .all-facilities-of-marigold-text141 {
             display: inline-block;
+          }
+          .all-facilities-of-marigold-divider14 {
+            background-color: var(--dl-color-primary-logo-color-3);
           }
           .all-facilities-of-marigold-container3 {
             gap: var(--dl-space-space-unit);
@@ -1464,6 +1492,9 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text154 {
             display: inline-block;
           }
+          .all-facilities-of-marigold-divider15 {
+            background-color: var(--dl-color-primary-logo-color-3);
+          }
           .all-facilities-of-marigold-text155 {
             display: inline-block;
           }
@@ -1502,6 +1533,9 @@ const AllFacilitiesOfMarigold = (props) => {
           }
           .all-facilities-of-marigold-text167 {
             display: inline-block;
+          }
+          .all-facilities-of-marigold-divider16 {
+            background-color: var(--dl-color-primary-logo-color-3);
           }
           .all-facilities-of-marigold-container4 {
             gap: var(--dl-space-space-unit);
@@ -1549,6 +1583,9 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text182 {
             display: inline-block;
           }
+          .all-facilities-of-marigold-divider17 {
+            background-color: var(--dl-color-primary-logo-color-3);
+          }
           .all-facilities-of-marigold-text183 {
             display: inline-block;
           }
@@ -1587,6 +1624,9 @@ const AllFacilitiesOfMarigold = (props) => {
           }
           .all-facilities-of-marigold-text195 {
             display: inline-block;
+          }
+          .all-facilities-of-marigold-divider18 {
+            background-color: var(--dl-color-primary-logo-color-3);
           }
           .all-facilities-of-marigold-container5 {
             gap: var(--dl-space-space-unit);
@@ -1634,6 +1674,9 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text208 {
             display: inline-block;
           }
+          .all-facilities-of-marigold-divider19 {
+            background-color: var(--dl-color-primary-logo-color-3);
+          }
           .all-facilities-of-marigold-text209 {
             display: inline-block;
           }
@@ -1672,6 +1715,9 @@ const AllFacilitiesOfMarigold = (props) => {
           }
           .all-facilities-of-marigold-text221 {
             display: inline-block;
+          }
+          .all-facilities-of-marigold-divider20 {
+            background-color: var(--dl-color-primary-logo-color-3);
           }
           .all-facilities-of-marigold-container6 {
             gap: var(--dl-space-space-unit);
@@ -1719,6 +1765,9 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text234 {
             display: inline-block;
           }
+          .all-facilities-of-marigold-divider21 {
+            background-color: var(--dl-color-primary-logo-color-3);
+          }
           .all-facilities-of-marigold-text235 {
             display: inline-block;
           }
@@ -1758,6 +1807,9 @@ const AllFacilitiesOfMarigold = (props) => {
           .all-facilities-of-marigold-text247 {
             display: inline-block;
           }
+          .all-facilities-of-marigold-divider22 {
+            background-color: var(--dl-color-primary-logo-color-3);
+          }
           .all-facilities-of-marigold-text248 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
@@ -1773,31 +1825,53 @@ const AllFacilitiesOfMarigold = (props) => {
           @media (max-width: 991px) {
             .all-facilities-of-marigold-layout216 {
               width: 100%;
+              padding: var(--dl-space-space-unit);
               flex-direction: column;
             }
             .all-facilities-of-marigold-container1 {
               gap: var(--dl-space-space-unit);
               flex-direction: row;
             }
+            .all-facilities-of-marigold-divider10 {
+              display: none;
+            }
+            .all-facilities-of-marigold-divider11 {
+              display: none;
+            }
             .all-facilities-of-marigold-container2 {
               gap: var(--dl-space-space-unit);
               flex-direction: row;
+            }
+            .all-facilities-of-marigold-divider13 {
+              display: none;
             }
             .all-facilities-of-marigold-container3 {
               gap: var(--dl-space-space-unit);
               flex-direction: row;
             }
+            .all-facilities-of-marigold-divider15 {
+              display: none;
+            }
             .all-facilities-of-marigold-container4 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
+            }
+            .all-facilities-of-marigold-divider17 {
+              display: none;
             }
             .all-facilities-of-marigold-container5 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
             }
+            .all-facilities-of-marigold-divider19 {
+              display: none;
+            }
             .all-facilities-of-marigold-container6 {
               gap: var(--dl-space-space-oneandhalfunits);
               flex-direction: row;
+            }
+            .all-facilities-of-marigold-divider21 {
+              display: none;
             }
           }
           @media (max-width: 599px) {
@@ -1807,20 +1881,41 @@ const AllFacilitiesOfMarigold = (props) => {
             .all-facilities-of-marigold-container1 {
               flex-direction: column;
             }
+            .all-facilities-of-marigold-divider10 {
+              display: flex;
+            }
+            .all-facilities-of-marigold-divider11 {
+              display: flex;
+            }
             .all-facilities-of-marigold-container2 {
               flex-direction: column;
+            }
+            .all-facilities-of-marigold-divider13 {
+              display: flex;
             }
             .all-facilities-of-marigold-container3 {
               flex-direction: column;
             }
+            .all-facilities-of-marigold-divider15 {
+              display: flex;
+            }
             .all-facilities-of-marigold-container4 {
               flex-direction: column;
+            }
+            .all-facilities-of-marigold-divider17 {
+              display: flex;
             }
             .all-facilities-of-marigold-container5 {
               flex-direction: column;
             }
+            .all-facilities-of-marigold-divider19 {
+              display: flex;
+            }
             .all-facilities-of-marigold-container6 {
               flex-direction: column;
+            }
+            .all-facilities-of-marigold-divider21 {
+              display: flex;
             }
           }
         `}

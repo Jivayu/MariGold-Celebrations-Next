@@ -813,17 +813,16 @@ const Footer = (props) => {
             }
             .footer-row {
               align-self: stretch;
+              flex-direction: row;
             }
             .footer-content3 {
               font-size: 12px;
             }
             .footer-footer-links3 {
-              gap: var(--dl-space-space-halfunit);
-              width: auto;
-              align-self: flex-end;
+              align-self: stretch;
               align-items: center;
               flex-direction: row;
-              justify-content: flex-end;
+              justify-content: center;
             }
             .footer-container1 {
               display: flex;

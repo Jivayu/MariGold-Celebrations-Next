@@ -178,13 +178,6 @@ const AudioVisualEquipment = (props) => {
           .audio-visual-equipment-audio-visual-equipment {
             gap: var(--dl-space-space-threeunits);
             position: relative;
-            border-color: var(--dl-color-primary-logo-color-3);
-            border-style: dotted;
-            border-width: 1px;
-            margin-bottom: var(--dl-space-space-halfunit);
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .audio-visual-equipment-container1 {
             gap: var(--dl-space-space-halfunit);

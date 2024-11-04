@@ -676,8 +676,8 @@ const NavbarInteractive = (props) => {
             }
             .navbar-interactive-image {
               flex: 1;
-              width: auto;
-              height: 3.2rem;
+              width: 80px;
+              height: 50px;
               align-self: center;
             }
             .navbar-interactive-desktop-menu {
@@ -698,7 +698,7 @@ const NavbarInteractive = (props) => {
               border-color: var(--dl-color-primary-logo-color-1);
               border-width: 2px;
               border-radius: var(--dl-radius-radius-cardradius);
-              background-color: #080035;
+              background-color: #060029;
               border-top-left-radius: var(--dl-radius-radius-buttonradius);
               border-top-right-radius: var(--dl-radius-radius-buttonradius);
             }
@@ -711,16 +711,19 @@ const NavbarInteractive = (props) => {
             .navbar-interactive-top {
               padding: var(--dl-space-space-unit);
               box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.25);
-              border-color: var(--dl-color-primary-logo-color-2);
-              border-style: dotted;
-              border-width: 0.5px;
+              border-color: var(--dl-color-primary-logo-color-5);
+              border-width: 1px;
               border-radius: var(--dl-radius-radius-buttonradius);
-              background-color: #0a0033;
+              background-color: #0a002f;
+              border-top-width: 0px;
+              border-left-width: 0px;
+              border-right-width: 0px;
               border-bottom-left-radius: var(--dl-radius-radius-cardradius);
               border-bottom-right-radius: var(--dl-radius-radius-cardradius);
             }
             .navbar-interactive-logo {
-              height: 3.2rem;
+              width: 75px;
+              height: 50px;
             }
             .navbar-interactive-icon12 {
               fill: var(--dl-color-primary-logo-color-2);
@@ -738,11 +741,11 @@ const NavbarInteractive = (props) => {
             .navbar-interactive-link16 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
-              width: 50%;
-              height: 38px;
+              width: 65%;
+              height: 40px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.5;
+              line-height: 2.8;
               border-color: var(--dl-color-primary-logo-color-1);
               border-style: dotted;
               border-width: 0.5px;
@@ -751,11 +754,11 @@ const NavbarInteractive = (props) => {
             .navbar-interactive-link17 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
-              width: 50%;
-              height: 38px;
+              width: 65%;
+              height: 40px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.5;
+              line-height: 2.8;
               border-color: var(--dl-color-primary-logo-color-1);
               border-style: dotted;
               border-width: 0.5px;
@@ -764,11 +767,11 @@ const NavbarInteractive = (props) => {
             .navbar-interactive-link18 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
-              width: 50%;
-              height: 38px;
+              width: 65%;
+              height: 40px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.5;
+              line-height: 2.8;
               border-color: var(--dl-color-primary-logo-color-1);
               border-style: dotted;
               border-width: 0.5px;
@@ -777,11 +780,11 @@ const NavbarInteractive = (props) => {
             .navbar-interactive-link19 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
-              width: 50%;
-              height: 38px;
+              width: 65%;
+              height: 40px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.5;
+              line-height: 2.8;
               border-color: var(--dl-color-primary-logo-color-1);
               border-style: dotted;
               border-width: 0.5px;
@@ -790,11 +793,11 @@ const NavbarInteractive = (props) => {
             .navbar-interactive-link20 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
-              width: 50%;
-              height: 38px;
+              width: 65%;
+              height: 40px;
               text-align: center;
               font-family: Ubuntu;
-              line-height: 2.5;
+              line-height: 2.8;
               border-color: var(--dl-color-primary-logo-color-1);
               border-style: dotted;
               border-width: 0.5px;
@@ -804,7 +807,11 @@ const NavbarInteractive = (props) => {
               align-self: center;
             }
             .navbar-interactive-register {
-              border-color: var(--dl-color-primary-logo-color-2);
+              fill: var(--dl-color-primary-logo-color-1);
+              color: var(--dl-color-primary-logo-color-1);
+              border-color: #1b1141;
+              border-width: 1px;
+              background-color: var(--dl-color-primary-logo-color-5);
             }
             .navbar-interactive-icon-group {
               display: flex;

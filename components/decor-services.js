@@ -180,14 +180,6 @@ const DecorServices = (props) => {
           .decor-services-decor-services {
             gap: var(--dl-space-space-threeunits);
             position: relative;
-            border-color: var(--dl-color-primary-logo-color-3);
-            border-style: dotted;
-            border-width: 1px;
-            margin-bottom: var(--dl-space-space-halfunit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            border-top-width: 0px;
-            border-left-width: 0px;
-            border-right-width: 0px;
           }
           .decor-services-container1 {
             gap: var(--dl-space-space-halfunit);
