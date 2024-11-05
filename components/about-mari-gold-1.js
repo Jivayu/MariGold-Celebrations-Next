@@ -18,24 +18,37 @@ const AboutMariGold1 = (props) => {
         <div className="about-mari-gold-1-max-width thq-flex-row thq-section-max-width">
           <div className="about-mari-gold-1-section-title UbuntuLight-14 thq-flex-column">
             <div className="about-mari-gold-1-content UbuntuLight-14 thq-flex-column">
-              <h1
-                id="Best Banquet Hall &amp; Big Events Services in Hingna, Nagpur"
-                className="about-mari-gold-1-text10 Ubuntu-Light-16"
-              >
-                {props.heading1 ?? (
-                  <Fragment>
-                    <span className="about-mari-gold-1-text40">
-                      Best Banquet Hall &amp; Big Events Services in Hingna,
-                      Nagpur
-                    </span>
-                  </Fragment>
-                )}
-              </h1>
-              <div className="about-mari-gold-1-divider thq-divider-horizontal"></div>
-              <p className="about-mari-gold-1-text11 UbuntuLight-14">
+              <div className="about-mari-gold-1-container10">
+                <h1
+                  id="About MariGold Celebration"
+                  className="about-mari-gold-1-text10 Ubuntu-Light-18"
+                >
+                  {props.heading1 ?? (
+                    <Fragment>
+                      <span className="about-mari-gold-1-text39">
+                        MariGold Celebration - Hingna, Nagpur
+                      </span>
+                    </Fragment>
+                  )}
+                </h1>
+                <h2
+                  id="Best Banquet Hall &amp; Big Events Services in Hingna, Nagpur"
+                  className="about-mari-gold-1-text11 Ubuntu-Regular-14"
+                >
+                  {props.heading11 ?? (
+                    <Fragment>
+                      <span className="about-mari-gold-1-text51">
+                        Banquet Hall &amp; Events Services Near Nagpur
+                      </span>
+                    </Fragment>
+                  )}
+                </h2>
+                <div className="about-mari-gold-1-divider thq-divider-horizontal"></div>
+              </div>
+              <p className="about-mari-gold-1-text12 UbuntuLight-14">
                 {props.content1 ?? (
                   <Fragment>
-                    <span className="about-mari-gold-1-text41">
+                    <span className="about-mari-gold-1-text40">
                       <span>
                         Marigold Celebration Hall, located in the heart of
                         Hingna, Nagpur, is the premier venue for hosting
@@ -90,7 +103,7 @@ const AboutMariGold1 = (props) => {
               <span className="about-mari-gold-1-action1 menu">
                 {props.action ?? (
                   <Fragment>
-                    <span className="about-mari-gold-1-text37">
+                    <span className="about-mari-gold-1-text36">
                       Querry ?  feel free to contact us.
                     </span>
                   </Fragment>
@@ -111,23 +124,19 @@ const AboutMariGold1 = (props) => {
                 onClick={() => setFaq1Visible(!faq1Visible)}
                 className="about-mari-gold-1-trigger1"
               >
-                <h2
+                <h3
                   id="Weddings &amp; Receptions | Engagement Ceremonies &amp; Pre-Wedding Functions."
                   className="about-mari-gold-1-faq1-question UbuntuLight-14"
                 >
                   {props.faq1Question ?? (
                     <Fragment>
-                      <span className="about-mari-gold-1-text34">
-                        <span>Weddings</span>
-                        <span className="h3">
-                          {' '}
-                          &amp; Receptions | Engagement Ceremonies &amp;
-                          Pre-Wedding Functions.
-                        </span>
+                      <span className="about-mari-gold-1-text35">
+                        Weddings &amp; Receptions | Engagement Ceremonies &amp;
+                        Pre-Wedding Functions.
                       </span>
                     </Fragment>
                   )}
-                </h2>
+                </h3>
                 <div className="about-mari-gold-1-icons-container1">
                   {!faq1Visible && (
                     <div>
@@ -152,8 +161,8 @@ const AboutMariGold1 = (props) => {
                 </div>
               </div>
               {faq1Visible && (
-                <div className="about-mari-gold-1-container12">
-                  <p className="about-mari-gold-1-text12 p">
+                <div className="about-mari-gold-1-container13">
+                  <p className="about-mari-gold-1-text13 p">
                     <span className="p">
                       Celebrate your special day at Marigold Banquet Hall, where
                       love stories come to life. Our grand hall provides the
@@ -186,19 +195,19 @@ const AboutMariGold1 = (props) => {
                 onClick={() => setFaq2Visible(!faq2Visible)}
                 className="about-mari-gold-1-trigger2"
               >
-                <h2
+                <h3
                   id="Birthday Parties &amp; Anniversaries | Social Gatherings &amp; Family Events."
                   className="about-mari-gold-1-faq2-question1 UbuntuLight-14"
                 >
                   {props.faq2Question ?? (
                     <Fragment>
-                      <span className="about-mari-gold-1-text33">
+                      <span className="about-mari-gold-1-text34">
                         Birthday Parties &amp; Anniversaries | Social Gatherings
                         &amp; Family Events.
                       </span>
                     </Fragment>
                   )}
-                </h2>
+                </h3>
                 <div className="about-mari-gold-1-icons-container2">
                   {!faq2Visible && (
                     <div>
@@ -223,8 +232,8 @@ const AboutMariGold1 = (props) => {
                 </div>
               </div>
               {faq2Visible && (
-                <div className="about-mari-gold-1-container15">
-                  <p className="about-mari-gold-1-text18 p">
+                <div className="about-mari-gold-1-container16">
+                  <p className="about-mari-gold-1-text19 p">
                     <span className="p">
                       Celebrate life’s milestones at Marigold Banquet Hall with
                       a memorable birthday or anniversary event. Whether you’re
@@ -256,19 +265,19 @@ const AboutMariGold1 = (props) => {
                 onClick={() => setFaq3Visible(!faq3Visible)}
                 className="about-mari-gold-1-trigger3"
               >
-                <h2
+                <h3
                   id="Corporate Events &amp; Conferences | Award Ceremonies &amp; Gala Dinners."
                   className="about-mari-gold-1-faq2-question2 UbuntuLight-14"
                 >
                   {props.faq3Question ?? (
                     <Fragment>
-                      <span className="about-mari-gold-1-text38">
+                      <span className="about-mari-gold-1-text37">
                         Corporate Events &amp; Conferences | Award Ceremonies
                         &amp; Gala Dinners.
                       </span>
                     </Fragment>
                   )}
-                </h2>
+                </h3>
                 <div className="about-mari-gold-1-icons-container3">
                   {!faq3Visible && (
                     <div>
@@ -293,8 +302,8 @@ const AboutMariGold1 = (props) => {
                 </div>
               </div>
               {faq3Visible && (
-                <div className="about-mari-gold-1-container18">
-                  <p className="about-mari-gold-1-text23 p">
+                <div className="about-mari-gold-1-container19">
+                  <p className="about-mari-gold-1-text24 p">
                     <span className="p">
                       Marigold Banquet Hall is the ideal venue for hosting
                       professional corporate events, including conferences,
@@ -324,19 +333,19 @@ const AboutMariGold1 = (props) => {
                 onClick={() => setFaq4Visible(!faq4Visible)}
                 className="about-mari-gold-1-trigger4"
               >
-                <h2
+                <h3
                   id="Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows."
                   className="about-mari-gold-1-faq2-question3 UbuntuLight-14"
                 >
                   {props.faq4Question ?? (
                     <Fragment>
-                      <span className="about-mari-gold-1-text39">
+                      <span className="about-mari-gold-1-text38">
                         Religious &amp; Cultural Events | Exhibitions &amp;
                         Trade Shows.
                       </span>
                     </Fragment>
                   )}
-                </h2>
+                </h3>
                 <div className="about-mari-gold-1-icons-container4">
                   {!faq4Visible && (
                     <div>
@@ -361,8 +370,8 @@ const AboutMariGold1 = (props) => {
                 </div>
               </div>
               {faq4Visible && (
-                <div className="about-mari-gold-1-container21">
-                  <p className="about-mari-gold-1-text28 p">
+                <div className="about-mari-gold-1-container22">
+                  <p className="about-mari-gold-1-text29 p">
                     <span className="p">
                       From religious ceremonies to cultural festivals, Marigold
                       Banquet Hall offers a serene and spacious environment to
@@ -425,14 +434,33 @@ const AboutMariGold1 = (props) => {
             border-radius: var(--dl-radius-radius-radius10);
             backdrop-filter: blur(3px);
           }
+          .about-mari-gold-1-container10 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
           .about-mari-gold-1-text10 {
             fill: var(--dl-color-primary-logo-color-2);
             color: var(--dl-color-primary-logo-color-2);
+            align-self: flex-start;
+          }
+          .about-mari-gold-1-text11 {
+            fill: var(--dl-color-primary-logo-color-2);
+            color: var(--dl-color-primary-logo-color-2);
+            align-self: flex-start;
+            animation-name: pulse;
+            animation-delay: 0s;
+            animation-duration: 300ms;
+            animation-direction: normal;
+            animation-iteration-count: 3;
+            animation-timing-function: ease;
           }
           .about-mari-gold-1-divider {
             background-color: var(--dl-color-primary-logo-color-3);
           }
-          .about-mari-gold-1-text11 {
+          .about-mari-gold-1-text12 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             letter-spacing: 0.8;
@@ -515,7 +543,7 @@ const AboutMariGold1 = (props) => {
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
           }
-          .about-mari-gold-1-container12 {
+          .about-mari-gold-1-container13 {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-self: stretch;
@@ -529,7 +557,7 @@ const AboutMariGold1 = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: linear;
           }
-          .about-mari-gold-1-text12 {
+          .about-mari-gold-1-text13 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
           }
@@ -584,7 +612,7 @@ const AboutMariGold1 = (props) => {
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
           }
-          .about-mari-gold-1-container15 {
+          .about-mari-gold-1-container16 {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-self: stretch;
@@ -598,7 +626,7 @@ const AboutMariGold1 = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .about-mari-gold-1-text18 {
+          .about-mari-gold-1-text19 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
           }
@@ -654,7 +682,7 @@ const AboutMariGold1 = (props) => {
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
           }
-          .about-mari-gold-1-container18 {
+          .about-mari-gold-1-container19 {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-self: stretch;
@@ -668,7 +696,7 @@ const AboutMariGold1 = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .about-mari-gold-1-text23 {
+          .about-mari-gold-1-text24 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
           }
@@ -724,7 +752,7 @@ const AboutMariGold1 = (props) => {
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
           }
-          .about-mari-gold-1-container21 {
+          .about-mari-gold-1-container22 {
             display: flex;
             padding: var(--dl-space-space-unit);
             align-self: stretch;
@@ -738,14 +766,17 @@ const AboutMariGold1 = (props) => {
             animation-iteration-count: 1;
             animation-timing-function: ease;
           }
-          .about-mari-gold-1-text28 {
+          .about-mari-gold-1-text29 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
           }
-          .about-mari-gold-1-text33 {
+          .about-mari-gold-1-text34 {
             display: inline-block;
           }
-          .about-mari-gold-1-text34 {
+          .about-mari-gold-1-text35 {
+            display: inline-block;
+          }
+          .about-mari-gold-1-text36 {
             display: inline-block;
           }
           .about-mari-gold-1-text37 {
@@ -760,7 +791,7 @@ const AboutMariGold1 = (props) => {
           .about-mari-gold-1-text40 {
             display: inline-block;
           }
-          .about-mari-gold-1-text41 {
+          .about-mari-gold-1-text51 {
             display: inline-block;
           }
           @media (max-width: 1200px) {
@@ -784,7 +815,7 @@ const AboutMariGold1 = (props) => {
             .about-mari-gold-1faq8 {
               padding: var(--dl-space-space-halfunit);
             }
-            .about-mari-gold-1-text11 {
+            .about-mari-gold-1-text12 {
               padding-left: var(--dl-space-space-halfunit);
             }
             .about-mari-gold-1-button {
@@ -812,6 +843,7 @@ AboutMariGold1.defaultProps = {
   faq4Question: undefined,
   heading1: undefined,
   content1: undefined,
+  heading11: undefined,
 }
 
 AboutMariGold1.propTypes = {
@@ -824,6 +856,7 @@ AboutMariGold1.propTypes = {
   faq4Question: PropTypes.element,
   heading1: PropTypes.element,
   content1: PropTypes.element,
+  heading11: PropTypes.element,
 }
 
 export default AboutMariGold1

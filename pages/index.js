@@ -143,25 +143,21 @@ const Home = (props) => {
           heading1={
             <Fragment>
               <span className="home-text31">
-                Best Banquet Hall &amp; Big Events Services in Hingna, Nagpur
+                MariGold Celebration - Hingna, Nagpur
               </span>
             </Fragment>
           }
           faq1Question={
             <Fragment>
               <span className="home-text32">
-                <span>Weddings</span>
-                <span className="h3">
-                  {' '}
-                  &amp; Receptions | Engagement Ceremonies &amp; Pre-Wedding
-                  Functions.
-                </span>
+                Weddings &amp; Receptions | Engagement Ceremonies &amp;
+                Pre-Wedding Functions.
               </span>
             </Fragment>
           }
           faq2Question={
             <Fragment>
-              <span className="home-text35">
+              <span className="home-text33">
                 Birthday Parties &amp; Anniversaries | Social Gatherings &amp;
                 Family Events.
               </span>
@@ -169,7 +165,7 @@ const Home = (props) => {
           }
           faq3Question={
             <Fragment>
-              <span className="home-text36">
+              <span className="home-text34">
                 Corporate Events &amp; Conferences | Award Ceremonies &amp; Gala
                 Dinners.
               </span>
@@ -177,8 +173,15 @@ const Home = (props) => {
           }
           faq4Question={
             <Fragment>
-              <span className="home-text37">
+              <span className="home-text35">
                 Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows.
+              </span>
+            </Fragment>
+          }
+          heading11={
+            <Fragment>
+              <span className="home-text36">
+                Banquet Hall &amp; Events Services Near Nagpur
               </span>
             </Fragment>
           }
@@ -186,14 +189,14 @@ const Home = (props) => {
         <MobileFacilities1
           heading={
             <Fragment>
-              <span className="home-text38">
+              <span className="home-text37">
                 Facilities We Provide at Marigold Celebration
               </span>
             </Fragment>
           }
           heading2={
             <Fragment>
-              <span className="home-text39">
+              <span className="home-text38">
                 At Marigold Banquet Hall, we offer an exceptional range of
                 facilities to ensure your event is as smooth, memorable, and
                 stress-free as possible. Our venue is designed to cater to all
@@ -204,29 +207,29 @@ const Home = (props) => {
           }
           action231={
             <Fragment>
-              <span className="home-text40">Explore More Facilities</span>
+              <span className="home-text39">Explore More Facilities</span>
             </Fragment>
           }
           faq1Question={
             <Fragment>
-              <span className="home-text41">Spacious Venue with Capacity</span>
+              <span className="home-text40">Spacious Venue with Capacity</span>
             </Fragment>
           }
           faq2Question={
             <Fragment>
-              <span className="home-text42">Fine Dining Catering</span>
+              <span className="home-text41">Fine Dining Catering</span>
             </Fragment>
           }
           faq3Question={
             <Fragment>
-              <span className="home-text43">
+              <span className="home-text42">
                 Photography &amp; Videography Services
               </span>
             </Fragment>
           }
           faq4Question={
             <Fragment>
-              <span className="home-text44">Décor &amp; Design Services</span>
+              <span className="home-text43">Décor &amp; Design Services</span>
             </Fragment>
           }
           rootClassName="mobile-facilities1root-class-name"
@@ -234,7 +237,7 @@ const Home = (props) => {
         <VideoGallery
           review1={
             <Fragment>
-              <span className="home-text45">
+              <span className="home-text44">
                 Our wedding at Marigold Banquet Hall was a dream come true! The
                 venue was stunning, the food was delicious, and the staff went
                 above and beyond to make our day special.
@@ -243,12 +246,12 @@ const Home = (props) => {
           }
           action23={
             <Fragment>
-              <span className="home-text46">Google Business Profile</span>
+              <span className="home-text45">Google Business Profile</span>
             </Fragment>
           }
           review11={
             <Fragment>
-              <span className="home-text47">
+              <span className="home-text46">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -257,7 +260,7 @@ const Home = (props) => {
           }
           author1Name={
             <Fragment>
-              <span className="home-text48">
+              <span className="home-text47">
                 MariGold Celebration - Hingna, Nagpur
               </span>
             </Fragment>
@@ -265,49 +268,49 @@ const Home = (props) => {
           rootClassName="video-galleryroot-class-name1"
           author1Position={
             <Fragment>
-              <span className="home-text49">marigoldcelebration.in</span>
+              <span className="home-text48">marigoldcelebration.in</span>
             </Fragment>
           }
         ></VideoGallery>
         <Footer
           link1={
             <Fragment>
-              <span className="home-text50">Home</span>
+              <span className="home-text49">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="home-text51">Facilities</span>
+              <span className="home-text50">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="home-text52">Gallery</span>
+              <span className="home-text51">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="home-text53">Events</span>
+              <span className="home-text52">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="home-text54">Contacts</span>
+              <span className="home-text53">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="home-text55">Corporate Events</span>
+              <span className="home-text54">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="home-text56">Weddings Plannings</span>
+              <span className="home-text55">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="home-text57">
+              <span className="home-text56">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -315,17 +318,17 @@ const Home = (props) => {
           }
           link9={
             <Fragment>
-              <span className="home-text60">Special Occasions</span>
+              <span className="home-text59">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="home-text61">Book Now</span>
+              <span className="home-text60">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="home-text62">
+              <span className="home-text61">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -334,47 +337,47 @@ const Home = (props) => {
           }
           content3={
             <Fragment>
-              <span className="home-text63">MariGold Celebration</span>
+              <span className="home-text62">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="home-text64">terms &amp; conditions.</span>
+              <span className="home-text63">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="home-text65">T &amp; C</span>
+              <span className="home-text64">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="home-text66">cookie policy.</span>
+              <span className="home-text65">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="home-text67">privacy policy.</span>
+              <span className="home-text66">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="home-text68">Contact Us</span>
+              <span className="home-text67">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="home-text69">Services</span>
+              <span className="home-text68">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="home-text70">C &amp; P</span>
+              <span className="home-text69">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="home-text71">P P</span>
+              <span className="home-text70">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name2"
@@ -454,6 +457,12 @@ const Home = (props) => {
           .home-text32 {
             display: inline-block;
           }
+          .home-text33 {
+            display: inline-block;
+          }
+          .home-text34 {
+            display: inline-block;
+          }
           .home-text35 {
             display: inline-block;
           }
@@ -520,7 +529,7 @@ const Home = (props) => {
           .home-text56 {
             display: inline-block;
           }
-          .home-text57 {
+          .home-text59 {
             display: inline-block;
           }
           .home-text60 {
@@ -554,9 +563,6 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text70 {
-            display: inline-block;
-          }
-          .home-text71 {
             display: inline-block;
           }
           .home-container3 {
