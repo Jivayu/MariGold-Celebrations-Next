@@ -293,7 +293,8 @@ const VideoGallery = (props) => {
             animation-timing-function: linear;
           }
           .video-gallery-video {
-            flex: 1;
+            width: 50%;
+            height: auto;
             aspect-ratio: 16/9;
             border-color: var(--dl-color-primary-logo-color-4);
             border-width: 0.5px;
@@ -320,6 +321,11 @@ const VideoGallery = (props) => {
           .video-galleryroot-class-name1 {
             margin-top: 0px;
           }
+          @media (max-width: 1200px) {
+            .video-gallery-video {
+              width: 55%;
+            }
+          }
           @media (max-width: 991px) {
             .video-gallery-max-width {
               flex-direction: column;
@@ -334,6 +340,7 @@ const VideoGallery = (props) => {
               justify-content: space-between;
             }
             .video-gallery-video {
+              width: 95%;
               transform: scale(0.9);
             }
           }
@@ -367,6 +374,7 @@ const VideoGallery = (props) => {
           }
           @media (max-width: 399px) {
             .video-gallery-video {
+              width: 100%;
               transform: scale(1);
             }
           }
