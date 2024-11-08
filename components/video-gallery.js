@@ -293,8 +293,9 @@ const VideoGallery = (props) => {
             animation-timing-function: linear;
           }
           .video-gallery-video {
-            width: 50%;
-            height: auto;
+            width: auto;
+            height: 320px;
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.3);
             aspect-ratio: 16/9;
             border-color: var(--dl-color-primary-logo-color-4);
             border-width: 0.5px;

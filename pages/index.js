@@ -6,6 +6,7 @@ import Script from 'dangerous-html/react'
 import NavbarInteractive from '../components/navbar-interactive'
 import Hero from '../components/hero'
 import AboutMariGold1 from '../components/about-mari-gold-1'
+import FacilitiesHome1 from '../components/facilities-home-1'
 import MobileFacilities1 from '../components/mobile-facilities-1'
 import VideoGallery from '../components/video-gallery'
 import Footer from '../components/footer'
@@ -186,17 +187,138 @@ const Home = (props) => {
             </Fragment>
           }
         ></AboutMariGold1>
+        <FacilitiesHome1
+          feature1Title={
+            <Fragment>
+              <span className="home-text37">
+                <span>Spacious Venue with Capacity</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          feature1Description111={
+            <Fragment>
+              <span className="home-text40">
+                Our dedicated décor team works closely with you to bring your
+                vision to life. From elegant wedding themes to corporate setups,
+                we provide tailored decoration services that match your event’s
+                style. Whether you’re looking for luxurious floral arrangements
+                or modern minimalist designs, we have you covered.
+              </span>
+            </Fragment>
+          }
+          slogan={
+            <Fragment>
+              <span className="home-text41">
+                Please Do Consultation With Us For Your Any Requirements.
+              </span>
+            </Fragment>
+          }
+          feature1Description1111={
+            <Fragment>
+              <span className="home-text42">
+                Our venue offers ample parking space to accommodate all your
+                guests, ensuring a stress-free arrival experience. For added
+                convenience, we provide lift access to all levels, making the
+                venue fully accessible to everyone. Additionally, our venue’s
+                iconic central location in Hingna, Nagpur, is easily accessible
+                from all parts of the city.
+              </span>
+            </Fragment>
+          }
+          sectionDescription={
+            <Fragment>
+              <span className="home-text43">
+                At Marigold Banquet Hall, we offer an exceptional range of
+                facilities to ensure your event is as smooth, memorable, and
+                stress-free as possible. Our venue is designed to cater to all
+                types of occasions, from grand weddings to corporate events,
+                while providing top-tier amenities.
+              </span>
+            </Fragment>
+          }
+          feature1Description1={
+            <Fragment>
+              <span className="home-text44">
+                We offer customizable catering options to suit any event style.
+                From lavish multi-course dinners to casual buffets, our in-house
+                culinary team crafts delicious, bespoke menus that reflect your
+                taste and preferences. Whether it’s traditional or contemporary
+                cuisine, our chefs ensure a delightful dining experience for
+                your guests.
+              </span>
+            </Fragment>
+          }
+          feature1Title111={
+            <Fragment>
+              <span className="home-text45">Décor &amp; Design Services</span>
+            </Fragment>
+          }
+          feature1Description11={
+            <Fragment>
+              <span className="home-text46">
+                Preserve every special moment with our professional photography
+                and videography services. Our experienced team specializes in
+                capturing the essence of your event, whether it’s candid wedding
+                moments or corporate highlights. We also provide event
+                videography, ensuring that every detail is documented in high
+                quality.
+              </span>
+            </Fragment>
+          }
+          feature1Title1111={
+            <Fragment>
+              <span className="home-text47">Parking &amp; Accessibility</span>
+            </Fragment>
+          }
+          action2={
+            <Fragment>
+              <span className="home-text48">Explore Our Facilities</span>
+            </Fragment>
+          }
+          feature1Title11={
+            <Fragment>
+              <span className="home-text49">
+                Photography &amp; Videography Services 
+              </span>
+            </Fragment>
+          }
+          feature1Description={
+            <Fragment>
+              <span className="home-text50">
+                Our expansive banquet hall can accommodate up to 2000 guests
+                comfortably. Whether you’re planning an extravagant wedding or
+                an intimate gathering, our flexible seating arrangements and
+                multiple event spaces ensure the perfect setting for your
+                occasion.
+              </span>
+            </Fragment>
+          }
+          feature1Title1={
+            <Fragment>
+              <span className="home-text51">Fine Dining Catering</span>
+            </Fragment>
+          }
+          sectionTitle={
+            <Fragment>
+              <span className="home-text52">
+                Facilities At Marigold Celebration
+              </span>
+            </Fragment>
+          }
+          rootClassName="facilities-home1root-class-name"
+        ></FacilitiesHome1>
         <MobileFacilities1
           heading={
             <Fragment>
-              <span className="home-text37">
+              <span className="home-text53">
                 Facilities We Provide at Marigold Celebration
               </span>
             </Fragment>
           }
           heading2={
             <Fragment>
-              <span className="home-text38">
+              <span className="home-text54">
                 At Marigold Banquet Hall, we offer an exceptional range of
                 facilities to ensure your event is as smooth, memorable, and
                 stress-free as possible. Our venue is designed to cater to all
@@ -207,29 +329,29 @@ const Home = (props) => {
           }
           action231={
             <Fragment>
-              <span className="home-text39">Explore More Facilities</span>
+              <span className="home-text55">Explore More Facilities</span>
             </Fragment>
           }
           faq1Question={
             <Fragment>
-              <span className="home-text40">Spacious Venue with Capacity</span>
+              <span className="home-text56">Spacious Venue with Capacity</span>
             </Fragment>
           }
           faq2Question={
             <Fragment>
-              <span className="home-text41">Fine Dining Catering</span>
+              <span className="home-text57">Fine Dining Catering</span>
             </Fragment>
           }
           faq3Question={
             <Fragment>
-              <span className="home-text42">
+              <span className="home-text58">
                 Photography &amp; Videography Services
               </span>
             </Fragment>
           }
           faq4Question={
             <Fragment>
-              <span className="home-text43">Décor &amp; Design Services</span>
+              <span className="home-text59">Décor &amp; Design Services</span>
             </Fragment>
           }
           rootClassName="mobile-facilities1root-class-name"
@@ -237,7 +359,7 @@ const Home = (props) => {
         <VideoGallery
           review1={
             <Fragment>
-              <span className="home-text44">
+              <span className="home-text60">
                 Our wedding at Marigold Banquet Hall was a dream come true! The
                 venue was stunning, the food was delicious, and the staff went
                 above and beyond to make our day special.
@@ -246,12 +368,12 @@ const Home = (props) => {
           }
           action23={
             <Fragment>
-              <span className="home-text45">Google Business Profile</span>
+              <span className="home-text61">Google Business Profile</span>
             </Fragment>
           }
           review11={
             <Fragment>
-              <span className="home-text46">
+              <span className="home-text62">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -260,7 +382,7 @@ const Home = (props) => {
           }
           author1Name={
             <Fragment>
-              <span className="home-text47">
+              <span className="home-text63">
                 MariGold Celebration - Hingna, Nagpur
               </span>
             </Fragment>
@@ -268,7 +390,7 @@ const Home = (props) => {
           rootClassName="video-galleryroot-class-name1"
           author1Position={
             <Fragment>
-              <span className="home-text48">marigoldcelebration.in</span>
+              <span className="home-text64">marigoldcelebration.in</span>
             </Fragment>
           }
         ></VideoGallery>
@@ -297,42 +419,42 @@ const Home = (props) => {
         <Footer
           link1={
             <Fragment>
-              <span className="home-text49">Home</span>
+              <span className="home-text65">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="home-text50">Facilities</span>
+              <span className="home-text66">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="home-text51">Gallery</span>
+              <span className="home-text67">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="home-text52">Events</span>
+              <span className="home-text68">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="home-text53">Contacts</span>
+              <span className="home-text69">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="home-text54">Corporate Events</span>
+              <span className="home-text70">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="home-text55">Weddings Plannings</span>
+              <span className="home-text71">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="home-text56">
+              <span className="home-text72">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -340,17 +462,17 @@ const Home = (props) => {
           }
           link9={
             <Fragment>
-              <span className="home-text59">Special Occasions</span>
+              <span className="home-text75">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="home-text60">Book Now</span>
+              <span className="home-text76">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="home-text61">
+              <span className="home-text77">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -359,47 +481,47 @@ const Home = (props) => {
           }
           content3={
             <Fragment>
-              <span className="home-text62">MariGold Celebration</span>
+              <span className="home-text78">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="home-text63">terms &amp; conditions.</span>
+              <span className="home-text79">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="home-text64">T &amp; C</span>
+              <span className="home-text80">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="home-text65">cookie policy.</span>
+              <span className="home-text81">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="home-text66">privacy policy.</span>
+              <span className="home-text82">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="home-text67">Contact Us</span>
+              <span className="home-text83">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="home-text68">Services</span>
+              <span className="home-text84">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="home-text69">C &amp; P</span>
+              <span className="home-text85">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="home-text70">P P</span>
+              <span className="home-text86">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name2"
@@ -472,12 +594,6 @@ const Home = (props) => {
           .home-text37 {
             display: inline-block;
           }
-          .home-text38 {
-            display: inline-block;
-          }
-          .home-text39 {
-            display: inline-block;
-          }
           .home-text40 {
             display: inline-block;
           }
@@ -505,12 +621,6 @@ const Home = (props) => {
           .home-text48 {
             display: inline-block;
           }
-          .home-container3 {
-            display: contents;
-          }
-          .home-container5 {
-            display: contents;
-          }
           .home-text49 {
             display: inline-block;
           }
@@ -535,6 +645,12 @@ const Home = (props) => {
           .home-text56 {
             display: inline-block;
           }
+          .home-text57 {
+            display: inline-block;
+          }
+          .home-text58 {
+            display: inline-block;
+          }
           .home-text59 {
             display: inline-block;
           }
@@ -553,6 +669,12 @@ const Home = (props) => {
           .home-text64 {
             display: inline-block;
           }
+          .home-container3 {
+            display: contents;
+          }
+          .home-container5 {
+            display: contents;
+          }
           .home-text65 {
             display: inline-block;
           }
@@ -569,6 +691,48 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text70 {
+            display: inline-block;
+          }
+          .home-text71 {
+            display: inline-block;
+          }
+          .home-text72 {
+            display: inline-block;
+          }
+          .home-text75 {
+            display: inline-block;
+          }
+          .home-text76 {
+            display: inline-block;
+          }
+          .home-text77 {
+            display: inline-block;
+          }
+          .home-text78 {
+            display: inline-block;
+          }
+          .home-text79 {
+            display: inline-block;
+          }
+          .home-text80 {
+            display: inline-block;
+          }
+          .home-text81 {
+            display: inline-block;
+          }
+          .home-text82 {
+            display: inline-block;
+          }
+          .home-text83 {
+            display: inline-block;
+          }
+          .home-text84 {
+            display: inline-block;
+          }
+          .home-text85 {
+            display: inline-block;
+          }
+          .home-text86 {
             display: inline-block;
           }
           @media (max-width: 599px) {

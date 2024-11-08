@@ -401,6 +401,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature11:hover {
             transform: scale(1);
+            backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container11 {
@@ -473,6 +474,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature12:hover {
             transform: scale(1);
+            backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container14 {
@@ -545,6 +547,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature13:hover {
             transform: scale(1);
+            backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container17 {
@@ -617,6 +620,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature14:hover {
             transform: scale(1);
+            backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container20 {
@@ -689,6 +693,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature15:hover {
             transform: scale(1);
+            backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container23 {
@@ -816,6 +821,7 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-text29 {
             display: inline-block;
           }
+
           @media (max-width: 991px) {
             .facilities-home-1-layout302 {
               display: none;
