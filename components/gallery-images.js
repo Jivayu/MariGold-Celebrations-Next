@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const GalleryImages = (props) => {
@@ -122,6 +123,21 @@ const GalleryImages = (props) => {
                 </span>
               </div>
             </div>
+          </div>
+        </div>
+        <div>
+          <div className="gallery-images-container8">
+            <React.Fragment>
+              <iframe
+                src="https://maps.app.goo.gl/y4Sq2yrDvutkoPhz9"
+                width="100%"
+                height={400}
+                style={{ border: '0' }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrer-policy="no-referrer-when-downgrade"
+              />
+            </React.Fragment>
           </div>
         </div>
       </div>
@@ -296,6 +312,9 @@ const GalleryImages = (props) => {
             font-size: 14px;
             text-align: center;
             font-family: 'Ubuntu';
+          }
+          .gallery-images-container8 {
+            display: contents;
           }
           .gallery-images-text19 {
             display: inline-block;
