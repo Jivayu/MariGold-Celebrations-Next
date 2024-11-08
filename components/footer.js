@@ -245,6 +245,26 @@ const Footer = (props) => {
                     )}
                   </span>
                 </div>
+                <div className="footer-container3">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    className="footer-icon8"
+                  >
+                    <path
+                      d="M6 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m4 2a1 1 0 1 0 0-2a1 1 0 0 0 0 2m3 3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-6 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2m3-12a8 8 0 1 0 7.87 6.56a.5.5 0 0 0-.867-.24A2 2 0 0 1 13.5 7a.56.56 0 0 0-.44-.548a2 2 0 0 1-.954-3.386a.5.5 0 0 0-.232-.845A8 8 0 0 0 10 2m-7 8a7 7 0 0 1 7.871-6.946a3 3 0 0 0 1.647 4.282a3 3 0 0 0 4.471 2.269q.01.195.011.395a7 7 0 1 1-14 0"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  <span className="footer-mob-link13">
+                    {props.cookiesLink1 ?? (
+                      <Fragment>
+                        <span className="footer-text26">C &amp; P</span>
+                      </Fragment>
+                    )}
+                  </span>
+                </div>
                 <span className="footer-link11">
                   {props.privacyLink ?? (
                     <Fragment>
@@ -268,26 +288,6 @@ const Footer = (props) => {
                     </Fragment>
                   )}
                 </span>
-                <div className="footer-container3">
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    className="footer-icon8"
-                  >
-                    <path
-                      d="M6 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m4 2a1 1 0 1 0 0-2a1 1 0 0 0 0 2m3 3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-6 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2m3-12a8 8 0 1 0 7.87 6.56a.5.5 0 0 0-.867-.24A2 2 0 0 1 13.5 7a.56.56 0 0 0-.44-.548a2 2 0 0 1-.954-3.386a.5.5 0 0 0-.232-.845A8 8 0 0 0 10 2m-7 8a7 7 0 0 1 7.871-6.946a3 3 0 0 0 1.647 4.282a3 3 0 0 0 4.471 2.269q.01.195.011.395a7 7 0 1 1-14 0"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                  <span className="footer-mob-link13">
-                    {props.cookiesLink1 ?? (
-                      <Fragment>
-                        <span className="footer-text26">C &amp; P</span>
-                      </Fragment>
-                    )}
-                  </span>
-                </div>
               </div>
             </div>
           </div>
@@ -608,14 +608,37 @@ const Footer = (props) => {
             text-decoration: none;
             background-color: rgba(245, 184, 60, 0.12);
           }
-          .footer-link11 {
+          .footer-container3 {
+            display: none;
+            align-items: flex-start;
+          }
+          .footer-mob-link13 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             font-size: 8px;
             font-style: normal;
             font-family: 'Poppins';
             font-weight: 300;
-            line-height: 1.4;
+            line-height: 1.5;
+            padding-top: 1px;
+            border-color: var(--dl-color-primary-logo-color-4);
+            border-width: 1px;
+            padding-left: var(--dl-space-space-halfunit);
+            border-radius: var(--dl-radius-radius-buttonradius);
+            padding-right: var(--dl-space-space-halfunit);
+            padding-bottom: 1px;
+            text-transform: capitalize;
+            text-decoration: none;
+            background-color: rgba(245, 184, 60, 0.12);
+          }
+          .footer-link11 {
+            fill: var(--dl-color-primary-logo-color-1);
+            color: var(--dl-color-primary-logo-color-1);
+            font-size: 8px;
+            font-style: normal;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+            line-height: 2;
             padding-top: 1px;
             border-color: var(--dl-color-primary-logo-color-4);
             border-width: 1px;
@@ -632,9 +655,9 @@ const Footer = (props) => {
             color: var(--dl-color-primary-logo-color-1);
             font-size: 8px;
             font-style: normal;
-            font-family: 'Poppins';
+            font-family: 'Ubuntu';
             font-weight: 300;
-            line-height: 1.4;
+            line-height: 2;
             padding-top: 1px;
             border-color: var(--dl-color-primary-logo-color-4);
             border-width: 1px;
@@ -651,32 +674,9 @@ const Footer = (props) => {
             color: var(--dl-color-primary-logo-color-1);
             font-size: 8px;
             font-style: normal;
-            font-family: 'Poppins';
+            font-family: 'Ubuntu';
             font-weight: 300;
-            line-height: 1.5;
-            padding-top: 1px;
-            border-color: var(--dl-color-primary-logo-color-4);
-            border-width: 1px;
-            padding-left: var(--dl-space-space-halfunit);
-            border-radius: var(--dl-radius-radius-buttonradius);
-            padding-right: var(--dl-space-space-halfunit);
-            padding-bottom: 1px;
-            text-transform: capitalize;
-            text-decoration: none;
-            background-color: rgba(245, 184, 60, 0.12);
-          }
-          .footer-container3 {
-            display: none;
-            align-items: flex-start;
-          }
-          .footer-mob-link13 {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
-            font-size: 8px;
-            font-style: normal;
-            font-family: 'Poppins';
-            font-weight: 300;
-            line-height: 1.5;
+            line-height: 2;
             padding-top: 1px;
             border-color: var(--dl-color-primary-logo-color-4);
             border-width: 1px;
@@ -759,6 +759,15 @@ const Footer = (props) => {
             .footer-content2 {
               text-align: center;
             }
+            .footer-link11 {
+              line-height: 2;
+            }
+            .footer-link12 {
+              line-height: 2;
+            }
+            .footer-link13 {
+              line-height: 2;
+            }
           }
           @media (max-width: 767px) {
             .footer-content {
@@ -817,6 +826,10 @@ const Footer = (props) => {
             }
             .footer-content3 {
               font-size: 12px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 1.6;
             }
             .footer-footer-links3 {
               align-self: stretch;
@@ -826,6 +839,9 @@ const Footer = (props) => {
             }
             .footer-container1 {
               display: flex;
+              align-self: center;
+              align-items: center;
+              justify-content: center;
             }
             .footer-icon1 {
               fill: var(--dl-color-primary-logo-color-1);
@@ -840,9 +856,9 @@ const Footer = (props) => {
               display: flex;
               font-size: 8px;
               font-style: normal;
-              font-family: Poppins;
+              font-family: Ubuntu;
               font-weight: 300;
-              line-height: 1.6;
+              line-height: 2;
               margin-left: 4px;
               padding-top: 0px;
               border-width: 0px;
@@ -855,6 +871,8 @@ const Footer = (props) => {
             }
             .footer-container2 {
               display: flex;
+              align-items: center;
+              justify-content: center;
             }
             .footer-icon4 {
               fill: var(--dl-color-primary-logo-color-2);
@@ -867,13 +885,44 @@ const Footer = (props) => {
             .footer-mob-link12 {
               display: flex;
               font-size: 8px;
-              font-family: Poppins;
-              line-height: 1.6;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 2;
               padding-top: 0px;
               border-width: 0px;
               padding-left: 4px;
               padding-right: 0px;
               padding-bottom: 0px;
+              background-color: transparent;
+            }
+            .footer-container3 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .footer-icon8 {
+              fill: var(--dl-color-primary-logo-color-2);
+              color: var(--dl-color-primary-logo-color-2);
+              width: 14px;
+              height: 14px;
+              display: flex;
+            }
+            .footer-mob-link13 {
+              color: var(--dl-color-primary-logo-color-1);
+              display: flex;
+              font-size: 8px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 2;
+              padding-top: 0px;
+              border-width: 0px;
+              padding-left: 4px;
+              padding-right: 0px;
+              padding-bottom: 0px;
+              text-transform: capitalize;
+              text-decoration: none;
               background-color: transparent;
             }
             .footer-link11 {
@@ -890,33 +939,6 @@ const Footer = (props) => {
               display: none;
               font-size: 9px;
               font-family: Poppins;
-            }
-            .footer-container3 {
-              display: flex;
-            }
-            .footer-icon8 {
-              fill: var(--dl-color-primary-logo-color-2);
-              color: var(--dl-color-primary-logo-color-2);
-              width: 14px;
-              height: 14px;
-              display: flex;
-            }
-            .footer-mob-link13 {
-              color: var(--dl-color-primary-logo-color-1);
-              display: flex;
-              font-size: 8px;
-              font-style: normal;
-              font-family: Poppins;
-              font-weight: 300;
-              line-height: 1.6;
-              padding-top: 0px;
-              border-width: 0px;
-              padding-left: 4px;
-              padding-right: 0px;
-              padding-bottom: 0px;
-              text-transform: capitalize;
-              text-decoration: none;
-              background-color: transparent;
             }
           }
           @media (max-width: 479px) {

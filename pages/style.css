@@ -365,7 +365,7 @@
 .thq-img-ratio-16-9 {
   width: 95%;
   object-fit: scale-down;
-  aspect-ratio: 16/9;
+  aspect-ratio: 1/1;
   border-radius: var(--dl-radius-radius-imageradius);
 }
 .thq-img-ratio-4-3 {
@@ -778,6 +778,7 @@
   text-transform: none;
   text-decoration: none;
 }
+
 @media(max-width: 991px) {
   .image-notes {
     flex: 0 0 auto;

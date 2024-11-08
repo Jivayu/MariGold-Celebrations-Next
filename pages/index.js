@@ -147,9 +147,16 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          faq1Question={
+          heading11={
             <Fragment>
               <span className="home-text32">
+                Banquet Hall &amp; Events Services Near Nagpur
+              </span>
+            </Fragment>
+          }
+          faq1Question={
+            <Fragment>
+              <span className="home-text33">
                 Weddings &amp; Receptions | Engagement Ceremonies &amp;
                 Pre-Wedding Functions.
               </span>
@@ -157,7 +164,7 @@ const Home = (props) => {
           }
           faq2Question={
             <Fragment>
-              <span className="home-text33">
+              <span className="home-text34">
                 Birthday Parties &amp; Anniversaries | Social Gatherings &amp;
                 Family Events.
               </span>
@@ -165,7 +172,7 @@ const Home = (props) => {
           }
           faq3Question={
             <Fragment>
-              <span className="home-text34">
+              <span className="home-text35">
                 Corporate Events &amp; Conferences | Award Ceremonies &amp; Gala
                 Dinners.
               </span>
@@ -173,15 +180,8 @@ const Home = (props) => {
           }
           faq4Question={
             <Fragment>
-              <span className="home-text35">
-                Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows.
-              </span>
-            </Fragment>
-          }
-          heading11={
-            <Fragment>
               <span className="home-text36">
-                Banquet Hall &amp; Events Services Near Nagpur
+                Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows.
               </span>
             </Fragment>
           }

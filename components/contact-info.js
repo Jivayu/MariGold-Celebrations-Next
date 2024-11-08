@@ -343,7 +343,7 @@ const ContactInfo = (props) => {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
-            max-width: 36%;
+            max-width: 40%;
             transform: scale(1);
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.5);
             align-items: flex-start;
@@ -609,6 +609,7 @@ const ContactInfo = (props) => {
           .contact-info-iframe {
             width: 100%;
             height: 640px;
+            aspect-ratio: 16/9;
             border-radius: var(--dl-radius-radius-radius10);
           }
           .contact-info-text21 {

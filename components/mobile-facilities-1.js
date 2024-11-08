@@ -1323,7 +1323,7 @@ const MobileFacilities1 = (props) => {
             border-color: var(--dl-color-primary-logo-color-2);
             border-style: dotted;
             border-width: 0.5px;
-            background-color: rgba(61, 19, 234, 0.3);
+            background-color: var(--dl-color-primary-logo-color-2);
           }
           .mobile-facilities-1-text73 {
             display: inline-block;
@@ -1361,7 +1361,8 @@ const MobileFacilities1 = (props) => {
               display: flex;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
-              background-color: rgba(0, 0, 0, 0.5);
+              padding-bottom: var(--dl-space-space-twounits);
+              background-color: var(--dl-color-primary-logo-color-4);
             }
             .mobile-facilities-1-max-width {
               flex-direction: column;
@@ -1372,8 +1373,16 @@ const MobileFacilities1 = (props) => {
             .mobile-facilities-1-container10 {
               padding-bottom: var(--dl-space-space-unit);
             }
+            .mobile-facilities-1-text11 {
+              fill: var(--dl-color-theme-accent1);
+              color: var(--dl-color-theme-accent1);
+            }
             .mobile-facilities-1-container13 {
               padding: var(--dl-space-space-halfunit);
+            }
+            .mobile-facilities-1-link {
+              border-color: var(--dl-color-primary-logo-color-1);
+              background-color: var(--dl-color-primary-logo-color-4);
             }
           }
           @media (max-width: 599px) {
@@ -1489,6 +1498,9 @@ const MobileFacilities1 = (props) => {
               line-height: 1.4;
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
+            }
+            .mobile-facilities-1root-class-name {
+              background-color: transparent;
             }
           }
           @media (max-width: 479px) {

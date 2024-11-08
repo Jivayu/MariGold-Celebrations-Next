@@ -401,7 +401,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature11:hover {
             transform: scale(1);
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container11 {
             flex: 0 0 auto;
@@ -473,7 +473,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature12:hover {
             transform: scale(1);
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container14 {
             flex: 0 0 auto;
@@ -545,7 +545,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature13:hover {
             transform: scale(1);
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container17 {
             flex: 0 0 auto;
@@ -617,7 +617,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature14:hover {
             transform: scale(1);
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container20 {
             flex: 0 0 auto;
@@ -689,7 +689,7 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature15:hover {
             transform: scale(1);
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color: rgba(0, 0, 0, 0.68);
           }
           .facilities-home-1-container23 {
             flex: 0 0 auto;

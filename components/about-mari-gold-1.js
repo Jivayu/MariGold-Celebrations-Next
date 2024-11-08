@@ -25,7 +25,7 @@ const AboutMariGold1 = (props) => {
                 >
                   {props.heading1 ?? (
                     <Fragment>
-                      <span className="about-mari-gold-1-text39">
+                      <span className="about-mari-gold-1-text40">
                         MariGold Celebration - Hingna, Nagpur
                       </span>
                     </Fragment>
@@ -37,7 +37,7 @@ const AboutMariGold1 = (props) => {
                 >
                   {props.heading11 ?? (
                     <Fragment>
-                      <span className="about-mari-gold-1-text51">
+                      <span className="about-mari-gold-1-text39">
                         Banquet Hall &amp; Events Services Near Nagpur
                       </span>
                     </Fragment>
@@ -48,7 +48,7 @@ const AboutMariGold1 = (props) => {
               <p className="about-mari-gold-1-text12 UbuntuLight-14">
                 {props.content1 ?? (
                   <Fragment>
-                    <span className="about-mari-gold-1-text40">
+                    <span className="about-mari-gold-1-text41">
                       <span>
                         Marigold Celebration Hall, located in the heart of
                         Hingna, Nagpur, is the premier venue for hosting
@@ -791,7 +791,7 @@ const AboutMariGold1 = (props) => {
           .about-mari-gold-1-text40 {
             display: inline-block;
           }
-          .about-mari-gold-1-text51 {
+          .about-mari-gold-1-text41 {
             display: inline-block;
           }
           @media (max-width: 1200px) {
@@ -841,9 +841,9 @@ AboutMariGold1.defaultProps = {
   action: undefined,
   faq3Question: undefined,
   faq4Question: undefined,
+  heading11: undefined,
   heading1: undefined,
   content1: undefined,
-  heading11: undefined,
 }
 
 AboutMariGold1.propTypes = {
@@ -854,9 +854,9 @@ AboutMariGold1.propTypes = {
   action: PropTypes.element,
   faq3Question: PropTypes.element,
   faq4Question: PropTypes.element,
+  heading11: PropTypes.element,
   heading1: PropTypes.element,
   content1: PropTypes.element,
-  heading11: PropTypes.element,
 }
 
 export default AboutMariGold1

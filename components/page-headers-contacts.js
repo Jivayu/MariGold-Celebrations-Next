@@ -78,6 +78,7 @@ const PageHeadersContacts = (props) => {
             position: relative;
             align-items: flex-start;
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-halfunit);
           }
           .page-headers-contacts-background-image {
             left: 0px;
@@ -194,7 +195,7 @@ PageHeadersContacts.defaultProps = {
   content1: undefined,
   rootClassName: '',
   backgroundImageSrc:
-    'https://images.unsplash.com/photo-1617610690765-178c88b48d05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDE4MjE2NHw&ixlib=rb-4.0.3&q=80&w=1080',
+    'https://images.unsplash.com/photo-1617610690765-178c88b48d05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDE4MjE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
 }
 
 PageHeadersContacts.propTypes = {
