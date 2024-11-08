@@ -295,6 +295,8 @@ const VideoGallery = (props) => {
           .video-gallery-video {
             flex: 1;
             aspect-ratio: 16/9;
+            border-color: var(--dl-color-primary-logo-color-4);
+            border-width: 0.5px;
             border-radius: var(--dl-radius-radius-radius10);
           }
           .video-gallery-text15 {

@@ -30,12 +30,10 @@ const PageHeadersGallery = (props) => {
                 {props.content1 ?? (
                   <Fragment>
                     <span className="page-headers-gallery-text6">
-                      Marigold Celebration Hall in Hingna, Nagpur, is designed
-                      to offer an unmatched experience for every event, whether
-                      it&apos;s a wedding, corporate function, birthday, or
-                      grand celebration. We provide a complete suite of
-                      facilities to make each occasion truly memorable. Here’s a
-                      look at what sets us apart:
+                      Welcome to the Marigold Celebration Gallery. Explore our
+                      exquisite spaces and beautifully crafted events,
+                      showcasing weddings, corporate gatherings, and special
+                      occasions celebrated at our venue in Nagpur.
                     </span>
                   </Fragment>
                 )}

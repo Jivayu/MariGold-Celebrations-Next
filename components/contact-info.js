@@ -290,6 +290,7 @@ const ContactInfo = (props) => {
       <style jsx>
         {`
           .contact-info-container1 {
+            height: 700px;
             display: flex;
             position: relative;
             margin-top: var(--dl-space-space-fiveunits);
@@ -608,7 +609,7 @@ const ContactInfo = (props) => {
           }
           .contact-info-iframe {
             width: 100%;
-            height: 640px;
+            height: 600px;
             aspect-ratio: 16/9;
             border-radius: var(--dl-radius-radius-radius10);
           }

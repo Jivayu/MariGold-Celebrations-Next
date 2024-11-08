@@ -196,34 +196,10 @@ const Footer = (props) => {
               <div className="footer-footer-links3">
                 <div className="footer-container1">
                   <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    className="footer-icon1"
-                  >
-                    <path
-                      d="M30 15a6 6 0 1 0-10 4.46V29l4-1.884L28 29v-9.54A5.98 5.98 0 0 0 30 15m-4 10.848l-2-.942l-2 .942V20.65a5.9 5.9 0 0 0 4 0ZM24 19a4 4 0 1 1 4-4a4.005 4.005 0 0 1-4 4"
-                      fill="currentColor"
-                    ></path>
-                    <path
-                      d="M14 2a6.007 6.007 0 0 0-6 6v6H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11v-2H6V16h9v-2h-5V8a4 4 0 0 1 7.92-.8l1.96-.4A6.02 6.02 0 0 0 14 2"
-                      fill="currentColor"
-                    ></path>
-                  </svg>
-                  <span className="footer-mob-link11">
-                    {props.privacyLink1 ?? (
-                      <Fragment>
-                        <span className="footer-text10">P P</span>
-                      </Fragment>
-                    )}
-                  </span>
-                </div>
-                <div className="footer-container2">
-                  <svg
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
-                    className="footer-icon4"
+                    className="footer-icon1"
                   >
                     <g
                       fill="none"
@@ -245,12 +221,12 @@ const Footer = (props) => {
                     )}
                   </span>
                 </div>
-                <div className="footer-container3">
+                <div className="footer-container2">
                   <svg
                     width="20"
                     height="20"
                     viewBox="0 0 20 20"
-                    className="footer-icon8"
+                    className="footer-icon5"
                   >
                     <path
                       d="M6 9a1 1 0 1 0 0-2a1 1 0 0 0 0 2m4 2a1 1 0 1 0 0-2a1 1 0 0 0 0 2m3 3a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-6 0a1 1 0 1 0 0-2a1 1 0 0 0 0 2m3-12a8 8 0 1 0 7.87 6.56a.5.5 0 0 0-.867-.24A2 2 0 0 1 13.5 7a.56.56 0 0 0-.44-.548a2 2 0 0 1-.954-3.386a.5.5 0 0 0-.232-.845A8 8 0 0 0 10 2m-7 8a7 7 0 0 1 7.871-6.946a3 3 0 0 0 1.647 4.282a3 3 0 0 0 4.471 2.269q.01.195.011.395a7 7 0 1 1-14 0"
@@ -288,6 +264,30 @@ const Footer = (props) => {
                     </Fragment>
                   )}
                 </span>
+                <div className="footer-container3">
+                  <span className="footer-mob-link11">
+                    {props.privacyLink1 ?? (
+                      <Fragment>
+                        <span className="footer-text10">P P</span>
+                      </Fragment>
+                    )}
+                  </span>
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="footer-icon7"
+                  >
+                    <path
+                      d="M30 15a6 6 0 1 0-10 4.46V29l4-1.884L28 29v-9.54A5.98 5.98 0 0 0 30 15m-4 10.848l-2-.942l-2 .942V20.65a5.9 5.9 0 0 0 4 0ZM24 19a4 4 0 1 1 4-4a4.005 4.005 0 0 1-4 4"
+                      fill="currentColor"
+                    ></path>
+                    <path
+                      d="M14 2a6.007 6.007 0 0 0-6 6v6H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11v-2H6V16h9v-2h-5V8a4 4 0 0 1 7.92-.8l1.96-.4A6.02 6.02 0 0 0 14 2"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
@@ -544,7 +544,7 @@ const Footer = (props) => {
           .footer-row {
             display: flex;
             align-self: stretch;
-            align-items: flex-start;
+            align-items: center;
             justify-content: space-between;
           }
           .footer-content3 {
@@ -560,32 +560,10 @@ const Footer = (props) => {
           .footer-footer-links3 {
             gap: 24px;
             display: flex;
-            align-items: flex-start;
+            align-self: center;
+            align-items: center;
           }
           .footer-container1 {
-            display: none;
-            align-items: flex-start;
-          }
-          .footer-mob-link11 {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
-            font-size: 8px;
-            font-style: normal;
-            font-family: 'Poppins';
-            font-weight: 300;
-            line-height: 1.4;
-            padding-top: 1px;
-            border-color: var(--dl-color-primary-logo-color-4);
-            border-width: 1px;
-            padding-left: var(--dl-space-space-halfunit);
-            border-radius: var(--dl-radius-radius-buttonradius);
-            padding-right: var(--dl-space-space-halfunit);
-            padding-bottom: 1px;
-            text-transform: capitalize;
-            text-decoration: none;
-            background-color: rgba(245, 184, 60, 0.12);
-          }
-          .footer-container2 {
             display: none;
             align-items: flex-start;
           }
@@ -608,7 +586,7 @@ const Footer = (props) => {
             text-decoration: none;
             background-color: rgba(245, 184, 60, 0.12);
           }
-          .footer-container3 {
+          .footer-container2 {
             display: none;
             align-items: flex-start;
           }
@@ -687,6 +665,29 @@ const Footer = (props) => {
             text-transform: capitalize;
             text-decoration: none;
             background-color: rgba(245, 184, 60, 0.12);
+          }
+          .footer-container3 {
+            gap: var(--dl-space-space-halfunit);
+            display: none;
+            align-items: center;
+          }
+          .footer-mob-link11 {
+            fill: var(--dl-color-primary-logo-color-1);
+            color: var(--dl-color-primary-logo-color-1);
+            width: 14px;
+            height: 14px;
+            font-size: 8px;
+            font-style: normal;
+            font-family: 'Poppins';
+            font-weight: 300;
+            line-height: 1.8;
+            text-transform: capitalize;
+            text-decoration: none;
+            background-color: rgba(245, 184, 60, 0.12);
+          }
+          .footer-icon7 {
+            width: 14px;
+            height: 14px;
           }
           .footer-text10 {
             display: inline-block;
@@ -838,43 +839,13 @@ const Footer = (props) => {
               justify-content: center;
             }
             .footer-container1 {
+              gap: var(--dl-space-space-halfunit);
               display: flex;
-              align-self: center;
               align-items: center;
+              flex-direction: row-reverse;
               justify-content: center;
             }
             .footer-icon1 {
-              fill: var(--dl-color-primary-logo-color-1);
-              color: var(--dl-color-primary-logo-color-1);
-              width: 14px;
-              height: 14px;
-              display: flex;
-              align-self: center;
-            }
-            .footer-mob-link11 {
-              color: var(--dl-color-primary-logo-color-1);
-              display: flex;
-              font-size: 8px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
-              line-height: 2;
-              margin-left: 4px;
-              padding-top: 0px;
-              border-width: 0px;
-              padding-left: 0px;
-              padding-right: 0px;
-              padding-bottom: 0px;
-              text-transform: capitalize;
-              text-decoration: none;
-              background-color: transparent;
-            }
-            .footer-container2 {
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            }
-            .footer-icon4 {
               fill: var(--dl-color-primary-logo-color-2);
               color: var(--dl-color-primary-logo-color-2);
               width: 14px;
@@ -896,12 +867,14 @@ const Footer = (props) => {
               padding-bottom: 0px;
               background-color: transparent;
             }
-            .footer-container3 {
+            .footer-container2 {
+              gap: var(--dl-space-space-halfunit);
               display: flex;
               align-items: center;
+              flex-direction: row-reverse;
               justify-content: center;
             }
-            .footer-icon8 {
+            .footer-icon5 {
               fill: var(--dl-color-primary-logo-color-2);
               color: var(--dl-color-primary-logo-color-2);
               width: 14px;
@@ -939,6 +912,38 @@ const Footer = (props) => {
               display: none;
               font-size: 9px;
               font-family: Poppins;
+            }
+            .footer-container3 {
+              display: flex;
+            }
+            .footer-mob-link11 {
+              gap: 1px;
+              color: var(--dl-color-primary-logo-color-1);
+              width: 14px;
+              height: 14px;
+              display: flex;
+              font-size: 8px;
+              font-style: normal;
+              font-family: Ubuntu;
+              font-weight: 300;
+              line-height: 2;
+              padding-top: 0px;
+              border-width: 0px;
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: 0px;
+              text-transform: capitalize;
+              justify-content: space-between;
+              text-decoration: none;
+              background-color: transparent;
+            }
+            .footer-icon7 {
+              fill: var(--dl-color-primary-logo-color-1);
+              color: var(--dl-color-primary-logo-color-1);
+              width: 14px;
+              height: 14px;
+              display: flex;
+              align-self: center;
             }
           }
           @media (max-width: 479px) {
@@ -988,7 +993,11 @@ const Footer = (props) => {
             .footer-content2 {
               text-align: center;
             }
+            .footer-content3 {
+              font-size: 10px;
+            }
             .footer-footer-links3 {
+              gap: var(--dl-space-space-halfunit);
               width: auto;
               flex-direction: row;
             }
