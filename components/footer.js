@@ -833,6 +833,7 @@ const Footer = (props) => {
               line-height: 1.6;
             }
             .footer-footer-links3 {
+              display: none;
               align-self: stretch;
               align-items: center;
               flex-direction: row;

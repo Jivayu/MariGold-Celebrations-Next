@@ -272,116 +272,6 @@ const Home = (props) => {
             </Fragment>
           }
         ></VideoGallery>
-        <Footer
-          link1={
-            <Fragment>
-              <span className="home-text49">Home</span>
-            </Fragment>
-          }
-          link2={
-            <Fragment>
-              <span className="home-text50">Facilities</span>
-            </Fragment>
-          }
-          link3={
-            <Fragment>
-              <span className="home-text51">Gallery</span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="home-text52">Events</span>
-            </Fragment>
-          }
-          link5={
-            <Fragment>
-              <span className="home-text53">Contacts</span>
-            </Fragment>
-          }
-          link6={
-            <Fragment>
-              <span className="home-text54">Corporate Events</span>
-            </Fragment>
-          }
-          link7={
-            <Fragment>
-              <span className="home-text55">Weddings Plannings</span>
-            </Fragment>
-          }
-          link8={
-            <Fragment>
-              <span className="home-text56">
-                <span>Events Management</span>
-                <br></br>
-              </span>
-            </Fragment>
-          }
-          link9={
-            <Fragment>
-              <span className="home-text59">Special Occasions</span>
-            </Fragment>
-          }
-          link10={
-            <Fragment>
-              <span className="home-text60">Book Now</span>
-            </Fragment>
-          }
-          content2={
-            <Fragment>
-              <span className="home-text61">
-                We warmly invite you to visit and explore Marigold Banquet Hall.
-                It would be our pleasure to assist you with your event planning
-                needs and show you everything we have to offer!
-              </span>
-            </Fragment>
-          }
-          content3={
-            <Fragment>
-              <span className="home-text62">MariGold Celebration</span>
-            </Fragment>
-          }
-          termsLink={
-            <Fragment>
-              <span className="home-text63">terms &amp; conditions.</span>
-            </Fragment>
-          }
-          termsLink1={
-            <Fragment>
-              <span className="home-text64">T &amp; C</span>
-            </Fragment>
-          }
-          cookiesLink={
-            <Fragment>
-              <span className="home-text65">cookie policy.</span>
-            </Fragment>
-          }
-          privacyLink={
-            <Fragment>
-              <span className="home-text66">privacy policy.</span>
-            </Fragment>
-          }
-          column1Title={
-            <Fragment>
-              <span className="home-text67">Contact Us</span>
-            </Fragment>
-          }
-          column2Title={
-            <Fragment>
-              <span className="home-text68">Services</span>
-            </Fragment>
-          }
-          cookiesLink1={
-            <Fragment>
-              <span className="home-text69">C &amp; P</span>
-            </Fragment>
-          }
-          privacyLink1={
-            <Fragment>
-              <span className="home-text70">P P</span>
-            </Fragment>
-          }
-          rootClassName="footerroot-class-name2"
-        ></Footer>
         <div>
           <div className="home-container3">
             <React.Fragment>
@@ -404,6 +294,116 @@ const Home = (props) => {
             </React.Fragment>
           </div>
         </div>
+        <Footer
+          privacyLink1={
+            <Fragment>
+              <span className="home-text49">P P</span>
+            </Fragment>
+          }
+          content3={
+            <Fragment>
+              <span className="home-text50">MariGold Celebration</span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="home-text51">Events</span>
+            </Fragment>
+          }
+          column1Title={
+            <Fragment>
+              <span className="home-text52">Contact Us</span>
+            </Fragment>
+          }
+          termsLink1={
+            <Fragment>
+              <span className="home-text53">T &amp; C</span>
+            </Fragment>
+          }
+          link2={
+            <Fragment>
+              <span className="home-text54">Facilities</span>
+            </Fragment>
+          }
+          link10={
+            <Fragment>
+              <span className="home-text55">Book Now</span>
+            </Fragment>
+          }
+          link6={
+            <Fragment>
+              <span className="home-text56">Corporate Events</span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="home-text57">terms &amp; conditions.</span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="home-text58">Contacts</span>
+            </Fragment>
+          }
+          link8={
+            <Fragment>
+              <span className="home-text59">
+                <span>Events Management</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="home-text62">cookie policy.</span>
+            </Fragment>
+          }
+          link1={
+            <Fragment>
+              <span className="home-text63">Home</span>
+            </Fragment>
+          }
+          link9={
+            <Fragment>
+              <span className="home-text64">Special Occasions</span>
+            </Fragment>
+          }
+          cookiesLink1={
+            <Fragment>
+              <span className="home-text65">C &amp; P</span>
+            </Fragment>
+          }
+          column2Title={
+            <Fragment>
+              <span className="home-text66">Services</span>
+            </Fragment>
+          }
+          link7={
+            <Fragment>
+              <span className="home-text67">Weddings Plannings</span>
+            </Fragment>
+          }
+          link3={
+            <Fragment>
+              <span className="home-text68">Gallery</span>
+            </Fragment>
+          }
+          content2={
+            <Fragment>
+              <span className="home-text69">
+                We warmly invite you to visit and explore Marigold Banquet Hall.
+                It would be our pleasure to assist you with your event planning
+                needs and show you everything we have to offer!
+              </span>
+            </Fragment>
+          }
+          privacyLink={
+            <Fragment>
+              <span className="home-text70">privacy policy.</span>
+            </Fragment>
+          }
+          rootClassName="footerroot-class-name2"
+        ></Footer>
       </div>
       <style jsx>
         {`
@@ -505,6 +505,12 @@ const Home = (props) => {
           .home-text48 {
             display: inline-block;
           }
+          .home-container3 {
+            display: contents;
+          }
+          .home-container5 {
+            display: contents;
+          }
           .home-text49 {
             display: inline-block;
           }
@@ -529,13 +535,13 @@ const Home = (props) => {
           .home-text56 {
             display: inline-block;
           }
+          .home-text57 {
+            display: inline-block;
+          }
+          .home-text58 {
+            display: inline-block;
+          }
           .home-text59 {
-            display: inline-block;
-          }
-          .home-text60 {
-            display: inline-block;
-          }
-          .home-text61 {
             display: inline-block;
           }
           .home-text62 {
@@ -564,12 +570,6 @@ const Home = (props) => {
           }
           .home-text70 {
             display: inline-block;
-          }
-          .home-container3 {
-            display: contents;
-          }
-          .home-container5 {
-            display: contents;
           }
           @media (max-width: 599px) {
             .home-text18 {
