@@ -558,10 +558,11 @@ const Footer = (props) => {
             text-decoration: none;
           }
           .footer-footer-links3 {
-            gap: 24px;
+            gap: var(--dl-space-space-halfunit);
             display: flex;
             align-self: center;
             align-items: center;
+            justify-content: flex-start;
           }
           .footer-container1 {
             display: none;
@@ -824,6 +825,7 @@ const Footer = (props) => {
             .footer-row {
               align-self: stretch;
               flex-direction: row;
+              justify-content: flex-start;
             }
             .footer-content3 {
               font-size: 12px;
@@ -993,6 +995,10 @@ const Footer = (props) => {
             }
             .footer-content2 {
               text-align: center;
+            }
+            .footer-row {
+              align-items: center;
+              justify-content: flex-start;
             }
             .footer-content3 {
               font-size: 10px;

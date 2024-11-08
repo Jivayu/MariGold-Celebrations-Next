@@ -69,12 +69,7 @@ const Gallery = (props) => {
           content1={
             <Fragment>
               <span className="gallery-text14">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat. Suspendisse varius enim in eros
-                elementum tristique. Duis cursus, mi quis viverra ornare, eros
-                dolor interdum nulla.
+                Welcome to the Marigold Celebration Gallery.
               </span>
             </Fragment>
           }
