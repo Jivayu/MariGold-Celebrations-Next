@@ -66,33 +66,31 @@ const Gallery = (props) => {
           rootClassName="page-headers-galleryroot-class-name"
         ></PageHeadersGallery>
         <GalleryImages
+          button={
+            <Fragment>
+              <span className="gallery-text14">Button</span>
+            </Fragment>
+          }
           content1={
             <Fragment>
-              <span className="gallery-text14">
+              <span className="gallery-text15">
                 Welcome to the Marigold Celebration Gallery.
               </span>
             </Fragment>
           }
-          image2Description={
+          heading1={
             <Fragment>
-              <span className="gallery-text15">Our Grand Main Hall</span>
-            </Fragment>
-          }
-          image3Description={
-            <Fragment>
-              <span className="gallery-text16">
-                Our Grand Main Hall with Some Stage Decor arena
-              </span>
-            </Fragment>
-          }
-          image2Title={
-            <Fragment>
-              <span className="gallery-text17">Corporate Event Venue</span>
+              <span className="gallery-text16">Gallery</span>
             </Fragment>
           }
           image1Title={
             <Fragment>
-              <span className="gallery-text18">Image 1</span>
+              <span className="gallery-text17">Image 1</span>
+            </Fragment>
+          }
+          image2Title={
+            <Fragment>
+              <span className="gallery-text18">Corporate Event Venue</span>
             </Fragment>
           }
           image3Title={
@@ -100,6 +98,7 @@ const Gallery = (props) => {
               <span className="gallery-text19">Social Gathering Decor</span>
             </Fragment>
           }
+          rootClassName="gallery-imagesroot-class-name"
           image1Description={
             <Fragment>
               <span className="gallery-text20">
@@ -108,17 +107,18 @@ const Gallery = (props) => {
               </span>
             </Fragment>
           }
-          heading1={
+          image2Description={
             <Fragment>
-              <span className="gallery-text23">Gallery</span>
+              <span className="gallery-text23">Our Grand Main Hall</span>
             </Fragment>
           }
-          button={
+          image3Description={
             <Fragment>
-              <span className="gallery-text24">Button</span>
+              <span className="gallery-text24">
+                Our Grand Main Hall with Some Stage Decor arena
+              </span>
             </Fragment>
           }
-          rootClassName="gallery-imagesroot-class-name"
         ></GalleryImages>
         <VideoGallery
           review1={

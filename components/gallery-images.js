@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 
-import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const GalleryImages = (props) => {
@@ -40,9 +39,9 @@ const GalleryImages = (props) => {
           <div className="gallery-images-content">
             <div className="gallery-images-container1">
               <img
-                loading="eager"
-                src="/images/Marigold Images/design%202-1-400h.webp"
                 alt="Wedding Hall Setup"
+                src="/images/Marigold Images/design%202-1-400h.webp"
+                loading="eager"
                 className="gallery-images-image1 thq-img-ratio-4-3"
               />
               <span className="gallery-images-text13 thq-body-small">
@@ -67,10 +66,10 @@ const GalleryImages = (props) => {
             </div>
             <div className="gallery-images-container3">
               <img
-                loading="lazy"
+                alt="marigold main hall"
                 sizes="(min-width: 768px) 800px, 480px"
                 src="/images/Marigold Images/hallpic-1-600w.webp"
-                alt="marigold main hall"
+                loading="lazy"
                 srcSet="/images/Marigold Images//hallpic-1-600w.webp 800w, /images/Marigold Images/hallpic-1-mobile.webp 480w"
                 className="gallery-images-image2 thq-img-ratio-4-3"
               />
@@ -98,8 +97,8 @@ const GalleryImages = (props) => {
             <div className="gallery-images-container5">
               <img
                 alt={props.image3Alt}
-                loading="eager"
                 src="/images/Marigold Images/hallpic-6-400h.webp"
+                loading="eager"
                 className="gallery-images-image3 thq-img-ratio-4-3"
               />
               <span className="gallery-images-text17 thq-body-small">
@@ -123,21 +122,6 @@ const GalleryImages = (props) => {
                 </span>
               </div>
             </div>
-          </div>
-        </div>
-        <div>
-          <div className="gallery-images-container8">
-            <React.Fragment>
-              <iframe
-                src="https://maps.app.goo.gl/y4Sq2yrDvutkoPhz9"
-                width="100%"
-                height={400}
-                style={{ border: '0' }}
-                allowFullScreen={true}
-                loading="lazy"
-                referrer-policy="no-referrer-when-downgrade"
-              />
-            </React.Fragment>
           </div>
         </div>
       </div>
@@ -313,9 +297,6 @@ const GalleryImages = (props) => {
             text-align: center;
             font-family: 'Ubuntu';
           }
-          .gallery-images-container8 {
-            display: contents;
-          }
           .gallery-images-text19 {
             display: inline-block;
           }
@@ -381,8 +362,8 @@ GalleryImages.defaultProps = {
   image3Title: undefined,
   image1Description: undefined,
   heading1: undefined,
-  button: undefined,
   rootClassName: '',
+  button: undefined,
 }
 
 GalleryImages.propTypes = {
@@ -395,8 +376,8 @@ GalleryImages.propTypes = {
   image3Title: PropTypes.element,
   image1Description: PropTypes.element,
   heading1: PropTypes.element,
-  button: PropTypes.element,
   rootClassName: PropTypes.string,
+  button: PropTypes.element,
 }
 
 export default GalleryImages

@@ -1499,9 +1499,6 @@ const MobileFacilities1 = (props) => {
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
-            .mobile-facilities-1root-class-name {
-              background-color: transparent;
-            }
           }
           @media (max-width: 479px) {
             .mobile-facilities-1-max-width {

@@ -778,7 +778,6 @@
   text-transform: none;
   text-decoration: none;
 }
-
 @media(max-width: 991px) {
   .image-notes {
     flex: 0 0 auto;
