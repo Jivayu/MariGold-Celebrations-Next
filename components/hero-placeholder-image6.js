@@ -9,6 +9,7 @@ const HeroPlaceholderImage6 = (props) => {
         <img
           alt={props.image4Alt11}
           src="/images/Marigold Images/marigold11-400h.webp"
+          loading="lazy"
           className="hero-placeholder-image6-placeholder-image thq-img-ratio-1-1"
         />
       </div>

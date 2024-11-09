@@ -10,6 +10,7 @@ const HeroPlaceholderImage4 = (props) => {
           id="hero-1"
           alt={props.image5Alt1}
           src={props.image5Src1}
+          loading="lazy"
           className="hero-placeholder-image4-placeholder-image thq-img-ratio-1-1"
         />
       </div>

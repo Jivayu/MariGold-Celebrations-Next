@@ -11,6 +11,7 @@ const BrandLogo = (props) => {
             id="Marigold Celebration Brand Logo"
             alt={props.imageAlt}
             src={props.imageSrc}
+            loading="lazy"
             className="brand-logo-image"
           />
         </div>

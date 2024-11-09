@@ -66,19 +66,32 @@ const FacilitiesHome1 = (props) => {
                         )}
                       </h3>
                     </div>
-                    <span className="facilities-home-1-description11 P-Light">
-                      {props.feature1Description ?? (
-                        <Fragment>
-                          <span className="facilities-home-1-text27">
-                            Our expansive banquet hall can accommodate up to
-                            2000 guests comfortably. Whether you’re planning an
-                            extravagant wedding or an intimate gathering, our
-                            flexible seating arrangements and multiple event
-                            spaces ensure the perfect setting for your occasion.
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
+                    <animate-on-reveal
+                      animation="fadeIn"
+                      duration="2000ms"
+                      delay="100ms"
+                      direction="normal"
+                      easing="ease"
+                      iteration="1"
+                    >
+                      <span
+                        data-thq-animate-on-reveal="true"
+                        className="facilities-home-1-description11 P-Light"
+                      >
+                        {props.feature1Description ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text27">
+                              Our expansive banquet hall can accommodate up to
+                              2000 guests comfortably. Whether you’re planning
+                              an extravagant wedding or an intimate gathering,
+                              our flexible seating arrangements and multiple
+                              event spaces ensure the perfect setting for your
+                              occasion.
+                            </span>
+                          </Fragment>
+                        )}
+                      </span>
+                    </animate-on-reveal>
                   </div>
                 </div>
               </div>
@@ -123,21 +136,33 @@ const FacilitiesHome1 = (props) => {
                         )}
                       </h3>
                     </div>
-                    <span className="facilities-home-1-description12 P-Light">
-                      {props.feature1Description1 ?? (
-                        <Fragment>
-                          <span className="facilities-home-1-text21">
-                            We offer customizable catering options to suit any
-                            event style. From lavish multi-course dinners to
-                            casual buffets, our in-house culinary team crafts
-                            delicious, bespoke menus that reflect your taste and
-                            preferences. Whether it’s traditional or
-                            contemporary cuisine, our chefs ensure a delightful
-                            dining experience for your guests.
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
+                    <animate-on-reveal
+                      animation="fadeIn"
+                      duration="2000ms"
+                      delay="100ms"
+                      direction="normal"
+                      easing="ease"
+                      iteration="1"
+                    >
+                      <span
+                        data-thq-animate-on-reveal="true"
+                        className="facilities-home-1-description12 P-Light"
+                      >
+                        {props.feature1Description1 ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text21">
+                              We offer customizable catering options to suit any
+                              event style. From lavish multi-course dinners to
+                              casual buffets, our in-house culinary team crafts
+                              delicious, bespoke menus that reflect your taste
+                              and preferences. Whether it’s traditional or
+                              contemporary cuisine, our chefs ensure a
+                              delightful dining experience for your guests.
+                            </span>
+                          </Fragment>
+                        )}
+                      </span>
+                    </animate-on-reveal>
                   </div>
                 </div>
               </div>
@@ -173,21 +198,33 @@ const FacilitiesHome1 = (props) => {
                         )}
                       </h3>
                     </div>
-                    <span className="facilities-home-1-description13 P-Light">
-                      {props.feature1Description11 ?? (
-                        <Fragment>
-                          <span className="facilities-home-1-text23">
-                            Preserve every special moment with our professional
-                            photography and videography services. Our
-                            experienced team specializes in capturing the
-                            essence of your event, whether it’s candid wedding
-                            moments or corporate highlights. We also provide
-                            event videography, ensuring that every detail is
-                            documented in high quality.
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
+                    <animate-on-reveal
+                      animation="fadeIn"
+                      duration="2000ms"
+                      delay="100ms"
+                      direction="normal"
+                      easing="ease"
+                      iteration="1"
+                    >
+                      <span
+                        data-thq-animate-on-reveal="true"
+                        className="facilities-home-1-description13 P-Light"
+                      >
+                        {props.feature1Description11 ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text23">
+                              Preserve every special moment with our
+                              professional photography and videography services.
+                              Our experienced team specializes in capturing the
+                              essence of your event, whether it’s candid wedding
+                              moments or corporate highlights. We also provide
+                              event videography, ensuring that every detail is
+                              documented in high quality.
+                            </span>
+                          </Fragment>
+                        )}
+                      </span>
+                    </animate-on-reveal>
                   </div>
                 </div>
               </div>
@@ -224,21 +261,33 @@ const FacilitiesHome1 = (props) => {
                         )}
                       </h3>
                     </div>
-                    <span className="facilities-home-1-description14 P-Light">
-                      {props.feature1Description111 ?? (
-                        <Fragment>
-                          <span className="facilities-home-1-text17">
-                            Our dedicated décor team works closely with you to
-                            bring your vision to life. From elegant wedding
-                            themes to corporate setups, we provide tailored
-                            decoration services that match your event’s style.
-                            Whether you’re looking for luxurious floral
-                            arrangements or modern minimalist designs, we have
-                            you covered.
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
+                    <animate-on-reveal
+                      animation="fadeIn"
+                      duration="2000ms"
+                      delay="100ms"
+                      direction="normal"
+                      easing="ease"
+                      iteration="1"
+                    >
+                      <span
+                        data-thq-animate-on-reveal="true"
+                        className="facilities-home-1-description14 P-Light"
+                      >
+                        {props.feature1Description111 ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text17">
+                              Our dedicated décor team works closely with you to
+                              bring your vision to life. From elegant wedding
+                              themes to corporate setups, we provide tailored
+                              decoration services that match your event’s style.
+                              Whether you’re looking for luxurious floral
+                              arrangements or modern minimalist designs, we have
+                              you covered.
+                            </span>
+                          </Fragment>
+                        )}
+                      </span>
+                    </animate-on-reveal>
                   </div>
                 </div>
               </div>
@@ -274,21 +323,34 @@ const FacilitiesHome1 = (props) => {
                         )}
                       </h3>
                     </div>
-                    <span className="facilities-home-1-description15 P-Light">
-                      {props.feature1Description1111 ?? (
-                        <Fragment>
-                          <span className="facilities-home-1-text19">
-                            Our venue offers ample parking space to accommodate
-                            all your guests, ensuring a stress-free arrival
-                            experience. For added convenience, we provide lift
-                            access to all levels, making the venue fully
-                            accessible to everyone. Additionally, our venue’s
-                            iconic central location in Hingna, Nagpur, is easily
-                            accessible from all parts of the city.
-                          </span>
-                        </Fragment>
-                      )}
-                    </span>
+                    <animate-on-reveal
+                      animation="fadeIn"
+                      duration="2000ms"
+                      delay="100ms"
+                      direction="normal"
+                      easing="ease"
+                      iteration="1"
+                    >
+                      <span
+                        data-thq-animate-on-reveal="true"
+                        className="facilities-home-1-description15 P-Light"
+                      >
+                        {props.feature1Description1111 ?? (
+                          <Fragment>
+                            <span className="facilities-home-1-text19">
+                              Our venue offers ample parking space to
+                              accommodate all your guests, ensuring a
+                              stress-free arrival experience. For added
+                              convenience, we provide lift access to all levels,
+                              making the venue fully accessible to everyone.
+                              Additionally, our venue’s iconic central location
+                              in Hingna, Nagpur, is easily accessible from all
+                              parts of the city.
+                            </span>
+                          </Fragment>
+                        )}
+                      </span>
+                    </animate-on-reveal>
                   </div>
                 </div>
               </div>
@@ -750,6 +812,12 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-text12 {
             fill: var(--dl-color-primary-logo-color-2);
             color: var(--dl-color-primary-logo-color-2);
+            animation-name: none;
+            animation-delay: 0s;
+            animation-duration: 300ms;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+            animation-timing-function: ease;
           }
           .facilities-home-1-actions {
             padding: var(--dl-space-space-unit);

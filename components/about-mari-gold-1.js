@@ -45,59 +45,71 @@ const AboutMariGold1 = (props) => {
                 </h2>
                 <div className="about-mari-gold-1-divider thq-divider-horizontal"></div>
               </div>
-              <p className="about-mari-gold-1-text12 UbuntuLight-14">
-                {props.content1 ?? (
-                  <Fragment>
-                    <span className="about-mari-gold-1-text41">
-                      <span>
-                        Marigold Celebration Hall, located in the heart of
-                        Hingna, Nagpur, is the premier venue for hosting
-                        unforgettable events. With a grand capacity of up to
-                        2000 guests, it’s the perfect setting for a wide variety
-                        of occasions—from luxurious weddings and large corporate
-                        events to intimate birthday parties and social
-                        gatherings. Our modern facilities and top-notch
-                        amenities ensure every event is seamless, successful,
-                        and memorable for both hosts and attendees.
+              <animate-on-reveal
+                animation="fadeIn"
+                duration="2000ms"
+                delay="100ms"
+                direction="normal"
+                easing="ease"
+                iteration="1"
+              >
+                <p
+                  data-thq-animate-on-reveal="true"
+                  className="about-mari-gold-1-text12 UbuntuLight-14"
+                >
+                  {props.content1 ?? (
+                    <Fragment>
+                      <span className="about-mari-gold-1-text41">
+                        <span>
+                          Marigold Celebration Hall, located in the heart of
+                          Hingna, Nagpur, is the premier venue for hosting
+                          unforgettable events. With a grand capacity of up to
+                          2000 guests, it’s the perfect setting for a wide
+                          variety of occasions—from luxurious weddings and large
+                          corporate events to intimate birthday parties and
+                          social gatherings. Our modern facilities and top-notch
+                          amenities ensure every event is seamless, successful,
+                          and memorable for both hosts and attendees.
+                        </span>
+                        <br className="Content"></br>
+                        <br className="Content"></br>
+                        <span>
+                          Conveniently situated in Hingna, Nagpur, Marigold
+                          Banquet Hall provides easy access for all your guests.
+                          Whether you’re planning an extravagant celebration or
+                          a more private function, our flexible event spaces can
+                          cater to your needs. The venue boasts a grand banquet
+                          hall for large gatherings, along with smaller,
+                          adaptable spaces for more intimate events, making it
+                          the ideal destination for any occasion.
+                        </span>
+                        <br className="Content"></br>
+                        <br className="Content"></br>
+                        <span>
+                          Beyond offering a venue, Marigold Banquet Hall
+                          delivers comprehensive event services. These may
+                          include expert event planning, bespoke catering,
+                          advanced audiovisual setups, and professional décor
+                          solutions, tailored to suit your unique requirements.
+                          Our experienced team works closely with you to ensure
+                          that your event is crafted to perfection, creating
+                          memories that last a lifetime.
+                        </span>
+                        <br className="Content"></br>
+                        <br className="Content"></br>
+                        <span>
+                          For those interested in hosting a grand event at
+                          Marigold Banquet Hall, we encourage you to reach out
+                          to our management team for detailed information on our
+                          event services, pricing, availability, and additional
+                          amenities. Let us turn your special occasion into an
+                          extraordinary experience.
+                        </span>
                       </span>
-                      <br className="Content"></br>
-                      <br className="Content"></br>
-                      <span>
-                        Conveniently situated in Hingna, Nagpur, Marigold
-                        Banquet Hall provides easy access for all your guests.
-                        Whether you’re planning an extravagant celebration or a
-                        more private function, our flexible event spaces can
-                        cater to your needs. The venue boasts a grand banquet
-                        hall for large gatherings, along with smaller, adaptable
-                        spaces for more intimate events, making it the ideal
-                        destination for any occasion.
-                      </span>
-                      <br className="Content"></br>
-                      <br className="Content"></br>
-                      <span>
-                        Beyond offering a venue, Marigold Banquet Hall delivers
-                        comprehensive event services. These may include expert
-                        event planning, bespoke catering, advanced audiovisual
-                        setups, and professional décor solutions, tailored to
-                        suit your unique requirements. Our experienced team
-                        works closely with you to ensure that your event is
-                        crafted to perfection, creating memories that last a
-                        lifetime.
-                      </span>
-                      <br className="Content"></br>
-                      <br className="Content"></br>
-                      <span>
-                        For those interested in hosting a grand event at
-                        Marigold Banquet Hall, we encourage you to reach out to
-                        our management team for detailed information on our
-                        event services, pricing, availability, and additional
-                        amenities. Let us turn your special occasion into an
-                        extraordinary experience.
-                      </span>
-                    </span>
-                  </Fragment>
-                )}
-              </p>
+                    </Fragment>
+                  )}
+                </p>
+              </animate-on-reveal>
             </div>
             <button className="about-mari-gold-1-button thq-button-filled">
               <span className="about-mari-gold-1-action1 menu">

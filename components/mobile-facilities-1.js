@@ -19,721 +19,732 @@ const MobileFacilities1 = (props) => {
         id="Mobile-Facilities-1"
         className={`mobile-facilities-1faq8 thq-section-padding ${props.rootClassName} `}
       >
-        <div className="mobile-facilities-1-max-width thq-flex-row thq-section-max-width">
-          <div className="mobile-facilities-1-list UbuntuLight-14 thq-flex-column">
-            <div className="mobile-facilities-1-container10">
-              <h1 className="mobile-facilities-1-text10 Ubuntu-Light-16">
-                {props.heading ?? (
-                  <Fragment>
-                    <span className="mobile-facilities-1-text76">
-                      Facilities We Provide at Marigold Celebration
-                    </span>
-                  </Fragment>
-                )}
-              </h1>
-              <h4
-                id="Facilities-tagline"
-                className="mobile-facilities-1-text11"
-              >
-                {props.heading2 ?? (
-                  <Fragment>
-                    <span className="mobile-facilities-1-text74">
-                      At Marigold Banquet Hall, we offer an exceptional range of
-                      facilities to ensure your event is as smooth, memorable,
-                      and stress-free as possible. Our venue is designed to
-                      cater to all types of occasions, from grand weddings to
-                      corporate events, while providing top-tier amenities.
-                    </span>
-                  </Fragment>
-                )}
-              </h4>
-            </div>
-            <div className="mobile-facilities-1-faq1">
-              <div
-                onClick={() => setFaq1Visible(!faq1Visible)}
-                className="mobile-facilities-1-trigger1"
-              >
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  className="mobile-facilities-1-icon10"
-                >
-                  <path
-                    d="M16 4c0-1.1.9-2 2-2s2 .9 2 2s-.9 2-2 2s-2-.9-2-2m4.78 3.58C19.93 7.21 19 7 18 7c-.67 0-1.31.1-1.92.28c.58.55.92 1.32.92 2.15V10h5v-.57c0-.81-.5-1.53-1.22-1.85M6 6c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2m1.92 1.28C7.31 7.1 6.67 7 6 7c-1 0-1.93.21-2.78.58C2.5 7.9 2 8.62 2 9.43V10h5v-.57c0-.83.34-1.6.92-2.15M10 4c0-1.1.9-2 2-2s2 .9 2 2s-.9 2-2 2s-2-.9-2-2m6 6H8v-.57c0-.81.5-1.53 1.22-1.85C10.07 7.21 11 7 12 7s1.93.21 2.78.58C15.5 7.9 16 8.62 16 9.43M15 16c0-1.1.9-2 2-2s2 .9 2 2s-.9 2-2 2s-2-.9-2-2m6 6h-8v-.57c0-.81.5-1.53 1.22-1.85C15.07 19.21 16 19 17 19s1.93.21 2.78.58c.72.32 1.22 1.04 1.22 1.85M5 16c0-1.1.9-2 2-2s2 .9 2 2s-.9 2-2 2s-2-.9-2-2m6 6H3v-.57c0-.81.5-1.53 1.22-1.85C5.07 19.21 6 19 7 19s1.93.21 2.78.58c.72.32 1.22 1.04 1.22 1.85M12.75 14v2h-1.5v-2H9l3-3l3 3Z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-                <p className="mobile-facilities-1-faq1-question UbuntuLight-14">
-                  {props.faq1Question ?? (
+        <animate-on-reveal animation="fadeIn" duration="2000ms" delay="100ms">
+          <div
+            data-thq-animate-on-reveal="true"
+            className="mobile-facilities-1-max-width thq-flex-row thq-section-max-width"
+          >
+            <div className="mobile-facilities-1-list UbuntuLight-14 thq-flex-column">
+              <div className="mobile-facilities-1-container10">
+                <h1 className="mobile-facilities-1-text10 Ubuntu-Light-16">
+                  {props.heading ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text79">
-                        Spacious Venue with Capacity
+                      <span className="mobile-facilities-1-text76">
+                        Facilities We Provide at Marigold Celebration
                       </span>
                     </Fragment>
                   )}
-                </p>
-                <div className="mobile-facilities-1-icons-container1">
-                  {!faq1Visible && (
-                    <div>
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="mobile-facilities-1-icon12"
-                      >
-                        <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                      </svg>
-                    </div>
-                  )}
-                  {faq1Visible && (
-                    <div>
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="mobile-facilities-1-icon14"
-                      >
-                        <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
-                      </svg>
-                    </div>
-                  )}
-                </div>
-              </div>
-              {faq1Visible && (
-                <div className="mobile-facilities-1-container13">
-                  <p className="mobile-facilities-1-text12 Ubuntu-Light-Gap-12">
-                    <span>
-                      Celebrate your special day at Marigold Banquet Hall, where
-                      love stories come to life. Our grand hall provides the
-                      perfect backdrop for weddings and receptions,
-                      accommodating up to 2000 guests in a luxurious and
-                      beautifully decorated setting. Whether it’s a traditional
-                      wedding or a modern celebration, we ensure every detail is
-                      handled with care—from bespoke décor and catering to
-                      photography and entertainment. Let us help you create the
-                      wedding of your dreams.Engagements, sangeet, mehendi, or
-                      cocktail parties—whatever your pre-wedding celebration
-                      needs, Marigold Banquet Hall offers the perfect venue. Our
-                      beautifully designed event spaces can be customized with
-                      elegant décor, entertainment, and personalized catering,
-                      making every moment leading up to your wedding as magical
-                      as the big day itself.
-                    </span>
-                    <br></br>
-                  </p>
-                  <SpaciousVenue
-                    slogan={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text15">
-                          Elegance Redefined
-                        </span>
-                      </Fragment>
-                    }
-                    sectionTitle={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text16">
-                          Versatile Event Spaces for Every Occasion
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Title={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text17">
-                          The Grand Banquet Hall
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Title={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text18">
-                          Private Event Rooms
-                        </span>
-                      </Fragment>
-                    }
-                    rootClassName="spacious-venueroot-class-name"
-                    featureDescription={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text19">
-                          At Marigold Celebration Hall, we offer adaptable event
-                          spaces designed to cater to a variety of gatherings,
-                          from intimate gatherings to grand celebrations. Each
-                          space is thoughtfully designed to provide a refined,
-                          comfortable environment suited to your unique event
-                          needs.
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Description={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text20">
-                          Perfect for large-scale events such as weddings,
-                          corporate galas, and conferences, our main hall boasts
-                          a spacious, elegant design with the capacity to host
-                          up to 2000 guests. It’s ideal for creating a grand
-                          atmosphere and leaving a lasting impression.
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Description={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text21">
-                          For more personal celebrations like engagement
-                          parties, milestone birthdays, or smaller business
-                          meetings, our flexible private rooms offer an intimate
-                          ambiance with personalized setup options, ensuring
-                          every detail aligns with your vision.
-                        </span>
-                      </Fragment>
-                    }
-                    featureDescription2={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text22">
-                          Each space is equipped with high-end amenities and the
-                          latest audio-visual technology, ensuring an
-                          unforgettable experience for both you and your guests.
-                          Whatever the occasion, Marigold Celebration Hall
-                          provides the perfect setting for a seamless and
-                          memorable event.
-                        </span>
-                      </Fragment>
-                    }
-                  ></SpaciousVenue>
-                </div>
-              )}
-            </div>
-            <div className="mobile-facilities-1-faq2">
-              <div
-                onClick={() => setFaq2Visible(!faq2Visible)}
-                className="mobile-facilities-1-trigger2"
-              >
-                <svg
-                  width="48"
-                  height="48"
-                  viewBox="0 0 48 48"
-                  className="mobile-facilities-1-icon16"
+                </h1>
+                <h4
+                  id="Facilities-tagline"
+                  className="mobile-facilities-1-text11"
                 >
-                  <g fill="none" stroke="currentColor" stroke-width="4">
-                    <path d="M6 42h36M6 36h36" stroke-linecap="round"></path>
+                  {props.heading2 ?? (
+                    <Fragment>
+                      <span className="mobile-facilities-1-text74">
+                        At Marigold Banquet Hall, we offer an exceptional range
+                        of facilities to ensure your event is as smooth,
+                        memorable, and stress-free as possible. Our venue is
+                        designed to cater to all types of occasions, from grand
+                        weddings to corporate events, while providing top-tier
+                        amenities.
+                      </span>
+                    </Fragment>
+                  )}
+                </h4>
+              </div>
+              <div className="mobile-facilities-1-faq1">
+                <div
+                  onClick={() => setFaq1Visible(!faq1Visible)}
+                  className="mobile-facilities-1-trigger1"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    className="mobile-facilities-1-icon10"
+                  >
                     <path
-                      d="M9 25c0-8.284 6.716-15 15-15s15 6.716 15 15v11H9z"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      d="M16 4c0-1.1.9-2 2-2s2 .9 2 2s-.9 2-2 2s-2-.9-2-2m4.78 3.58C19.93 7.21 19 7 18 7c-.67 0-1.31.1-1.92.28c.58.55.92 1.32.92 2.15V10h5v-.57c0-.81-.5-1.53-1.22-1.85M6 6c1.1 0 2-.9 2-2s-.9-2-2-2s-2 .9-2 2s.9 2 2 2m1.92 1.28C7.31 7.1 6.67 7 6 7c-1 0-1.93.21-2.78.58C2.5 7.9 2 8.62 2 9.43V10h5v-.57c0-.83.34-1.6.92-2.15M10 4c0-1.1.9-2 2-2s2 .9 2 2s-.9 2-2 2s-2-.9-2-2m6 6H8v-.57c0-.81.5-1.53 1.22-1.85C10.07 7.21 11 7 12 7s1.93.21 2.78.58C15.5 7.9 16 8.62 16 9.43M15 16c0-1.1.9-2 2-2s2 .9 2 2s-.9 2-2 2s-2-.9-2-2m6 6h-8v-.57c0-.81.5-1.53 1.22-1.85C15.07 19.21 16 19 17 19s1.93.21 2.78.58c.72.32 1.22 1.04 1.22 1.85M5 16c0-1.1.9-2 2-2s2 .9 2 2s-.9 2-2 2s-2-.9-2-2m6 6H3v-.57c0-.81.5-1.53 1.22-1.85C5.07 19.21 6 19 7 19s1.93.21 2.78.58c.72.32 1.22 1.04 1.22 1.85M12.75 14v2h-1.5v-2H9l3-3l3 3Z"
+                      fill="currentColor"
                     ></path>
-                    <path d="M17 25v4" stroke-linecap="round"></path>
-                    <path d="M28 10V8a4 4 0 0 0-8 0v2"></path>
-                  </g>
-                </svg>
-                <p className="mobile-facilities-1-faq2-question1 UbuntuLight-14">
-                  {props.faq2Question ?? (
-                    <Fragment>
-                      <span className="mobile-facilities-1-text77">
-                        Fine Dining Catering
-                      </span>
-                    </Fragment>
-                  )}
-                </p>
-                <div className="mobile-facilities-1-icons-container2">
-                  {!faq2Visible && (
-                    <div>
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="mobile-facilities-1-icon22"
-                      >
-                        <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                      </svg>
-                    </div>
-                  )}
-                  {faq2Visible && (
-                    <div>
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="mobile-facilities-1-icon24"
-                      >
-                        <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
-                      </svg>
-                    </div>
-                  )}
-                </div>
-              </div>
-              {faq2Visible && (
-                <div className="mobile-facilities-1-container16">
-                  <div className="mobile-facilities-1-icon-container1"></div>
-                  <p className="mobile-facilities-1-text23 Ubuntu-Light-Gap-12">
-                    <span className="p">
-                      Celebrate life’s milestones at Marigold Banquet Hall with
-                      a memorable birthday or anniversary event. Whether you’re
-                      planning a grand celebration or an intimate gathering, our
-                      versatile spaces can be tailored to meet your specific
-                      needs. We offer a range of event services, including
-                      themed décor, delicious catering, entertainment options,
-                      and more, ensuring a fun and joyful celebration for all
-                      your guests.
-                    </span>
-                    <br></br>
-                    <br className="p"></br>
-                    <span className="p">
-                      From family reunions to cultural celebrations, Marigold
-                      Banquet Hall is well-equipped to host all types of social
-                      gatherings. Our spacious venue, complete with flexible
-                      seating arrangements and premium services, provides a
-                      comfortable and welcoming environment for families and
-                      friends to come together and celebrate. We ensure that
-                      every event is personalized to reflect the unique needs of
-                      the occasion.
-                    </span>
+                  </svg>
+                  <p className="mobile-facilities-1-faq1-question UbuntuLight-14">
+                    {props.faq1Question ?? (
+                      <Fragment>
+                        <span className="mobile-facilities-1-text79">
+                          Spacious Venue with Capacity
+                        </span>
+                      </Fragment>
+                    )}
                   </p>
-                  <TailoredCatering
-                    slogan2={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text28">
-                          Elegance Redefined
-                        </span>
-                      </Fragment>
-                    }
-                    rootClassName="tailored-cateringroot-class-name"
-                    sectionTitle2={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text29">
-                          Tailored Catering Services to Delight Every Palate
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Title2={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text30">
-                          Customizable Menus
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Title2={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text31">
-                          Flawless Presentation
-                        </span>
-                      </Fragment>
-                    }
-                    featureDescription3={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text32">
-                          At Marigold Celebration Hall, we understand that
-                          exceptional cuisine is at the heart of every memorable
-                          event. Our tailored catering services offer a wide
-                          selection of culinary experiences, meticulously
-                          crafted to suit your unique event and personal
-                          preferences.
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Description2={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text33">
-                          From traditional Indian flavors to contemporary
-                          international dishes, our expert culinary team
-                          collaborates with you to design a menu that perfectly
-                          reflects your tastes and enhances the occasion.
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Description2={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text34">
-                          Each dish is presented with style and elegance, adding
-                          visual appeal that complements the theme and ambiance
-                          of your event. Our attentive staff ensures smooth,
-                          professional service from start to finish, allowing
-                          you and your guests to enjoy a seamless dining
-                          experience.
-                        </span>
-                      </Fragment>
-                    }
-                    featureDescription21={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text35">
-                          Our attentive staff ensures smooth, professional
-                          service from start to finish, allowing you and your
-                          guests to enjoy a seamless dining experience. With
-                          Marigold’s catering services, every meal is an
-                          opportunity to create lasting memories, making your
-                          event truly unforgettable.
-                        </span>
-                      </Fragment>
-                    }
-                  ></TailoredCatering>
+                  <div className="mobile-facilities-1-icons-container1">
+                    {!faq1Visible && (
+                      <div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="mobile-facilities-1-icon12"
+                        >
+                          <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                        </svg>
+                      </div>
+                    )}
+                    {faq1Visible && (
+                      <div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="mobile-facilities-1-icon14"
+                        >
+                          <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
+                        </svg>
+                      </div>
+                    )}
+                  </div>
                 </div>
-              )}
-            </div>
-            <div className="mobile-facilities-1-faq3">
-              <div
-                onClick={() => setFaq3Visible(!faq3Visible)}
-                className="mobile-facilities-1-trigger3"
-              >
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  className="mobile-facilities-1-icon26"
+                {faq1Visible && (
+                  <div className="mobile-facilities-1-container13">
+                    <p className="mobile-facilities-1-text12 Ubuntu-Light-Gap-12">
+                      <span>
+                        Celebrate your special day at Marigold Banquet Hall,
+                        where love stories come to life. Our grand hall provides
+                        the perfect backdrop for weddings and receptions,
+                        accommodating up to 2000 guests in a luxurious and
+                        beautifully decorated setting. Whether it’s a
+                        traditional wedding or a modern celebration, we ensure
+                        every detail is handled with care—from bespoke décor and
+                        catering to photography and entertainment. Let us help
+                        you create the wedding of your dreams.Engagements,
+                        sangeet, mehendi, or cocktail parties—whatever your
+                        pre-wedding celebration needs, Marigold Banquet Hall
+                        offers the perfect venue. Our beautifully designed event
+                        spaces can be customized with elegant décor,
+                        entertainment, and personalized catering, making every
+                        moment leading up to your wedding as magical as the big
+                        day itself.
+                      </span>
+                      <br></br>
+                    </p>
+                    <SpaciousVenue
+                      slogan={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text15">
+                            Elegance Redefined
+                          </span>
+                        </Fragment>
+                      }
+                      sectionTitle={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text16">
+                            Versatile Event Spaces for Every Occasion
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Title={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text17">
+                            The Grand Banquet Hall
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Title={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text18">
+                            Private Event Rooms
+                          </span>
+                        </Fragment>
+                      }
+                      rootClassName="spacious-venueroot-class-name"
+                      featureDescription={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text19">
+                            At Marigold Celebration Hall, we offer adaptable
+                            event spaces designed to cater to a variety of
+                            gatherings, from intimate gatherings to grand
+                            celebrations. Each space is thoughtfully designed to
+                            provide a refined, comfortable environment suited to
+                            your unique event needs.
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Description={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text20">
+                            Perfect for large-scale events such as weddings,
+                            corporate galas, and conferences, our main hall
+                            boasts a spacious, elegant design with the capacity
+                            to host up to 2000 guests. It’s ideal for creating a
+                            grand atmosphere and leaving a lasting impression.
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Description={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text21">
+                            For more personal celebrations like engagement
+                            parties, milestone birthdays, or smaller business
+                            meetings, our flexible private rooms offer an
+                            intimate ambiance with personalized setup options,
+                            ensuring every detail aligns with your vision.
+                          </span>
+                        </Fragment>
+                      }
+                      featureDescription2={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text22">
+                            Each space is equipped with high-end amenities and
+                            the latest audio-visual technology, ensuring an
+                            unforgettable experience for both you and your
+                            guests. Whatever the occasion, Marigold Celebration
+                            Hall provides the perfect setting for a seamless and
+                            memorable event.
+                          </span>
+                        </Fragment>
+                      }
+                    ></SpaciousVenue>
+                  </div>
+                )}
+              </div>
+              <div className="mobile-facilities-1-faq2">
+                <div
+                  onClick={() => setFaq2Visible(!faq2Visible)}
+                  className="mobile-facilities-1-trigger2"
                 >
-                  <path
-                    d="M19.65 4.5L16.91.96l3.93-.78l.78 3.92zm-2.94.57l-2.74-3.53l-1.97.39l2.75 3.53zm-4.9.98L9.07 2.5l-1.97.41l2.75 3.53zM4.16 3.5l-.98.19a1.995 1.995 0 0 0-1.57 2.35L2 8l4.9-.97zM22 8v10c0 1.11-.89 2-2 2H4a2 2 0 0 1-2-2V8zm-2 2H4v8h16zM7 24h2v-2H7zm8 0h2v-2h-2zm-4 0h2v-2h-2z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-                <p className="mobile-facilities-1-faq2-question2 UbuntuLight-14">
-                  {props.faq3Question ?? (
-                    <Fragment>
-                      <span className="mobile-facilities-1-text78">
-                        Photography &amp; Videography Services
-                      </span>
-                    </Fragment>
-                  )}
-                </p>
-                <div className="mobile-facilities-1-icons-container3">
-                  {!faq3Visible && (
-                    <div>
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="mobile-facilities-1-icon28"
-                      >
-                        <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                      </svg>
-                    </div>
-                  )}
-                  {faq3Visible && (
-                    <div>
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="mobile-facilities-1-icon30"
-                      >
-                        <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
-                      </svg>
-                    </div>
-                  )}
-                </div>
-              </div>
-              {faq3Visible && (
-                <div className="mobile-facilities-1-container19">
-                  <div className="mobile-facilities-1-icon-container2"></div>
-                  <p className="mobile-facilities-1-text36 Ubuntu-Light-Gap-12">
-                    <span className="p">
-                      Marigold Banquet Hall is the ideal venue for hosting
-                      professional corporate events, including conferences,
-                      seminars, product launches, and award ceremonies. With
-                      state-of-the-art audiovisual equipment, ample seating, and
-                      a soundproof environment, our venue ensures that your
-                      business event is both productive and impressive. Our team
-                      provides comprehensive event support, including custom
-                      catering options and seamless technology integration.
-                    </span>
-                    <br className="p"></br>
-                    <br className="p"></br>
-                    <span className="p">
-                      Host prestigious award ceremonies, charity galas, or
-                      black-tie dinners at Marigold Banquet Hall. Our elegant
-                      event spaces are perfect for high-profile gatherings,
-                      complete with luxurious décor, gourmet catering, and
-                      impeccable service. We ensure a sophisticated and
-                      memorable experience for all your attendees.
-                    </span>
+                  <svg
+                    width="48"
+                    height="48"
+                    viewBox="0 0 48 48"
+                    className="mobile-facilities-1-icon16"
+                  >
+                    <g fill="none" stroke="currentColor" stroke-width="4">
+                      <path d="M6 42h36M6 36h36" stroke-linecap="round"></path>
+                      <path
+                        d="M9 25c0-8.284 6.716-15 15-15s15 6.716 15 15v11H9z"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                      <path d="M17 25v4" stroke-linecap="round"></path>
+                      <path d="M28 10V8a4 4 0 0 0-8 0v2"></path>
+                    </g>
+                  </svg>
+                  <p className="mobile-facilities-1-faq2-question1 UbuntuLight-14">
+                    {props.faq2Question ?? (
+                      <Fragment>
+                        <span className="mobile-facilities-1-text77">
+                          Fine Dining Catering
+                        </span>
+                      </Fragment>
+                    )}
                   </p>
-                  <PhotographyVideographyServices
-                    slogan311={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text41">
-                          Elegance Redefined
-                        </span>
-                      </Fragment>
-                    }
-                    action23411={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text42">
-                          Explore Our Facilities
-                        </span>
-                      </Fragment>
-                    }
-                    rootClassName="photography-videography-servicesroot-class-name"
-                    sectionTitle311={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text43">
-                          Photography and Videography Services to Capture Every
-                          Moment
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Title321={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text44">
-                          Experienced Professionals
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Title321={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text45">
-                          State-of-the-Art Equipment
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Title3111={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text46">
-                          Customized Packages
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Title3111={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text47">
-                          Accessible for All Guests
-                        </span>
-                      </Fragment>
-                    }
-                    featureDescription411={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text48">
-                          Marigold Celebration Hall offers professional
-                          photography and videography support to preserve the
-                          unforgettable moments of your special event. Our
-                          experienced team ensures that each highlight is
-                          beautifully captured, providing you with lasting
-                          memories.
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Description321={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text49">
-                          Our skilled photographers and videographers specialize
-                          in capturing every detail, from candid moments to
-                          grand celebrations.
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Description321={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text50">
-                          Using high-quality cameras, lighting, and editing
-                          tools, we deliver crisp, vibrant photos and videos
-                          that tell the story of your event.
-                        </span>
-                      </Fragment>
-                    }
-                    featureDescription2211={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text51">
-                          With Marigold’s photography and videography services,
-                          you can relive the magic of your event through
-                          stunning visuals that last a lifetime.
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Description3111={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text52">
-                          Whether you need full coverage or specific highlights,
-                          our flexible service packages cater to your unique
-                          requirements and budget.
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Description3111={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text53">
-                          We prioritize inclusivity, ensuring that all event
-                          areas are fully accessible to guests of all abilities,
-                          providing comfort and convenience for everyone.
-                        </span>
-                      </Fragment>
-                    }
-                  ></PhotographyVideographyServices>
+                  <div className="mobile-facilities-1-icons-container2">
+                    {!faq2Visible && (
+                      <div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="mobile-facilities-1-icon22"
+                        >
+                          <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                        </svg>
+                      </div>
+                    )}
+                    {faq2Visible && (
+                      <div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="mobile-facilities-1-icon24"
+                        >
+                          <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
+                        </svg>
+                      </div>
+                    )}
+                  </div>
                 </div>
-              )}
-            </div>
-            <div className="mobile-facilities-1-faq4">
-              <div
-                onClick={() => setFaq4Visible(!faq4Visible)}
-                className="mobile-facilities-1-trigger4"
-              >
-                <svg
-                  width="32"
-                  height="32"
-                  viewBox="0 0 32 32"
-                  className="mobile-facilities-1-icon32"
+                {faq2Visible && (
+                  <div className="mobile-facilities-1-container16">
+                    <div className="mobile-facilities-1-icon-container1"></div>
+                    <p className="mobile-facilities-1-text23 Ubuntu-Light-Gap-12">
+                      <span className="p">
+                        Celebrate life’s milestones at Marigold Banquet Hall
+                        with a memorable birthday or anniversary event. Whether
+                        you’re planning a grand celebration or an intimate
+                        gathering, our versatile spaces can be tailored to meet
+                        your specific needs. We offer a range of event services,
+                        including themed décor, delicious catering,
+                        entertainment options, and more, ensuring a fun and
+                        joyful celebration for all your guests.
+                      </span>
+                      <br></br>
+                      <br className="p"></br>
+                      <span className="p">
+                        From family reunions to cultural celebrations, Marigold
+                        Banquet Hall is well-equipped to host all types of
+                        social gatherings. Our spacious venue, complete with
+                        flexible seating arrangements and premium services,
+                        provides a comfortable and welcoming environment for
+                        families and friends to come together and celebrate. We
+                        ensure that every event is personalized to reflect the
+                        unique needs of the occasion.
+                      </span>
+                    </p>
+                    <TailoredCatering
+                      slogan2={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text28">
+                            Elegance Redefined
+                          </span>
+                        </Fragment>
+                      }
+                      rootClassName="tailored-cateringroot-class-name"
+                      sectionTitle2={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text29">
+                            Tailored Catering Services to Delight Every Palate
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Title2={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text30">
+                            Customizable Menus
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Title2={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text31">
+                            Flawless Presentation
+                          </span>
+                        </Fragment>
+                      }
+                      featureDescription3={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text32">
+                            At Marigold Celebration Hall, we understand that
+                            exceptional cuisine is at the heart of every
+                            memorable event. Our tailored catering services
+                            offer a wide selection of culinary experiences,
+                            meticulously crafted to suit your unique event and
+                            personal preferences.
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Description2={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text33">
+                            From traditional Indian flavors to contemporary
+                            international dishes, our expert culinary team
+                            collaborates with you to design a menu that
+                            perfectly reflects your tastes and enhances the
+                            occasion.
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Description2={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text34">
+                            Each dish is presented with style and elegance,
+                            adding visual appeal that complements the theme and
+                            ambiance of your event. Our attentive staff ensures
+                            smooth, professional service from start to finish,
+                            allowing you and your guests to enjoy a seamless
+                            dining experience.
+                          </span>
+                        </Fragment>
+                      }
+                      featureDescription21={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text35">
+                            Our attentive staff ensures smooth, professional
+                            service from start to finish, allowing you and your
+                            guests to enjoy a seamless dining experience. With
+                            Marigold’s catering services, every meal is an
+                            opportunity to create lasting memories, making your
+                            event truly unforgettable.
+                          </span>
+                        </Fragment>
+                      }
+                    ></TailoredCatering>
+                  </div>
+                )}
+              </div>
+              <div className="mobile-facilities-1-faq3">
+                <div
+                  onClick={() => setFaq3Visible(!faq3Visible)}
+                  className="mobile-facilities-1-trigger3"
                 >
-                  <g fill="currentColor">
-                    <path d="M16.48 3.03c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0V4.94a1.923 1.923 0 0 0-1.91-1.91"></path>
-                    <path d="M13.81 12.1V6.56c0 1.47 1.2 2.67 2.67 2.67s2.67-1.2 2.67-2.67v7.06h-5.34v1.28h5.34v.2h.016a2.677 2.677 0 0 0 2.654 2.38a2.677 2.677 0 0 0 2.654-2.38h.016v3.557h-5.31v1.28h5.31v3.676l1.054-1.492l-.714-1.97a.5.5 0 0 1 .94-.341l.477 1.315l.722-1.022l-.708-1.93a.5.5 0 0 1 .938-.345l.471 1.282l.812-1.148a.5.5 0 0 1 .816.576l-.812 1.15l1.368.012a.5.5 0 1 1-.008 1l-2.062-.018l-.697.987l1.327.011a.5.5 0 1 1-.008 1l-2.02-.017L25.44 24h-.951h1.58c.24 0 .42.19.42.42v5.19c0 .31-.25.57-.57.57H7.03c-.31 0-.57-.26-.57-.57v-5.19c0-.23.19-.42.42-.42h.63l-.08-.143l-1.103-.41l-.996.928a.5.5 0 1 1-.682-.73l.63-.588l-.661-.246l-1.37.984a.425.425 0 0 1-.496-.69l.906-.651l-.792-.295a.5.5 0 0 1 .348-.938l.724.27l-.268-.979a.425.425 0 1 1 .82-.224l.429 1.568l1.76.654l-1.248-2.236a.5.5 0 0 1-.082-.147l-.996-1.783a.5.5 0 0 1 .874-.488l.618 1.108l.629-1.025a.5.5 0 1 1 .852.523l-.922 1.503l.468.84l.342-.557a.5.5 0 0 1 .852.524l-.635 1.034l1.039 1.862V18.12h5.34v-1.28H8.47V12.1h.016a2.677 2.677 0 0 0 2.654 2.38a2.677 2.677 0 0 0 2.654-2.38zm0 9.1v1.28h5.34V21.2zM7.46 25v2.61h18.03V25z"></path>
-                    <path d="M11.14 8.28c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0v-1.35a1.923 1.923 0 0 0-1.91-1.91m10.68 3c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0v-1.35a1.923 1.923 0 0 0-1.91-1.91"></path>
-                  </g>
-                </svg>
-                <p className="mobile-facilities-1-faq2-question3 UbuntuLight-14">
-                  {props.faq4Question ?? (
-                    <Fragment>
-                      <span className="mobile-facilities-1-text75">
-                        Décor &amp; Design Services
-                      </span>
-                    </Fragment>
-                  )}
-                </p>
-                <div className="mobile-facilities-1-icons-container4">
-                  {!faq4Visible && (
-                    <div>
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="mobile-facilities-1-icon37"
-                      >
-                        <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
-                      </svg>
-                    </div>
-                  )}
-                  {faq4Visible && (
-                    <div>
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="mobile-facilities-1-icon39"
-                      >
-                        <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
-                      </svg>
-                    </div>
-                  )}
-                </div>
-              </div>
-              {faq4Visible && (
-                <div className="mobile-facilities-1-container22">
-                  <div className="mobile-facilities-1-icon-container3"></div>
-                  <p className="mobile-facilities-1-text54 Ubuntu-Light-Gap-12">
-                    <span className="p">
-                      From religious ceremonies to cultural festivals, Marigold
-                      Banquet Hall offers a serene and spacious environment to
-                      celebrate and honor your traditions. Our venue is equipped
-                      to host a range of religious events, including pujas,
-                      prayer meetings, and festive gatherings, with services
-                      tailored to meet the needs of your cultural and spiritual
-                      celebrations.
-                    </span>
-                    <br></br>
-                    <br className="p"></br>
-                    <span className="p">
-                      With its large capacity and flexible layout, Marigold
-                      Banquet Hall is an ideal venue for hosting exhibitions,
-                      trade shows, and product expos. Our event spaces can be
-                      configured to showcase products and services, with
-                      professional event planning support and modern technology
-                      to make sure your exhibition is a success.
-                    </span>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    className="mobile-facilities-1-icon26"
+                  >
+                    <path
+                      d="M19.65 4.5L16.91.96l3.93-.78l.78 3.92zm-2.94.57l-2.74-3.53l-1.97.39l2.75 3.53zm-4.9.98L9.07 2.5l-1.97.41l2.75 3.53zM4.16 3.5l-.98.19a1.995 1.995 0 0 0-1.57 2.35L2 8l4.9-.97zM22 8v10c0 1.11-.89 2-2 2H4a2 2 0 0 1-2-2V8zm-2 2H4v8h16zM7 24h2v-2H7zm8 0h2v-2h-2zm-4 0h2v-2h-2z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  <p className="mobile-facilities-1-faq2-question2 UbuntuLight-14">
+                    {props.faq3Question ?? (
+                      <Fragment>
+                        <span className="mobile-facilities-1-text78">
+                          Photography &amp; Videography Services
+                        </span>
+                      </Fragment>
+                    )}
                   </p>
-                  <DecorServices
-                    slogan21={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text59">
-                          Elegance Redefined
-                        </span>
-                      </Fragment>
-                    }
-                    action232={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text60">
-                          Explore Our Facilities
-                        </span>
-                      </Fragment>
-                    }
-                    rootClassName="decor-servicesroot-class-name"
-                    sectionTitle21={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text61">
-                          Professional Decor Services to Elevate Every Event
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Title21={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text62">
-                          Custom Themes &amp; Styling
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Title21={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text63">
-                          Floral Arrangements &amp; Centerpieces
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Title211={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text64">
-                          Lighting &amp; Ambiance
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Title211={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text65">
-                          Attention to Detail
-                        </span>
-                      </Fragment>
-                    }
-                    featureDescription31={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text66">
-                          Marigold Celebration Hall offers premier decor
-                          services designed to transform your vision into a
-                          captivating reality. Whether it’s a luxurious wedding,
-                          a corporate event, or an intimate gathering, our decor
-                          team brings creativity, expertise, and precision to
-                          every event.
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Description21={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text67">
-                          From classic elegance to modern sophistication, we
-                          work closely with you to design decor that aligns with
-                          your theme, color palette, and desired ambiance.
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Description21={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text68">
-                          Stunning floral displays and bespoke centerpieces are
-                          thoughtfully crafted to add elegance and personality
-                          to your event setting.
-                        </span>
-                      </Fragment>
-                    }
-                    featureDescription211={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text69">
-                          With Marigold Celebration Hall’s professional decor
-                          services, each event becomes a memorable masterpiece,
-                          reflecting your unique style and leaving a lasting
-                          impression on your guests.
-                        </span>
-                      </Fragment>
-                    }
-                    feature1Description211={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text70">
-                          Our customizable lighting options enhance every space,
-                          creating the perfect mood for your celebration,
-                          whether it’s a soft romantic glow or a vibrant and
-                          energetic atmosphere.
-                        </span>
-                      </Fragment>
-                    }
-                    feature2Description211={
-                      <Fragment>
-                        <span className="mobile-facilities-1-text71">
-                          From backdrops to table settings, every detail is
-                          meticulously managed, ensuring a cohesive and visually
-                          impressive experience.
-                        </span>
-                      </Fragment>
-                    }
-                  ></DecorServices>
+                  <div className="mobile-facilities-1-icons-container3">
+                    {!faq3Visible && (
+                      <div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="mobile-facilities-1-icon28"
+                        >
+                          <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                        </svg>
+                      </div>
+                    )}
+                    {faq3Visible && (
+                      <div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="mobile-facilities-1-icon30"
+                        >
+                          <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
+                        </svg>
+                      </div>
+                    )}
+                  </div>
                 </div>
-              )}
+                {faq3Visible && (
+                  <div className="mobile-facilities-1-container19">
+                    <div className="mobile-facilities-1-icon-container2"></div>
+                    <p className="mobile-facilities-1-text36 Ubuntu-Light-Gap-12">
+                      <span className="p">
+                        Marigold Banquet Hall is the ideal venue for hosting
+                        professional corporate events, including conferences,
+                        seminars, product launches, and award ceremonies. With
+                        state-of-the-art audiovisual equipment, ample seating,
+                        and a soundproof environment, our venue ensures that
+                        your business event is both productive and impressive.
+                        Our team provides comprehensive event support, including
+                        custom catering options and seamless technology
+                        integration.
+                      </span>
+                      <br className="p"></br>
+                      <br className="p"></br>
+                      <span className="p">
+                        Host prestigious award ceremonies, charity galas, or
+                        black-tie dinners at Marigold Banquet Hall. Our elegant
+                        event spaces are perfect for high-profile gatherings,
+                        complete with luxurious décor, gourmet catering, and
+                        impeccable service. We ensure a sophisticated and
+                        memorable experience for all your attendees.
+                      </span>
+                    </p>
+                    <PhotographyVideographyServices
+                      slogan311={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text41">
+                            Elegance Redefined
+                          </span>
+                        </Fragment>
+                      }
+                      action23411={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text42">
+                            Explore Our Facilities
+                          </span>
+                        </Fragment>
+                      }
+                      rootClassName="photography-videography-servicesroot-class-name"
+                      sectionTitle311={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text43">
+                            Photography and Videography Services to Capture
+                            Every Moment
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Title321={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text44">
+                            Experienced Professionals
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Title321={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text45">
+                            State-of-the-Art Equipment
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Title3111={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text46">
+                            Customized Packages
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Title3111={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text47">
+                            Accessible for All Guests
+                          </span>
+                        </Fragment>
+                      }
+                      featureDescription411={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text48">
+                            Marigold Celebration Hall offers professional
+                            photography and videography support to preserve the
+                            unforgettable moments of your special event. Our
+                            experienced team ensures that each highlight is
+                            beautifully captured, providing you with lasting
+                            memories.
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Description321={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text49">
+                            Our skilled photographers and videographers
+                            specialize in capturing every detail, from candid
+                            moments to grand celebrations.
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Description321={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text50">
+                            Using high-quality cameras, lighting, and editing
+                            tools, we deliver crisp, vibrant photos and videos
+                            that tell the story of your event.
+                          </span>
+                        </Fragment>
+                      }
+                      featureDescription2211={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text51">
+                            With Marigold’s photography and videography
+                            services, you can relive the magic of your event
+                            through stunning visuals that last a lifetime.
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Description3111={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text52">
+                            Whether you need full coverage or specific
+                            highlights, our flexible service packages cater to
+                            your unique requirements and budget.
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Description3111={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text53">
+                            We prioritize inclusivity, ensuring that all event
+                            areas are fully accessible to guests of all
+                            abilities, providing comfort and convenience for
+                            everyone.
+                          </span>
+                        </Fragment>
+                      }
+                    ></PhotographyVideographyServices>
+                  </div>
+                )}
+              </div>
+              <div className="mobile-facilities-1-faq4">
+                <div
+                  onClick={() => setFaq4Visible(!faq4Visible)}
+                  className="mobile-facilities-1-trigger4"
+                >
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    className="mobile-facilities-1-icon32"
+                  >
+                    <g fill="currentColor">
+                      <path d="M16.48 3.03c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0V4.94a1.923 1.923 0 0 0-1.91-1.91"></path>
+                      <path d="M13.81 12.1V6.56c0 1.47 1.2 2.67 2.67 2.67s2.67-1.2 2.67-2.67v7.06h-5.34v1.28h5.34v.2h.016a2.677 2.677 0 0 0 2.654 2.38a2.677 2.677 0 0 0 2.654-2.38h.016v3.557h-5.31v1.28h5.31v3.676l1.054-1.492l-.714-1.97a.5.5 0 0 1 .94-.341l.477 1.315l.722-1.022l-.708-1.93a.5.5 0 0 1 .938-.345l.471 1.282l.812-1.148a.5.5 0 0 1 .816.576l-.812 1.15l1.368.012a.5.5 0 1 1-.008 1l-2.062-.018l-.697.987l1.327.011a.5.5 0 1 1-.008 1l-2.02-.017L25.44 24h-.951h1.58c.24 0 .42.19.42.42v5.19c0 .31-.25.57-.57.57H7.03c-.31 0-.57-.26-.57-.57v-5.19c0-.23.19-.42.42-.42h.63l-.08-.143l-1.103-.41l-.996.928a.5.5 0 1 1-.682-.73l.63-.588l-.661-.246l-1.37.984a.425.425 0 0 1-.496-.69l.906-.651l-.792-.295a.5.5 0 0 1 .348-.938l.724.27l-.268-.979a.425.425 0 1 1 .82-.224l.429 1.568l1.76.654l-1.248-2.236a.5.5 0 0 1-.082-.147l-.996-1.783a.5.5 0 0 1 .874-.488l.618 1.108l.629-1.025a.5.5 0 1 1 .852.523l-.922 1.503l.468.84l.342-.557a.5.5 0 0 1 .852.524l-.635 1.034l1.039 1.862V18.12h5.34v-1.28H8.47V12.1h.016a2.677 2.677 0 0 0 2.654 2.38a2.677 2.677 0 0 0 2.654-2.38zm0 9.1v1.28h5.34V21.2zM7.46 25v2.61h18.03V25z"></path>
+                      <path d="M11.14 8.28c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0v-1.35a1.923 1.923 0 0 0-1.91-1.91m10.68 3c-1.05 0-1.91.85-1.91 1.91v1.35a1.91 1.91 0 1 0 3.82 0v-1.35a1.923 1.923 0 0 0-1.91-1.91"></path>
+                    </g>
+                  </svg>
+                  <p className="mobile-facilities-1-faq2-question3 UbuntuLight-14">
+                    {props.faq4Question ?? (
+                      <Fragment>
+                        <span className="mobile-facilities-1-text75">
+                          Décor &amp; Design Services
+                        </span>
+                      </Fragment>
+                    )}
+                  </p>
+                  <div className="mobile-facilities-1-icons-container4">
+                    {!faq4Visible && (
+                      <div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="mobile-facilities-1-icon37"
+                        >
+                          <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                        </svg>
+                      </div>
+                    )}
+                    {faq4Visible && (
+                      <div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="mobile-facilities-1-icon39"
+                        >
+                          <path d="M316 658l-60-60 256-256 256 256-60 60-196-196z"></path>
+                        </svg>
+                      </div>
+                    )}
+                  </div>
+                </div>
+                {faq4Visible && (
+                  <div className="mobile-facilities-1-container22">
+                    <div className="mobile-facilities-1-icon-container3"></div>
+                    <p className="mobile-facilities-1-text54 Ubuntu-Light-Gap-12">
+                      <span className="p">
+                        From religious ceremonies to cultural festivals,
+                        Marigold Banquet Hall offers a serene and spacious
+                        environment to celebrate and honor your traditions. Our
+                        venue is equipped to host a range of religious events,
+                        including pujas, prayer meetings, and festive
+                        gatherings, with services tailored to meet the needs of
+                        your cultural and spiritual celebrations.
+                      </span>
+                      <br></br>
+                      <br className="p"></br>
+                      <span className="p">
+                        With its large capacity and flexible layout, Marigold
+                        Banquet Hall is an ideal venue for hosting exhibitions,
+                        trade shows, and product expos. Our event spaces can be
+                        configured to showcase products and services, with
+                        professional event planning support and modern
+                        technology to make sure your exhibition is a success.
+                      </span>
+                    </p>
+                    <DecorServices
+                      slogan21={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text59">
+                            Elegance Redefined
+                          </span>
+                        </Fragment>
+                      }
+                      action232={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text60">
+                            Explore Our Facilities
+                          </span>
+                        </Fragment>
+                      }
+                      rootClassName="decor-servicesroot-class-name"
+                      sectionTitle21={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text61">
+                            Professional Decor Services to Elevate Every Event
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Title21={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text62">
+                            Custom Themes &amp; Styling
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Title21={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text63">
+                            Floral Arrangements &amp; Centerpieces
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Title211={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text64">
+                            Lighting &amp; Ambiance
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Title211={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text65">
+                            Attention to Detail
+                          </span>
+                        </Fragment>
+                      }
+                      featureDescription31={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text66">
+                            Marigold Celebration Hall offers premier decor
+                            services designed to transform your vision into a
+                            captivating reality. Whether it’s a luxurious
+                            wedding, a corporate event, or an intimate
+                            gathering, our decor team brings creativity,
+                            expertise, and precision to every event.
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Description21={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text67">
+                            From classic elegance to modern sophistication, we
+                            work closely with you to design decor that aligns
+                            with your theme, color palette, and desired
+                            ambiance.
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Description21={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text68">
+                            Stunning floral displays and bespoke centerpieces
+                            are thoughtfully crafted to add elegance and
+                            personality to your event setting.
+                          </span>
+                        </Fragment>
+                      }
+                      featureDescription211={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text69">
+                            With Marigold Celebration Hall’s professional decor
+                            services, each event becomes a memorable
+                            masterpiece, reflecting your unique style and
+                            leaving a lasting impression on your guests.
+                          </span>
+                        </Fragment>
+                      }
+                      feature1Description211={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text70">
+                            Our customizable lighting options enhance every
+                            space, creating the perfect mood for your
+                            celebration, whether it’s a soft romantic glow or a
+                            vibrant and energetic atmosphere.
+                          </span>
+                        </Fragment>
+                      }
+                      feature2Description211={
+                        <Fragment>
+                          <span className="mobile-facilities-1-text71">
+                            From backdrops to table settings, every detail is
+                            meticulously managed, ensuring a cohesive and
+                            visually impressive experience.
+                          </span>
+                        </Fragment>
+                      }
+                    ></DecorServices>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
-        </div>
+        </animate-on-reveal>
         <div className="mobile-facilities-1-actions thq-flex-row">
           <button className="mobile-facilities-1-button menu">
             <Link href="/facilities-at-marigold-celebration">
@@ -1365,7 +1376,13 @@ const MobileFacilities1 = (props) => {
               background-color: var(--dl-color-primary-logo-color-4);
             }
             .mobile-facilities-1-max-width {
+              animation-name: none;
               flex-direction: column;
+              animation-delay: 0s;
+              animation-duration: 300ms;
+              animation-direction: normal;
+              animation-iteration-count: 1;
+              animation-timing-function: ease;
             }
             .mobile-facilities-1-list {
               width: 100%;
@@ -1380,8 +1397,13 @@ const MobileFacilities1 = (props) => {
             .mobile-facilities-1-container13 {
               padding: var(--dl-space-space-halfunit);
             }
+            .mobile-facilities-1-button {
+              margin-top: var(--dl-space-space-halfunit);
+              margin-bottom: var(--dl-space-space-halfunit);
+            }
             .mobile-facilities-1-link {
               border-color: var(--dl-color-primary-logo-color-1);
+              border-style: solid;
               background-color: var(--dl-color-primary-logo-color-4);
             }
           }
@@ -1393,7 +1415,6 @@ const MobileFacilities1 = (props) => {
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: 0px;
               justify-content: center;
-              background-color: rgba(0, 0, 0, 0.59);
             }
             .mobile-facilities-1-list {
               padding-top: var(--dl-space-space-unit);
