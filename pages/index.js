@@ -16,14 +16,16 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>Best Banquet Hall & Big Events Services in Nagpur</title>
+          <title>
+            Marigold Celebration - Premier Event Venue in Hingna, Nagpur
+          </title>
           <meta
             name="description"
             content="Marigold Celebration Banquet Hall, Hingna, Nagpur: Spacious Venues for Weddings and Events, Hosting up to 2000 Guests with Catering, Decor, and Event Services."
           />
           <meta
             property="og:title"
-            content="Marigold Banquet Hall - Nagpur's Premier Event Venue"
+            content="Marigold Celebration - Premier Event Venue in Hingna, Nagpur"
           />
           <meta
             property="og:description"

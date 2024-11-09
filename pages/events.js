@@ -12,8 +12,8 @@ const Events = (props) => {
       <div className="events-container">
         <Head>
           <title>
-            Events - Marigold Celebration Banquet Hall - Big Events Venue in
-            Hingna, Nagpur
+            Events - Marigold Celebration Banquet Hall - Events Venue in Hingna,
+            Nagpur
           </title>
           <meta
             name="description"
@@ -21,7 +21,7 @@ const Events = (props) => {
           />
           <meta
             property="og:title"
-            content="Events - Marigold Celebration Banquet Hall - Big Events Venue in Hingna, Nagpur"
+            content="Events - Marigold Celebration Banquet Hall - Events Venue in Hingna, Nagpur"
           />
           <meta
             property="og:description"

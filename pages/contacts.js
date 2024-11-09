@@ -12,7 +12,7 @@ const Contacts = (props) => {
       <div className="contacts-container">
         <Head>
           <title>
-            Contacts - Marigold Celebration Banquet Hall - Big Events Venue in
+            Contacts - Marigold Celebration Banquet Hall - Events Venue in
             Hingna, Nagpur
           </title>
           <meta
@@ -21,7 +21,7 @@ const Contacts = (props) => {
           />
           <meta
             property="og:title"
-            content="Contacts - Marigold Celebration Banquet Hall - Big Events Venue in Hingna, Nagpur"
+            content="Contacts - Marigold Celebration Banquet Hall - Events Venue in Hingna, Nagpur"
           />
           <meta
             property="og:description"

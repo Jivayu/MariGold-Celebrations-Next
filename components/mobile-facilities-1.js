@@ -35,7 +35,7 @@ const MobileFacilities1 = (props) => {
                     </Fragment>
                   )}
                 </h1>
-                <h4
+                <p
                   id="Facilities-tagline"
                   className="mobile-facilities-1-text11"
                 >
@@ -51,7 +51,7 @@ const MobileFacilities1 = (props) => {
                       </span>
                     </Fragment>
                   )}
-                </h4>
+                </p>
               </div>
               <div className="mobile-facilities-1-faq1">
                 <div
@@ -746,7 +746,7 @@ const MobileFacilities1 = (props) => {
           </div>
         </animate-on-reveal>
         <div className="mobile-facilities-1-actions thq-flex-row">
-          <button className="mobile-facilities-1-button menu">
+          <button type="button" className="mobile-facilities-1-button menu">
             <Link href="/facilities-at-marigold-celebration">
               <a className="mobile-facilities-1-link thq-button-outline">
                 {props.action231 ?? (

@@ -13,7 +13,7 @@ const Gallery = (props) => {
       <div className="gallery-container">
         <Head>
           <title>
-            Gallery - Marigold Celebration Banquet Hall - Big Events Venue in
+            Gallery - Marigold Celebration Banquet Hall - Events Venue in
             Hingna, Nagpur
           </title>
           <meta
@@ -22,7 +22,7 @@ const Gallery = (props) => {
           />
           <meta
             property="og:title"
-            content="Gallery - Marigold Celebration Banquet Hall - Big Events Venue in Hingna, Nagpur"
+            content="Gallery - Marigold Celebration Banquet Hall - Events Venue in Hingna, Nagpur"
           />
           <meta
             property="og:description"
