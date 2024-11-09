@@ -341,41 +341,9 @@ const Events = (props) => {
               </span>
             </Fragment>
           }
-          heading10={
-            <Fragment>
-              <span className="events-text52">
-                &quot;Create Unforgettable Memories with Pre-Wedding
-                Celebrations at Marigold Celebration&quot;
-              </span>
-            </Fragment>
-          }
-          heading11={
-            <Fragment>
-              <span className="events-text53">
-                Lively Mehendi &amp; Haldi Ceremonies
-              </span>
-            </Fragment>
-          }
-          heading12={
-            <Fragment>
-              <span className="events-text54">Energetic Sangeet Nights</span>
-            </Fragment>
-          }
-          heading13={
-            <Fragment>
-              <span className="events-text55">
-                Tailored Decor &amp; Customization
-              </span>
-            </Fragment>
-          }
-          heading91={
-            <Fragment>
-              <span className="events-text56">Seamless Event Management</span>
-            </Fragment>
-          }
           content91={
             <Fragment>
-              <span className="events-text57">
+              <span className="events-text52">
                 We understand that your wedding day should be stress-free, and
                 our experienced event coordinators are here to ensure everything
                 runs smoothly. From planning the flow of the ceremony to
@@ -386,9 +354,47 @@ const Events = (props) => {
               </span>
             </Fragment>
           }
-          heading911={
+          heading10={
             <Fragment>
-              <span className="events-text58">Versatile Venue Options</span>
+              <span className="events-text53">
+                &quot;Create Unforgettable Memories with Pre-Wedding
+                Celebrations at Marigold Celebration&quot;
+              </span>
+            </Fragment>
+          }
+          heading11={
+            <Fragment>
+              <span className="events-text54">
+                Lively Mehendi &amp; Haldi Ceremonies
+              </span>
+            </Fragment>
+          }
+          heading12={
+            <Fragment>
+              <span className="events-text55">Energetic Sangeet Nights</span>
+            </Fragment>
+          }
+          heading13={
+            <Fragment>
+              <span className="events-text56">
+                Tailored Decor &amp; Customization
+              </span>
+            </Fragment>
+          }
+          heading91={
+            <Fragment>
+              <span className="events-text57">Seamless Event Management</span>
+            </Fragment>
+          }
+          content131={
+            <Fragment>
+              <span className="events-text58">
+                Delight your guests with a tailored menu, featuring a diverse
+                selection of dishes. Our expert chefs prepare everything from
+                regional favorites to international delicacies, ensuring that
+                every bite complements the festive spirit of your pre-wedding
+                functions.
+              </span>
             </Fragment>
           }
           content911={
@@ -402,48 +408,21 @@ const Events = (props) => {
               </span>
             </Fragment>
           }
-          heading9111={
-            <Fragment>
-              <span className="events-text60">Customized Packages</span>
-            </Fragment>
-          }
-          content9111={
-            <Fragment>
-              <span className="events-text61">
-                At Marigold Celebration, we believe every couple is unique, and
-                so is every wedding. We offer a variety of customizable packages
-                that allow you to select the services you need—from decor and
-                catering to entertainment and photography—tailoring the entire
-                event to your vision, needs, and budget.
-              </span>
-            </Fragment>
-          }
           heading131={
             <Fragment>
-              <span className="events-text62">
+              <span className="events-text60">
                 Exceptional Catering Services
               </span>
             </Fragment>
           }
-          content131={
+          heading911={
             <Fragment>
-              <span className="events-text63">
-                Delight your guests with a tailored menu, featuring a diverse
-                selection of dishes. Our expert chefs prepare everything from
-                regional favorites to international delicacies, ensuring that
-                every bite complements the festive spirit of your pre-wedding
-                functions.
-              </span>
-            </Fragment>
-          }
-          heading1311={
-            <Fragment>
-              <span className="events-text64">Seamless Event Planning</span>
+              <span className="events-text61">Versatile Venue Options</span>
             </Fragment>
           }
           content1311={
             <Fragment>
-              <span className="events-text65">
+              <span className="events-text62">
                 With our dedicated event coordinators, you can rest assured that
                 every detail is handled, from setup to execution. We take care
                 of all logistics, so you can focus on enjoying the moment with
@@ -452,113 +431,134 @@ const Events = (props) => {
               </span>
             </Fragment>
           }
+          content9111={
+            <Fragment>
+              <span className="events-text63">
+                At Marigold Celebration, we believe every couple is unique, and
+                so is every wedding. We offer a variety of customizable packages
+                that allow you to select the services you need—from decor and
+                catering to entertainment and photography—tailoring the entire
+                event to your vision, needs, and budget.
+              </span>
+            </Fragment>
+          }
+          heading1311={
+            <Fragment>
+              <span className="events-text64">Seamless Event Planning</span>
+            </Fragment>
+          }
+          heading9111={
+            <Fragment>
+              <span className="events-text65">Customized Packages</span>
+            </Fragment>
+          }
         ></EventsDetails>
         <Footer
-          privacyLink1={
+          link1={
             <Fragment>
-              <span className="events-text66">P P</span>
-            </Fragment>
-          }
-          content3={
-            <Fragment>
-              <span className="events-text67">MariGold Celebration</span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="events-text68">Events</span>
-            </Fragment>
-          }
-          column1Title={
-            <Fragment>
-              <span className="events-text69">Contact Us</span>
-            </Fragment>
-          }
-          termsLink1={
-            <Fragment>
-              <span className="events-text70">T &amp; C</span>
+              <span className="events-text66">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="events-text71">Facilities</span>
+              <span className="events-text67">Facilities</span>
             </Fragment>
           }
-          link10={
+          link3={
             <Fragment>
-              <span className="events-text72">Book Now</span>
+              <span className="events-text68">Gallery</span>
             </Fragment>
           }
-          link6={
+          link4={
             <Fragment>
-              <span className="events-text73">Corporate Events</span>
-            </Fragment>
-          }
-          termsLink={
-            <Fragment>
-              <span className="events-text74">terms &amp; conditions.</span>
+              <span className="events-text69">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="events-text75">Contacts</span>
+              <span className="events-text70">Contacts</span>
+            </Fragment>
+          }
+          link6={
+            <Fragment>
+              <span className="events-text71">Corporate Events</span>
+            </Fragment>
+          }
+          link7={
+            <Fragment>
+              <span className="events-text72">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="events-text76">
+              <span className="events-text73">
                 <span>Events Management</span>
                 <br></br>
               </span>
             </Fragment>
           }
-          cookiesLink={
-            <Fragment>
-              <span className="events-text79">cookie policy.</span>
-            </Fragment>
-          }
-          link1={
-            <Fragment>
-              <span className="events-text80">Home</span>
-            </Fragment>
-          }
           link9={
             <Fragment>
-              <span className="events-text81">Special Occasions</span>
+              <span className="events-text76">Special Occasions</span>
             </Fragment>
           }
-          cookiesLink1={
+          link10={
             <Fragment>
-              <span className="events-text82">C &amp; P</span>
-            </Fragment>
-          }
-          column2Title={
-            <Fragment>
-              <span className="events-text83">Services</span>
-            </Fragment>
-          }
-          link7={
-            <Fragment>
-              <span className="events-text84">Weddings Plannings</span>
-            </Fragment>
-          }
-          link3={
-            <Fragment>
-              <span className="events-text85">Gallery</span>
+              <span className="events-text77">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="events-text86">
+              <span className="events-text78">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
               </span>
             </Fragment>
           }
+          content3={
+            <Fragment>
+              <span className="events-text79">MariGold Celebration</span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="events-text80">terms &amp; conditions.</span>
+            </Fragment>
+          }
+          termsLink1={
+            <Fragment>
+              <span className="events-text81">T &amp; C</span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="events-text82">cookie policy.</span>
+            </Fragment>
+          }
           privacyLink={
             <Fragment>
-              <span className="events-text87">privacy policy.</span>
+              <span className="events-text83">privacy policy.</span>
+            </Fragment>
+          }
+          column1Title={
+            <Fragment>
+              <span className="events-text84">Contact Us</span>
+            </Fragment>
+          }
+          column2Title={
+            <Fragment>
+              <span className="events-text85">Services</span>
+            </Fragment>
+          }
+          cookiesLink1={
+            <Fragment>
+              <span className="events-text86">C &amp; P</span>
+            </Fragment>
+          }
+          privacyLink1={
+            <Fragment>
+              <span className="events-text87">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name4"
@@ -768,13 +768,13 @@ const Events = (props) => {
           .events-text73 {
             display: inline-block;
           }
-          .events-text74 {
-            display: inline-block;
-          }
-          .events-text75 {
-            display: inline-block;
-          }
           .events-text76 {
+            display: inline-block;
+          }
+          .events-text77 {
+            display: inline-block;
+          }
+          .events-text78 {
             display: inline-block;
           }
           .events-text79 {

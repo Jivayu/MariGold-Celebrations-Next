@@ -24,7 +24,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text10">
                   {props.button ?? (
                     <Fragment>
-                      <span className="events-details-text40">
+                      <span className="events-details-text47">
                         Weddings &amp; Receptions
                       </span>
                     </Fragment>
@@ -44,7 +44,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text11">
                   {props.button ?? (
                     <Fragment>
-                      <span className="events-details-text40">
+                      <span className="events-details-text47">
                         Weddings &amp; Receptions
                       </span>
                     </Fragment>
@@ -64,7 +64,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text12">
                   {props.button1 ?? (
                     <Fragment>
-                      <span className="events-details-text24">
+                      <span className="events-details-text26">
                         Engagement Ceremonies
                       </span>
                     </Fragment>
@@ -84,7 +84,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text13">
                   {props.button1 ?? (
                     <Fragment>
-                      <span className="events-details-text24">
+                      <span className="events-details-text26">
                         Engagement Ceremonies
                       </span>
                     </Fragment>
@@ -104,7 +104,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text14">
                   {props.button2 ?? (
                     <Fragment>
-                      <span className="events-details-text28">
+                      <span className="events-details-text31">
                         Pre-Wedding Functions
                       </span>
                     </Fragment>
@@ -124,7 +124,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text15">
                   {props.button2 ?? (
                     <Fragment>
-                      <span className="events-details-text28">
+                      <span className="events-details-text31">
                         Pre-Wedding Functions
                       </span>
                     </Fragment>
@@ -194,7 +194,7 @@ const EventsDetails = (props) => {
                         <h3 className="events-details-heading91 thq-heading-3">
                           {props.heading9 ?? (
                             <Fragment>
-                              <span className="events-details-text30">
+                              <span className="events-details-text35">
                                 Gourmet Catering
                               </span>
                             </Fragment>
@@ -203,7 +203,7 @@ const EventsDetails = (props) => {
                         <p className="events-details-content91 thq-body-small">
                           {props.content9 ?? (
                             <Fragment>
-                              <span className="events-details-text33">
+                              <span className="events-details-text39">
                                 Delight your guests with a culinary journey
                                 crafted by our talented chefs. Our diverse menu
                                 options include everything from classic wedding
@@ -221,7 +221,7 @@ const EventsDetails = (props) => {
                         <h3 className="events-details-heading92 thq-heading-3">
                           {props.heading91 ?? (
                             <Fragment>
-                              <span className="events-details-text44">
+                              <span className="events-details-text49">
                                 Seamless Event Management
                               </span>
                             </Fragment>
@@ -230,7 +230,7 @@ const EventsDetails = (props) => {
                         <p className="events-details-content92 thq-body-small">
                           {props.content91 ?? (
                             <Fragment>
-                              <span className="events-details-text45">
+                              <span className="events-details-text34">
                                 We understand that your wedding day should be
                                 stress-free, and our experienced event
                                 coordinators are here to ensure everything runs
@@ -249,7 +249,7 @@ const EventsDetails = (props) => {
                         <h3 className="events-details-heading93 thq-heading-3">
                           {props.heading911 ?? (
                             <Fragment>
-                              <span className="events-details-text46">
+                              <span className="events-details-text36">
                                 Versatile Venue Options
                               </span>
                             </Fragment>
@@ -258,7 +258,7 @@ const EventsDetails = (props) => {
                         <p className="events-details-content93 thq-body-small">
                           {props.content911 ?? (
                             <Fragment>
-                              <span className="events-details-text47">
+                              <span className="events-details-text33">
                                 Our expansive banquet hall can be transformed to
                                 suit any style, from intimate gatherings to
                                 grand celebrations. Equipped with cutting-edge
@@ -275,7 +275,7 @@ const EventsDetails = (props) => {
                         <h3 className="events-details-heading94 thq-heading-3">
                           {props.heading9111 ?? (
                             <Fragment>
-                              <span className="events-details-text48">
+                              <span className="events-details-text52">
                                 Customized Packages
                               </span>
                             </Fragment>
@@ -284,7 +284,7 @@ const EventsDetails = (props) => {
                         <p className="events-details-content94 thq-body-small">
                           {props.content9111 ?? (
                             <Fragment>
-                              <span className="events-details-text49">
+                              <span className="events-details-text24">
                                 At Marigold Celebration, we believe every couple
                                 is unique, and so is every wedding. We offer a
                                 variety of customizable packages that allow you
@@ -309,7 +309,7 @@ const EventsDetails = (props) => {
                     <h1 className="events-details-heading1 h2 thq-heading-2">
                       {props.heading1 ?? (
                         <Fragment>
-                          <span className="events-details-text31">
+                          <span className="events-details-text37">
                             &quot;A Perfect Beginning to Your Forever: Celebrate
                             Your Engagement at Marigold Celebration&quot;
                           </span>
@@ -319,7 +319,7 @@ const EventsDetails = (props) => {
                     <span className="events-details-content1 thq-body-small">
                       {props.content1 ?? (
                         <Fragment>
-                          <span className="events-details-text42">
+                          <span className="events-details-text51">
                             Celebrate the start of your lifelong journey
                             together at Marigold Celebration Banquet Hall. Our
                             sophisticated venue offers an intimate and
@@ -359,7 +359,7 @@ const EventsDetails = (props) => {
                         <h1 className="events-details-heading3 thq-heading-3">
                           {props.heading3 ?? (
                             <Fragment>
-                              <span className="events-details-text35">
+                              <span className="events-details-text41">
                                 Custom Decor
                               </span>
                             </Fragment>
@@ -368,7 +368,7 @@ const EventsDetails = (props) => {
                         <span className="events-details-content3 thq-body-small">
                           {props.content3 ?? (
                             <Fragment>
-                              <span className="events-details-text26">
+                              <span className="events-details-text29">
                                 Understanding the importance of this milestone,
                                 we collaborate closely with you to design a
                                 decor theme that resonates with your vision.
@@ -386,7 +386,7 @@ const EventsDetails = (props) => {
                         <h1 className="events-details-heading4 thq-heading-3">
                           {props.heading4 ?? (
                             <Fragment>
-                              <span className="events-details-text32">
+                              <span className="events-details-text38">
                                 Delicious Catering
                               </span>
                             </Fragment>
@@ -395,7 +395,7 @@ const EventsDetails = (props) => {
                         <span className="events-details-content4 thq-body-small">
                           {props.content4 ?? (
                             <Fragment>
-                              <span className="events-details-text41">
+                              <span className="events-details-text50">
                                 Savor exquisite dishes with our personalized
                                 catering services, carefully crafted by our
                                 expert chefs. We provide a curated selection of
@@ -411,7 +411,7 @@ const EventsDetails = (props) => {
                         <h1 className="events-details-heading5 thq-heading-3">
                           {props.heading5 ?? (
                             <Fragment>
-                              <span className="events-details-text43">
+                              <span className="events-details-text53">
                                 Effortless Planning
                               </span>
                             </Fragment>
@@ -420,7 +420,7 @@ const EventsDetails = (props) => {
                         <span className="events-details-content5 thq-body-small">
                           {props.content5 ?? (
                             <Fragment>
-                              <span className="events-details-text39">
+                              <span className="events-details-text46">
                                 Our experienced event coordinators are committed
                                 to flawless execution, handling every aspect of
                                 your engagement ceremony so that you can focus
@@ -445,7 +445,7 @@ const EventsDetails = (props) => {
                         <span className="events-details-content6 thq-body-small">
                           {props.content6 ?? (
                             <Fragment>
-                              <span className="events-details-text38">
+                              <span className="events-details-text44">
                                 Whether you envision a traditional engagement or
                                 a modern celebration, we offer customizable
                                 packages and adaptable venue layouts to suit
@@ -480,7 +480,7 @@ const EventsDetails = (props) => {
                     <span className="events-details-content10 thq-body-small">
                       {props.content10 ?? (
                         <Fragment>
-                          <span className="events-details-text34">
+                          <span className="events-details-text40">
                             Begin your wedding journey with vibrant and
                             memorable pre-wedding events at Marigold Celebration
                             Banquet Hall. Our versatile venue offers an ideal
@@ -496,7 +496,7 @@ const EventsDetails = (props) => {
                         <h1 className="events-details-heading11 thq-heading-3">
                           {props.heading11 ?? (
                             <Fragment>
-                              <span className="events-details-text29">
+                              <span className="events-details-text32">
                                 Lively Mehendi &amp; Haldi Ceremonies
                               </span>
                             </Fragment>
@@ -505,7 +505,7 @@ const EventsDetails = (props) => {
                         <span className="events-details-content11 thq-body-small">
                           {props.content11 ?? (
                             <Fragment>
-                              <span className="events-details-text27">
+                              <span className="events-details-text30">
                                 Our beautifully designed spaces provide a
                                 vibrant atmosphere for your Mehendi and Haldi
                                 ceremonies. From colorful decor and floral
@@ -521,7 +521,7 @@ const EventsDetails = (props) => {
                         <h1 className="events-details-heading12 thq-heading-3">
                           {props.heading12 ?? (
                             <Fragment>
-                              <span className="events-details-text25">
+                              <span className="events-details-text27">
                                 Energetic Sangeet Nights
                               </span>
                             </Fragment>
@@ -549,7 +549,7 @@ const EventsDetails = (props) => {
                         <h1 className="events-details-heading131 thq-heading-3">
                           {props.heading13 ?? (
                             <Fragment>
-                              <span className="events-details-text37">
+                              <span className="events-details-text43">
                                 Tailored Decor &amp; Customization
                               </span>
                             </Fragment>
@@ -558,7 +558,7 @@ const EventsDetails = (props) => {
                         <span className="events-details-content131 thq-body-small">
                           {props.content13 ?? (
                             <Fragment>
-                              <span className="events-details-text36">
+                              <span className="events-details-text42">
                                 Every couple has their unique style, and we work
                                 closely with you to bring your ideas to life.
                                 Our experienced in-house decor team ensures that
@@ -575,7 +575,7 @@ const EventsDetails = (props) => {
                         <h1 className="events-details-heading132 thq-heading-3">
                           {props.heading131 ?? (
                             <Fragment>
-                              <span className="events-details-text50">
+                              <span className="events-details-text48">
                                 Exceptional Catering Services
                               </span>
                             </Fragment>
@@ -584,7 +584,7 @@ const EventsDetails = (props) => {
                         <span className="events-details-content132 thq-body-small">
                           {props.content131 ?? (
                             <Fragment>
-                              <span className="events-details-text51">
+                              <span className="events-details-text25">
                                 Delight your guests with a tailored menu,
                                 featuring a diverse selection of dishes. Our
                                 expert chefs prepare everything from regional
@@ -596,11 +596,11 @@ const EventsDetails = (props) => {
                           )}
                         </span>
                       </li>
-                      <li className="list-item">
+                      <li className="events-details-li27 list-item">
                         <h1 className="events-details-heading133 thq-heading-3">
                           {props.heading1311 ?? (
                             <Fragment>
-                              <span className="events-details-text52">
+                              <span className="events-details-text28">
                                 Seamless Event Planning
                               </span>
                             </Fragment>
@@ -609,7 +609,7 @@ const EventsDetails = (props) => {
                         <span className="events-details-content133 thq-body-small">
                           {props.content1311 ?? (
                             <Fragment>
-                              <span className="events-details-text53">
+                              <span className="events-details-text45">
                                 With our dedicated event coordinators, you can
                                 rest assured that every detail is handled, from
                                 setup to execution. We take care of all
@@ -660,6 +660,7 @@ const EventsDetails = (props) => {
           .events-details-button1 {
             fill: var(--dl-color-primary-richblue);
             color: var(--dl-color-primary-richblue);
+            text-align: left;
             font-family: 'Ubuntu';
           }
           .events-details-text10 {
@@ -684,6 +685,7 @@ const EventsDetails = (props) => {
           .events-details-button4 {
             fill: var(--dl-color-primary-richblue);
             color: var(--dl-color-primary-richblue);
+            text-align: left;
           }
           .events-details-text13 {
             font-style: normal;
@@ -702,6 +704,7 @@ const EventsDetails = (props) => {
           .events-details-button6 {
             fill: var(--dl-color-primary-richblue);
             color: var(--dl-color-primary-richblue);
+            text-align: left;
           }
           .events-details-text15 {
             font-style: normal;
@@ -729,9 +732,8 @@ const EventsDetails = (props) => {
             font-size: 18px;
             align-self: center;
             font-style: normal;
-            text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
           }
           .events-details-content7 {
             fill: var(--dl-color-theme-accent1);
@@ -752,7 +754,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content8 {
@@ -761,7 +763,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading91 {
@@ -770,7 +772,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content91 {
@@ -779,7 +781,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading92 {
@@ -788,7 +790,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content92 {
@@ -797,7 +799,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading93 {
@@ -806,7 +808,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content93 {
@@ -815,7 +817,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading94 {
@@ -824,7 +826,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content94 {
@@ -833,7 +835,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-container5 {
@@ -851,7 +853,7 @@ const EventsDetails = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
           }
           .events-details-content1 {
             fill: var(--dl-color-theme-accent1);
@@ -859,7 +861,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-ul4 {
@@ -872,7 +874,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content2 {
@@ -881,7 +883,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading3 {
@@ -890,7 +892,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content3 {
@@ -899,7 +901,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading4 {
@@ -908,7 +910,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content4 {
@@ -917,7 +919,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading5 {
@@ -926,7 +928,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content5 {
@@ -935,7 +937,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading6 {
@@ -944,7 +946,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content6 {
@@ -953,7 +955,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-container6 {
@@ -971,7 +973,7 @@ const EventsDetails = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
           }
           .events-details-content10 {
             fill: var(--dl-color-theme-accent1);
@@ -979,7 +981,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-ul6 {
@@ -992,7 +994,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content11 {
@@ -1001,7 +1003,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-li24 {
@@ -1014,14 +1016,14 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content12 {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading131 {
@@ -1030,7 +1032,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content131 {
@@ -1039,7 +1041,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-heading132 {
@@ -1048,7 +1050,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content132 {
@@ -1057,8 +1059,11 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
+          }
+          .events-details-li27 {
+            font-family: 'Ubuntu';
           }
           .events-details-heading133 {
             fill: var(--dl-color-theme-accent1);
@@ -1066,7 +1071,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.8;
           }
           .events-details-content133 {
@@ -1075,7 +1080,7 @@ const EventsDetails = (props) => {
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 300;
             line-height: 1.4;
           }
           .events-details-text16 {
@@ -1250,13 +1255,19 @@ EventsDetails.defaultProps = {
   heading7: undefined,
   heading8: undefined,
   content12: undefined,
+  content9111: undefined,
+  content131: undefined,
   button1: undefined,
   heading12: undefined,
+  heading1311: undefined,
   content3: undefined,
   content11: undefined,
   button2: undefined,
   heading11: undefined,
+  content911: undefined,
+  content91: undefined,
   heading9: undefined,
+  heading911: undefined,
   heading1: undefined,
   heading4: undefined,
   content9: undefined,
@@ -1265,21 +1276,15 @@ EventsDetails.defaultProps = {
   content13: undefined,
   heading13: undefined,
   content6: undefined,
+  content1311: undefined,
   content5: undefined,
   button: undefined,
+  heading131: undefined,
+  heading91: undefined,
   content4: undefined,
   content1: undefined,
-  heading5: undefined,
-  heading91: undefined,
-  content91: undefined,
-  heading911: undefined,
-  content911: undefined,
   heading9111: undefined,
-  content9111: undefined,
-  heading131: undefined,
-  content131: undefined,
-  heading1311: undefined,
-  content1311: undefined,
+  heading5: undefined,
 }
 
 EventsDetails.propTypes = {
@@ -1291,13 +1296,19 @@ EventsDetails.propTypes = {
   heading7: PropTypes.element,
   heading8: PropTypes.element,
   content12: PropTypes.element,
+  content9111: PropTypes.element,
+  content131: PropTypes.element,
   button1: PropTypes.element,
   heading12: PropTypes.element,
+  heading1311: PropTypes.element,
   content3: PropTypes.element,
   content11: PropTypes.element,
   button2: PropTypes.element,
   heading11: PropTypes.element,
+  content911: PropTypes.element,
+  content91: PropTypes.element,
   heading9: PropTypes.element,
+  heading911: PropTypes.element,
   heading1: PropTypes.element,
   heading4: PropTypes.element,
   content9: PropTypes.element,
@@ -1306,21 +1317,15 @@ EventsDetails.propTypes = {
   content13: PropTypes.element,
   heading13: PropTypes.element,
   content6: PropTypes.element,
+  content1311: PropTypes.element,
   content5: PropTypes.element,
   button: PropTypes.element,
+  heading131: PropTypes.element,
+  heading91: PropTypes.element,
   content4: PropTypes.element,
   content1: PropTypes.element,
-  heading5: PropTypes.element,
-  heading91: PropTypes.element,
-  content91: PropTypes.element,
-  heading911: PropTypes.element,
-  content911: PropTypes.element,
   heading9111: PropTypes.element,
-  content9111: PropTypes.element,
-  heading131: PropTypes.element,
-  content131: PropTypes.element,
-  heading1311: PropTypes.element,
-  content1311: PropTypes.element,
+  heading5: PropTypes.element,
 }
 
 export default EventsDetails
