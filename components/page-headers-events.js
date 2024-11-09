@@ -126,15 +126,15 @@ const PageHeadersEvents = (props) => {
           .page-headers-events-text1 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 20px;
+            font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 500;
           }
           .page-headers-events-text2 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 14px;
+            font-size: 12px;
             font-family: 'Ubuntu';
           }
           .page-headers-events-actions {

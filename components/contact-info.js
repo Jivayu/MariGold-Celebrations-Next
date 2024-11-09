@@ -293,7 +293,6 @@ const ContactInfo = (props) => {
             height: 700px;
             display: flex;
             position: relative;
-            margin-top: var(--dl-space-space-fiveunits);
             align-items: flex-start;
             padding-left: var(--dl-space-space-unit);
             padding-right: var(--dl-space-space-unit);
@@ -318,7 +317,7 @@ const ContactInfo = (props) => {
           .contact-info-text10 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 20px;
+            font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
             font-weight: 300;
@@ -371,9 +370,9 @@ const ContactInfo = (props) => {
           .contact-info-icon10 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
             padding: 4px;
-            margin-top: 4px;
-            margin-left: 4px;
             border-color: var(--dl-color-theme-accent1);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
@@ -389,12 +388,12 @@ const ContactInfo = (props) => {
           .contact-info-text12 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 16px;
+            font-size: 14px;
             align-self: flex-start;
             font-style: normal;
             text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 500;
             line-height: 1.5;
             text-transform: none;
             text-decoration: none;
@@ -446,9 +445,9 @@ const ContactInfo = (props) => {
           .contact-info-icon14 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
             padding: 4px;
-            margin-top: 4px;
-            margin-left: 4px;
             border-color: var(--dl-color-theme-accent1);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
@@ -464,12 +463,12 @@ const ContactInfo = (props) => {
           .contact-info-text14 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 16px;
+            font-size: 14px;
             align-self: flex-start;
             font-style: normal;
             text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 500;
           }
           .contact-info-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -526,9 +525,9 @@ const ContactInfo = (props) => {
           }
           .contact-info-icon30 {
             fill: var(--dl-color-theme-accent1);
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
             padding: 4px;
-            margin-top: 4px;
-            margin-left: 4px;
             border-color: var(--dl-color-theme-accent1);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
@@ -544,12 +543,12 @@ const ContactInfo = (props) => {
           .contact-info-text18 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 16px;
+            font-size: 14px;
             align-self: flex-start;
             font-style: normal;
             text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 500;
           }
           .contact-info-text19 {
             fill: var(--dl-color-theme-accent1);
@@ -587,11 +586,11 @@ const ContactInfo = (props) => {
           }
           .contact-info-text20 {
             color: var(--dl-color-primary-logo-color-2);
-            font-size: 14px;
+            font-size: 12px;
             transform: scale(0.96);
             font-style: normal;
             text-align: center;
-            font-family: 'Poppins';
+            font-family: 'Ubuntu';
             font-weight: 400;
             line-height: 1.6;
             text-transform: capitalize;
@@ -609,7 +608,7 @@ const ContactInfo = (props) => {
           }
           .contact-info-iframe {
             width: 100%;
-            height: 600px;
+            height: 550px;
             aspect-ratio: 16/9;
             border-radius: var(--dl-radius-radius-radius10);
           }

@@ -119,20 +119,20 @@ const PageHeadersGallery = (props) => {
             padding-right: var(--dl-space-space-unit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-halfunit);
-            background-color: rgba(25, 24, 24, 0.6);
+            background-color: rgba(25, 24, 24, 0.65);
           }
           .page-headers-gallery-text1 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 20px;
+            font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 400;
+            font-weight: 500;
           }
           .page-headers-gallery-text2 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 14px;
+            font-size: 12px;
             font-family: 'Ubuntu';
           }
           .page-headers-gallery-actions {

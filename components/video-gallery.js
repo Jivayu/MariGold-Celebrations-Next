@@ -294,7 +294,7 @@ const VideoGallery = (props) => {
           }
           .video-gallery-video {
             width: auto;
-            height: 320px;
+            height: 340px;
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.3);
             aspect-ratio: 16/9;
             border-color: var(--dl-color-primary-logo-color-4);
@@ -342,6 +342,7 @@ const VideoGallery = (props) => {
             }
             .video-gallery-video {
               width: 95%;
+              height: auto;
               transform: scale(0.9);
             }
           }
@@ -350,6 +351,8 @@ const VideoGallery = (props) => {
               align-self: center;
             }
             .video-gallery-video {
+              width: 100%;
+              height: auto;
               transform: scale(1);
             }
           }

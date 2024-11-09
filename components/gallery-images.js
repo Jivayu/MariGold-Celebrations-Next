@@ -40,8 +40,8 @@ const GalleryImages = (props) => {
             <div className="gallery-images-container1">
               <img
                 alt="Wedding Hall Setup"
-                src="/images/Marigold Images/design%202-1-400h.webp"
-                loading="eager"
+                src="/images/Marigold Images/design%202-1-300h.webp"
+                loading="lazy"
                 className="gallery-images-image1 thq-img-ratio-4-3"
               />
               <span className="gallery-images-text13 thq-body-small">
@@ -97,7 +97,7 @@ const GalleryImages = (props) => {
             <div className="gallery-images-container5">
               <img
                 alt={props.image3Alt}
-                src="/images/Marigold Images/hallpic-6-400h.webp"
+                src="/images/Marigold Images/hallpic-6-300h.webp"
                 loading="eager"
                 className="gallery-images-image3 thq-img-ratio-4-3"
               />
@@ -201,6 +201,7 @@ const GalleryImages = (props) => {
             align-self: center;
             box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.3);
             transition: 0.3s;
+            aspect-ratio: 16/9;
           }
           .gallery-images-image1:hover {
             transform: scale(1.05);
@@ -240,6 +241,7 @@ const GalleryImages = (props) => {
             max-width: 600px;
             align-self: center;
             box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.3);
+            aspect-ratio: 16/9;
           }
           .gallery-images-text15 {
             fill: var(--dl-color-theme-accent1);
@@ -275,6 +277,7 @@ const GalleryImages = (props) => {
             height: 300px;
             max-width: 600px;
             box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.3);
+            aspect-ratio: 16/9;
           }
           .gallery-images-text17 {
             fill: var(--dl-color-theme-accent1);
@@ -333,17 +336,28 @@ const GalleryImages = (props) => {
             .gallery-images-image1 {
               flex: 0 0 auto;
               width: 100%;
-              height: 360px;
+              height: auto;
             }
             .gallery-images-image2 {
               flex: 0 0 auto;
               width: 100%;
-              height: 360px;
+              height: auto;
             }
             .gallery-images-image3 {
               flex: 0 0 auto;
               width: 100%;
-              height: 360px;
+              height: auto;
+            }
+          }
+          @media (max-width: 599px) {
+            .gallery-images-image1 {
+              height: auto;
+            }
+            .gallery-images-image2 {
+              height: auto;
+            }
+            .gallery-images-image3 {
+              height: auto;
             }
           }
         `}

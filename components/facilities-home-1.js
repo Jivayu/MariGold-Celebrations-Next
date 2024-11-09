@@ -387,6 +387,7 @@ const FacilitiesHome1 = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             flex: 1;
             transform: scale(0.98);
+            align-self: center;
             transition: 0.3s;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -401,6 +402,8 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature11:hover {
             transform: scale(1);
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-style: solid;
             backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
@@ -474,6 +477,8 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature12:hover {
             transform: scale(1);
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-style: solid;
             backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
@@ -547,6 +552,8 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature13:hover {
             transform: scale(1);
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-style: solid;
             backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
@@ -620,6 +627,8 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature14:hover {
             transform: scale(1);
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-style: solid;
             backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }
@@ -693,6 +702,8 @@ const FacilitiesHome1 = (props) => {
           }
           .facilities-home-1-feature15:hover {
             transform: scale(1);
+            border-color: var(--dl-color-theme-neutral-dark);
+            border-style: solid;
             backdrop-filter: blur(2px);
             background-color: rgba(0, 0, 0, 0.68);
           }

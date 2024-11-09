@@ -33,7 +33,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link11">
                   {props.menu1 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text17">Home</span>
+                      <span className="navbar-interactive-text16">Home</span>
                     </Fragment>
                   )}
                 </a>
@@ -42,7 +42,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link12">
                   {props.menu2 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text16">
+                      <span className="navbar-interactive-text15">
                         Facilities
                       </span>
                     </Fragment>
@@ -52,7 +52,7 @@ const NavbarInteractive = (props) => {
               <span className="navbar-interactive-text10">
                 {props.menu6 ?? (
                   <Fragment>
-                    <span className="navbar-interactive-text26">
+                    <span className="navbar-interactive-text25">
                       Facilities
                     </span>
                   </Fragment>
@@ -62,23 +62,25 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link13">
                   {props.menu3 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text24">Gallery</span>
+                      <span className="navbar-interactive-text23">Gallery</span>
                     </Fragment>
                   )}
                 </a>
               </Link>
-              <span className="navbar-interactive-text11">
-                {props.menu4 ?? (
-                  <Fragment>
-                    <span className="navbar-interactive-text21">Events</span>
-                  </Fragment>
-                )}
-              </span>
-              <Link href="/contacts">
+              <Link href="/events">
                 <a className="navbar-interactive-link14">
+                  {props.menu4 ?? (
+                    <Fragment>
+                      <span className="navbar-interactive-text20">Events</span>
+                    </Fragment>
+                  )}
+                </a>
+              </Link>
+              <Link href="/contacts">
+                <a className="navbar-interactive-link15">
                   {props.menu5 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text20">
+                      <span className="navbar-interactive-text19">
                         Contacts
                       </span>
                     </Fragment>
@@ -91,7 +93,7 @@ const NavbarInteractive = (props) => {
                 <span>
                   {props.login ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text22">Login</span>
+                      <span className="navbar-interactive-text21">Login</span>
                     </Fragment>
                   )}
                 </span>
@@ -100,10 +102,10 @@ const NavbarInteractive = (props) => {
                 href="mailto:knowngate@gmail.com?subject=Enquiry For Marigold Celebration Hall Dates."
                 className="navbar-interactive-mail-enquiry button"
               >
-                <span className="navbar-interactive-text13">
+                <span className="navbar-interactive-text12">
                   {props.register ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text27">Enquiry</span>
+                      <span className="navbar-interactive-text26">Enquiry</span>
                     </Fragment>
                   )}
                 </span>
@@ -128,7 +130,7 @@ const NavbarInteractive = (props) => {
                   href="https://marigoldcelebration.in"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="navbar-interactive-link15"
+                  className="navbar-interactive-link16"
                 >
                   <img
                     alt={props.logoAlt}
@@ -150,19 +152,19 @@ const NavbarInteractive = (props) => {
               </div>
               <nav className="navbar-interactive-links2">
                 <Link href="/">
-                  <a className="navbar-interactive-link16">
+                  <a className="navbar-interactive-link17">
                     {props.mmenu1 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text15">Home</span>
+                        <span className="navbar-interactive-text14">Home</span>
                       </Fragment>
                     )}
                   </a>
                 </Link>
                 <Link href="/facilities-at-marigold-celebration">
-                  <a className="navbar-interactive-link17">
+                  <a className="navbar-interactive-link18">
                     {props.mmenu2 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text25">
+                        <span className="navbar-interactive-text24">
                           Facilities
                         </span>
                       </Fragment>
@@ -170,10 +172,10 @@ const NavbarInteractive = (props) => {
                   </a>
                 </Link>
                 <Link href="/gallery">
-                  <a className="navbar-interactive-link18">
+                  <a className="navbar-interactive-link19">
                     {props.mmenu3 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text23">
+                        <span className="navbar-interactive-text22">
                           Gallery
                         </span>
                       </Fragment>
@@ -181,10 +183,10 @@ const NavbarInteractive = (props) => {
                   </a>
                 </Link>
                 <Link href="/events">
-                  <a className="navbar-interactive-link19">
+                  <a className="navbar-interactive-link20">
                     {props.mmenu4 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text19">
+                        <span className="navbar-interactive-text18">
                           Events
                         </span>
                       </Fragment>
@@ -192,10 +194,10 @@ const NavbarInteractive = (props) => {
                   </a>
                 </Link>
                 <Link href="/contacts">
-                  <a className="navbar-interactive-link20">
+                  <a className="navbar-interactive-link21">
                     {props.mmenu5 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text28">
+                        <span className="navbar-interactive-text27">
                           Contacts
                         </span>
                       </Fragment>
@@ -208,10 +210,10 @@ const NavbarInteractive = (props) => {
                   href="tel:+919356251657"
                   className="navbar-interactive-register button"
                 >
-                  <span className="navbar-interactive-text14">
+                  <span className="navbar-interactive-text13">
                     {props.register1 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text18">
+                        <span className="navbar-interactive-text17">
                           Call Us Now !
                         </span>
                       </Fragment>
@@ -392,26 +394,6 @@ const NavbarInteractive = (props) => {
             color: var(--dl-color-primary-logo-color-1);
             background-color: transparent;
           }
-          .navbar-interactive-text11 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 300;
-            line-height: 1.4;
-            padding-top: 4px;
-            padding-left: 6px;
-            padding-right: 6px;
-            padding-bottom: 4px;
-            text-transform: capitalize;
-            text-decoration: none;
-          }
-          .navbar-interactive-text11:hover {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
-            border-radius: 0px;
-            background-color: transparent;
-          }
           .navbar-interactive-link14 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
@@ -427,6 +409,26 @@ const NavbarInteractive = (props) => {
             text-decoration: none;
           }
           .navbar-interactive-link14:hover {
+            fill: var(--dl-color-primary-logo-color-1);
+            color: var(--dl-color-primary-logo-color-1);
+            border-radius: 0px;
+            background-color: transparent;
+          }
+          .navbar-interactive-link15 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 1.4;
+            padding-top: 4px;
+            padding-left: 6px;
+            padding-right: 6px;
+            padding-bottom: 4px;
+            text-transform: capitalize;
+            text-decoration: none;
+          }
+          .navbar-interactive-link15:hover {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             border-radius: 0px;
@@ -459,7 +461,7 @@ const NavbarInteractive = (props) => {
             border-width: 0.5px;
             background-color: rgba(216, 160, 51, 0.39);
           }
-          .navbar-interactive-text13 {
+          .navbar-interactive-text12 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
@@ -504,7 +506,7 @@ const NavbarInteractive = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .navbar-interactive-link15 {
+          .navbar-interactive-link16 {
             display: contents;
           }
           .navbar-interactive-logo {
@@ -526,15 +528,6 @@ const NavbarInteractive = (props) => {
             align-self: flex-start;
             align-items: flex-start;
             flex-direction: column;
-          }
-          .navbar-interactive-link16 {
-            font-size: 14px;
-            font-family: 'Ubuntu';
-            font-weight: 300;
-            line-height: 1.4;
-            margin-bottom: var(--dl-space-space-unit);
-            text-transform: none;
-            text-decoration: none;
           }
           .navbar-interactive-link17 {
             font-size: 14px;
@@ -572,6 +565,15 @@ const NavbarInteractive = (props) => {
             text-transform: none;
             text-decoration: none;
           }
+          .navbar-interactive-link21 {
+            font-size: 14px;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+            line-height: 1.4;
+            margin-bottom: var(--dl-space-space-unit);
+            text-transform: none;
+            text-decoration: none;
+          }
           .navbar-interactive-buttons2 {
             display: flex;
             margin-top: var(--dl-space-space-unit);
@@ -582,7 +584,7 @@ const NavbarInteractive = (props) => {
           .navbar-interactive-register {
             text-decoration: none;
           }
-          .navbar-interactive-text14 {
+          .navbar-interactive-text13 {
             font-size: 14px;
             font-family: 'Ubuntu';
             font-weight: 400;
@@ -606,6 +608,9 @@ const NavbarInteractive = (props) => {
           .navbar-interactive-icon18 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
+          }
+          .navbar-interactive-text14 {
+            display: inline-block;
           }
           .navbar-interactive-text15 {
             display: inline-block;
@@ -644,9 +649,6 @@ const NavbarInteractive = (props) => {
             display: inline-block;
           }
           .navbar-interactive-text27 {
-            display: inline-block;
-          }
-          .navbar-interactive-text28 {
             display: inline-block;
           }
 
@@ -738,19 +740,6 @@ const NavbarInteractive = (props) => {
               padding-top: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-unit);
             }
-            .navbar-interactive-link16 {
-              fill: var(--dl-color-theme-accent1);
-              color: var(--dl-color-theme-accent1);
-              width: 65%;
-              height: 40px;
-              text-align: center;
-              font-family: Ubuntu;
-              line-height: 2.8;
-              border-color: var(--dl-color-primary-logo-color-1);
-              border-style: dotted;
-              border-width: 0.5px;
-              border-radius: var(--dl-radius-radius-buttonradius);
-            }
             .navbar-interactive-link17 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
@@ -791,6 +780,19 @@ const NavbarInteractive = (props) => {
               border-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-link20 {
+              fill: var(--dl-color-theme-accent1);
+              color: var(--dl-color-theme-accent1);
+              width: 65%;
+              height: 40px;
+              text-align: center;
+              font-family: Ubuntu;
+              line-height: 2.8;
+              border-color: var(--dl-color-primary-logo-color-1);
+              border-style: dotted;
+              border-width: 0.5px;
+              border-radius: var(--dl-radius-radius-buttonradius);
+            }
+            .navbar-interactive-link21 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 65%;
@@ -873,7 +875,7 @@ const NavbarInteractive = (props) => {
               animation-iteration-count: 1;
               animation-timing-function: ease;
             }
-            .navbar-interactive-text18 {
+            .navbar-interactive-text17 {
               font-size: 16px;
               font-style: normal;
               font-family: Ubuntu;
