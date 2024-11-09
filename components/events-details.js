@@ -177,138 +177,141 @@ const EventsDetails = (props) => {
                           </Fragment>
                         )}
                       </p>
-                    </li>
-                  </ul>
-                  <ul className="events-details-ul2 UbuntuLight-14 thq-flex-column">
-                    <li className="events-details-li11 list-item">
-                      <h3 className="events-details-heading8 thq-heading-3">
-                        {props.heading8 ?? (
-                          <Fragment>
-                            <span className="events-details-text22">
-                              Tailored Decor
-                            </span>
-                          </Fragment>
-                        )}
-                      </h3>
-                      <p className="events-details-content8 thq-body-small">
-                        {props.content2 ?? (
-                          <Fragment>
-                            <span className="events-details-text16">
-                              Our venue is designed to provide a welcoming and
-                              elegant atmosphere that reflects the excitement of
-                              this special day. From refined decor choices to
-                              soft, romantic lighting, we create an environment
-                              that mirrors your unique love story.
-                            </span>
-                          </Fragment>
-                        )}
-                      </p>
-                    </li>
-                    <li className="events-details-li12 list-item">
-                      <h3 className="events-details-heading91 thq-heading-3">
-                        {props.heading9 ?? (
-                          <Fragment>
-                            <span className="events-details-text35">
-                              Gourmet Catering
-                            </span>
-                          </Fragment>
-                        )}
-                      </h3>
-                      <p className="events-details-content91 thq-body-small">
-                        {props.content9 ?? (
-                          <Fragment>
-                            <span className="events-details-text39">
-                              Delight your guests with a culinary journey
-                              crafted by our talented chefs. Our diverse menu
-                              options include everything from classic wedding
-                              feasts to modern fusion cuisines, ensuring there’s
-                              something to suit every palate. Whether you prefer
-                              a grand buffet or an exquisite plated dinner, our
-                              catering service will leave a lasting impression.
-                            </span>
-                          </Fragment>
-                        )}
-                      </p>
-                    </li>
-                    <li className="events-details-li13 list-item">
-                      <h3 className="events-details-heading92 thq-heading-3">
-                        {props.heading91 ?? (
-                          <Fragment>
-                            <span className="events-details-text49">
-                              Seamless Event Management
-                            </span>
-                          </Fragment>
-                        )}
-                      </h3>
-                      <p className="events-details-content92 thq-body-small">
-                        {props.content91 ?? (
-                          <Fragment>
-                            <span className="events-details-text34">
-                              We understand that your wedding day should be
-                              stress-free, and our experienced event
-                              coordinators are here to ensure everything runs
-                              smoothly. From planning the flow of the ceremony
-                              to overseeing the reception, we handle all the
-                              details so you can focus on enjoying every moment.
-                              Our commitment is to provide flawless execution,
-                              ensuring your celebration is everything you’ve
-                              imagined and more.
-                            </span>
-                          </Fragment>
-                        )}
-                      </p>
-                    </li>
-                    <li className="events-details-li14 list-item">
-                      <h3 className="events-details-heading93 thq-heading-3">
-                        {props.heading911 ?? (
-                          <Fragment>
-                            <span className="events-details-text36">
-                              Versatile Venue Options
-                            </span>
-                          </Fragment>
-                        )}
-                      </h3>
-                      <p className="events-details-content93 thq-body-small">
-                        {props.content911 ?? (
-                          <Fragment>
-                            <span className="events-details-text33">
-                              Our expansive banquet hall can be transformed to
-                              suit any style, from intimate gatherings to grand
-                              celebrations. Equipped with cutting-edge sound and
-                              lighting technology, luxurious seating
-                              arrangements, and an inviting atmosphere, our
-                              venue offers everything needed to make your
-                              wedding day unforgettable.
-                            </span>
-                          </Fragment>
-                        )}
-                      </p>
-                    </li>
-                    <li className="events-details-li15 list-item">
-                      <h3 className="events-details-heading94 thq-heading-3">
-                        {props.heading9111 ?? (
-                          <Fragment>
-                            <span className="events-details-text52">
-                              Customized Packages
-                            </span>
-                          </Fragment>
-                        )}
-                      </h3>
-                      <p className="events-details-content94 thq-body-small">
-                        {props.content9111 ?? (
-                          <Fragment>
-                            <span className="events-details-text24">
-                              At Marigold Celebration, we believe every couple
-                              is unique, and so is every wedding. We offer a
-                              variety of customizable packages that allow you to
-                              select the services you need—from decor and
-                              catering to entertainment and
-                              photography—tailoring the entire event to your
-                              vision, needs, and budget.
-                            </span>
-                          </Fragment>
-                        )}
-                      </p>
+                      <ul className="events-details-ul2 UbuntuLight-14 thq-flex-column">
+                        <li className="events-details-li11 list-item">
+                          <h3 className="events-details-heading8 thq-heading-3">
+                            {props.heading8 ?? (
+                              <Fragment>
+                                <span className="events-details-text22">
+                                  Tailored Decor
+                                </span>
+                              </Fragment>
+                            )}
+                          </h3>
+                          <p className="events-details-content8 thq-body-small">
+                            {props.content2 ?? (
+                              <Fragment>
+                                <span className="events-details-text16">
+                                  Our venue is designed to provide a welcoming
+                                  and elegant atmosphere that reflects the
+                                  excitement of this special day. From refined
+                                  decor choices to soft, romantic lighting, we
+                                  create an environment that mirrors your unique
+                                  love story.
+                                </span>
+                              </Fragment>
+                            )}
+                          </p>
+                        </li>
+                        <li className="events-details-li12 list-item">
+                          <h3 className="events-details-heading91 thq-heading-3">
+                            {props.heading9 ?? (
+                              <Fragment>
+                                <span className="events-details-text35">
+                                  Gourmet Catering
+                                </span>
+                              </Fragment>
+                            )}
+                          </h3>
+                          <p className="events-details-content91 thq-body-small">
+                            {props.content9 ?? (
+                              <Fragment>
+                                <span className="events-details-text39">
+                                  Delight your guests with a culinary journey
+                                  crafted by our talented chefs. Our diverse
+                                  menu options include everything from classic
+                                  wedding feasts to modern fusion cuisines,
+                                  ensuring there’s something to suit every
+                                  palate. Whether you prefer a grand buffet or
+                                  an exquisite plated dinner, our catering
+                                  service will leave a lasting impression.
+                                </span>
+                              </Fragment>
+                            )}
+                          </p>
+                        </li>
+                        <li className="events-details-li13 list-item">
+                          <h3 className="events-details-heading92 thq-heading-3">
+                            {props.heading91 ?? (
+                              <Fragment>
+                                <span className="events-details-text49">
+                                  Seamless Event Management
+                                </span>
+                              </Fragment>
+                            )}
+                          </h3>
+                          <p className="events-details-content92 thq-body-small">
+                            {props.content91 ?? (
+                              <Fragment>
+                                <span className="events-details-text34">
+                                  We understand that your wedding day should be
+                                  stress-free, and our experienced event
+                                  coordinators are here to ensure everything
+                                  runs smoothly. From planning the flow of the
+                                  ceremony to overseeing the reception, we
+                                  handle all the details so you can focus on
+                                  enjoying every moment. Our commitment is to
+                                  provide flawless execution, ensuring your
+                                  celebration is everything you’ve imagined and
+                                  more.
+                                </span>
+                              </Fragment>
+                            )}
+                          </p>
+                        </li>
+                        <li className="events-details-li14 list-item">
+                          <h3 className="events-details-heading93 thq-heading-3">
+                            {props.heading911 ?? (
+                              <Fragment>
+                                <span className="events-details-text36">
+                                  Versatile Venue Options
+                                </span>
+                              </Fragment>
+                            )}
+                          </h3>
+                          <p className="events-details-content93 thq-body-small">
+                            {props.content911 ?? (
+                              <Fragment>
+                                <span className="events-details-text33">
+                                  Our expansive banquet hall can be transformed
+                                  to suit any style, from intimate gatherings to
+                                  grand celebrations. Equipped with cutting-edge
+                                  sound and lighting technology, luxurious
+                                  seating arrangements, and an inviting
+                                  atmosphere, our venue offers everything needed
+                                  to make your wedding day unforgettable.
+                                </span>
+                              </Fragment>
+                            )}
+                          </p>
+                        </li>
+                        <li className="events-details-li15 list-item">
+                          <h3 className="events-details-heading94 thq-heading-3">
+                            {props.heading9111 ?? (
+                              <Fragment>
+                                <span className="events-details-text52">
+                                  Customized Packages
+                                </span>
+                              </Fragment>
+                            )}
+                          </h3>
+                          <p className="events-details-content94 thq-body-small">
+                            {props.content9111 ?? (
+                              <Fragment>
+                                <span className="events-details-text24">
+                                  At Marigold Celebration, we believe every
+                                  couple is unique, and so is every wedding. We
+                                  offer a variety of customizable packages that
+                                  allow you to select the services you need—from
+                                  decor and catering to entertainment and
+                                  photography—tailoring the entire event to your
+                                  vision, needs, and budget.
+                                </span>
+                              </Fragment>
+                            )}
+                          </p>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </div>
