@@ -701,8 +701,10 @@ const NavbarInteractive = (props) => {
               border-width: 2px;
               border-radius: var(--dl-radius-radius-cardradius);
               background-color: #060029;
-              border-top-left-radius: var(--dl-radius-radius-buttonradius);
-              border-top-right-radius: var(--dl-radius-radius-buttonradius);
+              border-top-left-radius: var(--dl-radius-radius-cardradius);
+              border-top-right-radius: var(--dl-radius-radius-cardradius);
+              border-bottom-left-radius: var(--dl-radius-radius-buttonradius);
+              border-bottom-right-radius: var(--dl-radius-radius-buttonradius);
             }
             .navbar-interactive-nav {
               display: flex;
@@ -744,66 +746,71 @@ const NavbarInteractive = (props) => {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 65%;
-              height: 40px;
+              height: 45px;
               text-align: center;
               font-family: Ubuntu;
               line-height: 2.8;
-              border-color: var(--dl-color-primary-logo-color-1);
-              border-style: dotted;
+              border-color: var(--dl-color-primary-richblue);
+              border-style: solid;
               border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
+              background-color: var(--dl-color-primary-logo-color-5);
             }
             .navbar-interactive-link18 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 65%;
-              height: 40px;
+              height: 45px;
               text-align: center;
               font-family: Ubuntu;
               line-height: 2.8;
-              border-color: var(--dl-color-primary-logo-color-1);
-              border-style: dotted;
+              border-color: var(--dl-color-primary-richblue);
+              border-style: solid;
               border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
+              background-color: var(--dl-color-primary-logo-color-5);
             }
             .navbar-interactive-link19 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 65%;
-              height: 40px;
+              height: 45px;
               text-align: center;
               font-family: Ubuntu;
               line-height: 2.8;
-              border-color: var(--dl-color-primary-logo-color-1);
-              border-style: dotted;
+              border-color: var(--dl-color-primary-richblue);
+              border-style: solid;
               border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
+              background-color: var(--dl-color-primary-logo-color-5);
             }
             .navbar-interactive-link20 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 65%;
-              height: 40px;
+              height: 45px;
               text-align: center;
               font-family: Ubuntu;
               line-height: 2.8;
-              border-color: var(--dl-color-primary-logo-color-1);
-              border-style: dotted;
+              border-color: var(--dl-color-primary-richblue);
+              border-style: solid;
               border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
+              background-color: var(--dl-color-primary-logo-color-5);
             }
             .navbar-interactive-link21 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);
               width: 65%;
-              height: 40px;
+              height: 45px;
               text-align: center;
               font-family: Ubuntu;
               line-height: 2.8;
-              border-color: var(--dl-color-primary-logo-color-1);
-              border-style: dotted;
+              border-color: var(--dl-color-primary-richblue);
+              border-style: solid;
               border-width: 0.5px;
               border-radius: var(--dl-radius-radius-buttonradius);
+              background-color: var(--dl-color-primary-logo-color-5);
             }
             .navbar-interactive-buttons2 {
               align-self: center;
