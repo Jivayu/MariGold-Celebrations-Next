@@ -731,7 +731,7 @@ const EventsDetails = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
           }
           .events-details-content7 {
             fill: var(--dl-color-theme-accent1);
@@ -752,7 +752,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content8 {
@@ -770,7 +770,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content91 {
@@ -788,7 +788,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content92 {
@@ -806,7 +806,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content93 {
@@ -824,7 +824,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content94 {
@@ -851,7 +851,7 @@ const EventsDetails = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
           }
           .events-details-content1 {
             fill: var(--dl-color-theme-accent1);
@@ -872,7 +872,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content2 {
@@ -890,7 +890,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content3 {
@@ -908,7 +908,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content4 {
@@ -926,7 +926,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content5 {
@@ -944,7 +944,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content6 {
@@ -971,7 +971,7 @@ const EventsDetails = (props) => {
             font-style: normal;
             text-align: center;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
           }
           .events-details-content10 {
             fill: var(--dl-color-theme-accent1);
@@ -992,7 +992,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content11 {
@@ -1014,7 +1014,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content12 {
@@ -1030,7 +1030,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content131 {
@@ -1048,7 +1048,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content132 {
@@ -1066,7 +1066,7 @@ const EventsDetails = (props) => {
             font-size: 16px;
             font-style: normal;
             font-family: 'Ubuntu';
-            font-weight: 700;
+            font-weight: 400;
             line-height: 1.8;
           }
           .events-details-content133 {
