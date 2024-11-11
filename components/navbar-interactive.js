@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import Link from 'next/link'
 
-import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const NavbarInteractive = (props) => {
@@ -34,7 +33,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link11">
                   {props.menu1 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text16">Home</span>
+                      <span className="navbar-interactive-text17">Home</span>
                     </Fragment>
                   )}
                 </a>
@@ -43,7 +42,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link12">
                   {props.menu2 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text15">
+                      <span className="navbar-interactive-text16">
                         Facilities
                       </span>
                     </Fragment>
@@ -53,7 +52,7 @@ const NavbarInteractive = (props) => {
               <span className="navbar-interactive-text10">
                 {props.menu6 ?? (
                   <Fragment>
-                    <span className="navbar-interactive-text25">
+                    <span className="navbar-interactive-text26">
                       Facilities
                     </span>
                   </Fragment>
@@ -63,7 +62,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link13">
                   {props.menu3 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text23">Gallery</span>
+                      <span className="navbar-interactive-text24">Gallery</span>
                     </Fragment>
                   )}
                 </a>
@@ -72,7 +71,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link14">
                   {props.menu4 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text20">Events</span>
+                      <span className="navbar-interactive-text21">Events</span>
                     </Fragment>
                   )}
                 </a>
@@ -81,7 +80,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link15">
                   {props.menu5 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text19">
+                      <span className="navbar-interactive-text20">
                         Contacts
                       </span>
                     </Fragment>
@@ -89,12 +88,12 @@ const NavbarInteractive = (props) => {
                 </a>
               </Link>
             </nav>
-            <div className="navbar-interactive-buttons1">
+            <div className="navbar-interactive-buttons">
               <button className="navbar-interactive-login button">
                 <span>
                   {props.login ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text21">Login</span>
+                      <span className="navbar-interactive-text22">Login</span>
                     </Fragment>
                   )}
                 </span>
@@ -106,7 +105,7 @@ const NavbarInteractive = (props) => {
                 <span className="navbar-interactive-text12">
                   {props.register ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text26">Enquiry</span>
+                      <span className="navbar-interactive-text27">Enquiry</span>
                     </Fragment>
                   )}
                 </span>
@@ -156,7 +155,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link17">
                     {props.mmenu1 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text14">Home</span>
+                        <span className="navbar-interactive-text15">Home</span>
                       </Fragment>
                     )}
                   </a>
@@ -165,7 +164,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link18">
                     {props.mmenu2 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text24">
+                        <span className="navbar-interactive-text25">
                           Facilities
                         </span>
                       </Fragment>
@@ -176,7 +175,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link19">
                     {props.mmenu3 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text22">
+                        <span className="navbar-interactive-text23">
                           Gallery
                         </span>
                       </Fragment>
@@ -187,7 +186,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link20">
                     {props.mmenu4 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text18">
+                        <span className="navbar-interactive-text19">
                           Events
                         </span>
                       </Fragment>
@@ -198,7 +197,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link21">
                     {props.mmenu5 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text27">
+                        <span className="navbar-interactive-text28">
                           Contacts
                         </span>
                       </Fragment>
@@ -206,43 +205,50 @@ const NavbarInteractive = (props) => {
                   </a>
                 </Link>
               </nav>
-              <div className="navbar-interactive-buttons2">
-                <div className="navbar-interactive-container3">
-                  <div className="navbar-interactive-container4">
-                    <React.Fragment>
-                      <React.Fragment>
-                        <a
-                          aria-label="Chat on WhatsApp"
-                          href="https://wa.me/+919356251657"
-                        >
-                          <img
-                            alt="Chat on WhatsApp"
-                            src="WhatsAppButtonGreenLarge.svg"
-                          />
-                        </a>
-                        <a></a>
-                      </React.Fragment>
-                    </React.Fragment>
-                  </div>
+              <div className="navbar-interactive-container3">
+                <div className="navbar-interactive-buttons-call">
+                  <a
+                    href="tel:+919356251657"
+                    className="navbar-interactive-call-us button"
+                  >
+                    <span className="navbar-interactive-text13">
+                      {props.register1 ?? (
+                        <Fragment>
+                          <span className="navbar-interactive-text18">
+                            Call Enquiry
+                          </span>
+                        </Fragment>
+                      )}
+                    </span>
+                  </a>
                 </div>
-                <a
-                  href="tel:+919356251657"
-                  className="navbar-interactive-register button"
-                >
-                  <span className="navbar-interactive-text13">
-                    {props.register1 ?? (
-                      <Fragment>
-                        <span className="navbar-interactive-text17">
-                          Call Us Now !
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                </a>
+                <div className="navbar-interactive-buttons-whats-app">
+                  <a
+                    href="https://wa.me/+919356251657"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="navbar-interactive-whats-app-us button"
+                  >
+                    <span className="navbar-interactive-text14">
+                      {props.register12 ?? (
+                        <Fragment>
+                          <span className="navbar-interactive-text29">
+                            WhatsApp Enquiry
+                          </span>
+                        </Fragment>
+                      )}
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
             <div className="navbar-interactive-icon-group">
-              <animate-on-reveal animation="pulse" iteration="3">
+              <animate-on-reveal
+                animation="fadeIn"
+                duration="2000ms"
+                delay="100ms"
+                iteration="1"
+              >
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
                   data-thq-animate-on-reveal="true"
@@ -453,7 +459,7 @@ const NavbarInteractive = (props) => {
             border-radius: 0px;
             background-color: transparent;
           }
-          .navbar-interactive-buttons1 {
+          .navbar-interactive-buttons {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -593,20 +599,35 @@ const NavbarInteractive = (props) => {
             text-transform: none;
             text-decoration: none;
           }
-          .navbar-interactive-buttons2 {
+          .navbar-interactive-buttons-call {
             display: flex;
             margin-top: var(--dl-space-space-unit);
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
           }
-          .navbar-interactive-container4 {
-            display: contents;
-          }
-          .navbar-interactive-register {
+          .navbar-interactive-call-us {
             text-decoration: none;
           }
           .navbar-interactive-text13 {
+            font-size: 14px;
+            font-family: 'Ubuntu';
+            font-weight: 400;
+            line-height: 1.4;
+            text-transform: none;
+            text-decoration: none;
+          }
+          .navbar-interactive-buttons-whats-app {
+            display: flex;
+            margin-top: var(--dl-space-space-unit);
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .navbar-interactive-whats-app-us {
+            text-decoration: none;
+          }
+          .navbar-interactive-text14 {
             font-size: 14px;
             font-family: 'Ubuntu';
             font-weight: 400;
@@ -630,9 +651,6 @@ const NavbarInteractive = (props) => {
           .navbar-interactive-icon18 {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
-          }
-          .navbar-interactive-text14 {
-            display: inline-block;
           }
           .navbar-interactive-text15 {
             display: inline-block;
@@ -673,6 +691,12 @@ const NavbarInteractive = (props) => {
           .navbar-interactive-text27 {
             display: inline-block;
           }
+          .navbar-interactive-text28 {
+            display: inline-block;
+          }
+          .navbar-interactive-text29 {
+            display: inline-block;
+          }
 
           @media (max-width: 767px) {
             .navbar-interactive-navbar-interactive {
@@ -700,7 +724,7 @@ const NavbarInteractive = (props) => {
             }
             .navbar-interactive-image {
               flex: 1;
-              width: 80px;
+              width: auto;
               height: 50px;
               align-self: center;
             }
@@ -748,7 +772,7 @@ const NavbarInteractive = (props) => {
               border-bottom-right-radius: var(--dl-radius-radius-cardradius);
             }
             .navbar-interactive-logo {
-              width: 75px;
+              width: auto;
               height: 50px;
             }
             .navbar-interactive-icon12 {
@@ -834,29 +858,54 @@ const NavbarInteractive = (props) => {
               border-radius: var(--dl-radius-radius-buttonradius);
               background-color: var(--dl-color-primary-logo-color-5);
             }
-            .navbar-interactive-buttons2 {
+            .navbar-interactive-container3 {
+              width: 80%;
+              align-self: center;
+            }
+            .navbar-interactive-buttons-call {
               align-self: center;
               flex-direction: column;
             }
-            .navbar-interactive-container3 {
-              margin-bottom: var(--dl-space-space-halfunit);
-            }
-            .navbar-interactive-register {
+            .navbar-interactive-call-us {
               fill: var(--dl-color-primary-logo-color-1);
               color: var(--dl-color-primary-logo-color-1);
+              width: 85%;
+              box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.4);
               border-color: #1b1141;
               border-width: 1px;
               background-color: var(--dl-color-primary-logo-color-5);
             }
+            .navbar-interactive-text13 {
+              line-height: 1.8;
+            }
+            .navbar-interactive-buttons-whats-app {
+              align-self: center;
+              flex-direction: column;
+            }
+            .navbar-interactive-whats-app-us {
+              fill: var(--dl-color-primary-logo-color-1);
+              color: var(--dl-color-primary-logo-color-1);
+              width: 85%;
+              box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.4);
+              border-color: #117138;
+              border-width: 1px;
+              background-color: #25d366;
+            }
+            .navbar-interactive-text14 {
+              fill: var(--dl-color-gray-black);
+              color: var(--dl-color-gray-black);
+              line-height: 1.8;
+            }
             .navbar-interactive-icon-group {
               display: flex;
+              align-self: center;
             }
             .navbar-interactive-icon14 {
-              fill: var(--dl-color-primary-logo-color-3);
+              fill: var(--dl-color-primary-logo-color-1);
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
               padding-top: 3px;
-              border-color: var(--dl-color-primary-logo-color-4);
+              border-color: #301865;
               border-width: 1px;
               margin-right: var(--dl-space-space-unit);
               padding-left: 3px;
@@ -871,11 +920,11 @@ const NavbarInteractive = (props) => {
               animation-timing-function: linear;
             }
             .navbar-interactive-icon16 {
-              fill: var(--dl-color-primary-logo-color-3);
+              fill: var(--dl-color-primary-logo-color-1);
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
               padding-top: 3px;
-              border-color: var(--dl-color-primary-logo-color-4);
+              border-color: #301865;
               border-width: 1px;
               margin-right: var(--dl-space-space-unit);
               padding-left: 3px;
@@ -890,11 +939,11 @@ const NavbarInteractive = (props) => {
               animation-timing-function: ease;
             }
             .navbar-interactive-icon18 {
-              fill: var(--dl-color-primary-logo-color-3);
+              fill: var(--dl-color-primary-logo-color-1);
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
               padding-top: 3px;
-              border-color: var(--dl-color-primary-logo-color-4);
+              border-color: #301865;
               border-width: 1px;
               margin-right: var(--dl-space-space-unit);
               padding-left: 3px;
@@ -908,11 +957,10 @@ const NavbarInteractive = (props) => {
               animation-iteration-count: 1;
               animation-timing-function: ease;
             }
-            .navbar-interactive-text17 {
-              font-size: 16px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
+            .navbar-interactive-text18 {
+              line-height: 1.4;
+            }
+            .navbar-interactive-text29 {
               line-height: 1.4;
             }
           }
@@ -935,6 +983,32 @@ const NavbarInteractive = (props) => {
               padding: 14px;
             }
             .navbar-interactive-links2 {
+              width: 100%;
+            }
+            .navbar-interactive-link17 {
+              width: 75%;
+              line-height: 3;
+            }
+            .navbar-interactive-link18 {
+              width: 75%;
+              line-height: 3;
+            }
+            .navbar-interactive-link19 {
+              width: 75%;
+              line-height: 3;
+            }
+            .navbar-interactive-link20 {
+              width: 75%;
+              line-height: 3;
+            }
+            .navbar-interactive-link21 {
+              width: 75%;
+              line-height: 3;
+            }
+            .navbar-interactive-call-us {
+              width: 100%;
+            }
+            .navbar-interactive-whats-app-us {
               width: 100%;
             }
             .navbar-interactive-icon14 {
@@ -1003,6 +1077,7 @@ NavbarInteractive.defaultProps = {
   logoSrc: '/images/marigold-logo1.svg',
   register: undefined,
   mmenu5: undefined,
+  register12: undefined,
 }
 
 NavbarInteractive.propTypes = {
@@ -1025,6 +1100,7 @@ NavbarInteractive.propTypes = {
   logoSrc: PropTypes.string,
   register: PropTypes.element,
   mmenu5: PropTypes.element,
+  register12: PropTypes.element,
 }
 
 export default NavbarInteractive

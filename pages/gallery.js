@@ -225,50 +225,55 @@ const Gallery = (props) => {
           }
           register1={
             <Fragment>
-              <span className="gallery-text43">Call Us Now !</span>
+              <span className="gallery-text43">Call Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name3"
+          register12={
+            <Fragment>
+              <span className="gallery-text44">WhatsApp Enquiry</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
         <Footer
           link1={
             <Fragment>
-              <span className="gallery-text44">Home</span>
+              <span className="gallery-text45">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="gallery-text45">Facilities</span>
+              <span className="gallery-text46">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="gallery-text46">Gallery</span>
+              <span className="gallery-text47">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="gallery-text47">Events</span>
+              <span className="gallery-text48">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="gallery-text48">Contacts</span>
+              <span className="gallery-text49">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="gallery-text49">Corporate Events</span>
+              <span className="gallery-text50">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="gallery-text50">Weddings Plannings</span>
+              <span className="gallery-text51">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="gallery-text51">
+              <span className="gallery-text52">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -276,17 +281,17 @@ const Gallery = (props) => {
           }
           link9={
             <Fragment>
-              <span className="gallery-text54">Special Occasions</span>
+              <span className="gallery-text55">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="gallery-text55">Book Now</span>
+              <span className="gallery-text56">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="gallery-text56">
+              <span className="gallery-text57">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -295,47 +300,47 @@ const Gallery = (props) => {
           }
           content3={
             <Fragment>
-              <span className="gallery-text57">MariGold Celebration</span>
+              <span className="gallery-text58">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="gallery-text58">terms &amp; conditions.</span>
+              <span className="gallery-text59">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="gallery-text59">T &amp; C</span>
+              <span className="gallery-text60">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="gallery-text60">cookie policy.</span>
+              <span className="gallery-text61">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="gallery-text61">privacy policy.</span>
+              <span className="gallery-text62">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="gallery-text62">Contact Us</span>
+              <span className="gallery-text63">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="gallery-text63">Services</span>
+              <span className="gallery-text64">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="gallery-text64">C &amp; P</span>
+              <span className="gallery-text65">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="gallery-text65">P P</span>
+              <span className="gallery-text66">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name3"
@@ -473,7 +478,7 @@ const Gallery = (props) => {
           .gallery-text51 {
             display: inline-block;
           }
-          .gallery-text54 {
+          .gallery-text52 {
             display: inline-block;
           }
           .gallery-text55 {
@@ -509,12 +514,14 @@ const Gallery = (props) => {
           .gallery-text65 {
             display: inline-block;
           }
+          .gallery-text66 {
+            display: inline-block;
+          }
           @media (max-width: 599px) {
             .gallery-text43 {
-              font-size: 16px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
+              line-height: 1.4;
+            }
+            .gallery-text44 {
               line-height: 1.4;
             }
           }

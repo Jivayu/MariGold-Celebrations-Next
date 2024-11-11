@@ -100,25 +100,30 @@ const Events = (props) => {
           }
           register1={
             <Fragment>
-              <span className="events-text23">Call Us Now !</span>
+              <span className="events-text23">Call Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name4"
+          register12={
+            <Fragment>
+              <span className="events-text24">WhatsApp Enquiry</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
         <PageHeadersEvents
           action1={
             <Fragment>
-              <span className="events-text24">Contact Us</span>
+              <span className="events-text25">Contact Us</span>
             </Fragment>
           }
           action2={
             <Fragment>
-              <span className="events-text25">View Event Spaces</span>
+              <span className="events-text26">View Event Spaces</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="events-text26">
+              <span className="events-text27">
                 Marigold Celebration Hall in Hingna, Nagpur, is designed to
                 offer an unmatched experience for every event, whether it&apos;s
                 a wedding, corporate function, birthday, or grand celebration.
@@ -129,7 +134,7 @@ const Events = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="events-text27">
+              <span className="events-text28">
                 Welcome to Marigold Celebration Hall - Where Every Detail
                 Matters
               </span>
@@ -140,22 +145,22 @@ const Events = (props) => {
         <EventsDetails
           button={
             <Fragment>
-              <span className="events-text28">Weddings &amp; Receptions</span>
+              <span className="events-text29">Weddings &amp; Receptions</span>
             </Fragment>
           }
           button1={
             <Fragment>
-              <span className="events-text29">Engagement Ceremonies</span>
+              <span className="events-text30">Engagement Ceremonies</span>
             </Fragment>
           }
           button2={
             <Fragment>
-              <span className="events-text30">Pre-Wedding Functions</span>
+              <span className="events-text31">Pre-Wedding Functions</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="events-text31">
+              <span className="events-text32">
                 Celebrate the start of your lifelong journey together at
                 Marigold Celebration Banquet Hall. Our sophisticated venue
                 offers an intimate and unforgettable setting for your engagement
@@ -166,7 +171,7 @@ const Events = (props) => {
           }
           content2={
             <Fragment>
-              <span className="events-text32">
+              <span className="events-text33">
                 Our venue is designed to provide a welcoming and elegant
                 atmosphere that reflects the excitement of this special day.
                 From refined decor choices to soft, romantic lighting, we create
@@ -176,7 +181,7 @@ const Events = (props) => {
           }
           content3={
             <Fragment>
-              <span className="events-text33">
+              <span className="events-text34">
                 Understanding the importance of this milestone, we collaborate
                 closely with you to design a decor theme that resonates with
                 your vision. Whether it’s a delicate floral display or a
@@ -188,7 +193,7 @@ const Events = (props) => {
           }
           content4={
             <Fragment>
-              <span className="events-text34">
+              <span className="events-text35">
                 Savor exquisite dishes with our personalized catering services,
                 carefully crafted by our expert chefs. We provide a curated
                 selection of appetizers, main courses, and desserts, offering a
@@ -199,7 +204,7 @@ const Events = (props) => {
           }
           content5={
             <Fragment>
-              <span className="events-text35">
+              <span className="events-text36">
                 Our experienced event coordinators are committed to flawless
                 execution, handling every aspect of your engagement ceremony so
                 that you can focus on making memories. From initial planning to
@@ -210,7 +215,7 @@ const Events = (props) => {
           }
           content6={
             <Fragment>
-              <span className="events-text36">
+              <span className="events-text37">
                 Whether you envision a traditional engagement or a modern
                 celebration, we offer customizable packages and adaptable venue
                 layouts to suit your preferences. Our versatile spaces can
@@ -221,7 +226,7 @@ const Events = (props) => {
           }
           content7={
             <Fragment>
-              <span className="events-text37">
+              <span className="events-text38">
                 Your wedding day marks the beginning of a beautiful journey, and
                 at Marigold Celebration Banquet Hall, we are dedicated to making
                 every moment of it extraordinary. Our venue is designed to be
@@ -234,7 +239,7 @@ const Events = (props) => {
           }
           content9={
             <Fragment>
-              <span className="events-text38">
+              <span className="events-text39">
                 Delight your guests with a culinary journey crafted by our
                 talented chefs. Our diverse menu options include everything from
                 classic wedding feasts to modern fusion cuisines, ensuring
@@ -246,7 +251,7 @@ const Events = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="events-text39">
+              <span className="events-text40">
                 &quot;A Perfect Beginning to Your Forever: Celebrate Your
                 Engagement at Marigold Celebration&quot;
               </span>
@@ -254,32 +259,32 @@ const Events = (props) => {
           }
           heading2={
             <Fragment>
-              <span className="events-text40">Charming Atmosphere</span>
+              <span className="events-text41">Charming Atmosphere</span>
             </Fragment>
           }
           heading3={
             <Fragment>
-              <span className="events-text41">Custom Decor</span>
+              <span className="events-text42">Custom Decor</span>
             </Fragment>
           }
           heading4={
             <Fragment>
-              <span className="events-text42">Delicious Catering</span>
+              <span className="events-text43">Delicious Catering</span>
             </Fragment>
           }
           heading5={
             <Fragment>
-              <span className="events-text43">Effortless Planning</span>
+              <span className="events-text44">Effortless Planning</span>
             </Fragment>
           }
           heading6={
             <Fragment>
-              <span className="events-text44">Flexible Event Options</span>
+              <span className="events-text45">Flexible Event Options</span>
             </Fragment>
           }
           heading7={
             <Fragment>
-              <span className="events-text45">
+              <span className="events-text46">
                 &quot;Where Dreams Meet Reality: Crafting Unforgettable Weddings
                 &amp; Receptions&quot;
               </span>
@@ -287,17 +292,17 @@ const Events = (props) => {
           }
           heading8={
             <Fragment>
-              <span className="events-text46">Tailored Decor</span>
+              <span className="events-text47">Tailored Decor</span>
             </Fragment>
           }
           heading9={
             <Fragment>
-              <span className="events-text47">Gourmet Catering</span>
+              <span className="events-text48">Gourmet Catering</span>
             </Fragment>
           }
           content10={
             <Fragment>
-              <span className="events-text48">
+              <span className="events-text49">
                 Begin your wedding journey with vibrant and memorable
                 pre-wedding events at Marigold Celebration Banquet Hall. Our
                 versatile venue offers an ideal setting for all your pre-wedding
@@ -308,7 +313,7 @@ const Events = (props) => {
           }
           content11={
             <Fragment>
-              <span className="events-text49">
+              <span className="events-text50">
                 Our beautifully designed spaces provide a vibrant atmosphere for
                 your Mehendi and Haldi ceremonies. From colorful decor and
                 floral accents to thematic setups, we craft a joyful environment
@@ -319,7 +324,7 @@ const Events = (props) => {
           }
           content12={
             <Fragment>
-              <span className="events-text50">
+              <span className="events-text51">
                 Make your Sangeet a night to remember in our spacious hall,
                 designed to host lively dance performances and musical
                 festivities. With a fully equipped stage, professional sound
@@ -332,7 +337,7 @@ const Events = (props) => {
           }
           content13={
             <Fragment>
-              <span className="events-text51">
+              <span className="events-text52">
                 Every couple has their unique style, and we work closely with
                 you to bring your ideas to life. Our experienced in-house decor
                 team ensures that the venue is beautifully set up according to
@@ -343,7 +348,7 @@ const Events = (props) => {
           }
           content91={
             <Fragment>
-              <span className="events-text52">
+              <span className="events-text53">
                 We understand that your wedding day should be stress-free, and
                 our experienced event coordinators are here to ensure everything
                 runs smoothly. From planning the flow of the ceremony to
@@ -356,7 +361,7 @@ const Events = (props) => {
           }
           heading10={
             <Fragment>
-              <span className="events-text53">
+              <span className="events-text54">
                 &quot;Create Unforgettable Memories with Pre-Wedding
                 Celebrations at Marigold Celebration&quot;
               </span>
@@ -364,31 +369,31 @@ const Events = (props) => {
           }
           heading11={
             <Fragment>
-              <span className="events-text54">
+              <span className="events-text55">
                 Lively Mehendi &amp; Haldi Ceremonies
               </span>
             </Fragment>
           }
           heading12={
             <Fragment>
-              <span className="events-text55">Energetic Sangeet Nights</span>
+              <span className="events-text56">Energetic Sangeet Nights</span>
             </Fragment>
           }
           heading13={
             <Fragment>
-              <span className="events-text56">
+              <span className="events-text57">
                 Tailored Decor &amp; Customization
               </span>
             </Fragment>
           }
           heading91={
             <Fragment>
-              <span className="events-text57">Seamless Event Management</span>
+              <span className="events-text58">Seamless Event Management</span>
             </Fragment>
           }
           content131={
             <Fragment>
-              <span className="events-text58">
+              <span className="events-text59">
                 Delight your guests with a tailored menu, featuring a diverse
                 selection of dishes. Our expert chefs prepare everything from
                 regional favorites to international delicacies, ensuring that
@@ -399,7 +404,7 @@ const Events = (props) => {
           }
           content911={
             <Fragment>
-              <span className="events-text59">
+              <span className="events-text60">
                 Our expansive banquet hall can be transformed to suit any style,
                 from intimate gatherings to grand celebrations. Equipped with
                 cutting-edge sound and lighting technology, luxurious seating
@@ -410,19 +415,19 @@ const Events = (props) => {
           }
           heading131={
             <Fragment>
-              <span className="events-text60">
+              <span className="events-text61">
                 Exceptional Catering Services
               </span>
             </Fragment>
           }
           heading911={
             <Fragment>
-              <span className="events-text61">Versatile Venue Options</span>
+              <span className="events-text62">Versatile Venue Options</span>
             </Fragment>
           }
           content1311={
             <Fragment>
-              <span className="events-text62">
+              <span className="events-text63">
                 With our dedicated event coordinators, you can rest assured that
                 every detail is handled, from setup to execution. We take care
                 of all logistics, so you can focus on enjoying the moment with
@@ -433,7 +438,7 @@ const Events = (props) => {
           }
           content9111={
             <Fragment>
-              <span className="events-text63">
+              <span className="events-text64">
                 At Marigold Celebration, we believe every couple is unique, and
                 so is every wedding. We offer a variety of customizable packages
                 that allow you to select the services you need—from decor and
@@ -444,54 +449,54 @@ const Events = (props) => {
           }
           heading1311={
             <Fragment>
-              <span className="events-text64">Seamless Event Planning</span>
+              <span className="events-text65">Seamless Event Planning</span>
             </Fragment>
           }
           heading9111={
             <Fragment>
-              <span className="events-text65">Customized Packages</span>
+              <span className="events-text66">Customized Packages</span>
             </Fragment>
           }
         ></EventsDetails>
         <Footer
           link1={
             <Fragment>
-              <span className="events-text66">Home</span>
+              <span className="events-text67">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="events-text67">Facilities</span>
+              <span className="events-text68">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="events-text68">Gallery</span>
+              <span className="events-text69">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="events-text69">Events</span>
+              <span className="events-text70">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="events-text70">Contacts</span>
+              <span className="events-text71">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="events-text71">Corporate Events</span>
+              <span className="events-text72">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="events-text72">Weddings Plannings</span>
+              <span className="events-text73">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="events-text73">
+              <span className="events-text74">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -499,17 +504,17 @@ const Events = (props) => {
           }
           link9={
             <Fragment>
-              <span className="events-text76">Special Occasions</span>
+              <span className="events-text77">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="events-text77">Book Now</span>
+              <span className="events-text78">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="events-text78">
+              <span className="events-text79">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -518,47 +523,47 @@ const Events = (props) => {
           }
           content3={
             <Fragment>
-              <span className="events-text79">MariGold Celebration</span>
+              <span className="events-text80">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="events-text80">terms &amp; conditions.</span>
+              <span className="events-text81">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="events-text81">T &amp; C</span>
+              <span className="events-text82">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="events-text82">cookie policy.</span>
+              <span className="events-text83">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="events-text83">privacy policy.</span>
+              <span className="events-text84">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="events-text84">Contact Us</span>
+              <span className="events-text85">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="events-text85">Services</span>
+              <span className="events-text86">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="events-text86">C &amp; P</span>
+              <span className="events-text87">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="events-text87">P P</span>
+              <span className="events-text88">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name4"
@@ -768,7 +773,7 @@ const Events = (props) => {
           .events-text73 {
             display: inline-block;
           }
-          .events-text76 {
+          .events-text74 {
             display: inline-block;
           }
           .events-text77 {
@@ -804,12 +809,14 @@ const Events = (props) => {
           .events-text87 {
             display: inline-block;
           }
+          .events-text88 {
+            display: inline-block;
+          }
           @media (max-width: 599px) {
             .events-text23 {
-              font-size: 16px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
+              line-height: 1.4;
+            }
+            .events-text24 {
               line-height: 1.4;
             }
           }

@@ -309,10 +309,15 @@ const Contacts = (props) => {
           }
           register1={
             <Fragment>
-              <span className="contacts-text59">Call Us Now !</span>
+              <span className="contacts-text59">Call Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name1"
+          register12={
+            <Fragment>
+              <span className="contacts-text60">WhatsApp Enquiry</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
       </div>
       <style jsx>
@@ -471,12 +476,14 @@ const Contacts = (props) => {
           .contacts-text59 {
             display: inline-block;
           }
+          .contacts-text60 {
+            display: inline-block;
+          }
           @media (max-width: 599px) {
             .contacts-text59 {
-              font-size: 16px;
-              font-style: normal;
-              font-family: Ubuntu;
-              font-weight: 300;
+              line-height: 1.4;
+            }
+            .contacts-text60 {
               line-height: 1.4;
             }
           }
