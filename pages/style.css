@@ -475,8 +475,8 @@
   fill: var(--dl-color-theme-secondary2);
 }
 .thq-icon-medium {
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
 }
 .thq-icon-x-small {
   width: var(--dl-size-size-xsmall);
