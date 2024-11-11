@@ -65,68 +65,80 @@ const Contacts = (props) => {
           rootClassName="page-headers-contactsroot-class-name"
         ></PageHeadersContacts>
         <ContactInfo
-          email={
-            <Fragment>
-              <span className="contacts-text14">arunbhende21@gmail.com</span>
-            </Fragment>
-          }
-          phone1={
-            <Fragment>
-              <span className="contacts-text15">Call Now - 9356251657</span>
-            </Fragment>
-          }
-          action2={
-            <Fragment>
-              <span className="contacts-text16">Google Map Location</span>
-            </Fragment>
-          }
           phone11={
             <Fragment>
-              <span className="contacts-text17">Call Now - 9822219102</span>
+              <span className="contacts-text14">Call Now - 9822219102</span>
             </Fragment>
           }
-          address1={
+          heading1={
             <Fragment>
-              <span className="contacts-text18">
-                Mohgaon road, MH SH 255, Dangarpura, Hingna, Maharashtra 441110
+              <span className="contacts-text15">
+                Contact MariGold Celebration.
               </span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="contacts-text19">
+              <span className="contacts-text16">
                 For inquiries or bookings, please contact us using the
                 information below.
               </span>
             </Fragment>
           }
-          content2={
+          address1={
             <Fragment>
-              <span className="contacts-text20">
-                We are available for site visits and consultations.
+              <span className="contacts-text17">
+                Mohgaon road, MH SH 255, Dangarpura, Hingna, Maharashtra 441110
               </span>
+            </Fragment>
+          }
+          email={
+            <Fragment>
+              <span className="contacts-text18">arunbhende21@gmail.com</span>
             </Fragment>
           }
           content3={
             <Fragment>
-              <span className="contacts-text21">
+              <span className="contacts-text19">
                 Our dedicated team is ready to assist you with any questions or
                 special requests.
               </span>
             </Fragment>
           }
+          action2={
+            <Fragment>
+              <span className="contacts-text20">Google Map Location</span>
+            </Fragment>
+          }
           content5={
             <Fragment>
-              <span className="contacts-text22">
+              <span className="contacts-text21">
                 Follow us on social media for updates and promotions.
               </span>
             </Fragment>
           }
-          heading1={
+          phone1={
+            <Fragment>
+              <span className="contacts-text22">Call Now - 9356251657</span>
+            </Fragment>
+          }
+          content2={
             <Fragment>
               <span className="contacts-text23">
-                Contact MariGold Celebration.
+                We are available for site visits and consultations.
               </span>
+            </Fragment>
+          }
+          content21={
+            <Fragment>
+              <span className="contacts-text24">
+                We are available for site visits and consultations.
+              </span>
+            </Fragment>
+          }
+          email1={
+            <Fragment>
+              <span className="contacts-text25">arunbhende21@gmail.com</span>
             </Fragment>
           }
           rootClassName="contact-inforoot-class-name"
@@ -134,42 +146,42 @@ const Contacts = (props) => {
         <Footer
           link1={
             <Fragment>
-              <span className="contacts-text24">Home</span>
+              <span className="contacts-text26">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="contacts-text25">Facilities</span>
+              <span className="contacts-text27">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="contacts-text26">Gallery</span>
+              <span className="contacts-text28">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="contacts-text27">Events</span>
+              <span className="contacts-text29">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="contacts-text28">Contacts</span>
+              <span className="contacts-text30">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="contacts-text29">Corporate Events</span>
+              <span className="contacts-text31">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="contacts-text30">Weddings Plannings</span>
+              <span className="contacts-text32">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="contacts-text31">
+              <span className="contacts-text33">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -177,17 +189,17 @@ const Contacts = (props) => {
           }
           link9={
             <Fragment>
-              <span className="contacts-text34">Special Occasions</span>
+              <span className="contacts-text36">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="contacts-text35">Book Now</span>
+              <span className="contacts-text37">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="contacts-text36">
+              <span className="contacts-text38">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -196,47 +208,47 @@ const Contacts = (props) => {
           }
           content3={
             <Fragment>
-              <span className="contacts-text37">MariGold Celebration</span>
+              <span className="contacts-text39">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="contacts-text38">terms &amp; conditions.</span>
+              <span className="contacts-text40">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="contacts-text39">T &amp; C</span>
+              <span className="contacts-text41">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="contacts-text40">cookie policy.</span>
+              <span className="contacts-text42">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="contacts-text41">privacy policy.</span>
+              <span className="contacts-text43">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="contacts-text42">Contact Us</span>
+              <span className="contacts-text44">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="contacts-text43">Services</span>
+              <span className="contacts-text45">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="contacts-text44">C &amp; P</span>
+              <span className="contacts-text46">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="contacts-text45">P P</span>
+              <span className="contacts-text47">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name"
@@ -244,78 +256,78 @@ const Contacts = (props) => {
         <NavbarInteractive
           login={
             <Fragment>
-              <span className="contacts-text46">Login</span>
+              <span className="contacts-text48">Login</span>
             </Fragment>
           }
           menu1={
             <Fragment>
-              <span className="contacts-text47">Home</span>
+              <span className="contacts-text49">Home</span>
             </Fragment>
           }
           menu2={
             <Fragment>
-              <span className="contacts-text48">Facilities</span>
+              <span className="contacts-text50">Facilities</span>
             </Fragment>
           }
           menu3={
             <Fragment>
-              <span className="contacts-text49">Gallery</span>
+              <span className="contacts-text51">Gallery</span>
             </Fragment>
           }
           menu4={
             <Fragment>
-              <span className="contacts-text50">Events</span>
+              <span className="contacts-text52">Events</span>
             </Fragment>
           }
           menu5={
             <Fragment>
-              <span className="contacts-text51">Contacts</span>
+              <span className="contacts-text53">Contacts</span>
             </Fragment>
           }
           menu6={
             <Fragment>
-              <span className="contacts-text52">Facilities</span>
+              <span className="contacts-text54">Facilities</span>
             </Fragment>
           }
           mmenu1={
             <Fragment>
-              <span className="contacts-text53">Home</span>
+              <span className="contacts-text55">Home</span>
             </Fragment>
           }
           mmenu2={
             <Fragment>
-              <span className="contacts-text54">Facilities</span>
+              <span className="contacts-text56">Facilities</span>
             </Fragment>
           }
           mmenu3={
             <Fragment>
-              <span className="contacts-text55">Gallery</span>
+              <span className="contacts-text57">Gallery</span>
             </Fragment>
           }
           mmenu4={
             <Fragment>
-              <span className="contacts-text56">Events</span>
+              <span className="contacts-text58">Events</span>
             </Fragment>
           }
           mmenu5={
             <Fragment>
-              <span className="contacts-text57">Contacts</span>
+              <span className="contacts-text59">Contacts</span>
             </Fragment>
           }
           register={
             <Fragment>
-              <span className="contacts-text58">Enquiry</span>
+              <span className="contacts-text60">Enquiry</span>
             </Fragment>
           }
           register1={
             <Fragment>
-              <span className="contacts-text59">Call Enquiry</span>
+              <span className="contacts-text61">Call Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name1"
           register12={
             <Fragment>
-              <span className="contacts-text60">WhatsApp Enquiry</span>
+              <span className="contacts-text62">WhatsApp Enquiry</span>
             </Fragment>
           }
         ></NavbarInteractive>
@@ -398,10 +410,10 @@ const Contacts = (props) => {
           .contacts-text31 {
             display: inline-block;
           }
-          .contacts-text34 {
+          .contacts-text32 {
             display: inline-block;
           }
-          .contacts-text35 {
+          .contacts-text33 {
             display: inline-block;
           }
           .contacts-text36 {
@@ -479,11 +491,17 @@ const Contacts = (props) => {
           .contacts-text60 {
             display: inline-block;
           }
+          .contacts-text61 {
+            display: inline-block;
+          }
+          .contacts-text62 {
+            display: inline-block;
+          }
           @media (max-width: 599px) {
-            .contacts-text59 {
+            .contacts-text61 {
               line-height: 1.4;
             }
-            .contacts-text60 {
+            .contacts-text62 {
               line-height: 1.4;
             }
           }

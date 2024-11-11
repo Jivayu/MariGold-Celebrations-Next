@@ -14,7 +14,7 @@ const ContactInfo = (props) => {
               <h2 className="contact-info-text10 h2 thq-heading-2">
                 {props.heading1 ?? (
                   <Fragment>
-                    <span className="contact-info-text22">
+                    <span className="contact-info-text24">
                       Contact MariGold Celebration.
                     </span>
                   </Fragment>
@@ -23,7 +23,7 @@ const ContactInfo = (props) => {
               <p className="contact-info-text11 thq-body-large">
                 {props.content1 ?? (
                   <Fragment>
-                    <span className="contact-info-text23">
+                    <span className="contact-info-text25">
                       For inquiries or bookings, please contact us using the
                       information below.
                     </span>
@@ -54,7 +54,7 @@ const ContactInfo = (props) => {
                   <p className="contact-info-text13 thq-body-large">
                     {props.content2 ?? (
                       <Fragment>
-                        <span className="contact-info-text30">
+                        <span className="contact-info-text32">
                           We are available for site visits and consultations.
                         </span>
                       </Fragment>
@@ -62,11 +62,11 @@ const ContactInfo = (props) => {
                   </p>
                   <a
                     href="mailto:arunbhende21@gmail.com?subject=Enquiry For Marigold Celebration Hall Booking."
-                    className="contact-info-email thq-body-small"
+                    className="contact-info-email1 thq-body-small"
                   >
                     {props.email ?? (
                       <Fragment>
-                        <span className="contact-info-text25">
+                        <span className="contact-info-text27">
                           arunbhende21@gmail.com
                         </span>
                       </Fragment>
@@ -188,7 +188,7 @@ const ContactInfo = (props) => {
                   <p className="contact-info-text15 thq-body-large">
                     {props.content3 ?? (
                       <Fragment>
-                        <span className="contact-info-text26">
+                        <span className="contact-info-text28">
                           Our dedicated team is ready to assist you with any
                           questions or special requests.
                         </span>
@@ -202,7 +202,7 @@ const ContactInfo = (props) => {
                     >
                       {props.phone1 ?? (
                         <Fragment>
-                          <span className="contact-info-text29">
+                          <span className="contact-info-text31">
                             Call Now - 9356251657
                           </span>
                         </Fragment>
@@ -214,7 +214,7 @@ const ContactInfo = (props) => {
                     >
                       {props.phone11 ?? (
                         <Fragment>
-                          <span className="contact-info-text21">
+                          <span className="contact-info-text23">
                             Call Now - 9822219102
                           </span>
                         </Fragment>
@@ -237,7 +237,7 @@ const ContactInfo = (props) => {
                   <p className="contact-info-text19 thq-body-large">
                     {props.content5 ?? (
                       <Fragment>
-                        <span className="contact-info-text28">
+                        <span className="contact-info-text30">
                           Follow us on social media for updates and promotions.
                         </span>
                       </Fragment>
@@ -251,7 +251,7 @@ const ContactInfo = (props) => {
                   >
                     {props.address1 ?? (
                       <Fragment>
-                        <span className="contact-info-text24">
+                        <span className="contact-info-text26">
                           Mohgaon road, MH SH 255, Dangarpura, Hingna,
                           Maharashtra 441110
                         </span>
@@ -268,13 +268,53 @@ const ContactInfo = (props) => {
                   <span className="contact-info-text20">
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="contact-info-text27">
+                        <span className="contact-info-text29">
                           Google Map Location
                         </span>
                       </Fragment>
                     )}
                   </span>
                 </a>
+              </div>
+              <div className="contact-info-content7">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  className="contact-info-icon32 thq-icon-medium"
+                >
+                  <g fill="none">
+                    <path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"></path>
+                    <path
+                      d="M20 4a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-1h2v1h16V7.423l-6.935 6.935a1.5 1.5 0 0 1-2.121 0L4 7.414V8H2V6a2 2 0 0 1 2-2zM6 13a1 1 0 0 1 .117 1.993L6 15H1a1 1 0 0 1-.117-1.993L1 13zm-1-3a1 1 0 1 1 0 2H2a1 1 0 1 1 0-2z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                </svg>
+                <div className="contact-info-contact-info4">
+                  <h3 className="contact-info-text21">Email</h3>
+                  <p className="contact-info-text22 thq-body-large">
+                    {props.content21 ?? (
+                      <Fragment>
+                        <span className="contact-info-text33">
+                          We are available for site visits and consultations.
+                        </span>
+                      </Fragment>
+                    )}
+                  </p>
+                  <a
+                    href="mailto:arunbhende21@gmail.com?subject=Enquiry For Marigold Celebration Hall Booking."
+                    className="contact-info-email2 thq-body-small"
+                  >
+                    {props.email1 ?? (
+                      <Fragment>
+                        <span className="contact-info-text34">
+                          arunbhende21@gmail.com
+                        </span>
+                      </Fragment>
+                    )}
+                  </a>
+                </div>
               </div>
             </div>
             <div className="contact-info-container3">
@@ -332,6 +372,7 @@ const ContactInfo = (props) => {
             font-weight: 300;
           }
           .contact-info-content2 {
+            height: auto;
             align-items: center;
             padding-left: var(--dl-space-space-unit);
             padding-right: var(--dl-space-space-unit);
@@ -340,7 +381,7 @@ const ContactInfo = (props) => {
             justify-content: space-between;
           }
           .contact-info-content3 {
-            gap: var(--dl-space-space-twounits);
+            gap: var(--dl-space-space-halfunit);
             width: 100%;
             height: 600px;
             display: flex;
@@ -349,18 +390,20 @@ const ContactInfo = (props) => {
             align-items: flex-start;
             padding-top: var(--dl-space-space-unit);
             border-color: var(--dl-color-primary-logo-color-1);
-            border-style: dotted;
+            border-style: solid;
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
             backdrop-filter: blur(3px);
             background-color: rgba(0, 0, 0, 0.27);
+            border-right-width: 0px;
             border-top-right-radius: 0;
             border-bottom-right-radius: 0;
           }
           .contact-info-content4 {
             gap: var(--dl-space-space-halfunit);
+            height: 25%;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -407,7 +450,7 @@ const ContactInfo = (props) => {
             font-family: 'Ubuntu';
             font-weight: 300;
           }
-          .contact-info-email {
+          .contact-info-email1 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             cursor: pointer;
@@ -426,6 +469,7 @@ const ContactInfo = (props) => {
           }
           .contact-info-content5 {
             gap: var(--dl-space-space-halfunit);
+            height: 45%;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -520,6 +564,7 @@ const ContactInfo = (props) => {
           }
           .contact-info-content6 {
             gap: var(--dl-space-space-unit);
+            height: 30%;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -570,6 +615,7 @@ const ContactInfo = (props) => {
           }
           .contact-info-button {
             flex: 1;
+            display: none;
             transform: scale(0.96);
             align-self: center;
             transition: 0.3s;
@@ -602,6 +648,71 @@ const ContactInfo = (props) => {
           .contact-info-text20:hover {
             transform: scale(1);
           }
+          .contact-info-content7 {
+            gap: var(--dl-space-space-halfunit);
+            display: none;
+            align-self: stretch;
+            align-items: flex-start;
+            border-radius: var(--dl-radius-radius-radius10);
+            flex-direction: column;
+          }
+          .contact-info-icon32 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
+            padding: 4px;
+            margin-left: var(--dl-space-space-twounits);
+            border-color: var(--dl-color-theme-accent1);
+            border-width: 1px;
+            border-radius: var(--dl-radius-radius-round);
+          }
+          .contact-info-contact-info4 {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-self: stretch;
+            align-items: flex-start;
+            padding-left: var(--dl-space-space-twounits);
+            flex-direction: column;
+          }
+          .contact-info-text21 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            align-self: flex-start;
+            font-style: normal;
+            text-align: center;
+            font-family: 'Ubuntu';
+            font-weight: 500;
+            line-height: 1.5;
+            text-transform: none;
+            text-decoration: none;
+          }
+          .contact-info-text22 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 12px;
+            font-style: normal;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+          }
+          .contact-info-email2 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            cursor: pointer;
+            font-size: 14px;
+            font-style: normal;
+            font-family: 'Ubuntu';
+            font-weight: 300;
+            padding-top: var(--dl-space-space-halfunit);
+            border-color: var(--dl-color-primary-logo-color-3);
+            border-style: dotted;
+            border-width: 1px;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-buttonradius);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
           .contact-info-container3 {
             width: 100%;
             height: auto;
@@ -615,16 +726,10 @@ const ContactInfo = (props) => {
           }
           .contact-info-iframe {
             width: 100%;
-            height: 598px;
+            height: 600px;
             aspect-ratio: 16/9;
             border-top-right-radius: var(--dl-radius-radius-radius10);
             border-bottom-right-radius: var(--dl-radius-radius-radius10);
-          }
-          .contact-info-text21 {
-            display: inline-block;
-          }
-          .contact-info-text22 {
-            display: inline-block;
           }
           .contact-info-text23 {
             display: inline-block;
@@ -650,50 +755,96 @@ const ContactInfo = (props) => {
           .contact-info-text30 {
             display: inline-block;
           }
-          .contact-inforoot-class-name {
-            margin-top: 0px;
+          .contact-info-text31 {
+            display: inline-block;
           }
+          .contact-info-text32 {
+            display: inline-block;
+          }
+          .contact-info-text33 {
+            display: inline-block;
+          }
+          .contact-info-text34 {
+            display: inline-block;
+          }
+
           @media (max-width: 1200px) {
             .contact-info-content3 {
-              max-width: 38%;
+              border-style: solid;
+            }
+            .contact-info-container3 {
+              max-width: 600px;
             }
           }
           @media (max-width: 991px) {
             .contact-info-container1 {
+              width: auto;
+              height: auto;
+              align-items: stretch;
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
+              justify-content: space-between;
             }
             .contact-info-text11 {
               max-width: 42%;
             }
             .contact-info-content2 {
+              height: auto;
               position: relative;
               align-items: flex-start;
               flex-direction: column;
             }
             .contact-info-content3 {
               width: 100%;
+              height: auto;
               max-width: 100%;
+              border-right-width: 1px;
+              border-bottom-width: 0px;
+              border-top-right-radius: var(--dl-radius-radius-radius10);
+              border-bottom-left-radius: 0;
+            }
+            .contact-info-content4 {
+              height: auto;
+            }
+            .contact-info-content5 {
+              height: auto;
+            }
+            .contact-info-content6 {
+              height: auto;
             }
             .contact-info-container3 {
               width: 100%;
+              height: auto;
+              max-width: 100%;
+              align-items: flex-start;
+              justify-content: flex-start;
+            }
+            .contact-info-iframe {
+              width: 100%;
+              height: 600px;
+              max-width: 100%;
+              border-color: var(--dl-color-primary-logo-color-1);
+              border-width: 1px;
+              padding-left: 0px;
+              border-top-width: 0px;
+              border-top-left-radius: 0;
+              border-top-right-radius: 0;
+              border-bottom-left-radius: var(--dl-radius-radius-radius10);
+              border-bottom-right-radius: var(--dl-radius-radius-radius10);
             }
           }
           @media (max-width: 599px) {
-            .contact-info-container1 {
-              margin-top: var(--dl-space-space-sixunits);
-            }
             .contact-info-text11 {
               max-width: 100%;
+            }
+            .contact-info-content3 {
+              gap: var(--dl-space-space-halfunit);
             }
             .contact-info-text16 {
               font-size: 22px;
             }
             .contact-info-text17 {
               font-size: 22px;
-            }
-            .contact-inforoot-class-name {
-              margin-top: var(--dl-space-space-sixunits);
             }
           }
           @media (max-width: 399px) {
@@ -720,6 +871,8 @@ ContactInfo.defaultProps = {
   content5: undefined,
   phone1: undefined,
   content2: undefined,
+  content21: undefined,
+  email1: undefined,
 }
 
 ContactInfo.propTypes = {
@@ -734,6 +887,8 @@ ContactInfo.propTypes = {
   content5: PropTypes.element,
   phone1: PropTypes.element,
   content2: PropTypes.element,
+  content21: PropTypes.element,
+  email1: PropTypes.element,
 }
 
 export default ContactInfo
