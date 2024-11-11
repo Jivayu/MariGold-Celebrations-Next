@@ -403,7 +403,7 @@ const ContactInfo = (props) => {
           }
           .contact-info-content4 {
             gap: var(--dl-space-space-halfunit);
-            height: 25%;
+            height: auto;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -469,7 +469,7 @@ const ContactInfo = (props) => {
           }
           .contact-info-content5 {
             gap: var(--dl-space-space-halfunit);
-            height: 45%;
+            height: auto;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -564,7 +564,7 @@ const ContactInfo = (props) => {
           }
           .contact-info-content6 {
             gap: var(--dl-space-space-unit);
-            height: 30%;
+            height: auto;
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -572,8 +572,8 @@ const ContactInfo = (props) => {
           }
           .contact-info-icon30 {
             fill: var(--dl-color-theme-accent1);
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
+            width: 24px;
+            height: 24px;
             padding: 4px;
             margin-left: var(--dl-space-space-twounits);
             border-color: var(--dl-color-theme-accent1);
