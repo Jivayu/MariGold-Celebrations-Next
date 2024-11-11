@@ -40,7 +40,7 @@ const GalleryImages = (props) => {
             <div className="gallery-images-container1">
               <img
                 alt="Wedding Hall Setup"
-                src="/images/Marigold Images/design%202-1-300h.webp"
+                src="/images/Marigold Images/marigold-celebration-banner-300h.webp"
                 loading="lazy"
                 className="gallery-images-image1 thq-img-ratio-4-3"
               />

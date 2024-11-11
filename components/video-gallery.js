@@ -143,7 +143,7 @@ const VideoGallery = (props) => {
             id="marigold-celebration-video"
             src={props.videoSrc}
             muted="true"
-            poster="/images/Marigold Images/design%202-1-1400w.webp"
+            poster="/images/Marigold Images/marigold-celebration-banner-1400w.webp"
             controls="true"
             className="video-gallery-video thq-img-ratio-16-9"
           ></video>
