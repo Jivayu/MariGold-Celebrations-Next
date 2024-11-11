@@ -366,7 +366,7 @@
 }
 .thq-img-ratio-16-9 {
   width: 95%;
-  object-fit: scale-down;
+  object-fit: contain;
   aspect-ratio: 16/9;
   border-radius: var(--dl-radius-radius-imageradius);
 }

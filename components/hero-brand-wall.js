@@ -23,11 +23,24 @@ const HeroBrandWall = (props) => {
               </Fragment>
             )}
           </h1>
-          <p id="Brandline" className="hero-brand-wall-text2 UbuntuLight-14">
-            &quot;Celebrate Life’s Special Moments at Marigold Banquet Hall.
-            Perfect Weddings, Grand Events, and unforgettable Memories await in
-            our Elegant, Spacious Venue.&quot;
-          </p>
+          <animate-on-reveal
+            animation="fadeIn"
+            duration="2000ms"
+            delay="100ms"
+            direction="normal"
+            easing="ease"
+            iteration="1"
+          >
+            <p
+              id="Brandline"
+              data-thq-animate-on-reveal="true"
+              className="hero-brand-wall-text2 UbuntuLight-14"
+            >
+              &quot;Celebrate Life’s Special Moments at Marigold Banquet Hall.
+              Perfect Weddings, Grand Events, and unforgettable Memories await
+              in our Elegant, Spacious Venue.&quot;
+            </p>
+          </animate-on-reveal>
           <div className="hero-brand-wall-actions1">
             <button className="hero-brand-wall-button1 thq-button-filled">
               <span className="thq-body-small">

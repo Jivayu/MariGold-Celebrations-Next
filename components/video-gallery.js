@@ -95,24 +95,47 @@ const VideoGallery = (props) => {
             </div>
             <div className="video-gallery-avatar">
               <div className="video-gallery-avatar-content">
-                <span className="video-gallery-text13 thq-body-small">
-                  {props.author1Name ?? (
-                    <Fragment>
-                      <span className="video-gallery-text15">
-                        MariGold Celebration - Hingna, Nagpur
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
-                <span className="video-gallery-text14 thq-body-small">
-                  {props.author1Position ?? (
-                    <Fragment>
-                      <span className="video-gallery-text17">
-                        marigoldcelebration.in
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
+                <animate-on-reveal
+                  duration="2000ms"
+                  delay="100ms"
+                  direction="normal"
+                  easing="linear"
+                  iteration="1"
+                >
+                  <span
+                    data-thq-animate-on-reveal="true"
+                    className="video-gallery-text13 thq-body-small"
+                  >
+                    {props.author1Name ?? (
+                      <Fragment>
+                        <span className="video-gallery-text15">
+                          MariGold Celebration - Hingna, Nagpur
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                </animate-on-reveal>
+                <animate-on-reveal
+                  animation="fadeIn"
+                  duration="2000ms"
+                  delay="100ms"
+                  direction="normal"
+                  easing="linear"
+                  iteration="1"
+                >
+                  <span
+                    data-thq-animate-on-reveal="true"
+                    className="video-gallery-text14 thq-body-small"
+                  >
+                    {props.author1Position ?? (
+                      <Fragment>
+                        <span className="video-gallery-text17">
+                          marigoldcelebration.in
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                </animate-on-reveal>
               </div>
             </div>
           </div>
@@ -120,7 +143,7 @@ const VideoGallery = (props) => {
             id="marigold-celebration-video"
             src={props.videoSrc}
             muted="true"
-            poster="/images/icons8-circled-play-50-1400w.webp"
+            poster="/images/Marigold Images/design%202-1-1400w.webp"
             controls="true"
             className="video-gallery-video thq-img-ratio-16-9"
           ></video>
@@ -271,12 +294,6 @@ const VideoGallery = (props) => {
             font-style: normal;
             font-family: 'Ubuntu';
             font-weight: 500;
-            animation-name: fadeInUpBig;
-            animation-delay: 0s;
-            animation-duration: 600ms;
-            animation-direction: normal;
-            animation-iteration-count: 3;
-            animation-timing-function: ease;
           }
           .video-gallery-text14 {
             fill: var(--dl-color-theme-accent1);
@@ -285,12 +302,6 @@ const VideoGallery = (props) => {
             font-style: normal;
             font-family: 'Ubuntu';
             font-weight: 300;
-            animation-name: fadeIn;
-            animation-delay: 0s;
-            animation-duration: 1000ms;
-            animation-direction: normal;
-            animation-iteration-count: 5;
-            animation-timing-function: linear;
           }
           .video-gallery-video {
             width: auto;
