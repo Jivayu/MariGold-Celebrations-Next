@@ -23,7 +23,7 @@ const ContactInfo = (props) => {
               <p className="contact-info-text11 thq-body-large">
                 {props.content1 ?? (
                   <Fragment>
-                    <span className="contact-info-text25">
+                    <span className="contact-info-text26">
                       For inquiries or bookings, please contact us using the
                       information below.
                     </span>
@@ -54,7 +54,7 @@ const ContactInfo = (props) => {
                   <p className="contact-info-text13 thq-body-large">
                     {props.content2 ?? (
                       <Fragment>
-                        <span className="contact-info-text32">
+                        <span className="contact-info-text34">
                           We are available for site visits and consultations.
                         </span>
                       </Fragment>
@@ -66,7 +66,7 @@ const ContactInfo = (props) => {
                   >
                     {props.email ?? (
                       <Fragment>
-                        <span className="contact-info-text27">
+                        <span className="contact-info-text29">
                           arunbhende21@gmail.com
                         </span>
                       </Fragment>
@@ -188,7 +188,7 @@ const ContactInfo = (props) => {
                   <p className="contact-info-text15 thq-body-large">
                     {props.content3 ?? (
                       <Fragment>
-                        <span className="contact-info-text28">
+                        <span className="contact-info-text30">
                           Our dedicated team is ready to assist you with any
                           questions or special requests.
                         </span>
@@ -202,7 +202,7 @@ const ContactInfo = (props) => {
                     >
                       {props.phone1 ?? (
                         <Fragment>
-                          <span className="contact-info-text31">
+                          <span className="contact-info-text33">
                             Call Now - 9356251657
                           </span>
                         </Fragment>
@@ -237,7 +237,7 @@ const ContactInfo = (props) => {
                   <p className="contact-info-text19 thq-body-large">
                     {props.content5 ?? (
                       <Fragment>
-                        <span className="contact-info-text30">
+                        <span className="contact-info-text32">
                           Follow us on social media for updates and promotions.
                         </span>
                       </Fragment>
@@ -251,7 +251,7 @@ const ContactInfo = (props) => {
                   >
                     {props.address1 ?? (
                       <Fragment>
-                        <span className="contact-info-text26">
+                        <span className="contact-info-text28">
                           Mohgaon road, MH SH 255, Dangarpura, Hingna,
                           Maharashtra 441110
                         </span>
@@ -268,7 +268,7 @@ const ContactInfo = (props) => {
                   <span className="contact-info-text20">
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="contact-info-text29">
+                        <span className="contact-info-text31">
                           Google Map Location
                         </span>
                       </Fragment>
@@ -296,7 +296,7 @@ const ContactInfo = (props) => {
                   <p className="contact-info-text22 thq-body-large">
                     {props.content21 ?? (
                       <Fragment>
-                        <span className="contact-info-text33">
+                        <span className="contact-info-text25">
                           We are available for site visits and consultations.
                         </span>
                       </Fragment>
@@ -308,7 +308,7 @@ const ContactInfo = (props) => {
                   >
                     {props.email1 ?? (
                       <Fragment>
-                        <span className="contact-info-text34">
+                        <span className="contact-info-text27">
                           arunbhende21@gmail.com
                         </span>
                       </Fragment>
@@ -862,7 +862,9 @@ const ContactInfo = (props) => {
 ContactInfo.defaultProps = {
   phone11: undefined,
   heading1: undefined,
+  content21: undefined,
   content1: undefined,
+  email1: undefined,
   address1: undefined,
   email: undefined,
   rootClassName: '',
@@ -871,14 +873,14 @@ ContactInfo.defaultProps = {
   content5: undefined,
   phone1: undefined,
   content2: undefined,
-  content21: undefined,
-  email1: undefined,
 }
 
 ContactInfo.propTypes = {
   phone11: PropTypes.element,
   heading1: PropTypes.element,
+  content21: PropTypes.element,
   content1: PropTypes.element,
+  email1: PropTypes.element,
   address1: PropTypes.element,
   email: PropTypes.element,
   rootClassName: PropTypes.string,
@@ -887,8 +889,6 @@ ContactInfo.propTypes = {
   content5: PropTypes.element,
   phone1: PropTypes.element,
   content2: PropTypes.element,
-  content21: PropTypes.element,
-  email1: PropTypes.element,
 }
 
 export default ContactInfo

@@ -103,12 +103,12 @@ const Facilities = (props) => {
               <span className="facilities-text23">Call Enquiry</span>
             </Fragment>
           }
-          rootClassName="navbar-interactiveroot-class-name2"
           register12={
             <Fragment>
               <span className="facilities-text24">WhatsApp Enquiry</span>
             </Fragment>
           }
+          rootClassName="navbar-interactiveroot-class-name2"
         ></NavbarInteractive>
         <PageHeadersFacilities
           action1={

@@ -65,80 +65,80 @@ const Contacts = (props) => {
           rootClassName="page-headers-contactsroot-class-name"
         ></PageHeadersContacts>
         <ContactInfo
-          phone11={
+          email={
             <Fragment>
-              <span className="contacts-text14">Call Now - 9822219102</span>
+              <span className="contacts-text14">arunbhende21@gmail.com</span>
             </Fragment>
           }
-          heading1={
+          email1={
             <Fragment>
-              <span className="contacts-text15">
-                Contact MariGold Celebration.
+              <span className="contacts-text15">arunbhende21@gmail.com</span>
+            </Fragment>
+          }
+          phone1={
+            <Fragment>
+              <span className="contacts-text16">Call Now - 9356251657</span>
+            </Fragment>
+          }
+          action2={
+            <Fragment>
+              <span className="contacts-text17">Google Map Location</span>
+            </Fragment>
+          }
+          phone11={
+            <Fragment>
+              <span className="contacts-text18">Call Now - 9822219102</span>
+            </Fragment>
+          }
+          address1={
+            <Fragment>
+              <span className="contacts-text19">
+                Mohgaon road, MH SH 255, Dangarpura, Hingna, Maharashtra 441110
               </span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="contacts-text16">
+              <span className="contacts-text20">
                 For inquiries or bookings, please contact us using the
                 information below.
               </span>
             </Fragment>
           }
-          address1={
+          content2={
             <Fragment>
-              <span className="contacts-text17">
-                Mohgaon road, MH SH 255, Dangarpura, Hingna, Maharashtra 441110
+              <span className="contacts-text21">
+                We are available for site visits and consultations.
               </span>
-            </Fragment>
-          }
-          email={
-            <Fragment>
-              <span className="contacts-text18">arunbhende21@gmail.com</span>
             </Fragment>
           }
           content3={
             <Fragment>
-              <span className="contacts-text19">
+              <span className="contacts-text22">
                 Our dedicated team is ready to assist you with any questions or
                 special requests.
               </span>
             </Fragment>
           }
-          action2={
-            <Fragment>
-              <span className="contacts-text20">Google Map Location</span>
-            </Fragment>
-          }
           content5={
             <Fragment>
-              <span className="contacts-text21">
+              <span className="contacts-text23">
                 Follow us on social media for updates and promotions.
               </span>
             </Fragment>
           }
-          phone1={
+          heading1={
             <Fragment>
-              <span className="contacts-text22">Call Now - 9356251657</span>
-            </Fragment>
-          }
-          content2={
-            <Fragment>
-              <span className="contacts-text23">
-                We are available for site visits and consultations.
+              <span className="contacts-text24">
+                Contact MariGold Celebration.
               </span>
             </Fragment>
           }
           content21={
             <Fragment>
-              <span className="contacts-text24">
+              <span className="contacts-text25">
                 We are available for site visits and consultations.
               </span>
-            </Fragment>
-          }
-          email1={
-            <Fragment>
-              <span className="contacts-text25">arunbhende21@gmail.com</span>
             </Fragment>
           }
           rootClassName="contact-inforoot-class-name"
@@ -324,12 +324,12 @@ const Contacts = (props) => {
               <span className="contacts-text61">Call Enquiry</span>
             </Fragment>
           }
-          rootClassName="navbar-interactiveroot-class-name1"
           register12={
             <Fragment>
               <span className="contacts-text62">WhatsApp Enquiry</span>
             </Fragment>
           }
+          rootClassName="navbar-interactiveroot-class-name1"
         ></NavbarInteractive>
       </div>
       <style jsx>

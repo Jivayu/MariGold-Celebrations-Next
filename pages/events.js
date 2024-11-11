@@ -103,12 +103,12 @@ const Events = (props) => {
               <span className="events-text23">Call Enquiry</span>
             </Fragment>
           }
-          rootClassName="navbar-interactiveroot-class-name4"
           register12={
             <Fragment>
               <span className="events-text24">WhatsApp Enquiry</span>
             </Fragment>
           }
+          rootClassName="navbar-interactiveroot-class-name4"
         ></NavbarInteractive>
         <PageHeadersEvents
           action1={

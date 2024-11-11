@@ -82,12 +82,12 @@ const Home = (props) => {
               <span className="home-text18">Call Enquiry</span>
             </Fragment>
           }
-          rootClassName="navbar-interactiveroot-class-name"
           register12={
             <Fragment>
               <span className="home-text19">WhatsApp Enquiry</span>
             </Fragment>
           }
+          rootClassName="navbar-interactiveroot-class-name"
         ></NavbarInteractive>
         <Hero
           image4Src="/images/circle-background.svg"

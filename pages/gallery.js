@@ -228,12 +228,12 @@ const Gallery = (props) => {
               <span className="gallery-text43">Call Enquiry</span>
             </Fragment>
           }
-          rootClassName="navbar-interactiveroot-class-name3"
           register12={
             <Fragment>
               <span className="gallery-text44">WhatsApp Enquiry</span>
             </Fragment>
           }
+          rootClassName="navbar-interactiveroot-class-name3"
         ></NavbarInteractive>
         <Footer
           link1={

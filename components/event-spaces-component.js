@@ -10,10 +10,10 @@ const EventSpacesComponent = (props) => {
         className={`event-spaces-component-container UbuntuLight-14 thq-flex-column ${props.rootClassName} `}
       >
         <img
+          id="HallPic-AI"
           alt={props.featureImageAlt}
           src={props.image1Src}
           loading={props.image1Loading}
-          id="HallPic-AI"
           className="thq-img-ratio-4-3 event-spaces-component-image1"
         />
         <div className="event-spaces-component-actions thq-flex-row">
@@ -118,18 +118,18 @@ const EventSpacesComponent = (props) => {
 }
 
 EventSpacesComponent.defaultProps = {
+  image1Src: '/images/Marigold Images/big-hall-1500w.webp',
   action23: undefined,
   rootClassName: '',
   featureImageAlt: 'Luxurious Venue at Marigold Banquet Hall',
-  image1Src: '/images/Marigold Images/big-hall-1500w.webp',
   image1Loading: 'lazy',
 }
 
 EventSpacesComponent.propTypes = {
+  image1Src: PropTypes.string,
   action23: PropTypes.element,
   rootClassName: PropTypes.string,
   featureImageAlt: PropTypes.string,
-  image1Src: PropTypes.string,
   image1Loading: PropTypes.string,
 }
 

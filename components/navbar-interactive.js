@@ -33,7 +33,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link11">
                   {props.menu1 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text17">Home</span>
+                      <span className="navbar-interactive-text18">Home</span>
                     </Fragment>
                   )}
                 </a>
@@ -42,7 +42,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link12">
                   {props.menu2 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text16">
+                      <span className="navbar-interactive-text17">
                         Facilities
                       </span>
                     </Fragment>
@@ -52,7 +52,7 @@ const NavbarInteractive = (props) => {
               <span className="navbar-interactive-text10">
                 {props.menu6 ?? (
                   <Fragment>
-                    <span className="navbar-interactive-text26">
+                    <span className="navbar-interactive-text27">
                       Facilities
                     </span>
                   </Fragment>
@@ -62,7 +62,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link13">
                   {props.menu3 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text24">Gallery</span>
+                      <span className="navbar-interactive-text25">Gallery</span>
                     </Fragment>
                   )}
                 </a>
@@ -71,7 +71,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link14">
                   {props.menu4 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text21">Events</span>
+                      <span className="navbar-interactive-text22">Events</span>
                     </Fragment>
                   )}
                 </a>
@@ -80,7 +80,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link15">
                   {props.menu5 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text20">
+                      <span className="navbar-interactive-text21">
                         Contacts
                       </span>
                     </Fragment>
@@ -93,7 +93,7 @@ const NavbarInteractive = (props) => {
                 <span>
                   {props.login ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text22">Login</span>
+                      <span className="navbar-interactive-text23">Login</span>
                     </Fragment>
                   )}
                 </span>
@@ -105,7 +105,7 @@ const NavbarInteractive = (props) => {
                 <span className="navbar-interactive-text12">
                   {props.register ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text27">Enquiry</span>
+                      <span className="navbar-interactive-text28">Enquiry</span>
                     </Fragment>
                   )}
                 </span>
@@ -164,7 +164,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link18">
                     {props.mmenu2 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text25">
+                        <span className="navbar-interactive-text26">
                           Facilities
                         </span>
                       </Fragment>
@@ -175,7 +175,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link19">
                     {props.mmenu3 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text23">
+                        <span className="navbar-interactive-text24">
                           Gallery
                         </span>
                       </Fragment>
@@ -186,7 +186,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link20">
                     {props.mmenu4 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text19">
+                        <span className="navbar-interactive-text20">
                           Events
                         </span>
                       </Fragment>
@@ -197,7 +197,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link21">
                     {props.mmenu5 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text28">
+                        <span className="navbar-interactive-text29">
                           Contacts
                         </span>
                       </Fragment>
@@ -214,7 +214,7 @@ const NavbarInteractive = (props) => {
                     <span className="navbar-interactive-text13">
                       {props.register1 ?? (
                         <Fragment>
-                          <span className="navbar-interactive-text18">
+                          <span className="navbar-interactive-text19">
                             Call Enquiry
                           </span>
                         </Fragment>
@@ -232,7 +232,7 @@ const NavbarInteractive = (props) => {
                     <span className="navbar-interactive-text14">
                       {props.register12 ?? (
                         <Fragment>
-                          <span className="navbar-interactive-text29">
+                          <span className="navbar-interactive-text16">
                             WhatsApp Enquiry
                           </span>
                         </Fragment>
@@ -957,10 +957,10 @@ const NavbarInteractive = (props) => {
               animation-iteration-count: 1;
               animation-timing-function: ease;
             }
-            .navbar-interactive-text18 {
+            .navbar-interactive-text16 {
               line-height: 1.4;
             }
-            .navbar-interactive-text29 {
+            .navbar-interactive-text19 {
               line-height: 1.4;
             }
           }
@@ -1060,6 +1060,7 @@ const NavbarInteractive = (props) => {
 NavbarInteractive.defaultProps = {
   mmenu1: undefined,
   logoAlt: 'image',
+  register12: undefined,
   menu2: undefined,
   menu1: undefined,
   register1: undefined,
@@ -1077,12 +1078,12 @@ NavbarInteractive.defaultProps = {
   logoSrc: '/images/marigold-logo1.svg',
   register: undefined,
   mmenu5: undefined,
-  register12: undefined,
 }
 
 NavbarInteractive.propTypes = {
   mmenu1: PropTypes.element,
   logoAlt: PropTypes.string,
+  register12: PropTypes.element,
   menu2: PropTypes.element,
   menu1: PropTypes.element,
   register1: PropTypes.element,
@@ -1100,7 +1101,6 @@ NavbarInteractive.propTypes = {
   logoSrc: PropTypes.string,
   register: PropTypes.element,
   mmenu5: PropTypes.element,
-  register12: PropTypes.element,
 }
 
 export default NavbarInteractive
