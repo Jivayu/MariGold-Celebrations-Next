@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import Link from 'next/link'
 
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const NavbarInteractive = (props) => {
@@ -206,6 +207,24 @@ const NavbarInteractive = (props) => {
                 </Link>
               </nav>
               <div className="navbar-interactive-buttons2">
+                <div className="navbar-interactive-container3">
+                  <div className="navbar-interactive-container4">
+                    <React.Fragment>
+                      <React.Fragment>
+                        <a
+                          aria-label="Chat on WhatsApp"
+                          href="https://wa.me/+919356251657"
+                        >
+                          <img
+                            alt="Chat on WhatsApp"
+                            src="WhatsAppButtonGreenLarge.svg"
+                          />
+                        </a>
+                        <a></a>
+                      </React.Fragment>
+                    </React.Fragment>
+                  </div>
+                </div>
                 <a
                   href="tel:+919356251657"
                   className="navbar-interactive-register button"
@@ -581,6 +600,9 @@ const NavbarInteractive = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
+          .navbar-interactive-container4 {
+            display: contents;
+          }
           .navbar-interactive-register {
             text-decoration: none;
           }
@@ -814,6 +836,10 @@ const NavbarInteractive = (props) => {
             }
             .navbar-interactive-buttons2 {
               align-self: center;
+              flex-direction: column;
+            }
+            .navbar-interactive-container3 {
+              margin-bottom: var(--dl-space-space-halfunit);
             }
             .navbar-interactive-register {
               fill: var(--dl-color-primary-logo-color-1);

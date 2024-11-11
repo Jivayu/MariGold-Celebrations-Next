@@ -40,7 +40,7 @@ const GalleryImages = (props) => {
             <div className="gallery-images-container1">
               <img
                 alt="Wedding Hall Setup"
-                src="/images/Marigold Images/marigold-celebration-banner-300h.webp"
+                src={props.image1Src1}
                 loading="lazy"
                 className="gallery-images-image1 thq-img-ratio-4-3"
               />
@@ -368,6 +368,7 @@ const GalleryImages = (props) => {
 
 GalleryImages.defaultProps = {
   content1: undefined,
+  image1Src1: '/images/Marigold Images/marigold-celebration-banner-300h.webp',
   image2Description: undefined,
   image3Description: undefined,
   image2Title: undefined,
@@ -382,6 +383,7 @@ GalleryImages.defaultProps = {
 
 GalleryImages.propTypes = {
   content1: PropTypes.element,
+  image1Src1: PropTypes.string,
   image2Description: PropTypes.element,
   image3Description: PropTypes.element,
   image2Title: PropTypes.element,
