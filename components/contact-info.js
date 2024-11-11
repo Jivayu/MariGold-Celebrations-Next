@@ -342,25 +342,25 @@ const ContactInfo = (props) => {
           .contact-info-content3 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
+            height: 600px;
             display: flex;
-            max-width: 40%;
             transform: scale(1);
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.5);
             align-items: flex-start;
-            padding-top: var(--dl-space-space-halfunit);
+            padding-top: var(--dl-space-space-unit);
             border-color: var(--dl-color-primary-logo-color-1);
             border-style: dotted;
             border-width: 1px;
-            padding-left: var(--dl-space-space-halfunit);
             border-radius: var(--dl-radius-radius-radius10);
-            padding-right: var(--dl-space-space-halfunit);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
             backdrop-filter: blur(3px);
             background-color: rgba(0, 0, 0, 0.27);
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
           }
           .contact-info-content4 {
-            gap: 16px;
+            gap: var(--dl-space-space-halfunit);
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -373,6 +373,7 @@ const ContactInfo = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
             padding: 4px;
+            margin-left: var(--dl-space-space-twounits);
             border-color: var(--dl-color-theme-accent1);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
@@ -424,7 +425,7 @@ const ContactInfo = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .contact-info-content5 {
-            gap: 16px;
+            gap: var(--dl-space-space-halfunit);
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -448,6 +449,7 @@ const ContactInfo = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
             padding: 4px;
+            margin-left: var(--dl-space-space-twounits);
             border-color: var(--dl-color-theme-accent1);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
@@ -517,7 +519,7 @@ const ContactInfo = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .contact-info-content6 {
-            gap: var(--dl-space-space-halfunit);
+            gap: var(--dl-space-space-unit);
             display: flex;
             align-self: stretch;
             align-items: flex-start;
@@ -528,6 +530,7 @@ const ContactInfo = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
             padding: 4px;
+            margin-left: var(--dl-space-space-twounits);
             border-color: var(--dl-color-theme-accent1);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-round);
@@ -600,17 +603,22 @@ const ContactInfo = (props) => {
             transform: scale(1);
           }
           .contact-info-container3 {
-            width: 90%;
+            width: 100%;
+            height: auto;
             display: flex;
+            max-width: 650px;
             align-items: center;
             flex-direction: column;
             justify-content: center;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
           }
           .contact-info-iframe {
             width: 100%;
-            height: 550px;
+            height: 598px;
             aspect-ratio: 16/9;
-            border-radius: var(--dl-radius-radius-radius10);
+            border-top-right-radius: var(--dl-radius-radius-radius10);
+            border-bottom-right-radius: var(--dl-radius-radius-radius10);
           }
           .contact-info-text21 {
             display: inline-block;
