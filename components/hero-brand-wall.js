@@ -185,7 +185,7 @@ const HeroBrandWall = (props) => {
             transition: 0.5;
             font-family: 'Ubuntu';
             font-weight: 300;
-            line-height: 2;
+            line-height: 1.6;
             border-color: #380fe1;
             border-style: dotted;
             border-width: 0.5px;

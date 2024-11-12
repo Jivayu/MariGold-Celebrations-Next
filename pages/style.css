@@ -280,6 +280,7 @@
   padding-left: var(--dl-space-space-oneandhalfunits);
   border-radius: var(--dl-radius-radius-buttonradius);
   padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
 }
 .thq-button-outline:hover {

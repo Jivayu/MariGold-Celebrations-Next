@@ -225,8 +225,10 @@ const ContactInfo = (props) => {
               </div>
               <div className="contact-info-content6">
                 <svg
+                  width="24"
+                  height="24"
                   viewBox="0 0 1024 1024"
-                  className="contact-info-icon30 thq-icon-medium"
+                  className="contact-info-icon30"
                 >
                   <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                 </svg>
@@ -572,8 +574,8 @@ const ContactInfo = (props) => {
           }
           .contact-info-icon30 {
             fill: var(--dl-color-theme-accent1);
-            width: 24px;
-            height: 24px;
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
             padding: 4px;
             margin-left: var(--dl-space-space-twounits);
             border-color: var(--dl-color-theme-accent1);
