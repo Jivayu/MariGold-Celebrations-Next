@@ -109,9 +109,9 @@ const Facilities = (props) => {
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name2"
-          text2101={
+          text21011={
             <Fragment>
-              <span className="facilities-text25">Enquire Booking</span>
+              <span className="facilities-text25">Explore Facilities</span>
             </Fragment>
           }
         ></NavbarInteractive>

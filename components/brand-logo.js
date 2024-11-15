@@ -45,6 +45,7 @@ const BrandLogo = (props) => {
           .brand-logoroot-class-name2 {
             flex: 1;
             width: 60px;
+            display: none;
             align-self: center;
           }
           .brand-logoroot-class-name3 {
@@ -70,7 +71,8 @@ const BrandLogo = (props) => {
             }
             .brand-logo-image {
               flex: 1;
-              width: auto;
+              width: 65px;
+              height: auto;
               align-self: center;
             }
             .brand-logoroot-class-name3 {

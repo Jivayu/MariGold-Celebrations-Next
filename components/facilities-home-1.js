@@ -12,24 +12,24 @@ const FacilitiesHome1 = (props) => {
       >
         <div className="facilities-home-1-max-width thq-section-max-width">
           <div className="facilities-home-1-section-title UbuntuLight-14 thq-flex-column">
-            <span className="facilities-home-1-text10 p">
-              {props.slogan ?? (
-                <Fragment>
-                  <span className="facilities-home-1-text18">
-                    Please Do Consultation With Us For Your Any Requirements.
-                  </span>
-                </Fragment>
-              )}
-            </span>
-            <h2 className="facilities-home-1-text11">
+            <h2 className="facilities-home-1-text10">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="facilities-home-1-text29">
+                  <span className="facilities-home-1-text30">
                     Facilities At Marigold Celebration
                   </span>
                 </Fragment>
               )}
             </h2>
+            <span className="facilities-home-1-text11 p">
+              {props.slogan ?? (
+                <Fragment>
+                  <span className="facilities-home-1-text19">
+                    Please Do Consultation With Us For Your Any Requirements.
+                  </span>
+                </Fragment>
+              )}
+            </span>
           </div>
           <div className="facilities-home-1-content1">
             <div className="thq-grid-5">
@@ -58,7 +58,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title11 h2Light">
                         {props.feature1Title ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text14">
+                            <span className="facilities-home-1-text15">
                               <span>Spacious Venue with Capacity</span>
                               <br></br>
                             </span>
@@ -80,7 +80,7 @@ const FacilitiesHome1 = (props) => {
                       >
                         {props.feature1Description ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text27">
+                            <span className="facilities-home-1-text28">
                               Our expansive banquet hall can accommodate up to
                               2000 guests comfortably. Whether you’re planning
                               an extravagant wedding or an intimate gathering,
@@ -129,7 +129,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title12 h2Light">
                         {props.feature1Title1 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text28">
+                            <span className="facilities-home-1-text29">
                               Fine Dining Catering
                             </span>
                           </Fragment>
@@ -150,7 +150,7 @@ const FacilitiesHome1 = (props) => {
                       >
                         {props.feature1Description1 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text21">
+                            <span className="facilities-home-1-text22">
                               We offer customizable catering options to suit any
                               event style. From lavish multi-course dinners to
                               casual buffets, our in-house culinary team crafts
@@ -191,7 +191,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title13 h2Light">
                         {props.feature1Title11 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text26">
+                            <span className="facilities-home-1-text27">
                               Photography &amp; Videography Services 
                             </span>
                           </Fragment>
@@ -212,7 +212,7 @@ const FacilitiesHome1 = (props) => {
                       >
                         {props.feature1Description11 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text23">
+                            <span className="facilities-home-1-text24">
                               Preserve every special moment with our
                               professional photography and videography services.
                               Our experienced team specializes in capturing the
@@ -254,7 +254,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title14 h2Light">
                         {props.feature1Title111 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text22">
+                            <span className="facilities-home-1-text23">
                               Décor &amp; Design Services
                             </span>
                           </Fragment>
@@ -275,7 +275,7 @@ const FacilitiesHome1 = (props) => {
                       >
                         {props.feature1Description111 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text17">
+                            <span className="facilities-home-1-text18">
                               Our dedicated décor team works closely with you to
                               bring your vision to life. From elegant wedding
                               themes to corporate setups, we provide tailored
@@ -316,7 +316,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title15 h2Light">
                         {props.feature1Title1111 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text24">
+                            <span className="facilities-home-1-text25">
                               Parking &amp; Accessibility
                             </span>
                           </Fragment>
@@ -337,7 +337,7 @@ const FacilitiesHome1 = (props) => {
                       >
                         {props.feature1Description1111 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text19">
+                            <span className="facilities-home-1-text20">
                               Our venue offers ample parking space to
                               accommodate all your guests, ensuring a
                               stress-free arrival experience. For added
@@ -358,7 +358,7 @@ const FacilitiesHome1 = (props) => {
             <p className="facilities-home-1-text12 p">
               {props.sectionDescription ?? (
                 <Fragment>
-                  <span className="facilities-home-1-text20">
+                  <span className="facilities-home-1-text21">
                     At Marigold Banquet Hall, we offer an exceptional range of
                     facilities to ensure your event is as smooth, memorable, and
                     stress-free as possible. Our venue is designed to cater to
@@ -371,10 +371,10 @@ const FacilitiesHome1 = (props) => {
             <div className="facilities-home-1-actions thq-flex-row">
               <button className="facilities-home-1-button menu">
                 <Link href="/facilities-at-marigold-celebration">
-                  <a className="facilities-home-1-link thq-button-outline">
+                  <a className="facilities-home-1-link1 thq-button-outline">
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="facilities-home-1-text25">
+                        <span className="facilities-home-1-text26">
                           Explore Our Facilities
                         </span>
                       </Fragment>
@@ -382,6 +382,38 @@ const FacilitiesHome1 = (props) => {
                   </a>
                 </Link>
               </button>
+              <a
+                href="https://maps.app.goo.gl/GiGSr8YoRhvdiw8U8"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="facilities-home-1-container25">
+                  <span className="facilities-home-1-text14">
+                    {props.text2101 ?? (
+                      <Fragment>
+                        <span className="facilities-home-1-text31">
+                          Verify Review
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 48 48"
+                    className="facilities-home-1-icon27"
+                  >
+                    <path
+                      d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -400,11 +432,12 @@ const FacilitiesHome1 = (props) => {
             flex-direction: column;
             backdrop-filter: blur(4px);
             background-size: cover;
-            background-image: linear-gradient(
-              0deg,
-              rgba(4, 12, 79, 0.74) 5%,
-              rgba(9, 10, 11, 0.28) 95%,
-              rgba(42, 58, 74, 0.37) 100%
+            background-image: radial-gradient(
+              circle at center,
+              rgba(8, 18, 100, 0.74) 8%,
+              rgba(133, 44, 134, 0.45) 100%,
+              rgba(133, 44, 134, 0.45) 70%,
+              rgba(9, 10, 11, 0.23) 30%
             );
             background-repeat: no-repeat;
             background-position: center;
@@ -418,12 +451,9 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-section-title {
             gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
           }
           .facilities-home-1-text10 {
-            fill: var(--dl-color-theme-accent1);
-            color: var(--dl-color-theme-accent1);
-          }
-          .facilities-home-1-text11 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 18px;
@@ -439,6 +469,11 @@ const FacilitiesHome1 = (props) => {
             text-transform: none;
             text-decoration: none;
             background-color: rgba(0, 0, 0, 0.55);
+          }
+          .facilities-home-1-text11 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            margin-left: var(--dl-space-space-halfunit);
           }
           .facilities-home-1-content1 {
             gap: var(--dl-space-space-unit);
@@ -806,6 +841,7 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-text12 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            margin-left: var(--dl-space-space-unit);
             animation-name: none;
             animation-delay: 0s;
             animation-duration: 300ms;
@@ -824,10 +860,11 @@ const FacilitiesHome1 = (props) => {
             fill: transparent;
             flex: 1;
             color: transparent;
+            display: none;
             transform: scale(0.99);
             border-width: 0px;
           }
-          .facilities-home-1-link {
+          .facilities-home-1-link1 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
@@ -845,17 +882,52 @@ const FacilitiesHome1 = (props) => {
             text-decoration: none;
             background-color: rgba(0, 0, 0, 0.55);
           }
-          .facilities-home-1-link:hover {
+          .facilities-home-1-link1:hover {
             transform: scale(1);
             box-shadow: 3px 3px 25px 1px rgba(50, 0, 255, 0.41);
             border-style: dotted;
             border-width: 0.5px;
             background-color: rgba(61, 19, 234, 0.2);
           }
-          .facilities-home-1-text14 {
-            display: inline-block;
+          .facilities-home-1-container25 {
+            gap: var(--dl-space-space-halfunit);
+            width: auto;
+            display: flex;
+            align-self: center;
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            border-color: rgba(0, 0, 0, 0.87);
+            border-width: 0.5px;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-cardradius);
+            padding-right: var(--dl-space-space-unit);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-halfunit);
+            backdrop-filter: blur(3px);
+            justify-content: center;
+            text-decoration: none;
+            background-color: rgba(2, 2, 2, 0.48);
           }
-          .facilities-home-1-text17 {
+          .facilities-home-1-container25:hover {
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
+            border-color: rgba(0, 0, 0, 0.77);
+          }
+          .facilities-home-1-text14 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 12px;
+            font-style: normal;
+            font-family: 'Poppins';
+            font-weight: 200;
+            line-height: 1.6;
+          }
+          .facilities-home-1-icon27 {
+            fill: #00ff38;
+            color: #00ff38;
+          }
+          .facilities-home-1-text15 {
             display: inline-block;
           }
           .facilities-home-1-text18 {
@@ -894,10 +966,22 @@ const FacilitiesHome1 = (props) => {
           .facilities-home-1-text29 {
             display: inline-block;
           }
+          .facilities-home-1-text30 {
+            display: inline-block;
+          }
+          .facilities-home-1-text31 {
+            display: inline-block;
+          }
 
           @media (max-width: 991px) {
             .facilities-home-1-layout302 {
               display: none;
+            }
+          }
+          @media (max-width: 599px) {
+            .facilities-home-1-icon27 {
+              fill: #00ff38;
+              color: #00ff38;
             }
           }
           @media (max-width: 479px) {
@@ -952,6 +1036,7 @@ FacilitiesHome1.defaultProps = {
   feature1Description: undefined,
   feature1Title1: undefined,
   sectionTitle: undefined,
+  text2101: undefined,
 }
 
 FacilitiesHome1.propTypes = {
@@ -980,6 +1065,7 @@ FacilitiesHome1.propTypes = {
   feature1Description: PropTypes.element,
   feature1Title1: PropTypes.element,
   sectionTitle: PropTypes.element,
+  text2101: PropTypes.element,
 }
 
 export default FacilitiesHome1

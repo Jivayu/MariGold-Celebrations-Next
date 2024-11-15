@@ -109,9 +109,9 @@ const Events = (props) => {
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name4"
-          text2101={
+          text21011={
             <Fragment>
-              <span className="events-text25">Enquire Booking</span>
+              <span className="events-text25">Explore Facilities</span>
             </Fragment>
           }
         ></NavbarInteractive>

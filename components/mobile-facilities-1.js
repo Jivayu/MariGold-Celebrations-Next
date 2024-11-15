@@ -1,5 +1,4 @@
 import React, { useState, Fragment } from 'react'
-import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
@@ -22,28 +21,31 @@ const MobileFacilities1 = (props) => {
         <div className="mobile-facilities-1-max-width thq-flex-row thq-section-max-width">
           <div className="mobile-facilities-1-list UbuntuLight-14 thq-flex-column">
             <div className="mobile-facilities-1-container10">
-              <h1 className="mobile-facilities-1-text10 Ubuntu-Light-16">
-                {props.heading ?? (
-                  <Fragment>
-                    <span className="mobile-facilities-1-text76">
-                      Facilities We Provide at Marigold Celebration
-                    </span>
-                  </Fragment>
-                )}
-              </h1>
-              <p id="Facilities-tagline" className="mobile-facilities-1-text11">
-                {props.heading2 ?? (
-                  <Fragment>
-                    <span className="mobile-facilities-1-text74">
-                      At Marigold Banquet Hall, we offer an exceptional range of
-                      facilities to ensure your event is as smooth, memorable,
-                      and stress-free as possible. Our venue is designed to
-                      cater to all types of occasions, from grand weddings to
-                      corporate events, while providing top-tier amenities.
-                    </span>
-                  </Fragment>
-                )}
-              </p>
+              <div className="mobile-facilities-1-section-title UbuntuLight-14 thq-flex-column">
+                <h2 className="mobile-facilities-1-text10">
+                  {props.sectionTitle1 ?? (
+                    <Fragment>
+                      <span className="mobile-facilities-1-text78">
+                        Facilities At Marigold Celebration
+                      </span>
+                    </Fragment>
+                  )}
+                </h2>
+                <span className="mobile-facilities-1-text11">
+                  {props.slogan1 ?? (
+                    <Fragment>
+                      <span className="mobile-facilities-1-text79">
+                        At Marigold Banquet Hall, we offer an exceptional range
+                        of facilities to ensure your event is as smooth,
+                        memorable, and stress-free as possible. Our venue is
+                        designed to cater to all types of occasions, from grand
+                        weddings to corporate events, while providing top-tier
+                        amenities.
+                      </span>
+                    </Fragment>
+                  )}
+                </span>
+              </div>
             </div>
             <div className="mobile-facilities-1-faq1">
               <div
@@ -64,7 +66,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq1-question UbuntuLight-14">
                   {props.faq1Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text79">
+                      <span className="mobile-facilities-1-text76">
                         Spacious Venue with Capacity
                       </span>
                     </Fragment>
@@ -220,7 +222,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq2-question1 UbuntuLight-14">
                   {props.faq2Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text77">
+                      <span className="mobile-facilities-1-text74">
                         Fine Dining Catering
                       </span>
                     </Fragment>
@@ -375,7 +377,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq2-question2 UbuntuLight-14">
                   {props.faq3Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text78">
+                      <span className="mobile-facilities-1-text75">
                         Photography &amp; Videography Services
                       </span>
                     </Fragment>
@@ -562,7 +564,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq2-question3 UbuntuLight-14">
                   {props.faq4Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text75">
+                      <span className="mobile-facilities-1-text73">
                         Décor &amp; Design Services
                       </span>
                     </Fragment>
@@ -732,19 +734,38 @@ const MobileFacilities1 = (props) => {
           </div>
         </div>
         <div className="mobile-facilities-1-actions thq-flex-row">
-          <button type="button" className="mobile-facilities-1-button menu">
-            <Link href="/facilities-at-marigold-celebration">
-              <a className="mobile-facilities-1-link thq-button-outline">
-                {props.action231 ?? (
+          <a
+            href="https://maps.app.goo.gl/GiGSr8YoRhvdiw8U8"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <div className="mobile-facilities-1-container23">
+              <span className="mobile-facilities-1-text72">
+                {props.text2101 ?? (
                   <Fragment>
-                    <span className="mobile-facilities-1-text73">
-                      Explore More Facilities
+                    <span className="mobile-facilities-1-text77">
+                      More Facilities
                     </span>
                   </Fragment>
                 )}
-              </a>
-            </Link>
-          </button>
+              </span>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 48 48"
+                className="mobile-facilities-1-icon41"
+              >
+                <path
+                  d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+          </a>
         </div>
       </section>
       <style jsx>
@@ -786,21 +807,36 @@ const MobileFacilities1 = (props) => {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             justify-content: center;
           }
+          .mobile-facilities-1-section-title {
+            gap: var(--dl-space-space-halfunit);
+            align-items: flex-start;
+            margin-left: var(--dl-space-space-unit);
+          }
           .mobile-facilities-1-text10 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 18px;
+            align-self: flex-start;
             font-style: normal;
-            line-height: 1.4;
-          }
-          .mobile-facilities-1-text11 {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
-            font-size: 12px;
-            max-width: 75%;
-            font-style: normal;
+            text-align: center;
             font-family: 'Ubuntu';
             font-weight: 300;
-            line-height: 1.4;
+            line-height: 1.6;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-buttonradius);
+            padding-right: var(--dl-space-space-unit);
+            text-transform: none;
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.55);
+          }
+          .mobile-facilities-1-text11 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 12px;
+            font-family: 'Ubuntu';
+            font-weight: 400;
+            line-height: 16px;
+            margin-left: var(--dl-space-space-halfunit);
             text-transform: none;
             text-decoration: none;
           }
@@ -822,9 +858,6 @@ const MobileFacilities1 = (props) => {
             transition: 0.3s;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
-            border-color: var(--dl-color-primary-logo-color-2);
-            border-style: dotted;
-            border-width: 0.5px;
             padding-left: var(--dl-space-space-unit);
             padding-right: var(--dl-space-space-unit);
             flex-direction: row;
@@ -937,9 +970,6 @@ const MobileFacilities1 = (props) => {
             padding: var(--dl-space-space-unit);
             align-self: stretch;
             align-items: center;
-            border-color: var(--dl-color-primary-logo-color-2);
-            border-style: dotted;
-            border-width: 0.5px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: row;
             justify-content: space-between;
@@ -1046,9 +1076,6 @@ const MobileFacilities1 = (props) => {
             padding: var(--dl-space-space-unit);
             align-self: stretch;
             align-items: center;
-            border-color: var(--dl-color-primary-logo-color-2);
-            border-style: dotted;
-            border-width: 0.5px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: row;
             justify-content: space-between;
@@ -1171,9 +1198,6 @@ const MobileFacilities1 = (props) => {
             padding: var(--dl-space-space-unit);
             align-self: stretch;
             align-items: center;
-            border-color: var(--dl-color-primary-logo-color-2);
-            border-style: dotted;
-            border-width: 0.5px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: row;
             justify-content: space-between;
@@ -1287,40 +1311,43 @@ const MobileFacilities1 = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .mobile-facilities-1-button {
-            fill: transparent;
-            flex: 1;
-            color: transparent;
-            transform: scale(0.99);
-            border-width: 0px;
+          .mobile-facilities-1-container23 {
+            gap: var(--dl-space-space-halfunit);
+            width: auto;
+            display: flex;
+            align-self: flex-end;
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            border-color: rgba(0, 0, 0, 0.87);
+            border-width: 0.5px;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-cardradius);
+            padding-right: var(--dl-space-space-unit);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-halfunit);
+            backdrop-filter: blur(3px);
+            justify-content: center;
+            text-decoration: none;
+            background-color: rgba(2, 2, 2, 0.48);
           }
-          .mobile-facilities-1-link {
+          .mobile-facilities-1-container23:hover {
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
+            border-color: #00831b;
+          }
+          .mobile-facilities-1-text72 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 14px;
-            transform: scale(0.97);
+            font-size: 12px;
             font-style: normal;
-            text-align: center;
-            transition: 0.5;
-            font-family: 'Ubuntu';
-            font-weight: 300;
-            line-height: 2;
-            padding-top: var(--dl-space-space-unit);
-            border-color: #380fe1;
-            border-style: dotted;
-            border-width: 0.5px;
-            padding-bottom: var(--dl-space-space-unit);
-            text-transform: capitalize;
-            text-decoration: none;
-            background-color: rgba(245, 184, 60, 0.1);
+            font-family: 'Poppins';
+            font-weight: 200;
+            line-height: 1.6;
           }
-          .mobile-facilities-1-link:hover {
-            transform: scale(1);
-            box-shadow: 1px 2px 25px 1px rgba(50, 0, 255, 0.4);
-            border-color: var(--dl-color-primary-logo-color-2);
-            border-style: dotted;
-            border-width: 0.5px;
-            background-color: var(--dl-color-primary-logo-color-2);
+          .mobile-facilities-1-icon41 {
+            fill: #00ff38;
+            color: #00ff38;
           }
           .mobile-facilities-1-text73 {
             display: inline-block;
@@ -1344,15 +1371,6 @@ const MobileFacilities1 = (props) => {
             display: inline-block;
           }
 
-          @media (max-width: 1200px) {
-            .mobile-facilities-1-text11 {
-              max-width: 85%;
-            }
-            .mobile-facilities-1-link {
-              padding-top: var(--dl-space-space-halfunit);
-              padding-bottom: var(--dl-space-space-halfunit);
-            }
-          }
           @media (max-width: 991px) {
             .mobile-facilities-1faq8 {
               display: flex;
@@ -1370,28 +1388,32 @@ const MobileFacilities1 = (props) => {
             .mobile-facilities-1-container10 {
               padding-bottom: var(--dl-space-space-unit);
             }
-            .mobile-facilities-1-text11 {
-              fill: var(--dl-color-theme-accent1);
-              color: var(--dl-color-theme-accent1);
+            .mobile-facilities-1-text10 {
+              font-size: 16px;
+              line-height: 1.8;
+            }
+            .mobile-facilities-1-icon10 {
+              width: 40px;
+              height: 40px;
             }
             .mobile-facilities-1-container13 {
               padding: var(--dl-space-space-halfunit);
             }
+            .mobile-facilities-1-icon16 {
+              width: 40px;
+              height: 40px;
+            }
+            .mobile-facilities-1-icon26 {
+              width: 40px;
+              height: 40px;
+            }
+            .mobile-facilities-1-icon32 {
+              width: 40px;
+              height: 40px;
+            }
             .mobile-facilities-1-actions {
               width: 70%;
               margin-top: var(--dl-space-space-unit);
-            }
-            .mobile-facilities-1-button {
-              width: auto;
-              height: auto;
-            }
-            .mobile-facilities-1-link {
-              line-height: 1.6;
-              padding-top: 8px;
-              border-color: var(--dl-color-primary-logo-color-1);
-              border-style: solid;
-              padding-bottom: 8px;
-              background-color: var(--dl-color-primary-logo-color-4);
             }
           }
           @media (max-width: 599px) {
@@ -1411,8 +1433,11 @@ const MobileFacilities1 = (props) => {
             .mobile-facilities-1-container10 {
               padding-left: var(--dl-space-space-halfunit);
             }
+            .mobile-facilities-1-text10 {
+              font-size: 14px;
+            }
             .mobile-facilities-1-text11 {
-              max-width: 100%;
+              font-size: 10px;
             }
             .mobile-facilities-1-faq1 {
               border-color: var(--dl-color-primary-logo-color-2);
@@ -1502,9 +1527,11 @@ const MobileFacilities1 = (props) => {
             }
             .mobile-facilities-1-actions {
               align-self: center;
+              margin-bottom: var(--dl-space-space-unit);
             }
-            .mobile-facilities-1-link {
-              line-height: 1.6;
+            .mobile-facilities-1-icon41 {
+              fill: #00ff38;
+              color: #00ff38;
             }
             .mobile-facilities-1root-class-name {
               background-color: transparent;
@@ -1534,24 +1561,24 @@ const MobileFacilities1 = (props) => {
 
 MobileFacilities1.defaultProps = {
   rootClassName: '',
-  action231: undefined,
-  heading2: undefined,
   faq4Question: undefined,
-  heading: undefined,
   faq2Question: undefined,
   faq3Question: undefined,
   faq1Question: undefined,
+  text2101: undefined,
+  sectionTitle1: undefined,
+  slogan1: undefined,
 }
 
 MobileFacilities1.propTypes = {
   rootClassName: PropTypes.string,
-  action231: PropTypes.element,
-  heading2: PropTypes.element,
   faq4Question: PropTypes.element,
-  heading: PropTypes.element,
   faq2Question: PropTypes.element,
   faq3Question: PropTypes.element,
   faq1Question: PropTypes.element,
+  text2101: PropTypes.element,
+  sectionTitle1: PropTypes.element,
+  slogan1: PropTypes.element,
 }
 
 export default MobileFacilities1

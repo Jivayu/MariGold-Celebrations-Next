@@ -330,9 +330,9 @@ const Contacts = (props) => {
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name1"
-          text2101={
+          text21011={
             <Fragment>
-              <span className="contacts-text63">Enquire Booking</span>
+              <span className="contacts-text63">Explore Facilities</span>
             </Fragment>
           }
         ></NavbarInteractive>

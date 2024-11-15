@@ -19,37 +19,40 @@ const SpaciousVenue = (props) => {
               </span>
             </Fragment>
           }
-          text2101={
+          rootClassName="event-spaces-componentroot-class-name"
+          text21011={
             <Fragment>
-              <span className="spacious-venue-text11">Video Gallery</span>
+              <span className="spacious-venue-text11">
+                <span>Video Gallery</span>
+                <br></br>
+              </span>
             </Fragment>
           }
-          rootClassName="event-spaces-componentroot-class-name"
         ></EventSpacesComponent>
         <div className="spacious-venue-content UbuntuLight-14 thq-flex-column">
           <div className="spacious-venue-section-title UbuntuLight-14 thq-flex-column">
-            <span className="spacious-venue-text12 thq-body-small">
+            <span className="spacious-venue-text14 thq-body-small">
               {props.slogan ?? (
                 <Fragment>
-                  <span className="spacious-venue-text27">
+                  <span className="spacious-venue-text29">
                     Elegance Redefined
                   </span>
                 </Fragment>
               )}
             </span>
-            <h2 className="spacious-venue-text13 Ubuntu-Light-18">
+            <h2 className="spacious-venue-text15 Ubuntu-Light-18">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="spacious-venue-text21">
+                  <span className="spacious-venue-text23">
                     Versatile Event Spaces for Every Occasion
                   </span>
                 </Fragment>
               )}
             </h2>
-            <p className="spacious-venue-text14 thq-body-large">
+            <p className="spacious-venue-text16 thq-body-large">
               {props.featureDescription ?? (
                 <Fragment>
-                  <span className="spacious-venue-text25">
+                  <span className="spacious-venue-text27">
                     At Marigold Celebration Hall, we offer adaptable event
                     spaces designed to cater to a variety of gatherings, from
                     intimate gatherings to grand celebrations. Each space is
@@ -62,19 +65,19 @@ const SpaciousVenue = (props) => {
           </div>
           <div className="spacious-venue-list thq-flex-row">
             <div className="spacious-venue-list-item1 UbuntuLight-14 thq-flex-column">
-              <h3 className="spacious-venue-text15 Ubuntu-Light-16">
+              <h3 className="spacious-venue-text17 Ubuntu-Light-16">
                 {props.feature1Title ?? (
                   <Fragment>
-                    <span className="spacious-venue-text26">
+                    <span className="spacious-venue-text28">
                       The Grand Banquet Hall
                     </span>
                   </Fragment>
                 )}
               </h3>
-              <span className="spacious-venue-text16 thq-body-small">
+              <span className="spacious-venue-text18 thq-body-small">
                 {props.feature1Description ?? (
                   <Fragment>
-                    <span className="spacious-venue-text22">
+                    <span className="spacious-venue-text24">
                       Perfect for large-scale events such as weddings, corporate
                       galas, and conferences, our main hall boasts a spacious,
                       elegant design with the capacity to host up to 2000
@@ -86,19 +89,19 @@ const SpaciousVenue = (props) => {
               </span>
             </div>
             <div className="spacious-venue-list-item2 UbuntuLight-14 thq-flex-column">
-              <h3 className="spacious-venue-text17 Ubuntu-Light-16">
+              <h3 className="spacious-venue-text19 Ubuntu-Light-16">
                 {props.feature2Title ?? (
                   <Fragment>
-                    <span className="spacious-venue-text23">
+                    <span className="spacious-venue-text25">
                       Private Event Rooms
                     </span>
                   </Fragment>
                 )}
               </h3>
-              <span className="spacious-venue-text18 thq-body-small">
+              <span className="spacious-venue-text20 thq-body-small">
                 {props.feature2Description ?? (
                   <Fragment>
-                    <span className="spacious-venue-text24">
+                    <span className="spacious-venue-text26">
                       For more personal celebrations like engagement parties,
                       milestone birthdays, or smaller business meetings, our
                       flexible private rooms offer an intimate ambiance with
@@ -111,10 +114,10 @@ const SpaciousVenue = (props) => {
             </div>
           </div>
           <div className="spacious-venue-container">
-            <p className="spacious-venue-text19 thq-body-large">
+            <p className="spacious-venue-text21 thq-body-large">
               {props.featureDescription2 ?? (
                 <Fragment>
-                  <span className="spacious-venue-text20">
+                  <span className="spacious-venue-text22">
                     Each space is equipped with high-end amenities and the
                     latest audio-visual technology, ensuring an unforgettable
                     experience for both you and your guests. Whatever the
@@ -146,7 +149,7 @@ const SpaciousVenue = (props) => {
             gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
-          .spacious-venue-text12 {
+          .spacious-venue-text14 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
@@ -154,11 +157,11 @@ const SpaciousVenue = (props) => {
             font-family: 'Ubuntu';
             font-weight: 400;
           }
-          .spacious-venue-text13 {
+          .spacious-venue-text15 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
           }
-          .spacious-venue-text14 {
+          .spacious-venue-text16 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
@@ -175,12 +178,12 @@ const SpaciousVenue = (props) => {
             max-width: 50%;
             align-items: flex-start;
           }
-          .spacious-venue-text15 {
+          .spacious-venue-text17 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             font-style: normal;
           }
-          .spacious-venue-text16 {
+          .spacious-venue-text18 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
@@ -192,12 +195,12 @@ const SpaciousVenue = (props) => {
             gap: var(--dl-space-space-halfunit);
             align-items: flex-start;
           }
-          .spacious-venue-text17 {
+          .spacious-venue-text19 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             font-style: normal;
           }
-          .spacious-venue-text18 {
+          .spacious-venue-text20 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
@@ -212,19 +215,13 @@ const SpaciousVenue = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .spacious-venue-text19 {
+          .spacious-venue-text21 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
             font-style: normal;
             font-family: 'Ubuntu';
             font-weight: 300;
-          }
-          .spacious-venue-text20 {
-            display: inline-block;
-          }
-          .spacious-venue-text21 {
-            display: inline-block;
           }
           .spacious-venue-text22 {
             display: inline-block;
@@ -242,6 +239,12 @@ const SpaciousVenue = (props) => {
             display: inline-block;
           }
           .spacious-venue-text27 {
+            display: inline-block;
+          }
+          .spacious-venue-text28 {
+            display: inline-block;
+          }
+          .spacious-venue-text29 {
             display: inline-block;
           }
 
@@ -279,7 +282,7 @@ const SpaciousVenue = (props) => {
             .spacious-venue-section-title {
               gap: var(--dl-space-space-halfunit);
             }
-            .spacious-venue-text12 {
+            .spacious-venue-text14 {
               font-size: 10px;
             }
             .spacious-venue-list {
@@ -292,7 +295,7 @@ const SpaciousVenue = (props) => {
               width: 100%;
               max-width: 100%;
             }
-            .spacious-venue-text16 {
+            .spacious-venue-text18 {
               font-size: 12px;
               font-family: Ubuntu;
             }
@@ -300,7 +303,7 @@ const SpaciousVenue = (props) => {
               gap: var(--dl-space-space-halfunit);
               width: 100%;
             }
-            .spacious-venue-text18 {
+            .spacious-venue-text20 {
               font-size: 12px;
               font-family: Ubuntu;
             }
@@ -322,13 +325,13 @@ const SpaciousVenue = (props) => {
               width: 100%;
               max-width: 100%;
             }
-            .spacious-venue-text15 {
+            .spacious-venue-text17 {
               font-size: 14px;
             }
             .spacious-venue-list-item2 {
               width: 100%;
             }
-            .spacious-venue-text17 {
+            .spacious-venue-text19 {
               font-size: 14px;
             }
           }

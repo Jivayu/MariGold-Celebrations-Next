@@ -118,10 +118,10 @@ const NavbarInteractive = (props) => {
               >
                 <div className="navbar-interactive-container3">
                   <span className="navbar-interactive-text13">
-                    {props.text2101 ?? (
+                    {props.text21011 ?? (
                       <Fragment>
                         <span className="navbar-interactive-text31">
-                          Enquire Booking
+                          Explore Facilities
                         </span>
                       </Fragment>
                     )}
@@ -315,8 +315,8 @@ const NavbarInteractive = (props) => {
             position: fixed;
             animation: inherit;
             box-shadow: 1px 3px 25px 0px rgba(9, 0, 64, 0.7);
-            border-color: rgba(245, 184, 60, 0.96);
-            border-style: dotted;
+            border-color: var(--dl-color-primary-logo-color-3);
+            border-style: solid;
             border-width: 1px;
             justify-content: center;
             border-top-width: 0px;
@@ -538,12 +538,12 @@ const NavbarInteractive = (props) => {
             gap: var(--dl-space-space-halfunit);
             width: auto;
             display: flex;
-            align-self: flex-end;
-            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.44);
+            align-self: center;
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
             transition: 0.3s;
             align-items: center;
             padding-top: var(--dl-space-space-halfunit);
-            border-color: #00ff38;
+            border-color: rgba(0, 0, 0, 0.87);
             border-width: 0.5px;
             padding-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-cardradius);
@@ -557,13 +557,7 @@ const NavbarInteractive = (props) => {
           }
           .navbar-interactive-container3:hover {
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
-            border-color: rgba(0, 0, 0, 0.77);
-            animation-name: fadeIn;
-            animation-delay: 100ms;
-            animation-duration: 1500ms;
-            animation-direction: normal;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
+            border-color: #019a22;
           }
           .navbar-interactive-text13 {
             fill: var(--dl-color-theme-accent1);
@@ -572,7 +566,7 @@ const NavbarInteractive = (props) => {
             font-style: normal;
             font-family: 'Poppins';
             font-weight: 200;
-            line-height: 1.9;
+            line-height: 1.8;
           }
           .navbar-interactive-icon10 {
             fill: #00ff38;
@@ -1166,7 +1160,7 @@ NavbarInteractive.defaultProps = {
   logoSrc: '/images/marigold-logo1.svg',
   register: undefined,
   mmenu5: undefined,
-  text2101: undefined,
+  text21011: undefined,
 }
 
 NavbarInteractive.propTypes = {
@@ -1190,7 +1184,7 @@ NavbarInteractive.propTypes = {
   logoSrc: PropTypes.string,
   register: PropTypes.element,
   mmenu5: PropTypes.element,
-  text2101: PropTypes.element,
+  text21011: PropTypes.element,
 }
 
 export default NavbarInteractive

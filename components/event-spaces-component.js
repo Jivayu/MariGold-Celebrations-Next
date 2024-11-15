@@ -22,7 +22,7 @@ const EventSpacesComponent = (props) => {
               <a className="event-spaces-component-link1 thq-button-outline">
                 {props.action23 ?? (
                   <Fragment>
-                    <span className="event-spaces-component-text4">
+                    <span className="event-spaces-component-text3">
                       Explore Our Gallery Video
                     </span>
                   </Fragment>
@@ -34,10 +34,11 @@ const EventSpacesComponent = (props) => {
             <a>
               <div className="event-spaces-component-container2">
                 <span className="event-spaces-component-text2">
-                  {props.text2101 ?? (
+                  {props.text21011 ?? (
                     <Fragment>
-                      <span className="event-spaces-component-text3">
-                        Video Gallery
+                      <span className="event-spaces-component-text4">
+                        <span>Video Gallery</span>
+                        <br></br>
                       </span>
                     </Fragment>
                   )}
@@ -112,12 +113,12 @@ const EventSpacesComponent = (props) => {
             gap: var(--dl-space-space-halfunit);
             width: auto;
             display: flex;
-            align-self: flex-end;
-            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.44);
+            align-self: center;
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
             transition: 0.3s;
             align-items: center;
             padding-top: var(--dl-space-space-halfunit);
-            border-color: var(--dl-color-primary-logo-color-1);
+            border-color: rgba(0, 0, 0, 0.87);
             border-width: 0.5px;
             padding-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-cardradius);
@@ -131,13 +132,7 @@ const EventSpacesComponent = (props) => {
           }
           .event-spaces-component-container2:hover {
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
-            border-color: rgba(0, 0, 0, 0.77);
-            animation-name: fadeIn;
-            animation-delay: 100ms;
-            animation-duration: 1500ms;
-            animation-direction: normal;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
+            border-color: #019a22;
           }
           .event-spaces-component-text2 {
             fill: var(--dl-color-theme-accent1);
@@ -146,7 +141,7 @@ const EventSpacesComponent = (props) => {
             font-style: normal;
             font-family: 'Poppins';
             font-weight: 200;
-            line-height: 1.9;
+            line-height: 1.8;
           }
           .event-spaces-component-icon1 {
             fill: #00ff38;
@@ -200,21 +195,21 @@ const EventSpacesComponent = (props) => {
 }
 
 EventSpacesComponent.defaultProps = {
-  text2101: undefined,
   image1Src: '/images/Marigold Images/big-hall-1500w.webp',
   action23: undefined,
   rootClassName: '',
   featureImageAlt: 'Luxurious Venue at Marigold Banquet Hall',
   image1Loading: 'lazy',
+  text21011: undefined,
 }
 
 EventSpacesComponent.propTypes = {
-  text2101: PropTypes.element,
   image1Src: PropTypes.string,
   action23: PropTypes.element,
   rootClassName: PropTypes.string,
   featureImageAlt: PropTypes.string,
   image1Loading: PropTypes.string,
+  text21011: PropTypes.element,
 }
 
 export default EventSpacesComponent

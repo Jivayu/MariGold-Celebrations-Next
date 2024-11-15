@@ -210,8 +210,8 @@ const VideoGallery = (props) => {
             flex-direction: column;
           }
           .video-gallery-logo {
-            height: 4rem;
-            display: none;
+            width: 60px;
+            height: auto;
           }
           .video-gallery-container1 {
             display: flex;
@@ -297,11 +297,17 @@ const VideoGallery = (props) => {
             padding-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-cardradius);
             padding-right: var(--dl-space-space-unit);
+            animation-name: none;
             flex-direction: row;
             padding-bottom: var(--dl-space-space-halfunit);
+            animation-delay: 0s;
             backdrop-filter: blur(3px);
             justify-content: center;
             background-color: rgba(2, 2, 2, 0.48);
+            animation-duration: 300ms;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+            animation-timing-function: ease;
           }
           .video-gallery-container3:hover {
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
@@ -406,9 +412,7 @@ const VideoGallery = (props) => {
           .video-galleryroot-class-name {
             margin-top: 0px;
           }
-          .video-galleryroot-class-name1 {
-            margin-top: 0px;
-          }
+
           @media (max-width: 1200px) {
             .video-gallery-video {
               width: 55%;

@@ -39,9 +39,9 @@ const Hero = (props) => {
                 </span>
               </Fragment>
             }
-            text2101={
+            text21011={
               <Fragment>
-                <span className="hero-text5">Explore Facillities</span>
+                <span className="hero-text5">Explore Facilities</span>
               </Fragment>
             }
           ></HeroBrandWall>
