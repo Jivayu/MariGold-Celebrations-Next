@@ -125,7 +125,7 @@ const HeroBrandWall = (props) => {
             align-items: center;
             border-color: var(--dl-color-primary-logo-color-1);
             border-style: solid;
-            border-width: 2px;
+            border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
             background-size: cover;

@@ -458,17 +458,17 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          text1132511={
+          text1132513={
             <Fragment>
               <span className="home-text168">Atharva Diwate</span>
             </Fragment>
           }
-          text1011={
+          text1013={
             <Fragment>
               <span className="home-text169">marigoldcelebration.in</span>
             </Fragment>
           }
-          text21711={
+          text21713={
             <Fragment>
               <span className="home-text170">
                 Perfect for marriage, reception and big parties. The two storey
@@ -482,22 +482,22 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          text21011={
+          text21013={
             <Fragment>
               <span className="home-text171">Verify Review</span>
             </Fragment>
           }
-          text1132512={
+          text1132514={
             <Fragment>
               <span className="home-text172">Atharva Diwate</span>
             </Fragment>
           }
-          text1012={
+          text1014={
             <Fragment>
               <span className="home-text173">marigoldcelebration.in</span>
             </Fragment>
           }
-          text21712={
+          text21714={
             <Fragment>
               <span className="home-text174">
                 Perfect for marriage, reception and big parties. The two storey
@@ -511,7 +511,7 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          text21012={
+          text21014={
             <Fragment>
               <span className="home-text175">Verify Review</span>
             </Fragment>

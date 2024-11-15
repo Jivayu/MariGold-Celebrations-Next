@@ -25,7 +25,7 @@ const HeroPlaceholderImage3 = (props) => {
             height: 360px;
             align-self: stretch;
             border-color: var(--dl-color-primary-logo-color-1);
-            border-width: 2px;
+            border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
           }
         `}
