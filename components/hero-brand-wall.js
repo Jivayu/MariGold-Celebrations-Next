@@ -8,7 +8,9 @@ import BrandLogo from './brand-logo'
 const HeroBrandWall = (props) => {
   return (
     <>
-      <div className="hero-brand-wall-column thq-section-padding">
+      <div
+        className={`hero-brand-wall-column thq-section-padding ${props.rootClassName} `}
+      >
         <BrandLogo></BrandLogo>
         <div className="hero-brand-wall-content">
           <div className="hero-brand-wall-container1">
@@ -126,11 +128,11 @@ const HeroBrandWall = (props) => {
             border-width: 2px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
-            background-size: cover, contain, autoauto;
+            background-size: cover;
             justify-content: flex-end;
-            background-image: url('/images/Marigold Images/2023-05-15-1500w.webp');
-            background-repeat: center, top lefttop;
-            background-position: center, bottom, top lefttop;
+            background-image: url('/images/Marigold Images/banquet%20hall%20-front%20half-1500w.webp');
+            background-repeat: no-repeat, top lefttop;
+            background-position: right, bottom, top lefttop;
           }
           .hero-brand-wall-content {
             gap: var(--dl-space-space-halfunit);
@@ -313,9 +315,11 @@ const HeroBrandWall = (props) => {
           .hero-brand-wall-text20 {
             display: inline-block;
           }
+
           @media (max-width: 1200px) {
             .hero-brand-wall-column {
               background-size: auto, contain;
+              background-position: bottom right, bottom, top lefttop;
             }
           }
           @media (max-width: 991px) {
@@ -324,7 +328,7 @@ const HeroBrandWall = (props) => {
               width: 100%;
               background-size: cover, contain;
               background-repeat: no-repeat, bottom;
-              background-position: bottom, bottom, top lefttop;
+              background-position: bottom right, bottom, top lefttop;
             }
             .hero-brand-wall-content {
               align-items: center;
@@ -372,7 +376,7 @@ const HeroBrandWall = (props) => {
           @media (max-width: 399px) {
             .hero-brand-wall-column {
               padding: var(--dl-space-space-unit);
-              background-position: right, bottom, top lefttop;
+              background-position: bottom right, bottom, top lefttop;
             }
           }
         `}
@@ -387,6 +391,7 @@ HeroBrandWall.defaultProps = {
   action2: undefined,
   action21: undefined,
   text21011: undefined,
+  rootClassName: '',
 }
 
 HeroBrandWall.propTypes = {
@@ -395,6 +400,7 @@ HeroBrandWall.propTypes = {
   action2: PropTypes.element,
   action21: PropTypes.element,
   text21011: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default HeroBrandWall

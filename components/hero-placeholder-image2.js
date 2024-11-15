@@ -9,8 +9,8 @@ const HeroPlaceholderImage2 = (props) => {
         <img
           id="hero-4"
           alt={props.image5Alt11}
-          src={props.image5Src11}
           loading="lazy"
+          src="/images/Marigold Images/banquet%20hall%20-%20evening%20view-%201st%20half-400w.webp"
           className="hero-placeholder-image2-placeholder-image thq-img-ratio-1-1"
         />
       </div>
@@ -35,12 +35,10 @@ const HeroPlaceholderImage2 = (props) => {
 }
 
 HeroPlaceholderImage2.defaultProps = {
-  image5Src11: '/images/Marigold Images/hallpic-1-400h.webp',
   image5Alt11: 'Image highlighting our top-rated products',
 }
 
 HeroPlaceholderImage2.propTypes = {
-  image5Src11: PropTypes.string,
   image5Alt11: PropTypes.string,
 }
 

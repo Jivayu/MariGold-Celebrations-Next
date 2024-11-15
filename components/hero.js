@@ -44,6 +44,7 @@ const Hero = (props) => {
                 <span className="hero-text5">Explore Facilities</span>
               </Fragment>
             }
+            rootClassName="hero-brand-wallroot-class-name"
           ></HeroBrandWall>
           <div className="hero-content">
             <div className="hero-row1">
