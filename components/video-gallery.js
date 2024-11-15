@@ -412,7 +412,9 @@ const VideoGallery = (props) => {
           .video-galleryroot-class-name {
             margin-top: 0px;
           }
-
+          .video-galleryroot-class-name1 {
+            margin-top: 0px;
+          }
           @media (max-width: 1200px) {
             .video-gallery-video {
               width: 55%;

@@ -2,6 +2,8 @@ import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
+import GalleryImages from './gallery-images'
+
 const EventsDetails = (props) => {
   const [isTermsVisible, setIsTermsVisible] = useState(true)
   const [isRefundVisible, setIsRefundVisible] = useState(false)
@@ -24,7 +26,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text10">
                   {props.button ?? (
                     <Fragment>
-                      <span className="events-details-text47">
+                      <span className="events-details-text58">
                         Weddings &amp; Receptions
                       </span>
                     </Fragment>
@@ -44,7 +46,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text11">
                   {props.button ?? (
                     <Fragment>
-                      <span className="events-details-text47">
+                      <span className="events-details-text58">
                         Weddings &amp; Receptions
                       </span>
                     </Fragment>
@@ -64,7 +66,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text12">
                   {props.button1 ?? (
                     <Fragment>
-                      <span className="events-details-text26">
+                      <span className="events-details-text37">
                         Engagement Ceremonies
                       </span>
                     </Fragment>
@@ -84,7 +86,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text13">
                   {props.button1 ?? (
                     <Fragment>
-                      <span className="events-details-text26">
+                      <span className="events-details-text37">
                         Engagement Ceremonies
                       </span>
                     </Fragment>
@@ -104,7 +106,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text14">
                   {props.button2 ?? (
                     <Fragment>
-                      <span className="events-details-text31">
+                      <span className="events-details-text42">
                         Pre-Wedding Functions
                       </span>
                     </Fragment>
@@ -124,7 +126,7 @@ const EventsDetails = (props) => {
                 <span className="events-details-text15">
                   {props.button2 ?? (
                     <Fragment>
-                      <span className="events-details-text31">
+                      <span className="events-details-text42">
                         Pre-Wedding Functions
                       </span>
                     </Fragment>
@@ -152,7 +154,7 @@ const EventsDetails = (props) => {
                       <h2 className="events-details-heading7 h2 thq-heading-2">
                         {props.heading7 ?? (
                           <Fragment>
-                            <span className="events-details-text21">
+                            <span className="events-details-text32">
                               &quot;Where Dreams Meet Reality: Crafting
                               Unforgettable Weddings &amp; Receptions&quot;
                             </span>
@@ -162,7 +164,7 @@ const EventsDetails = (props) => {
                       <p className="events-details-content7 thq-body-small">
                         {props.content7 ?? (
                           <Fragment>
-                            <span className="events-details-text20">
+                            <span className="events-details-text31">
                               Your wedding day marks the beginning of a
                               beautiful journey, and at Marigold Celebration
                               Banquet Hall, we are dedicated to making every
@@ -182,7 +184,7 @@ const EventsDetails = (props) => {
                           <h3 className="events-details-heading8 thq-heading-3">
                             {props.heading8 ?? (
                               <Fragment>
-                                <span className="events-details-text22">
+                                <span className="events-details-text33">
                                   Tailored Decor
                                 </span>
                               </Fragment>
@@ -191,7 +193,7 @@ const EventsDetails = (props) => {
                           <p className="events-details-content8 thq-body-small">
                             {props.content2 ?? (
                               <Fragment>
-                                <span className="events-details-text16">
+                                <span className="events-details-text27">
                                   Our venue is designed to provide a welcoming
                                   and elegant atmosphere that reflects the
                                   excitement of this special day. From refined
@@ -207,7 +209,7 @@ const EventsDetails = (props) => {
                           <h3 className="events-details-heading91 thq-heading-3">
                             {props.heading9 ?? (
                               <Fragment>
-                                <span className="events-details-text35">
+                                <span className="events-details-text46">
                                   Gourmet Catering
                                 </span>
                               </Fragment>
@@ -216,7 +218,7 @@ const EventsDetails = (props) => {
                           <p className="events-details-content91 thq-body-small">
                             {props.content9 ?? (
                               <Fragment>
-                                <span className="events-details-text39">
+                                <span className="events-details-text50">
                                   Delight your guests with a culinary journey
                                   crafted by our talented chefs. Our diverse
                                   menu options include everything from classic
@@ -234,7 +236,7 @@ const EventsDetails = (props) => {
                           <h3 className="events-details-heading92 thq-heading-3">
                             {props.heading91 ?? (
                               <Fragment>
-                                <span className="events-details-text49">
+                                <span className="events-details-text60">
                                   Seamless Event Management
                                 </span>
                               </Fragment>
@@ -243,7 +245,7 @@ const EventsDetails = (props) => {
                           <p className="events-details-content92 thq-body-small">
                             {props.content91 ?? (
                               <Fragment>
-                                <span className="events-details-text34">
+                                <span className="events-details-text45">
                                   We understand that your wedding day should be
                                   stress-free, and our experienced event
                                   coordinators are here to ensure everything
@@ -263,7 +265,7 @@ const EventsDetails = (props) => {
                           <h3 className="events-details-heading93 thq-heading-3">
                             {props.heading911 ?? (
                               <Fragment>
-                                <span className="events-details-text36">
+                                <span className="events-details-text47">
                                   Versatile Venue Options
                                 </span>
                               </Fragment>
@@ -272,7 +274,7 @@ const EventsDetails = (props) => {
                           <p className="events-details-content93 thq-body-small">
                             {props.content911 ?? (
                               <Fragment>
-                                <span className="events-details-text33">
+                                <span className="events-details-text44">
                                   Our expansive banquet hall can be transformed
                                   to suit any style, from intimate gatherings to
                                   grand celebrations. Equipped with cutting-edge
@@ -289,7 +291,7 @@ const EventsDetails = (props) => {
                           <h3 className="events-details-heading94 thq-heading-3">
                             {props.heading9111 ?? (
                               <Fragment>
-                                <span className="events-details-text52">
+                                <span className="events-details-text63">
                                   Customized Packages
                                 </span>
                               </Fragment>
@@ -298,7 +300,7 @@ const EventsDetails = (props) => {
                           <p className="events-details-content94 thq-body-small">
                             {props.content9111 ?? (
                               <Fragment>
-                                <span className="events-details-text24">
+                                <span className="events-details-text35">
                                   At Marigold Celebration, we believe every
                                   couple is unique, and so is every wedding. We
                                   offer a variety of customizable packages that
@@ -312,6 +314,73 @@ const EventsDetails = (props) => {
                           </p>
                         </li>
                       </ul>
+                      <GalleryImages
+                        content1={
+                          <Fragment>
+                            <span className="events-details-text16">
+                              Welcome to the Marigold Celebration Gallery.
+                            </span>
+                          </Fragment>
+                        }
+                        image2Description={
+                          <Fragment>
+                            <span className="events-details-text17">
+                              Our Grand Main Hall
+                            </span>
+                          </Fragment>
+                        }
+                        image3Description={
+                          <Fragment>
+                            <span className="events-details-text18">
+                              Our Grand Main Hall with Some Stage Decor arena
+                            </span>
+                          </Fragment>
+                        }
+                        image2Title={
+                          <Fragment>
+                            <span className="events-details-text19">
+                              Corporate Event Venue
+                            </span>
+                          </Fragment>
+                        }
+                        image1Title={
+                          <Fragment>
+                            <span className="events-details-text20">
+                              Image 1
+                            </span>
+                          </Fragment>
+                        }
+                        image3Title={
+                          <Fragment>
+                            <span className="events-details-text21">
+                              Social Gathering Decor
+                            </span>
+                          </Fragment>
+                        }
+                        image1Description={
+                          <Fragment>
+                            <span className="events-details-text22">
+                              <span>Our Banner Ads</span>
+                              <br></br>
+                            </span>
+                          </Fragment>
+                        }
+                        heading1={
+                          <Fragment>
+                            <span className="events-details-text25">
+                              Gallery
+                            </span>
+                          </Fragment>
+                        }
+                        button={
+                          <Fragment>
+                            <span className="events-details-text26">
+                              Button
+                            </span>
+                          </Fragment>
+                        }
+                        rootClassName="gallery-imagesroot-class-name1"
+                      ></GalleryImages>
                     </li>
                   </ul>
                 </div>
@@ -323,7 +392,7 @@ const EventsDetails = (props) => {
                       <h1 className="events-details-heading1 h2 thq-heading-2">
                         {props.heading1 ?? (
                           <Fragment>
-                            <span className="events-details-text37">
+                            <span className="events-details-text48">
                               &quot;A Perfect Beginning to Your Forever:
                               Celebrate Your Engagement at Marigold
                               Celebration&quot;
@@ -334,7 +403,7 @@ const EventsDetails = (props) => {
                       <span className="events-details-content1 thq-body-small">
                         {props.content1 ?? (
                           <Fragment>
-                            <span className="events-details-text51">
+                            <span className="events-details-text62">
                               Celebrate the start of your lifelong journey
                               together at Marigold Celebration Banquet Hall. Our
                               sophisticated venue offers an intimate and
@@ -350,7 +419,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading2 thq-heading-3">
                             {props.heading2 ?? (
                               <Fragment>
-                                <span className="events-details-text17">
+                                <span className="events-details-text28">
                                   Charming Atmosphere
                                 </span>
                               </Fragment>
@@ -359,7 +428,7 @@ const EventsDetails = (props) => {
                           <p className="events-details-content2 thq-body-small">
                             {props.content2 ?? (
                               <Fragment>
-                                <span className="events-details-text16">
+                                <span className="events-details-text27">
                                   Our venue is designed to provide a welcoming
                                   and elegant atmosphere that reflects the
                                   excitement of this special day. From refined
@@ -375,7 +444,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading3 thq-heading-3">
                             {props.heading3 ?? (
                               <Fragment>
-                                <span className="events-details-text41">
+                                <span className="events-details-text52">
                                   Custom Decor
                                 </span>
                               </Fragment>
@@ -384,7 +453,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content3 thq-body-small">
                             {props.content3 ?? (
                               <Fragment>
-                                <span className="events-details-text29">
+                                <span className="events-details-text40">
                                   Understanding the importance of this
                                   milestone, we collaborate closely with you to
                                   design a decor theme that resonates with your
@@ -402,7 +471,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading4 thq-heading-3">
                             {props.heading4 ?? (
                               <Fragment>
-                                <span className="events-details-text38">
+                                <span className="events-details-text49">
                                   Delicious Catering
                                 </span>
                               </Fragment>
@@ -411,7 +480,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content4 thq-body-small">
                             {props.content4 ?? (
                               <Fragment>
-                                <span className="events-details-text50">
+                                <span className="events-details-text61">
                                   Savor exquisite dishes with our personalized
                                   catering services, carefully crafted by our
                                   expert chefs. We provide a curated selection
@@ -428,7 +497,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading5 thq-heading-3">
                             {props.heading5 ?? (
                               <Fragment>
-                                <span className="events-details-text53">
+                                <span className="events-details-text64">
                                   Effortless Planning
                                 </span>
                               </Fragment>
@@ -437,7 +506,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content5 thq-body-small">
                             {props.content5 ?? (
                               <Fragment>
-                                <span className="events-details-text46">
+                                <span className="events-details-text57">
                                   Our experienced event coordinators are
                                   committed to flawless execution, handling
                                   every aspect of your engagement ceremony so
@@ -454,7 +523,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading6 thq-heading-3">
                             {props.heading6 ?? (
                               <Fragment>
-                                <span className="events-details-text19">
+                                <span className="events-details-text30">
                                   Flexible Event Options
                                 </span>
                               </Fragment>
@@ -463,7 +532,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content6 thq-body-small">
                             {props.content6 ?? (
                               <Fragment>
-                                <span className="events-details-text44">
+                                <span className="events-details-text55">
                                   Whether you envision a traditional engagement
                                   or a modern celebration, we offer customizable
                                   packages and adaptable venue layouts to suit
@@ -488,7 +557,7 @@ const EventsDetails = (props) => {
                       <h1 className="events-details-heading10 h2 thq-heading-2">
                         {props.heading10 ?? (
                           <Fragment>
-                            <span className="events-details-text18">
+                            <span className="events-details-text29">
                               &quot;Create Unforgettable Memories with
                               Pre-Wedding Celebrations at Marigold
                               Celebration&quot;
@@ -499,7 +568,7 @@ const EventsDetails = (props) => {
                       <span className="events-details-content10 thq-body-small">
                         {props.content10 ?? (
                           <Fragment>
-                            <span className="events-details-text40">
+                            <span className="events-details-text51">
                               Begin your wedding journey with vibrant and
                               memorable pre-wedding events at Marigold
                               Celebration Banquet Hall. Our versatile venue
@@ -515,7 +584,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading11 thq-heading-3">
                             {props.heading11 ?? (
                               <Fragment>
-                                <span className="events-details-text32">
+                                <span className="events-details-text43">
                                   Lively Mehendi &amp; Haldi Ceremonies
                                 </span>
                               </Fragment>
@@ -524,7 +593,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content11 thq-body-small">
                             {props.content11 ?? (
                               <Fragment>
-                                <span className="events-details-text30">
+                                <span className="events-details-text41">
                                   Our beautifully designed spaces provide a
                                   vibrant atmosphere for your Mehendi and Haldi
                                   ceremonies. From colorful decor and floral
@@ -541,7 +610,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading12 thq-heading-3">
                             {props.heading12 ?? (
                               <Fragment>
-                                <span className="events-details-text27">
+                                <span className="events-details-text38">
                                   Energetic Sangeet Nights
                                 </span>
                               </Fragment>
@@ -550,7 +619,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content12 thq-body-small">
                             {props.content12 ?? (
                               <Fragment>
-                                <span className="events-details-text23">
+                                <span className="events-details-text34">
                                   Make your Sangeet a night to remember in our
                                   spacious hall, designed to host lively dance
                                   performances and musical festivities. With a
@@ -569,7 +638,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading131 thq-heading-3">
                             {props.heading13 ?? (
                               <Fragment>
-                                <span className="events-details-text43">
+                                <span className="events-details-text54">
                                   Tailored Decor &amp; Customization
                                 </span>
                               </Fragment>
@@ -578,7 +647,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content131 thq-body-small">
                             {props.content13 ?? (
                               <Fragment>
-                                <span className="events-details-text42">
+                                <span className="events-details-text53">
                                   Every couple has their unique style, and we
                                   work closely with you to bring your ideas to
                                   life. Our experienced in-house decor team
@@ -595,7 +664,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading132 thq-heading-3">
                             {props.heading131 ?? (
                               <Fragment>
-                                <span className="events-details-text48">
+                                <span className="events-details-text59">
                                   Exceptional Catering Services
                                 </span>
                               </Fragment>
@@ -604,7 +673,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content132 thq-body-small">
                             {props.content131 ?? (
                               <Fragment>
-                                <span className="events-details-text25">
+                                <span className="events-details-text36">
                                   Delight your guests with a tailored menu,
                                   featuring a diverse selection of dishes. Our
                                   expert chefs prepare everything from regional
@@ -620,7 +689,7 @@ const EventsDetails = (props) => {
                           <h1 className="events-details-heading133 thq-heading-3">
                             {props.heading1311 ?? (
                               <Fragment>
-                                <span className="events-details-text28">
+                                <span className="events-details-text39">
                                   Seamless Event Planning
                                 </span>
                               </Fragment>
@@ -629,7 +698,7 @@ const EventsDetails = (props) => {
                           <span className="events-details-content133 thq-body-small">
                             {props.content1311 ?? (
                               <Fragment>
-                                <span className="events-details-text45">
+                                <span className="events-details-text56">
                                   With our dedicated event coordinators, you can
                                   rest assured that every detail is handled,
                                   from setup to execution. We take care of all
@@ -878,6 +947,33 @@ const EventsDetails = (props) => {
             font-family: 'Ubuntu';
             font-weight: 300;
             line-height: 1.4;
+          }
+          .events-details-text16 {
+            display: inline-block;
+          }
+          .events-details-text17 {
+            display: inline-block;
+          }
+          .events-details-text18 {
+            display: inline-block;
+          }
+          .events-details-text19 {
+            display: inline-block;
+          }
+          .events-details-text20 {
+            display: inline-block;
+          }
+          .events-details-text21 {
+            display: inline-block;
+          }
+          .events-details-text22 {
+            display: inline-block;
+          }
+          .events-details-text25 {
+            display: inline-block;
+          }
+          .events-details-text26 {
+            display: inline-block;
           }
           .events-details-container5 {
             align-self: stretch;
@@ -1158,39 +1254,6 @@ const EventsDetails = (props) => {
             font-weight: 300;
             line-height: 1.4;
           }
-          .events-details-text16 {
-            display: inline-block;
-          }
-          .events-details-text17 {
-            display: inline-block;
-          }
-          .events-details-text18 {
-            display: inline-block;
-          }
-          .events-details-text19 {
-            display: inline-block;
-          }
-          .events-details-text20 {
-            display: inline-block;
-          }
-          .events-details-text21 {
-            display: inline-block;
-          }
-          .events-details-text22 {
-            display: inline-block;
-          }
-          .events-details-text23 {
-            display: inline-block;
-          }
-          .events-details-text24 {
-            display: inline-block;
-          }
-          .events-details-text25 {
-            display: inline-block;
-          }
-          .events-details-text26 {
-            display: inline-block;
-          }
           .events-details-text27 {
             display: inline-block;
           }
@@ -1270,6 +1333,39 @@ const EventsDetails = (props) => {
             display: inline-block;
           }
           .events-details-text53 {
+            display: inline-block;
+          }
+          .events-details-text54 {
+            display: inline-block;
+          }
+          .events-details-text55 {
+            display: inline-block;
+          }
+          .events-details-text56 {
+            display: inline-block;
+          }
+          .events-details-text57 {
+            display: inline-block;
+          }
+          .events-details-text58 {
+            display: inline-block;
+          }
+          .events-details-text59 {
+            display: inline-block;
+          }
+          .events-details-text60 {
+            display: inline-block;
+          }
+          .events-details-text61 {
+            display: inline-block;
+          }
+          .events-details-text62 {
+            display: inline-block;
+          }
+          .events-details-text63 {
+            display: inline-block;
+          }
+          .events-details-text64 {
             display: inline-block;
           }
           @media (max-width: 767px) {
