@@ -185,21 +185,21 @@ const PhotoSliderGallery = (props) => {
           .photo-slider-gallery-slider-slide1 {
             display: flex;
             background-size: cover;
-            background-image: url('/images/Marigold Images/hallpic-1-1400w.webp');
+            background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
             background-repeat: no-repeat;
             background-position: top;
           }
           .photo-slider-gallery-slider-slide2 {
             display: flex;
             background-size: cover;
-            background-image: url('/images/Marigold Images/hallpic-1-1400w.webp');
+            background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
             background-repeat: no-repeat;
             background-position: center;
           }
           .photo-slider-gallery-slider-slide3 {
             display: flex;
             background-size: cover;
-            background-image: url('/images/Marigold Images/hallpic-1-1400w.webp');
+            background-image: url('https://play.teleporthq.io/static/svg/placeholders/no-image.svg');
             background-position: bottom;
           }
           .photo-slider-gallery-slider-slide4 {

@@ -120,7 +120,6 @@ const HeroBrandWall = (props) => {
             display: flex;
             padding: var(--dl-space-space-threeunits);
             position: relative;
-            transform: scale(0.98);
             align-self: stretch;
             align-items: center;
             border-color: var(--dl-color-primary-logo-color-1);
@@ -318,7 +317,7 @@ const HeroBrandWall = (props) => {
 
           @media (max-width: 1200px) {
             .hero-brand-wall-column {
-              background-size: auto, contain;
+              background-size: cover, contain;
               background-position: bottom right, bottom, top lefttop;
             }
           }
@@ -326,9 +325,10 @@ const HeroBrandWall = (props) => {
             .hero-brand-wall-column {
               gap: var(--dl-space-space-unit);
               width: 100%;
+              max-height: 500px;
               background-size: cover, contain;
               background-repeat: no-repeat, bottom;
-              background-position: bottom right, bottom, top lefttop;
+              background-position: center, bottom, top lefttop;
             }
             .hero-brand-wall-content {
               align-items: center;
@@ -346,7 +346,9 @@ const HeroBrandWall = (props) => {
           @media (max-width: 599px) {
             .hero-brand-wall-column {
               padding: var(--dl-space-space-oneandhalfunits);
+              max-height: 400px;
               background-size: cover, contain;
+              background-position: center, bottom, top lefttop;
             }
             .hero-brand-wall-text10 {
               font-size: 14px;
@@ -376,7 +378,7 @@ const HeroBrandWall = (props) => {
           @media (max-width: 399px) {
             .hero-brand-wall-column {
               padding: var(--dl-space-space-unit);
-              background-position: bottom right, bottom, top lefttop;
+              background-position: bottom, bottom, top lefttop;
             }
           }
         `}

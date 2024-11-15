@@ -40,8 +40,10 @@ const GalleryImages = (props) => {
             <div className="gallery-images-container1">
               <img
                 alt="Wedding Hall Setup"
-                src={props.image1Src1}
                 loading="lazy"
+                sizes="(min-width: 768px) 800px, 480px"
+                src="/images/Marigold Images/banquet%20hall%20-final%20%20day%20view-%20reduced-600w.webp"
+                srcSet="/images/Marigold Images//banquet%20hall%20-final%20%20day%20view-%20reduced-600w.webp 800w, /images/Marigold Images/banquet%20hall%20-final%20%20day%20view-%20reduced-mobile.webp 480w"
                 className="gallery-images-image1 thq-img-ratio-4-3"
               />
               <span className="gallery-images-text13 thq-body-small">
@@ -68,9 +70,9 @@ const GalleryImages = (props) => {
               <img
                 alt="marigold main hall"
                 sizes="(min-width: 768px) 800px, 480px"
-                src="/images/Marigold Images/hallpic-1-600w.webp"
+                src="/images/Marigold Images/stage-decore-600w.webp"
                 loading="lazy"
-                srcSet="/images/Marigold Images//hallpic-1-600w.webp 800w, /images/Marigold Images/hallpic-1-mobile.webp 480w"
+                srcSet="/images/Marigold Images//stage-decore-600w.webp 800w, /images/Marigold Images/stage-decore-mobile.webp 480w"
                 className="gallery-images-image2 thq-img-ratio-4-3"
               />
               <span className="gallery-images-text15 thq-body-small">
@@ -97,8 +99,10 @@ const GalleryImages = (props) => {
             <div className="gallery-images-container5">
               <img
                 alt={props.image3Alt}
-                src="/images/Marigold Images/hallpic-6-300h.webp"
+                sizes="(min-width: 768px) 800px, 480px"
+                src="/images/Marigold Images/stage%20decore-600w.webp"
                 loading="eager"
+                srcSet="/images/Marigold Images//stage%20decore-600w.webp 800w, /images/Marigold Images/stage%20decore-mobile.webp 480w"
                 className="gallery-images-image3 thq-img-ratio-4-3"
               />
               <span className="gallery-images-text17 thq-body-small">
@@ -190,6 +194,7 @@ const GalleryImages = (props) => {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
+            max-width: 400px;
             align-items: center;
             flex-direction: column;
             justify-content: center;
@@ -231,6 +236,7 @@ const GalleryImages = (props) => {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
+            max-width: 400px;
             align-items: center;
             flex-direction: column;
             justify-content: center;
@@ -268,6 +274,7 @@ const GalleryImages = (props) => {
             gap: var(--dl-space-space-unit);
             width: 100%;
             display: flex;
+            max-width: 400px;
             align-items: center;
             flex-direction: column;
             justify-content: center;
@@ -331,7 +338,7 @@ const GalleryImages = (props) => {
           @media (max-width: 991px) {
             .gallery-images-content {
               align-items: center;
-              flex-direction: column;
+              flex-direction: row;
             }
             .gallery-images-image1 {
               flex: 0 0 auto;
@@ -350,11 +357,23 @@ const GalleryImages = (props) => {
             }
           }
           @media (max-width: 599px) {
+            .gallery-images-content {
+              flex-direction: column;
+            }
+            .gallery-images-container1 {
+              max-width: 100%;
+            }
             .gallery-images-image1 {
               height: auto;
             }
+            .gallery-images-container3 {
+              max-width: 100%;
+            }
             .gallery-images-image2 {
               height: auto;
+            }
+            .gallery-images-container5 {
+              max-width: 100%;
             }
             .gallery-images-image3 {
               height: auto;
@@ -368,7 +387,6 @@ const GalleryImages = (props) => {
 
 GalleryImages.defaultProps = {
   content1: undefined,
-  image1Src1: '/images/Marigold Images/marigold-celebration-banner-300h.webp',
   image2Description: undefined,
   image3Description: undefined,
   image2Title: undefined,
@@ -383,7 +401,6 @@ GalleryImages.defaultProps = {
 
 GalleryImages.propTypes = {
   content1: PropTypes.element,
-  image1Src1: PropTypes.string,
   image2Description: PropTypes.element,
   image3Description: PropTypes.element,
   image2Title: PropTypes.element,

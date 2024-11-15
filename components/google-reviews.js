@@ -70,10 +70,8 @@ const GoogleReviews = (props) => {
             <div className="google-reviews-container12">
               <img
                 alt="marigold main hall"
-                sizes="(min-width: 768px) 800px, 480px"
-                src="/images/Marigold Images/hallpic-1-600w.webp"
+                src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                 loading="lazy"
-                srcSet="/images/Marigold Images//hallpic-1-600w.webp 800w, /images/Marigold Images/hallpic-1-mobile.webp 480w"
                 className="google-reviews-image2 thq-img-ratio-4-3"
               />
               <span className="google-reviews-text15 thq-body-small">

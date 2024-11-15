@@ -12,20 +12,19 @@ const Facilities = (props) => {
       <div className="facilities-container">
         <Head>
           <title>
-            Facilities - Marigold Celebration Banquet Hall - Events Venue in
-            Hingna, Nagpur
+            Facilities at Marigold Celebration Hall | Top Event Venue in Nagpur
           </title>
           <meta
             name="description"
-            content="Marigold Celebration Banquet Hall, Hingna, Nagpur: Spacious Venues for Weddings and Events, Hosting up to 2000 Guests with Catering, Decor, and Event Services."
+            content="Discover the premium facilities at Marigold Celebration Banquet Hall, Nagpur. From Spacious Event Halls, Elegant Decor, and Catering to Ample Parking, Lift Access, and Guest Accommodations"
           />
           <meta
             property="og:title"
-            content="Facilities - Marigold Celebration Banquet Hall - Events Venue in Hingna, Nagpur"
+            content="Facilities at Marigold Celebration Hall | Top Event Venue in Nagpur"
           />
           <meta
             property="og:description"
-            content="Marigold Celebration Banquet Hall, Hingna, Nagpur: Spacious Venues for Weddings and Events, Hosting up to 2000 Guests with Catering, Decor, and Event Services."
+            content="Discover the premium facilities at Marigold Celebration Banquet Hall, Nagpur. From Spacious Event Halls, Elegant Decor, and Catering to Ample Parking, Lift Access, and Guest Accommodations"
           />
           <meta
             property="og:image"

@@ -374,7 +374,7 @@
   width: 100%;
   transform: scale(0.98);
   object-fit: cover;
-  aspect-ratio: 4/3;
+  aspect-ratio: auto;
   border-radius: var(--dl-radius-radius-radius10);
 }
 .thq-img-ratio-4-6 {

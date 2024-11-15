@@ -274,7 +274,7 @@ const Hero = (props) => {
               margin-top: 85px;
             }
             .hero-content {
-              padding: var(--dl-space-space-unit);
+              padding: var(--dl-space-space-halfunit);
             }
             .hero-row2 {
               gap: auto;
