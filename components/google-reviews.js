@@ -13,7 +13,7 @@ const GoogleReviews = (props) => {
             <h2 className="google-reviews-text10 h2 thq-heading-2">
               {props.heading1 ?? (
                 <Fragment>
-                  <span className="google-reviews-text35">
+                  <span className="google-reviews-text38">
                     Google Reviews - Best only
                   </span>
                 </Fragment>
@@ -22,7 +22,7 @@ const GoogleReviews = (props) => {
             <span className="google-reviews-text11 thq-body-large">
               {props.content1 ?? (
                 <Fragment>
-                  <span className="google-reviews-text34">
+                  <span className="google-reviews-text37">
                     A Big Thank you - &quot;People Like You, Behide Our
                     Success.&quot;
                   </span>
@@ -58,7 +58,7 @@ const GoogleReviews = (props) => {
                 <span className="google-reviews-text14 thq-body-small">
                   {props.image1Description ?? (
                     <Fragment>
-                      <span className="google-reviews-text30">
+                      <span className="google-reviews-text31">
                         <span>Our Banner Ads</span>
                         <br></br>
                       </span>
@@ -79,7 +79,7 @@ const GoogleReviews = (props) => {
               <span className="google-reviews-text15 thq-body-small">
                 {props.image2Title ?? (
                   <Fragment>
-                    <span className="google-reviews-text39">
+                    <span className="google-reviews-text46">
                       Corporate Event Venue
                     </span>
                   </Fragment>
@@ -89,7 +89,7 @@ const GoogleReviews = (props) => {
                 <span className="google-reviews-text16 thq-body-small">
                   {props.image2Description ?? (
                     <Fragment>
-                      <span className="google-reviews-text38">
+                      <span className="google-reviews-text43">
                         Our Grand Main Hall
                       </span>
                     </Fragment>
@@ -107,7 +107,7 @@ const GoogleReviews = (props) => {
               <span className="google-reviews-text17 thq-body-small">
                 {props.image3Title ?? (
                   <Fragment>
-                    <span className="google-reviews-text36">
+                    <span className="google-reviews-text40">
                       Social Gathering Decor
                     </span>
                   </Fragment>
@@ -117,7 +117,7 @@ const GoogleReviews = (props) => {
                 <span className="google-reviews-text18 thq-body-small">
                   {props.image3Description ?? (
                     <Fragment>
-                      <span className="google-reviews-text29">
+                      <span className="google-reviews-text30">
                         Our Grand Main Hall with Some Stage Decor arena
                       </span>
                     </Fragment>
@@ -142,7 +142,7 @@ const GoogleReviews = (props) => {
                     <span className="google-reviews-text19">
                       {props.text113251 ?? (
                         <Fragment>
-                          <span className="google-reviews-text40">
+                          <span className="google-reviews-text41">
                             Atharva Diwate
                           </span>
                         </Fragment>
@@ -156,7 +156,7 @@ const GoogleReviews = (props) => {
                     >
                       {props.text101 ?? (
                         <Fragment>
-                          <span className="google-reviews-text41">
+                          <span className="google-reviews-text34">
                             marigoldcelebration.in
                           </span>
                         </Fragment>
@@ -231,7 +231,7 @@ const GoogleReviews = (props) => {
                       >
                         {props.text2171 ?? (
                           <Fragment>
-                            <span className="google-reviews-text42">
+                            <span className="google-reviews-text45">
                               Perfect for marriage, reception and big parties.
                               The two storey hall is perfect for any kind of
                               function. The celebration can take place at ground
@@ -257,7 +257,7 @@ const GoogleReviews = (props) => {
                         <span className="google-reviews-text20">
                           {props.text2101 ?? (
                             <Fragment>
-                              <span className="google-reviews-text43">
+                              <span className="google-reviews-text39">
                                 Verify Review
                               </span>
                             </Fragment>
@@ -297,7 +297,7 @@ const GoogleReviews = (props) => {
                     <span className="google-reviews-text21">
                       {props.text11325 ?? (
                         <Fragment>
-                          <span className="google-reviews-text33">
+                          <span className="google-reviews-text35">
                             Atharva Diwate
                           </span>
                         </Fragment>
@@ -412,7 +412,7 @@ const GoogleReviews = (props) => {
                         <span className="google-reviews-text22">
                           {props.text210 ?? (
                             <Fragment>
-                              <span className="google-reviews-text37">
+                              <span className="google-reviews-text42">
                                 Verify Review
                               </span>
                             </Fragment>
@@ -452,7 +452,7 @@ const GoogleReviews = (props) => {
                     <span className="google-reviews-text23">
                       {props.text113252 ?? (
                         <Fragment>
-                          <span className="google-reviews-text44">
+                          <span className="google-reviews-text36">
                             Atharva Diwate
                           </span>
                         </Fragment>
@@ -466,7 +466,7 @@ const GoogleReviews = (props) => {
                     >
                       {props.text102 ?? (
                         <Fragment>
-                          <span className="google-reviews-text45">
+                          <span className="google-reviews-text44">
                             marigoldcelebration.in
                           </span>
                         </Fragment>
@@ -541,7 +541,7 @@ const GoogleReviews = (props) => {
                       >
                         {props.text2172 ?? (
                           <Fragment>
-                            <span className="google-reviews-text46">
+                            <span className="google-reviews-text29">
                               Perfect for marriage, reception and big parties.
                               The two storey hall is perfect for any kind of
                               function. The celebration can take place at ground
@@ -866,17 +866,19 @@ const GoogleReviews = (props) => {
             margin-bottom: 2px;
           }
           .google-reviews-rating-stars1 {
-            gap: 3px;
+            gap: 2px;
             flex: 0 0 auto;
-            width: 34%;
-            height: 34px;
+            width: auto;
+            height: 28px;
             display: flex;
             align-self: flex-start;
             align-items: center;
             border-color: var(--dl-color-gray-black);
             border-width: 1px;
+            padding-left: var(--dl-space-space-halfunit);
             border-radius: var(--dl-radius-radius-buttonradius);
             margin-bottom: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-halfunit);
             backdrop-filter: blur(3px);
             justify-content: center;
             background-color: rgba(0, 0, 0, 0.49);
@@ -1389,7 +1391,7 @@ const GoogleReviews = (props) => {
           .google-reviews-text30 {
             display: inline-block;
           }
-          .google-reviews-text33 {
+          .google-reviews-text31 {
             display: inline-block;
           }
           .google-reviews-text34 {
@@ -1464,7 +1466,7 @@ const GoogleReviews = (props) => {
               width: 50%;
             }
             .google-reviews-rating-stars1 {
-              width: 38%;
+              width: auto;
             }
             .google-reviews-google-reviews2 {
               width: 50%;
@@ -1510,7 +1512,7 @@ const GoogleReviews = (props) => {
               width: 100%;
             }
             .google-reviews-rating-stars1 {
-              width: 42%;
+              width: auto;
               background-color: rgba(0, 0, 0, 0.5);
             }
             .google-reviews-link2 {
@@ -1567,7 +1569,7 @@ const GoogleReviews = (props) => {
               height: auto;
             }
             .google-reviews-rating-stars1 {
-              width: 42%;
+              width: auto;
             }
             .google-reviews-google-reviews2 {
               width: auto;
@@ -1597,33 +1599,33 @@ GoogleReviews.defaultProps = {
   button: undefined,
   text217: undefined,
   image1Title: undefined,
+  text2172: undefined,
   image1Src1: '/images/Marigold Images/marigold-celebration-banner-300h.webp',
   textUrl9: 'https://example.com',
   image3Description: undefined,
   rootClassName: '',
   image1Description: undefined,
+  textUrl92: 'https://example.com',
+  text101: undefined,
   text11325: undefined,
+  text113252: undefined,
+  imageAlt62: 'image',
+  textUrl91: 'https://example.com',
   content1: undefined,
   heading1: undefined,
+  textUrl1172: 'https://maps.app.goo.gl/GiGSr8YoRhvdiw8U8',
+  text2101: undefined,
   image3Title: undefined,
+  text113251: undefined,
   text210: undefined,
   image2Description: undefined,
-  image2Title: undefined,
-  image3Alt: 'Social Gathering Decor',
-  text113251: undefined,
-  text101: undefined,
-  textUrl91: 'https://example.com',
   imageAlt61: 'image',
-  textUrl1171: 'https://maps.app.goo.gl/GiGSr8YoRhvdiw8U8',
-  text2171: undefined,
-  text2101: undefined,
-  text113252: undefined,
   text102: undefined,
-  textUrl92: 'https://example.com',
-  imageAlt62: 'image',
-  textUrl1172: 'https://maps.app.goo.gl/GiGSr8YoRhvdiw8U8',
-  text2172: undefined,
+  text2171: undefined,
+  image2Title: undefined,
+  textUrl1171: 'https://maps.app.goo.gl/GiGSr8YoRhvdiw8U8',
   text2102: undefined,
+  image3Alt: 'Social Gathering Decor',
 }
 
 GoogleReviews.propTypes = {
@@ -1633,33 +1635,33 @@ GoogleReviews.propTypes = {
   button: PropTypes.element,
   text217: PropTypes.element,
   image1Title: PropTypes.element,
+  text2172: PropTypes.element,
   image1Src1: PropTypes.string,
   textUrl9: PropTypes.string,
   image3Description: PropTypes.element,
   rootClassName: PropTypes.string,
   image1Description: PropTypes.element,
+  textUrl92: PropTypes.string,
+  text101: PropTypes.element,
   text11325: PropTypes.element,
+  text113252: PropTypes.element,
+  imageAlt62: PropTypes.string,
+  textUrl91: PropTypes.string,
   content1: PropTypes.element,
   heading1: PropTypes.element,
+  textUrl1172: PropTypes.string,
+  text2101: PropTypes.element,
   image3Title: PropTypes.element,
+  text113251: PropTypes.element,
   text210: PropTypes.element,
   image2Description: PropTypes.element,
-  image2Title: PropTypes.element,
-  image3Alt: PropTypes.string,
-  text113251: PropTypes.element,
-  text101: PropTypes.element,
-  textUrl91: PropTypes.string,
   imageAlt61: PropTypes.string,
-  textUrl1171: PropTypes.string,
-  text2171: PropTypes.element,
-  text2101: PropTypes.element,
-  text113252: PropTypes.element,
   text102: PropTypes.element,
-  textUrl92: PropTypes.string,
-  imageAlt62: PropTypes.string,
-  textUrl1172: PropTypes.string,
-  text2172: PropTypes.element,
+  text2171: PropTypes.element,
+  image2Title: PropTypes.element,
+  textUrl1171: PropTypes.string,
   text2102: PropTypes.element,
+  image3Alt: PropTypes.string,
 }
 
 export default GoogleReviews

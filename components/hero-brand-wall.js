@@ -14,7 +14,7 @@ const HeroBrandWall = (props) => {
           <div className="hero-brand-wall-container1">
             <h1
               id="Banquet Hall &amp; Big Events Services in Hingna, Nagpur"
-              className="hero-brand-wall-text10 Ubuntu-Light-18"
+              className="hero-brand-wall-text10 Ubuntu-Light-16"
             >
               {props.heading1 ?? (
                 <Fragment>
@@ -57,7 +57,7 @@ const HeroBrandWall = (props) => {
               <span className="hero-brand-wall-text13">
                 {props.action2 ?? (
                   <Fragment>
-                    <span className="hero-brand-wall-text18">Services</span>
+                    <span className="hero-brand-wall-text19">Services</span>
                   </Fragment>
                 )}
               </span>
@@ -69,7 +69,7 @@ const HeroBrandWall = (props) => {
                 <a className="hero-brand-wall-link1 thq-button-outline">
                   {props.action21 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-text19">
+                      <span className="hero-brand-wall-text20">
                         Explore Our Facilities
                       </span>
                     </Fragment>
@@ -84,7 +84,7 @@ const HeroBrandWall = (props) => {
                 <span className="hero-brand-wall-text15">
                   {props.text2101 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-text20">
+                      <span className="hero-brand-wall-text18">
                         Explore Facillities
                       </span>
                     </Fragment>
@@ -141,25 +141,31 @@ const HeroBrandWall = (props) => {
             flex-direction: column;
           }
           .hero-brand-wall-container1 {
-            gap: var(--dl-space-space-unit);
+            gap: var(--dl-space-space-halfunit);
             display: flex;
             align-items: center;
-            border-color: rgba(0, 0, 0, 0.5);
-            border-width: 0.5px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
-            background-color: rgba(2, 2, 2, 0.48);
           }
           .hero-brand-wall-text10 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             text-align: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 1px;
+            padding-left: var(--dl-space-space-halfunit);
+            border-radius: var(--dl-radius-radius-buttonradius);
+            padding-right: var(--dl-space-space-halfunit);
+            backdrop-filter: blur(3px);
+            background-color: rgba(0, 0, 0, 0.5);
           }
           .hero-brand-wall-text11 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-style: normal;
             text-align: center;
+            border-radius: var(--dl-radius-radius-radius10);
+            backdrop-filter: blur(3px);
           }
           .hero-brand-wall-actions1 {
             gap: var(--dl-space-space-unit);
@@ -274,8 +280,8 @@ const HeroBrandWall = (props) => {
           .hero-brand-wall-container2:hover {
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
             border-color: rgba(0, 0, 0, 0.77);
-            animation-name: fadeIn;
-            animation-delay: 100ms;
+            animation-name: pulse;
+            animation-delay: 10ms;
             animation-duration: 1500ms;
             animation-direction: normal;
             animation-iteration-count: 1;
@@ -376,17 +382,17 @@ const HeroBrandWall = (props) => {
 HeroBrandWall.defaultProps = {
   action1: undefined,
   heading1: undefined,
+  text2101: undefined,
   action2: undefined,
   action21: undefined,
-  text2101: undefined,
 }
 
 HeroBrandWall.propTypes = {
   action1: PropTypes.element,
   heading1: PropTypes.element,
+  text2101: PropTypes.element,
   action2: PropTypes.element,
   action21: PropTypes.element,
-  text2101: PropTypes.element,
 }
 
 export default HeroBrandWall

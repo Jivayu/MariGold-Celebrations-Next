@@ -17,8 +17,8 @@ const Footer = (props) => {
             <div className="footer-footer-content">
               <BrandLogo rootClassName="brand-logoroot-class-name3"></BrandLogo>
               <img
-                src={props.imageSrc}
                 alt={props.imageAlt}
+                src={props.imageSrc}
                 className="footer-image"
               />
               <p className="footer-content1">
@@ -1022,6 +1022,7 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   privacyLink1: undefined,
+  imageSrc: '/images/marigold-logo1.svg',
   rootClassName: '',
   content3: undefined,
   link4: undefined,
@@ -1035,6 +1036,7 @@ Footer.defaultProps = {
   link8: undefined,
   cookiesLink: undefined,
   link1: undefined,
+  imageAlt: 'image',
   link9: undefined,
   cookiesLink1: undefined,
   column2Title: undefined,
@@ -1042,12 +1044,11 @@ Footer.defaultProps = {
   link3: undefined,
   content2: undefined,
   privacyLink: undefined,
-  imageSrc: '/images/marigold-logo1.svg',
-  imageAlt: 'image',
 }
 
 Footer.propTypes = {
   privacyLink1: PropTypes.element,
+  imageSrc: PropTypes.string,
   rootClassName: PropTypes.string,
   content3: PropTypes.element,
   link4: PropTypes.element,
@@ -1061,6 +1062,7 @@ Footer.propTypes = {
   link8: PropTypes.element,
   cookiesLink: PropTypes.element,
   link1: PropTypes.element,
+  imageAlt: PropTypes.string,
   link9: PropTypes.element,
   cookiesLink1: PropTypes.element,
   column2Title: PropTypes.element,
@@ -1068,8 +1070,6 @@ Footer.propTypes = {
   link3: PropTypes.element,
   content2: PropTypes.element,
   privacyLink: PropTypes.element,
-  imageSrc: PropTypes.string,
-  imageAlt: PropTypes.string,
 }
 
 export default Footer

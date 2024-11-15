@@ -330,6 +330,11 @@ const Contacts = (props) => {
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name1"
+          text2101={
+            <Fragment>
+              <span className="contacts-text63">Enquire Booking</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
       </div>
       <style jsx>
@@ -495,6 +500,9 @@ const Contacts = (props) => {
             display: inline-block;
           }
           .contacts-text62 {
+            display: inline-block;
+          }
+          .contacts-text63 {
             display: inline-block;
           }
           @media (max-width: 599px) {

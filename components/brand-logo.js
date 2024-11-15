@@ -20,8 +20,12 @@ const BrandLogo = (props) => {
         {`
           .brand-logo-container {
             display: flex;
+            padding: 2px;
             position: relative;
+            border-radius: var(--dl-radius-radius-radius10);
+            backdrop-filter: blur(2px);
             text-decoration: none;
+            background-color: rgba(6, 6, 6, 0.2);
           }
           .brand-logo-image {
             flex: 1;
@@ -40,7 +44,7 @@ const BrandLogo = (props) => {
           }
           .brand-logoroot-class-name2 {
             flex: 1;
-            width: 100px;
+            width: 60px;
             align-self: center;
           }
           .brand-logoroot-class-name3 {

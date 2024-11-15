@@ -143,9 +143,14 @@ const Gallery = (props) => {
               </span>
             </Fragment>
           }
+          text2101={
+            <Fragment>
+              <span className="gallery-text28">Google Profile</span>
+            </Fragment>
+          }
           author1Name={
             <Fragment>
-              <span className="gallery-text28">
+              <span className="gallery-text29">
                 MariGold Celebration - Hingna, Nagpur
               </span>
             </Fragment>
@@ -153,12 +158,7 @@ const Gallery = (props) => {
           rootClassName="video-galleryroot-class-name"
           author1Position={
             <Fragment>
-              <span className="gallery-text29">marigoldcelebration.in</span>
-            </Fragment>
-          }
-          text2101={
-            <Fragment>
-              <span className="gallery-text30">Google Profile</span>
+              <span className="gallery-text30">marigoldcelebration.in</span>
             </Fragment>
           }
         ></VideoGallery>
@@ -239,46 +239,51 @@ const Gallery = (props) => {
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name3"
+          text2101={
+            <Fragment>
+              <span className="gallery-text46">Enquire Booking</span>
+            </Fragment>
+          }
         ></NavbarInteractive>
         <Footer
           link1={
             <Fragment>
-              <span className="gallery-text46">Home</span>
+              <span className="gallery-text47">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="gallery-text47">Facilities</span>
+              <span className="gallery-text48">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="gallery-text48">Gallery</span>
+              <span className="gallery-text49">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="gallery-text49">Events</span>
+              <span className="gallery-text50">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="gallery-text50">Contacts</span>
+              <span className="gallery-text51">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="gallery-text51">Corporate Events</span>
+              <span className="gallery-text52">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="gallery-text52">Weddings Plannings</span>
+              <span className="gallery-text53">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="gallery-text53">
+              <span className="gallery-text54">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -286,17 +291,17 @@ const Gallery = (props) => {
           }
           link9={
             <Fragment>
-              <span className="gallery-text56">Special Occasions</span>
+              <span className="gallery-text57">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="gallery-text57">Book Now</span>
+              <span className="gallery-text58">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="gallery-text58">
+              <span className="gallery-text59">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -305,47 +310,47 @@ const Gallery = (props) => {
           }
           content3={
             <Fragment>
-              <span className="gallery-text59">MariGold Celebration</span>
+              <span className="gallery-text60">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="gallery-text60">terms &amp; conditions.</span>
+              <span className="gallery-text61">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="gallery-text61">T &amp; C</span>
+              <span className="gallery-text62">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="gallery-text62">cookie policy.</span>
+              <span className="gallery-text63">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="gallery-text63">privacy policy.</span>
+              <span className="gallery-text64">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="gallery-text64">Contact Us</span>
+              <span className="gallery-text65">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="gallery-text65">Services</span>
+              <span className="gallery-text66">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="gallery-text66">C &amp; P</span>
+              <span className="gallery-text67">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="gallery-text67">P P</span>
+              <span className="gallery-text68">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name3"
@@ -489,7 +494,7 @@ const Gallery = (props) => {
           .gallery-text53 {
             display: inline-block;
           }
-          .gallery-text56 {
+          .gallery-text54 {
             display: inline-block;
           }
           .gallery-text57 {
@@ -523,6 +528,9 @@ const Gallery = (props) => {
             display: inline-block;
           }
           .gallery-text67 {
+            display: inline-block;
+          }
+          .gallery-text68 {
             display: inline-block;
           }
           @media (max-width: 599px) {

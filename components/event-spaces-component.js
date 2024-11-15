@@ -22,7 +22,7 @@ const EventSpacesComponent = (props) => {
               <a className="event-spaces-component-link1 thq-button-outline">
                 {props.action23 ?? (
                   <Fragment>
-                    <span className="event-spaces-component-text3">
+                    <span className="event-spaces-component-text4">
                       Explore Our Gallery Video
                     </span>
                   </Fragment>
@@ -36,7 +36,7 @@ const EventSpacesComponent = (props) => {
                 <span className="event-spaces-component-text2">
                   {props.text2101 ?? (
                     <Fragment>
-                      <span className="event-spaces-component-text4">
+                      <span className="event-spaces-component-text3">
                         Video Gallery
                       </span>
                     </Fragment>
@@ -113,11 +113,11 @@ const EventSpacesComponent = (props) => {
             width: auto;
             display: flex;
             align-self: flex-end;
-            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.44);
             transition: 0.3s;
             align-items: center;
             padding-top: var(--dl-space-space-halfunit);
-            border-color: rgba(0, 0, 0, 0.87);
+            border-color: var(--dl-color-primary-logo-color-1);
             border-width: 0.5px;
             padding-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-cardradius);
@@ -200,21 +200,21 @@ const EventSpacesComponent = (props) => {
 }
 
 EventSpacesComponent.defaultProps = {
+  text2101: undefined,
   image1Src: '/images/Marigold Images/big-hall-1500w.webp',
   action23: undefined,
   rootClassName: '',
   featureImageAlt: 'Luxurious Venue at Marigold Banquet Hall',
   image1Loading: 'lazy',
-  text2101: undefined,
 }
 
 EventSpacesComponent.propTypes = {
+  text2101: PropTypes.element,
   image1Src: PropTypes.string,
   action23: PropTypes.element,
   rootClassName: PropTypes.string,
   featureImageAlt: PropTypes.string,
   image1Loading: PropTypes.string,
-  text2101: PropTypes.element,
 }
 
 export default EventSpacesComponent

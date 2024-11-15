@@ -58,7 +58,7 @@ const VideoGallery = (props) => {
                     <span className="video-gallery-text10 thq-button-outline">
                       {props.action23 ?? (
                         <Fragment>
-                          <span className="video-gallery-text20">
+                          <span className="video-gallery-text21">
                             Google Business Profile
                           </span>
                         </Fragment>
@@ -70,7 +70,7 @@ const VideoGallery = (props) => {
                   <span className="video-gallery-text11">
                     {props.text2101 ?? (
                       <Fragment>
-                        <span className="video-gallery-text21">
+                        <span className="video-gallery-text20">
                           Google Profile
                         </span>
                       </Fragment>
@@ -170,9 +170,9 @@ const VideoGallery = (props) => {
             src={props.videoSrc}
             muted="true"
             poster="/images/Marigold Images/marigold-celebration-banner-1400w.webp"
-            controls="true"
-            autoPlay="true"
             preload="auto"
+            autoPlay="true"
+            controls="true"
             className="video-gallery-video thq-img-ratio-16-9"
           ></video>
         </div>
@@ -486,10 +486,10 @@ VideoGallery.defaultProps = {
   company1LogoAlt: 'Marigold Banquet Hall Logo',
   author1Position: undefined,
   review1: undefined,
+  text2101: undefined,
   action23: undefined,
   videoSrc:
     'https://lh3.googleusercontent.com/p/AF1QipNdsFSNysuVAA8K0LKl1H0i7CqKeEsD5BMd6IAm=mm,37,22,18',
-  text2101: undefined,
 }
 
 VideoGallery.propTypes = {
@@ -499,9 +499,9 @@ VideoGallery.propTypes = {
   company1LogoAlt: PropTypes.string,
   author1Position: PropTypes.element,
   review1: PropTypes.element,
+  text2101: PropTypes.element,
   action23: PropTypes.element,
   videoSrc: PropTypes.string,
-  text2101: PropTypes.element,
 }
 
 export default VideoGallery
