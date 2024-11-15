@@ -423,11 +423,16 @@ const AboutMariGold1 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
             justify-content: center;
+            background-color: var(--dl-color-gray-black);
           }
           .about-mari-gold-1-max-width {
             gap: var(--dl-space-space-unit);
             align-self: center;
             align-items: flex-start;
+            background-size: auto;
+            background-image: url('/images/Marigold Images/2023-05-15%20(2)1-1400w.webp');
+            background-repeat: no-repeat;
+            background-position: center;
           }
           .about-mari-gold-1-section-title {
             gap: var(--dl-space-space-twounits);
@@ -444,7 +449,6 @@ const AboutMariGold1 = (props) => {
             border-color: rgba(117, 82, 18, 0.75);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
-            backdrop-filter: blur(3px);
           }
           .about-mari-gold-1-container10 {
             gap: var(--dl-space-space-halfunit);
@@ -454,13 +458,13 @@ const AboutMariGold1 = (props) => {
             justify-content: center;
           }
           .about-mari-gold-1-text10 {
-            fill: var(--dl-color-primary-logo-color-2);
-            color: var(--dl-color-primary-logo-color-2);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             align-self: flex-start;
           }
           .about-mari-gold-1-text11 {
-            fill: var(--dl-color-primary-logo-color-2);
-            color: var(--dl-color-primary-logo-color-2);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             align-self: flex-start;
             animation-name: pulse;
             animation-delay: 0s;
@@ -473,8 +477,8 @@ const AboutMariGold1 = (props) => {
             background-color: var(--dl-color-primary-logo-color-3);
           }
           .about-mari-gold-1-text12 {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             letter-spacing: 0.8;
           }
           .about-mari-gold-1-button {
@@ -512,7 +516,7 @@ const AboutMariGold1 = (props) => {
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
-            backdrop-filter: blur(3px);
+            background-color: rgba(0, 0, 0, 0.42);
           }
           .about-mari-gold-1-faq1:hover {
             transform: scale(1);
@@ -530,8 +534,8 @@ const AboutMariGold1 = (props) => {
             justify-content: space-between;
           }
           .about-mari-gold-1-faq1-question {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
           }
           .about-mari-gold-1-icons-container1 {
             display: flex;
@@ -584,7 +588,7 @@ const AboutMariGold1 = (props) => {
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
-            backdrop-filter: blur(3px);
+            background-color: rgba(0, 0, 0, 0.42);
           }
           .about-mari-gold-1-faq2:hover {
             transform: scale(1);
@@ -599,8 +603,8 @@ const AboutMariGold1 = (props) => {
             justify-content: space-between;
           }
           .about-mari-gold-1-faq2-question1 {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
           }
           .about-mari-gold-1-icons-container2 {
             display: flex;
@@ -653,7 +657,7 @@ const AboutMariGold1 = (props) => {
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
-            backdrop-filter: blur(3px);
+            background-color: rgba(0, 0, 0, 0.42);
           }
           .about-mari-gold-1-faq3:hover {
             transform: scale(1);
@@ -668,8 +672,8 @@ const AboutMariGold1 = (props) => {
             justify-content: space-between;
           }
           .about-mari-gold-1-faq2-question2 {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-style: normal;
           }
           .about-mari-gold-1-icons-container3 {
@@ -723,7 +727,7 @@ const AboutMariGold1 = (props) => {
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
-            backdrop-filter: blur(3px);
+            background-color: rgba(0, 0, 0, 0.42);
           }
           .about-mari-gold-1-faq4:hover {
             transform: scale(1);
@@ -738,8 +742,8 @@ const AboutMariGold1 = (props) => {
             justify-content: space-between;
           }
           .about-mari-gold-1-faq2-question3 {
-            fill: var(--dl-color-primary-logo-color-1);
-            color: var(--dl-color-primary-logo-color-1);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-style: normal;
           }
           .about-mari-gold-1-icons-container4 {

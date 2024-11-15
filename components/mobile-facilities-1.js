@@ -1402,6 +1402,7 @@ const MobileFacilities1 = (props) => {
               padding-right: var(--dl-space-space-halfunit);
               padding-bottom: 0px;
               justify-content: center;
+              background-color: rgba(0, 0, 0, 0.1);
             }
             .mobile-facilities-1-list {
               padding-top: var(--dl-space-space-unit);
@@ -1506,7 +1507,7 @@ const MobileFacilities1 = (props) => {
               line-height: 1.6;
             }
             .mobile-facilities-1root-class-name {
-              background-color: rgba(255, 255, 255, 0.09);
+              background-color: transparent;
             }
           }
           @media (max-width: 479px) {

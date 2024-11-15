@@ -58,7 +58,7 @@ const VideoGallery = (props) => {
                     <span className="video-gallery-text10 thq-button-outline">
                       {props.action23 ?? (
                         <Fragment>
-                          <span className="video-gallery-text19">
+                          <span className="video-gallery-text20">
                             Google Business Profile
                           </span>
                         </Fragment>
@@ -66,13 +66,39 @@ const VideoGallery = (props) => {
                     </span>
                   </button>
                 </div>
+                <div className="video-gallery-container3">
+                  <span className="video-gallery-text11">
+                    {props.text2101 ?? (
+                      <Fragment>
+                        <span className="video-gallery-text21">
+                          Google Profile
+                        </span>
+                      </Fragment>
+                    )}
+                  </span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 48 48"
+                    className="video-gallery-icon20"
+                  >
+                    <path
+                      d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
               </div>
             </div>
-            <div className="video-gallery-container3">
-              <p className="video-gallery-text11 thq-body-large">
+            <div className="video-gallery-container4">
+              <p className="video-gallery-text12 thq-body-large">
                 {props.review1 ?? (
                   <Fragment>
-                    <span className="video-gallery-text18">
+                    <span className="video-gallery-text19">
                       Our wedding at Marigold Banquet Hall was a dream come
                       true! The venue was stunning, the food was delicious, and
                       the staff went above and beyond to make our day special.
@@ -80,10 +106,10 @@ const VideoGallery = (props) => {
                   </Fragment>
                 )}
               </p>
-              <p className="video-gallery-text12 thq-body-large">
+              <p className="video-gallery-text13 thq-body-large">
                 {props.review11 ?? (
                   <Fragment>
-                    <span className="video-gallery-text16">
+                    <span className="video-gallery-text17">
                       We warmly invite you to visit and explore Marigold Banquet
                       Hall. It would be our pleasure to assist you with your
                       event planning needs and show you everything we have to
@@ -104,11 +130,11 @@ const VideoGallery = (props) => {
                 >
                   <span
                     data-thq-animate-on-reveal="true"
-                    className="video-gallery-text13 thq-body-small"
+                    className="video-gallery-text14 thq-body-small"
                   >
                     {props.author1Name ?? (
                       <Fragment>
-                        <span className="video-gallery-text15">
+                        <span className="video-gallery-text16">
                           MariGold Celebration - Hingna, Nagpur
                         </span>
                       </Fragment>
@@ -125,11 +151,11 @@ const VideoGallery = (props) => {
                 >
                   <span
                     data-thq-animate-on-reveal="true"
-                    className="video-gallery-text14 thq-body-small"
+                    className="video-gallery-text15 thq-body-small"
                   >
                     {props.author1Position ?? (
                       <Fragment>
-                        <span className="video-gallery-text17">
+                        <span className="video-gallery-text18">
                           marigoldcelebration.in
                         </span>
                       </Fragment>
@@ -145,6 +171,8 @@ const VideoGallery = (props) => {
             muted="true"
             poster="/images/Marigold Images/marigold-celebration-banner-1400w.webp"
             controls="true"
+            autoPlay="true"
+            preload="auto"
             className="video-gallery-video thq-img-ratio-16-9"
           ></video>
         </div>
@@ -174,7 +202,7 @@ const VideoGallery = (props) => {
             flex-direction: column;
           }
           .video-gallery-stars {
-            gap: var(--dl-space-space-oneandhalfunits);
+            gap: var(--dl-space-space-halfunit);
             fill: var(--dl-color-theme-primary1);
             display: flex;
             align-self: center;
@@ -213,6 +241,7 @@ const VideoGallery = (props) => {
             fill: var(--dl-color-primary-logo-color-1);
           }
           .video-gallery-actions {
+            display: none;
             position: relative;
             align-self: center;
             align-items: center;
@@ -254,12 +283,56 @@ const VideoGallery = (props) => {
             background-color: rgba(61, 19, 234, 0.3);
           }
           .video-gallery-container3 {
+            gap: var(--dl-space-space-halfunit);
+            width: auto;
+            display: flex;
+            align-self: flex-end;
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
+            margin-top: var(--dl-space-space-unit);
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            border-color: rgba(0, 0, 0, 0.87);
+            border-width: 0.5px;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-cardradius);
+            padding-right: var(--dl-space-space-unit);
+            flex-direction: row;
+            padding-bottom: var(--dl-space-space-halfunit);
+            backdrop-filter: blur(3px);
+            justify-content: center;
+            background-color: rgba(2, 2, 2, 0.48);
+          }
+          .video-gallery-container3:hover {
+            box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
+            border-color: rgba(0, 0, 0, 0.77);
+            animation-name: fadeIn;
+            animation-delay: 100ms;
+            animation-duration: 1500ms;
+            animation-direction: normal;
+            animation-iteration-count: 1;
+            animation-timing-function: ease;
+          }
+          .video-gallery-text11 {
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
+            font-size: 12px;
+            font-style: normal;
+            font-family: 'Poppins';
+            font-weight: 200;
+            line-height: 1.9;
+          }
+          .video-gallery-icon20 {
+            fill: #00ff38;
+            color: #00ff38;
+          }
+          .video-gallery-container4 {
             gap: var(--dl-space-space-unit);
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .video-gallery-text11 {
+          .video-gallery-text12 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 12px;
@@ -267,7 +340,7 @@ const VideoGallery = (props) => {
             font-family: 'Ubuntu';
             font-weight: 300;
           }
-          .video-gallery-text12 {
+          .video-gallery-text13 {
             fill: var(--dl-color-primary-logo-color-1);
             color: var(--dl-color-primary-logo-color-1);
             font-size: 14px;
@@ -287,7 +360,7 @@ const VideoGallery = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .video-gallery-text13 {
+          .video-gallery-text14 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 14px;
@@ -295,7 +368,7 @@ const VideoGallery = (props) => {
             font-family: 'Ubuntu';
             font-weight: 500;
           }
-          .video-gallery-text14 {
+          .video-gallery-text15 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 12px;
@@ -312,9 +385,6 @@ const VideoGallery = (props) => {
             border-width: 0.5px;
             border-radius: var(--dl-radius-radius-radius10);
           }
-          .video-gallery-text15 {
-            display: inline-block;
-          }
           .video-gallery-text16 {
             display: inline-block;
           }
@@ -325,6 +395,12 @@ const VideoGallery = (props) => {
             display: inline-block;
           }
           .video-gallery-text19 {
+            display: inline-block;
+          }
+          .video-gallery-text20 {
+            display: inline-block;
+          }
+          .video-gallery-text21 {
             display: inline-block;
           }
           .video-galleryroot-class-name {
@@ -361,6 +437,10 @@ const VideoGallery = (props) => {
             .video-gallery-actions {
               align-self: center;
             }
+            .video-gallery-icon20 {
+              fill: #00ff38;
+              color: #00ff38;
+            }
             .video-gallery-video {
               width: 100%;
               height: auto;
@@ -373,10 +453,10 @@ const VideoGallery = (props) => {
               flex-wrap: wrap;
               margin-top: var(--dl-space-space-unit);
             }
-            .video-gallery-text11 {
+            .video-gallery-text12 {
               text-align: center;
             }
-            .video-gallery-text12 {
+            .video-gallery-text13 {
               text-align: center;
             }
             .video-gallery-avatar {
@@ -409,6 +489,7 @@ VideoGallery.defaultProps = {
   action23: undefined,
   videoSrc:
     'https://lh3.googleusercontent.com/p/AF1QipNdsFSNysuVAA8K0LKl1H0i7CqKeEsD5BMd6IAm=mm,37,22,18',
+  text2101: undefined,
 }
 
 VideoGallery.propTypes = {
@@ -420,6 +501,7 @@ VideoGallery.propTypes = {
   review1: PropTypes.element,
   action23: PropTypes.element,
   videoSrc: PropTypes.string,
+  text2101: PropTypes.element,
 }
 
 export default VideoGallery

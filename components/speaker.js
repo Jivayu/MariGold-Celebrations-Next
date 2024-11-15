@@ -106,7 +106,7 @@ const Speaker = (props) => {
 }
 
 Speaker.defaultProps = {
-  image: '/images/speakers-1-1500w.webp',
+  image: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
   name: 'Samantha Johnson',
   detail: 'CEO, Opary',
   rootClassName: '',

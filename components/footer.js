@@ -14,8 +14,13 @@ const Footer = (props) => {
       >
         <div className="footer-max-width thq-section-max-width">
           <div className="footer-content">
-            <div className="footer-newsletter">
+            <div className="footer-footer-content">
               <BrandLogo rootClassName="brand-logoroot-class-name3"></BrandLogo>
+              <img
+                src={props.imageSrc}
+                alt={props.imageAlt}
+                className="footer-image"
+              />
               <p className="footer-content1">
                 &quot;Celebrate Life’s Special Moments at Marigold Banquet Hall.
                 Perfect Weddings, Grand Events, and unforgettable Memories await
@@ -59,7 +64,7 @@ const Footer = (props) => {
                     )}
                   </a>
                   <Link href="/facilities-at-marigold-celebration">
-                    <a className="footer-link">
+                    <a className="footer-link14">
                       {props.link2 ?? (
                         <Fragment>
                           <span className="footer-text15">Facilities</span>
@@ -67,42 +72,33 @@ const Footer = (props) => {
                       )}
                     </a>
                   </Link>
-                  <a
-                    href="https://marigoldcelebration.in"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="footer-link3"
-                  >
-                    {props.link3 ?? (
-                      <Fragment>
-                        <span className="footer-text29">Gallery</span>
-                      </Fragment>
-                    )}
-                  </a>
-                  <a
-                    href="https://marigoldcelebration.in"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="footer-link4"
-                  >
-                    {props.link4 ?? (
-                      <Fragment>
-                        <span className="footer-text12">Events</span>
-                      </Fragment>
-                    )}
-                  </a>
-                  <a
-                    href="https://marigoldcelebration.in"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="footer-link5"
-                  >
-                    {props.link5 ?? (
-                      <Fragment>
-                        <span className="footer-text19">Contacts</span>
-                      </Fragment>
-                    )}
-                  </a>
+                  <Link href="/gallery">
+                    <a className="footer-link15">
+                      {props.link3 ?? (
+                        <Fragment>
+                          <span className="footer-text29">Gallery</span>
+                        </Fragment>
+                      )}
+                    </a>
+                  </Link>
+                  <Link href="/events">
+                    <a className="footer-link16">
+                      {props.link4 ?? (
+                        <Fragment>
+                          <span className="footer-text12">Events</span>
+                        </Fragment>
+                      )}
+                    </a>
+                  </Link>
+                  <Link href="/contacts">
+                    <a className="footer-link17">
+                      {props.link5 ?? (
+                        <Fragment>
+                          <span className="footer-text19">Contacts</span>
+                        </Fragment>
+                      )}
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="footer-column2">
@@ -306,7 +302,7 @@ const Footer = (props) => {
             flex-shrink: 0;
             flex-direction: column;
             justify-content: center;
-            background-color: rgba(78, 55, 14, 0.85);
+            background-color: rgba(0, 0, 0, 0.83);
           }
           .footer-max-width {
             width: 100%;
@@ -327,13 +323,18 @@ const Footer = (props) => {
             flex-shrink: 0;
             border-radius: var(--dl-radius-radius-radius4);
           }
-          .footer-newsletter {
+          .footer-footer-content {
             gap: var(--dl-space-space-unit);
             width: 40%;
             display: flex;
             align-self: center;
             flex-shrink: 0;
             flex-direction: column;
+          }
+          .footer-image {
+            width: 50px;
+            display: none;
+            object-fit: cover;
           }
           .footer-content1 {
             fill: var(--dl-color-primary-logo-color-3);
@@ -404,7 +405,7 @@ const Footer = (props) => {
             text-transform: capitalize;
             text-decoration: none;
           }
-          .footer-link {
+          .footer-link14 {
             fill: var(--dl-color-primary-logo-color-2);
             color: var(--dl-color-primary-logo-color-2);
             font-size: 12px;
@@ -415,7 +416,7 @@ const Footer = (props) => {
             text-transform: capitalize;
             text-decoration: none;
           }
-          .footer-link3 {
+          .footer-link15 {
             fill: var(--dl-color-primary-logo-color-2);
             color: var(--dl-color-primary-logo-color-2);
             font-size: 12px;
@@ -426,7 +427,7 @@ const Footer = (props) => {
             text-transform: capitalize;
             text-decoration: none;
           }
-          .footer-link4 {
+          .footer-link16 {
             fill: var(--dl-color-primary-logo-color-2);
             color: var(--dl-color-primary-logo-color-2);
             font-size: 12px;
@@ -437,7 +438,7 @@ const Footer = (props) => {
             text-transform: capitalize;
             text-decoration: none;
           }
-          .footer-link5 {
+          .footer-link17 {
             fill: var(--dl-color-primary-logo-color-2);
             color: var(--dl-color-primary-logo-color-2);
             font-size: 12px;
@@ -752,7 +753,7 @@ const Footer = (props) => {
           }
 
           @media (max-width: 991px) {
-            .footer-newsletter {
+            .footer-footer-content {
               width: 300px;
             }
             .footer-content1 {
@@ -775,7 +776,7 @@ const Footer = (props) => {
             .footer-content {
               flex-direction: column;
             }
-            .footer-newsletter {
+            .footer-footer-content {
               width: 100%;
             }
             .footer-links {
@@ -808,10 +809,14 @@ const Footer = (props) => {
             .footer-content {
               align-items: center;
             }
-            .footer-newsletter {
+            .footer-footer-content {
               width: 100%;
               align-items: center;
               flex-direction: column;
+            }
+            .footer-image {
+              width: 50px;
+              display: flex;
             }
             .footer-actions {
               align-items: center;
@@ -1037,6 +1042,8 @@ Footer.defaultProps = {
   link3: undefined,
   content2: undefined,
   privacyLink: undefined,
+  imageSrc: '/images/marigold-logo1.svg',
+  imageAlt: 'image',
 }
 
 Footer.propTypes = {
@@ -1061,6 +1068,8 @@ Footer.propTypes = {
   link3: PropTypes.element,
   content2: PropTypes.element,
   privacyLink: PropTypes.element,
+  imageSrc: PropTypes.string,
+  imageAlt: PropTypes.string,
 }
 
 export default Footer

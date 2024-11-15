@@ -156,81 +156,86 @@ const Gallery = (props) => {
               <span className="gallery-text29">marigoldcelebration.in</span>
             </Fragment>
           }
+          text2101={
+            <Fragment>
+              <span className="gallery-text30">Google Profile</span>
+            </Fragment>
+          }
         ></VideoGallery>
         <NavbarInteractive
           login={
             <Fragment>
-              <span className="gallery-text30">Login</span>
+              <span className="gallery-text31">Login</span>
             </Fragment>
           }
           menu1={
             <Fragment>
-              <span className="gallery-text31">Home</span>
+              <span className="gallery-text32">Home</span>
             </Fragment>
           }
           menu2={
             <Fragment>
-              <span className="gallery-text32">Facilities</span>
+              <span className="gallery-text33">Facilities</span>
             </Fragment>
           }
           menu3={
             <Fragment>
-              <span className="gallery-text33">Gallery</span>
+              <span className="gallery-text34">Gallery</span>
             </Fragment>
           }
           menu4={
             <Fragment>
-              <span className="gallery-text34">Events</span>
+              <span className="gallery-text35">Events</span>
             </Fragment>
           }
           menu5={
             <Fragment>
-              <span className="gallery-text35">Contacts</span>
+              <span className="gallery-text36">Contacts</span>
             </Fragment>
           }
           menu6={
             <Fragment>
-              <span className="gallery-text36">Facilities</span>
+              <span className="gallery-text37">Facilities</span>
             </Fragment>
           }
           mmenu1={
             <Fragment>
-              <span className="gallery-text37">Home</span>
+              <span className="gallery-text38">Home</span>
             </Fragment>
           }
           mmenu2={
             <Fragment>
-              <span className="gallery-text38">Facilities</span>
+              <span className="gallery-text39">Facilities</span>
             </Fragment>
           }
           mmenu3={
             <Fragment>
-              <span className="gallery-text39">Gallery</span>
+              <span className="gallery-text40">Gallery</span>
             </Fragment>
           }
           mmenu4={
             <Fragment>
-              <span className="gallery-text40">Events</span>
+              <span className="gallery-text41">Events</span>
             </Fragment>
           }
           mmenu5={
             <Fragment>
-              <span className="gallery-text41">Contacts</span>
+              <span className="gallery-text42">Contacts</span>
             </Fragment>
           }
           register={
             <Fragment>
-              <span className="gallery-text42">Enquiry</span>
+              <span className="gallery-text43">Enquiry</span>
             </Fragment>
           }
           register1={
             <Fragment>
-              <span className="gallery-text43">Call Enquiry</span>
+              <span className="gallery-text44">Call Enquiry</span>
             </Fragment>
           }
           register12={
             <Fragment>
-              <span className="gallery-text44">WhatsApp Enquiry</span>
+              <span className="gallery-text45">WhatsApp Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name3"
@@ -238,42 +243,42 @@ const Gallery = (props) => {
         <Footer
           link1={
             <Fragment>
-              <span className="gallery-text45">Home</span>
+              <span className="gallery-text46">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="gallery-text46">Facilities</span>
+              <span className="gallery-text47">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="gallery-text47">Gallery</span>
+              <span className="gallery-text48">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="gallery-text48">Events</span>
+              <span className="gallery-text49">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="gallery-text49">Contacts</span>
+              <span className="gallery-text50">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="gallery-text50">Corporate Events</span>
+              <span className="gallery-text51">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="gallery-text51">Weddings Plannings</span>
+              <span className="gallery-text52">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="gallery-text52">
+              <span className="gallery-text53">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -281,17 +286,17 @@ const Gallery = (props) => {
           }
           link9={
             <Fragment>
-              <span className="gallery-text55">Special Occasions</span>
+              <span className="gallery-text56">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="gallery-text56">Book Now</span>
+              <span className="gallery-text57">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="gallery-text57">
+              <span className="gallery-text58">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -300,47 +305,47 @@ const Gallery = (props) => {
           }
           content3={
             <Fragment>
-              <span className="gallery-text58">MariGold Celebration</span>
+              <span className="gallery-text59">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="gallery-text59">terms &amp; conditions.</span>
+              <span className="gallery-text60">terms &amp; conditions.</span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="gallery-text60">T &amp; C</span>
+              <span className="gallery-text61">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="gallery-text61">cookie policy.</span>
+              <span className="gallery-text62">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="gallery-text62">privacy policy.</span>
+              <span className="gallery-text63">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="gallery-text63">Contact Us</span>
+              <span className="gallery-text64">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="gallery-text64">Services</span>
+              <span className="gallery-text65">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="gallery-text65">C &amp; P</span>
+              <span className="gallery-text66">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="gallery-text66">P P</span>
+              <span className="gallery-text67">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name3"
@@ -481,7 +486,7 @@ const Gallery = (props) => {
           .gallery-text52 {
             display: inline-block;
           }
-          .gallery-text55 {
+          .gallery-text53 {
             display: inline-block;
           }
           .gallery-text56 {
@@ -517,11 +522,14 @@ const Gallery = (props) => {
           .gallery-text66 {
             display: inline-block;
           }
+          .gallery-text67 {
+            display: inline-block;
+          }
           @media (max-width: 599px) {
-            .gallery-text43 {
+            .gallery-text44 {
               line-height: 1.4;
             }
-            .gallery-text44 {
+            .gallery-text45 {
               line-height: 1.4;
             }
           }

@@ -417,7 +417,7 @@ Why.defaultProps = {
   description: undefined,
   title: undefined,
   title1: undefined,
-  imageSrc: '/images/why-1.svg',
+  imageSrc: 'https://play.teleporthq.io/static/svg/placeholders/no-image.svg',
   title2: undefined,
   imageAlt2: 'image',
   caption: undefined,

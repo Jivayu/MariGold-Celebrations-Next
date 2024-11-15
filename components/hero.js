@@ -39,6 +39,11 @@ const Hero = (props) => {
                 </span>
               </Fragment>
             }
+            text2101={
+              <Fragment>
+                <span className="hero-text5">Explore Facillities</span>
+              </Fragment>
+            }
           ></HeroBrandWall>
           <div className="hero-content">
             <div className="hero-row1">
@@ -104,6 +109,9 @@ const Hero = (props) => {
             display: inline-block;
           }
           .hero-text4 {
+            display: inline-block;
+          }
+          .hero-text5 {
             display: inline-block;
           }
           .hero-content {

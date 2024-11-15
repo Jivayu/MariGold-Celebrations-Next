@@ -399,7 +399,15 @@ const FacilitiesHome1 = (props) => {
             flex-shrink: 0;
             flex-direction: column;
             backdrop-filter: blur(4px);
-            background-color: rgba(25, 24, 24, 0.4);
+            background-size: cover;
+            background-image: linear-gradient(
+              0deg,
+              rgba(4, 12, 79, 0.74) 5%,
+              rgba(9, 10, 11, 0.28) 95%,
+              rgba(42, 58, 74, 0.37) 100%
+            );
+            background-repeat: no-repeat;
+            background-position: center;
           }
           .facilities-home-1-max-width {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -416,15 +424,21 @@ const FacilitiesHome1 = (props) => {
             color: var(--dl-color-theme-accent1);
           }
           .facilities-home-1-text11 {
-            fill: var(--dl-color-theme-secondary1);
-            color: var(--dl-color-theme-secondary1);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 18px;
+            align-self: flex-start;
             font-style: normal;
+            text-align: center;
             font-family: 'Ubuntu';
             font-weight: 300;
-            line-height: 1.4;
+            line-height: 1.6;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-buttonradius);
+            padding-right: var(--dl-space-space-unit);
             text-transform: none;
             text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.55);
           }
           .facilities-home-1-content1 {
             gap: var(--dl-space-space-unit);
@@ -440,10 +454,6 @@ const FacilitiesHome1 = (props) => {
             display: flex;
             border-radius: var(--dl-radius-radius-buttonradius);
             flex-direction: column;
-            background-size: cover;
-            background-image: url('/images/Marigold Images/big-hall-200h.webp');
-            background-repeat: no-repeat;
-            background-position: center;
           }
           .facilities-home-1-feature11 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -516,10 +526,6 @@ const FacilitiesHome1 = (props) => {
             display: flex;
             border-radius: var(--dl-radius-radius-buttonradius);
             flex-direction: column;
-            background-size: cover;
-            background-image: url('/images/Marigold Images/buffet-2-200h.webp');
-            background-repeat: no-repeat;
-            background-position: center;
           }
           .facilities-home-1-feature12 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -591,10 +597,6 @@ const FacilitiesHome1 = (props) => {
             display: flex;
             border-radius: var(--dl-radius-radius-buttonradius);
             flex-direction: column;
-            background-size: cover;
-            background-image: url('/images/Marigold Images/photo-video-services-200h.webp');
-            background-repeat: no-repeat;
-            background-position: center;
           }
           .facilities-home-1-feature13 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -666,10 +668,6 @@ const FacilitiesHome1 = (props) => {
             display: flex;
             border-radius: var(--dl-radius-radius-buttonradius);
             flex-direction: column;
-            background-size: cover;
-            background-image: url('/images/Marigold Images/decor-2-200h.webp');
-            background-repeat: no-repeat;
-            background-position: center;
           }
           .facilities-home-1-feature14 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -741,10 +739,6 @@ const FacilitiesHome1 = (props) => {
             display: flex;
             border-radius: var(--dl-radius-radius-buttonradius);
             flex-direction: column;
-            background-size: cover;
-            background-image: url('/images/Marigold Images/parking-200h.webp');
-            background-repeat: no-repeat;
-            background-position: center;
           }
           .facilities-home-1-feature15 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -810,8 +804,8 @@ const FacilitiesHome1 = (props) => {
             padding-left: var(--dl-space-space-halfunit);
           }
           .facilities-home-1-text12 {
-            fill: var(--dl-color-primary-logo-color-2);
-            color: var(--dl-color-primary-logo-color-2);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             animation-name: none;
             animation-delay: 0s;
             animation-duration: 300ms;
@@ -834,8 +828,8 @@ const FacilitiesHome1 = (props) => {
             border-width: 0px;
           }
           .facilities-home-1-link {
-            fill: var(--dl-color-primary-logo-color-2);
-            color: var(--dl-color-primary-logo-color-2);
+            fill: var(--dl-color-theme-accent1);
+            color: var(--dl-color-theme-accent1);
             font-size: 14px;
             transform: scale(0.97);
             font-style: normal;
@@ -849,7 +843,7 @@ const FacilitiesHome1 = (props) => {
             border-width: 0.5px;
             text-transform: capitalize;
             text-decoration: none;
-            background-color: rgba(245, 184, 60, 0.1);
+            background-color: rgba(0, 0, 0, 0.55);
           }
           .facilities-home-1-link:hover {
             transform: scale(1);
