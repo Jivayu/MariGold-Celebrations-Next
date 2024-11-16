@@ -291,6 +291,9 @@ const Hero = (props) => {
             .hero-content {
               width: 100%;
             }
+            .hero-row2 {
+              flex: 0 0 auto;
+            }
           }
           @media (max-width: 767px) {
             .hero-content {
@@ -341,6 +344,7 @@ const Hero = (props) => {
             }
             .hero-row2 {
               gap: 5px;
+              flex: 0 0 auto;
               display: flex;
             }
             .hero-row3 {

@@ -277,7 +277,6 @@ const HeroBrandWall2 = (props) => {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 40%;
             display: flex;
-            padding: 0px;
             position: relative;
             align-self: stretch;
             align-items: center;
@@ -304,6 +303,7 @@ const HeroBrandWall2 = (props) => {
           .hero-brand-wall-2-black-half-cover1 {
             width: 100%;
             display: flex;
+            padding: var(--dl-space-space-unit);
             align-self: center;
             align-items: center;
             border-radius: var(--dl-radius-radius-radius10);
@@ -765,7 +765,7 @@ const HeroBrandWall2 = (props) => {
           }
           @media (max-width: 599px) {
             .hero-brand-wall-2-column {
-              padding: 0px;
+              padding: var(--dl-space-space-halfunit);
             }
             .hero-brand-wall-2-content1 {
               left: 31px;
@@ -824,7 +824,7 @@ const HeroBrandWall2 = (props) => {
           }
           @media (max-width: 399px) {
             .hero-brand-wall-2-column {
-              padding: 0px;
+              padding: var(--dl-space-space-halfunit);
               background-position: bottom, bottom, top lefttop;
             }
             .hero-brand-wall-2-content1 {
