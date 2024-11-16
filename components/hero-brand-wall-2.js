@@ -35,7 +35,7 @@ const HeroBrandWall2 = (props) => {
                     >
                       {props.heading1 ?? (
                         <Fragment>
-                          <span className="hero-brand-wall-2-text26">
+                          <span className="hero-brand-wall-2-text31">
                             Banquet Hall &amp; Big Events Services in Hingna,
                             Nagpur
                           </span>
@@ -67,7 +67,7 @@ const HeroBrandWall2 = (props) => {
                       <span className="thq-body-small">
                         {props.action1 ?? (
                           <Fragment>
-                            <span className="hero-brand-wall-2-text24">
+                            <span className="hero-brand-wall-2-text25">
                               Shop Now
                             </span>
                           </Fragment>
@@ -78,7 +78,7 @@ const HeroBrandWall2 = (props) => {
                       <span className="hero-brand-wall-2-text13">
                         {props.action2 ?? (
                           <Fragment>
-                            <span className="hero-brand-wall-2-text22">
+                            <span className="hero-brand-wall-2-text23">
                               Services
                             </span>
                           </Fragment>
@@ -92,7 +92,7 @@ const HeroBrandWall2 = (props) => {
                         <a className="hero-brand-wall-2-link1 thq-button-outline">
                           {props.action21 ?? (
                             <Fragment>
-                              <span className="hero-brand-wall-2-text25">
+                              <span className="hero-brand-wall-2-text27">
                                 Explore Our Facilities
                               </span>
                             </Fragment>
@@ -107,7 +107,7 @@ const HeroBrandWall2 = (props) => {
                         <span className="hero-brand-wall-2-text15">
                           {props.text21011 ?? (
                             <Fragment>
-                              <span className="hero-brand-wall-2-text23">
+                              <span className="hero-brand-wall-2-text24">
                                 Explore Facilities
                               </span>
                             </Fragment>
@@ -148,7 +148,7 @@ const HeroBrandWall2 = (props) => {
                     >
                       {props.heading12 ?? (
                         <Fragment>
-                          <span className="hero-brand-wall-2-text27">
+                          <span className="hero-brand-wall-2-text29">
                             Banquet Hall &amp; Big Events Services in Hingna,
                             Nagpur
                           </span>
@@ -180,14 +180,14 @@ const HeroBrandWall2 = (props) => {
                       <span className="thq-body-small">
                         {props.action12 ?? (
                           <Fragment>
-                            <span className="hero-brand-wall-2-text29">
+                            <span className="hero-brand-wall-2-text26">
                               Shop Now
                             </span>
                           </Fragment>
                         )}
                       </span>
                     </button>
-                    <button className="hero-brand-wall-2-button5 thq-button-outline menu">
+                    <button className="hero-brand-wall-2-button5 menu thq-button-outline">
                       <span className="hero-brand-wall-2-text19">
                         {props.action23 ?? (
                           <Fragment>
@@ -205,7 +205,7 @@ const HeroBrandWall2 = (props) => {
                         <a className="hero-brand-wall-2-link3 thq-button-outline">
                           {props.action212 ?? (
                             <Fragment>
-                              <span className="hero-brand-wall-2-text31">
+                              <span className="hero-brand-wall-2-text28">
                                 Explore Our Facilities
                               </span>
                             </Fragment>
@@ -220,7 +220,7 @@ const HeroBrandWall2 = (props) => {
                         <span className="hero-brand-wall-2-text21">
                           {props.text210112 ?? (
                             <Fragment>
-                              <span className="hero-brand-wall-2-text28">
+                              <span className="hero-brand-wall-2-text22">
                                 Explore Facilities
                               </span>
                             </Fragment>
@@ -853,31 +853,31 @@ const HeroBrandWall2 = (props) => {
 }
 
 HeroBrandWall2.defaultProps = {
+  text210112: undefined,
   rootClassName: '',
   action2: undefined,
   text21011: undefined,
   action1: undefined,
-  action21: undefined,
-  heading1: undefined,
-  heading12: undefined,
-  text210112: undefined,
   action12: undefined,
-  action23: undefined,
+  action21: undefined,
   action212: undefined,
+  heading12: undefined,
+  action23: undefined,
+  heading1: undefined,
 }
 
 HeroBrandWall2.propTypes = {
+  text210112: PropTypes.element,
   rootClassName: PropTypes.string,
   action2: PropTypes.element,
   text21011: PropTypes.element,
   action1: PropTypes.element,
-  action21: PropTypes.element,
-  heading1: PropTypes.element,
-  heading12: PropTypes.element,
-  text210112: PropTypes.element,
   action12: PropTypes.element,
-  action23: PropTypes.element,
+  action21: PropTypes.element,
   action212: PropTypes.element,
+  heading12: PropTypes.element,
+  action23: PropTypes.element,
+  heading1: PropTypes.element,
 }
 
 export default HeroBrandWall2

@@ -48,17 +48,17 @@ const Hero = (props) => {
             rootClassName="hero-brand-wallroot-class-name"
           ></HeroBrandWall>
           <HeroBrandWall2
+            action1={
+              <Fragment>
+                <span className="hero-text15">Shop Now</span>
+              </Fragment>
+            }
             action2={
               <Fragment>
-                <span className="hero-text15">Services</span>
+                <span className="hero-text16">Services</span>
               </Fragment>
             }
-            text21011={
-              <Fragment>
-                <span className="hero-text16">Explore Facilities</span>
-              </Fragment>
-            }
-            action1={
+            action12={
               <Fragment>
                 <span className="hero-text17">Shop Now</span>
               </Fragment>
@@ -68,41 +68,41 @@ const Hero = (props) => {
                 <span className="hero-text18">Explore Our Facilities</span>
               </Fragment>
             }
-            heading1={
+            action23={
               <Fragment>
-                <span className="hero-text19">
-                  Banquet Hall &amp; Big Events Services in Hingna, Nagpur
-                </span>
+                <span className="hero-text19">Services</span>
               </Fragment>
             }
-            rootClassName="hero-brand-wall2root-class-name"
-            heading12={
+            heading1={
               <Fragment>
                 <span className="hero-text20">
                   Banquet Hall &amp; Big Events Services in Hingna, Nagpur
                 </span>
               </Fragment>
             }
-            text210112={
-              <Fragment>
-                <span className="hero-text21">Explore Facilities</span>
-              </Fragment>
-            }
-            action12={
-              <Fragment>
-                <span className="hero-text22">Shop Now</span>
-              </Fragment>
-            }
-            action23={
-              <Fragment>
-                <span className="hero-text23">Services</span>
-              </Fragment>
-            }
             action212={
               <Fragment>
-                <span className="hero-text24">Explore Our Facilities</span>
+                <span className="hero-text21">Explore Our Facilities</span>
               </Fragment>
             }
+            heading12={
+              <Fragment>
+                <span className="hero-text22">
+                  Banquet Hall &amp; Big Events Services in Hingna, Nagpur
+                </span>
+              </Fragment>
+            }
+            text21011={
+              <Fragment>
+                <span className="hero-text23">Explore Facilities</span>
+              </Fragment>
+            }
+            text210112={
+              <Fragment>
+                <span className="hero-text24">Explore Facilities</span>
+              </Fragment>
+            }
+            rootClassName="hero-brand-wall2root-class-name"
           ></HeroBrandWall2>
           <div className="hero-content">
             <div className="hero-row1">
