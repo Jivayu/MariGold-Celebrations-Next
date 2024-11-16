@@ -80,6 +80,9 @@ const BrandLogo = (props) => {
             align-self: center;
           }
 
+          .brand-logoroot-class-name8 {
+            display: none;
+          }
           @media (max-width: 1200px) {
             .brand-logoroot-class-name3 {
               align-self: center;

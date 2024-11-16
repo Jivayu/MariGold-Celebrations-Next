@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
-import HeroBrandWall from './hero-brand-wall'
+import HeroBrandWallSlider from './hero-brand-wall-slider'
 import HeroPlaceholderImage4 from './hero-placeholder-image4'
 import HeroPlaceholderImage1 from './hero-placeholder-image1'
 import HeroPlaceholderImage5 from './hero-placeholder-image5'
@@ -16,36 +16,36 @@ const Hero = (props) => {
     <>
       <main id="hero" className={`hero-header77 ${props.rootClassName} `}>
         <div id="hero-11" className="hero-max-width thq-section-max-width">
-          <HeroBrandWall
-            action1={
-              <Fragment>
-                <span className="hero-text1">Shop Now</span>
-              </Fragment>
-            }
-            action2={
-              <Fragment>
-                <span className="hero-text2">Services</span>
-              </Fragment>
-            }
-            action21={
-              <Fragment>
-                <span className="hero-text3">Explore Our Facilities</span>
-              </Fragment>
-            }
+          <HeroBrandWallSlider
             heading1={
               <Fragment>
-                <span className="hero-text4">
+                <span className="hero-text1">
                   Banquet Hall &amp; Big Events Services in Hingna, Nagpur
                 </span>
               </Fragment>
             }
             text21011={
               <Fragment>
-                <span className="hero-text5">Explore Facilities</span>
+                <span className="hero-text2">Explore Facilities</span>
               </Fragment>
             }
-            rootClassName="hero-brand-wallroot-class-name"
-          ></HeroBrandWall>
+            action1={
+              <Fragment>
+                <span className="hero-text3">Shop Now</span>
+              </Fragment>
+            }
+            action2={
+              <Fragment>
+                <span className="hero-text4">Services</span>
+              </Fragment>
+            }
+            action21={
+              <Fragment>
+                <span className="hero-text5">Explore Our Facilities</span>
+              </Fragment>
+            }
+            rootClassName="hero-brand-wall-sliderroot-class-name"
+          ></HeroBrandWallSlider>
           <div className="hero-content">
             <div className="hero-row1">
               <img

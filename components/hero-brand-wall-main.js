@@ -5,20 +5,22 @@ import PropTypes from 'prop-types'
 
 import BrandLogo from './brand-logo'
 
-const HeroBrandWall2 = (props) => {
+const HeroBrandWallMain = (props) => {
   return (
     <>
-      <div className="hero-brand-wall-2-column thq-section-padding">
-        <BrandLogo rootClassName="brand-logoroot-class-name7"></BrandLogo>
-        <div className="hero-brand-wall-2-content">
-          <div className="hero-brand-wall-2-container1">
+      <div
+        className={`hero-brand-wall-main-column thq-section-padding ${props.rootClassName} `}
+      >
+        <BrandLogo rootClassName="brand-logoroot-class-name"></BrandLogo>
+        <div className="hero-brand-wall-main-content">
+          <div className="hero-brand-wall-main-container1">
             <h1
               id="Banquet Hall &amp; Big Events Services in Hingna, Nagpur"
-              className="hero-brand-wall-2-text10"
+              className="hero-brand-wall-main-text10"
             >
               {props.heading1 ?? (
                 <Fragment>
-                  <span className="hero-brand-wall-2-text17">
+                  <span className="hero-brand-wall-main-text17">
                     Banquet Hall &amp; Big Events Services in Hingna, Nagpur
                   </span>
                 </Fragment>
@@ -35,7 +37,7 @@ const HeroBrandWall2 = (props) => {
               <p
                 id="Brandline"
                 data-thq-animate-on-reveal="true"
-                className="hero-brand-wall-2-text11 UbuntuLight-14"
+                className="hero-brand-wall-main-text11 UbuntuLight-14"
               >
                 &quot;Celebrate Life’s Special Moments at Marigold Banquet Hall.
                 Perfect Weddings, Grand Events, and unforgettable Memories await
@@ -43,33 +45,37 @@ const HeroBrandWall2 = (props) => {
               </p>
             </animate-on-reveal>
           </div>
-          <div className="hero-brand-wall-2-actions1">
-            <button className="hero-brand-wall-2-button1 thq-button-filled">
+          <div className="hero-brand-wall-main-actions1">
+            <button className="hero-brand-wall-main-button1 thq-button-filled">
               <span className="thq-body-small">
                 {props.action1 ?? (
                   <Fragment>
-                    <span className="hero-brand-wall-2-text19">Shop Now</span>
+                    <span className="hero-brand-wall-main-text16">
+                      Shop Now
+                    </span>
                   </Fragment>
                 )}
               </span>
             </button>
-            <button className="hero-brand-wall-2-button2 menu thq-button-outline">
-              <span className="hero-brand-wall-2-text13">
+            <button className="hero-brand-wall-main-button2 thq-button-outline menu">
+              <span className="hero-brand-wall-main-text13">
                 {props.action2 ?? (
                   <Fragment>
-                    <span className="hero-brand-wall-2-text18">Services</span>
+                    <span className="hero-brand-wall-main-text18">
+                      Services
+                    </span>
                   </Fragment>
                 )}
               </span>
             </button>
           </div>
-          <div className="hero-brand-wall-2-actions2 thq-flex-row">
-            <button className="hero-brand-wall-2-button3 menu">
+          <div className="hero-brand-wall-main-actions2 thq-flex-row">
+            <button className="hero-brand-wall-main-button3 menu">
               <Link href="/facilities-at-marigold-celebration">
-                <a className="hero-brand-wall-2-link1 thq-button-outline">
+                <a className="hero-brand-wall-main-link1 thq-button-outline">
                   {props.action21 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-2-text20">
+                      <span className="hero-brand-wall-main-text20">
                         Explore Our Facilities
                       </span>
                     </Fragment>
@@ -79,12 +85,12 @@ const HeroBrandWall2 = (props) => {
             </button>
           </div>
           <Link href="/facilities-at-marigold-celebration">
-            <a className="hero-brand-wall-2-link2">
-              <div className="hero-brand-wall-2-container2">
-                <span className="hero-brand-wall-2-text15">
+            <a className="hero-brand-wall-main-link2">
+              <div className="hero-brand-wall-main-container2">
+                <span className="hero-brand-wall-main-text15">
                   {props.text21011 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-2-text16">
+                      <span className="hero-brand-wall-main-text19">
                         Explore Facilities
                       </span>
                     </Fragment>
@@ -94,7 +100,7 @@ const HeroBrandWall2 = (props) => {
                   width="14"
                   height="14"
                   viewBox="0 0 48 48"
-                  className="hero-brand-wall-2-icon1"
+                  className="hero-brand-wall-main-icon1"
                 >
                   <path
                     d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"
@@ -112,7 +118,7 @@ const HeroBrandWall2 = (props) => {
       </div>
       <style jsx>
         {`
-          .hero-brand-wall-2-column {
+          .hero-brand-wall-main-column {
             gap: var(--dl-space-space-oneandhalfunits);
             width: 40%;
             display: flex;
@@ -128,20 +134,20 @@ const HeroBrandWall2 = (props) => {
             background-repeat: no-repeat, top lefttop;
             background-position: right, bottom, top lefttop;
           }
-          .hero-brand-wall-2-content {
+          .hero-brand-wall-main-content {
             gap: var(--dl-space-space-halfunit);
             display: flex;
             align-items: center;
             flex-direction: column;
           }
-          .hero-brand-wall-2-container1 {
+          .hero-brand-wall-main-container1 {
             gap: var(--dl-space-space-halfunit);
             display: flex;
             align-items: center;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
           }
-          .hero-brand-wall-2-text10 {
+          .hero-brand-wall-main-text10 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 16px;
@@ -159,7 +165,7 @@ const HeroBrandWall2 = (props) => {
             text-decoration: none;
             background-color: rgba(0, 0, 0, 0.5);
           }
-          .hero-brand-wall-2-text11 {
+          .hero-brand-wall-main-text11 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-style: normal;
@@ -168,7 +174,7 @@ const HeroBrandWall2 = (props) => {
             backdrop-filter: blur(3px);
             background-color: rgba(0, 0, 0, 0.22);
           }
-          .hero-brand-wall-2-actions1 {
+          .hero-brand-wall-main-actions1 {
             gap: var(--dl-space-space-unit);
             width: 55%;
             display: flex;
@@ -176,11 +182,11 @@ const HeroBrandWall2 = (props) => {
             align-self: center;
             align-items: flex-start;
           }
-          .hero-brand-wall-2-button1 {
+          .hero-brand-wall-main-button1 {
             flex: 1;
             display: none;
           }
-          .hero-brand-wall-2-button2 {
+          .hero-brand-wall-main-button2 {
             flex: 1;
             display: none;
             transform: scale(0.96);
@@ -193,12 +199,12 @@ const HeroBrandWall2 = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
             background-color: rgba(245, 184, 60, 0.1);
           }
-          .hero-brand-wall-2-button2:hover {
+          .hero-brand-wall-main-button2:hover {
             transform: scale(1);
             box-shadow: 3px 3px 25px 1px rgba(15, 0, 255, 0.25);
             background-color: rgba(71, 60, 245, 0.21);
           }
-          .hero-brand-wall-2-text13 {
+          .hero-brand-wall-main-text13 {
             color: var(--dl-color-primary-logo-color-2);
             font-size: 14px;
             transform: scale(0.96);
@@ -210,10 +216,10 @@ const HeroBrandWall2 = (props) => {
             text-transform: capitalize;
             text-decoration: none;
           }
-          .hero-brand-wall-2-text13:hover {
+          .hero-brand-wall-main-text13:hover {
             transform: scale(1);
           }
-          .hero-brand-wall-2-actions2 {
+          .hero-brand-wall-main-actions2 {
             display: none;
             padding: var(--dl-space-space-unit);
             position: relative;
@@ -221,14 +227,14 @@ const HeroBrandWall2 = (props) => {
             align-items: center;
             justify-content: center;
           }
-          .hero-brand-wall-2-button3 {
+          .hero-brand-wall-main-button3 {
             fill: transparent;
             flex: 1;
             color: transparent;
             transform: scale(0.99);
             border-width: 0px;
           }
-          .hero-brand-wall-2-link1 {
+          .hero-brand-wall-main-link1 {
             fill: var(--dl-color-primary-logo-color-2);
             color: var(--dl-color-primary-logo-color-2);
             font-size: 14px;
@@ -246,17 +252,17 @@ const HeroBrandWall2 = (props) => {
             text-decoration: none;
             background-color: rgba(245, 184, 60, 0.1);
           }
-          .hero-brand-wall-2-link1:hover {
+          .hero-brand-wall-main-link1:hover {
             transform: scale(1);
             box-shadow: 3px 3px 25px 1px rgba(50, 0, 255, 0.41);
             border-style: dotted;
             border-width: 0.5px;
             background-color: rgba(13, 7, 247, 0.2);
           }
-          .hero-brand-wall-2-link2 {
+          .hero-brand-wall-main-link2 {
             display: contents;
           }
-          .hero-brand-wall-2-container2 {
+          .hero-brand-wall-main-container2 {
             gap: var(--dl-space-space-halfunit);
             width: auto;
             display: flex;
@@ -277,11 +283,11 @@ const HeroBrandWall2 = (props) => {
             text-decoration: none;
             background-color: rgba(2, 2, 2, 0.48);
           }
-          .hero-brand-wall-2-container2:hover {
+          .hero-brand-wall-main-container2:hover {
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
             border-color: var(--dl-color-primary-logo-color-1);
           }
-          .hero-brand-wall-2-text15 {
+          .hero-brand-wall-main-text15 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             font-size: 12px;
@@ -290,87 +296,90 @@ const HeroBrandWall2 = (props) => {
             font-weight: 200;
             line-height: 1.8;
           }
-          .hero-brand-wall-2-icon1 {
+          .hero-brand-wall-main-icon1 {
             fill: #00ff38;
             color: #00ff38;
           }
-          .hero-brand-wall-2-text16 {
+          .hero-brand-wall-main-text16 {
             display: inline-block;
           }
-          .hero-brand-wall-2-text17 {
+          .hero-brand-wall-main-text17 {
             display: inline-block;
           }
-          .hero-brand-wall-2-text18 {
+          .hero-brand-wall-main-text18 {
             display: inline-block;
           }
-          .hero-brand-wall-2-text19 {
+          .hero-brand-wall-main-text19 {
             display: inline-block;
           }
-          .hero-brand-wall-2-text20 {
+          .hero-brand-wall-main-text20 {
             display: inline-block;
           }
           @media (max-width: 1200px) {
-            .hero-brand-wall-2-column {
+            .hero-brand-wall-main-column {
               background-size: cover, contain;
               background-position: bottom right, bottom, top lefttop;
             }
           }
           @media (max-width: 991px) {
-            .hero-brand-wall-2-column {
+            .hero-brand-wall-main-column {
               gap: var(--dl-space-space-unit);
               width: 100%;
-              max-height: 500px;
+              height: 600px;
+              max-height: 600px;
               background-size: cover, contain;
+              justify-content: center;
               background-repeat: no-repeat, bottom;
-              background-position: center, bottom, top lefttop;
+              background-position: right, bottom, top lefttop;
             }
-            .hero-brand-wall-2-content {
+            .hero-brand-wall-main-content {
               align-items: center;
             }
-            .hero-brand-wall-2-actions1 {
+            .hero-brand-wall-main-actions1 {
               width: 35%;
             }
           }
           @media (max-width: 767px) {
-            .hero-brand-wall-2-actions1 {
+            .hero-brand-wall-main-actions1 {
               width: 100%;
               justify-content: center;
             }
           }
           @media (max-width: 599px) {
-            .hero-brand-wall-2-column {
+            .hero-brand-wall-main-column {
+              height: 500px;
               padding: var(--dl-space-space-oneandhalfunits);
-              max-height: 400px;
+              max-height: 500px;
               background-size: cover, contain;
               background-position: center, bottom, top lefttop;
             }
-            .hero-brand-wall-2-text10 {
+            .hero-brand-wall-main-text10 {
               font-size: 14px;
               font-family: Ubuntu;
             }
-            .hero-brand-wall-2-icon1 {
+            .hero-brand-wall-main-icon1 {
               fill: #00ff38;
               color: #00ff38;
             }
           }
           @media (max-width: 479px) {
-            .hero-brand-wall-2-column {
+            .hero-brand-wall-main-column {
               padding: var(--dl-space-space-oneandhalfunits);
             }
-            .hero-brand-wall-2-actions1 {
+            .hero-brand-wall-main-actions1 {
               flex-direction: column;
             }
-            .hero-brand-wall-2-button1 {
+            .hero-brand-wall-main-button1 {
               width: 100%;
             }
-            .hero-brand-wall-2-actions2 {
+            .hero-brand-wall-main-actions2 {
               width: 100%;
               flex-wrap: wrap;
               margin-top: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 399px) {
-            .hero-brand-wall-2-column {
+            .hero-brand-wall-main-column {
               padding: var(--dl-space-space-unit);
               background-position: bottom, bottom, top lefttop;
             }
@@ -381,22 +390,22 @@ const HeroBrandWall2 = (props) => {
   )
 }
 
-HeroBrandWall2.defaultProps = {
-  text21011: undefined,
-  rootClassName: '',
+HeroBrandWallMain.defaultProps = {
+  action1: undefined,
   heading1: undefined,
   action2: undefined,
-  action1: undefined,
+  rootClassName: '',
+  text21011: undefined,
   action21: undefined,
 }
 
-HeroBrandWall2.propTypes = {
-  text21011: PropTypes.element,
-  rootClassName: PropTypes.string,
+HeroBrandWallMain.propTypes = {
+  action1: PropTypes.element,
   heading1: PropTypes.element,
   action2: PropTypes.element,
-  action1: PropTypes.element,
+  rootClassName: PropTypes.string,
+  text21011: PropTypes.element,
   action21: PropTypes.element,
 }
 
-export default HeroBrandWall2
+export default HeroBrandWallMain
