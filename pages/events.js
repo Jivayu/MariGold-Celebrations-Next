@@ -103,17 +103,17 @@ const Events = (props) => {
               <span className="events-text23">Call Enquiry</span>
             </Fragment>
           }
+          text21011={
+            <Fragment>
+              <span className="events-text24">Explore Facilities</span>
+            </Fragment>
+          }
           register12={
             <Fragment>
-              <span className="events-text24">WhatsApp Enquiry</span>
+              <span className="events-text25">WhatsApp Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name4"
-          text21011={
-            <Fragment>
-              <span className="events-text25">Explore Facilities</span>
-            </Fragment>
-          }
         ></NavbarInteractive>
         <PageHeadersEvents
           action1={
@@ -824,7 +824,7 @@ const Events = (props) => {
             .events-text23 {
               line-height: 1.4;
             }
-            .events-text24 {
+            .events-text25 {
               line-height: 1.4;
             }
           }

@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
@@ -58,7 +59,7 @@ const VideoGallery = (props) => {
                     <span className="video-gallery-text10 thq-button-outline">
                       {props.action23 ?? (
                         <Fragment>
-                          <span className="video-gallery-text21">
+                          <span className="video-gallery-text20">
                             Google Business Profile
                           </span>
                         </Fragment>
@@ -66,32 +67,36 @@ const VideoGallery = (props) => {
                     </span>
                   </button>
                 </div>
-                <div className="video-gallery-container3">
-                  <span className="video-gallery-text11">
-                    {props.text2101 ?? (
-                      <Fragment>
-                        <span className="video-gallery-text20">
-                          Google Profile
-                        </span>
-                      </Fragment>
-                    )}
-                  </span>
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 48 48"
-                    className="video-gallery-icon20"
-                  >
-                    <path
-                      d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </div>
+                <Link href="/gallery">
+                  <a className="video-gallery-link">
+                    <div className="video-gallery-container3">
+                      <span className="video-gallery-text11">
+                        {props.text21011 ?? (
+                          <Fragment>
+                            <span className="video-gallery-text21">
+                              Visit Gallery
+                            </span>
+                          </Fragment>
+                        )}
+                      </span>
+                      <svg
+                        width="14"
+                        height="14"
+                        viewBox="0 0 48 48"
+                        className="video-gallery-icon20"
+                      >
+                        <path
+                          d="M28 6h14v14m0 9.474V39a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h9m7.8 16.2L41.1 6.9"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="4"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="video-gallery-container4">
@@ -282,6 +287,9 @@ const VideoGallery = (props) => {
             border-width: 0.5px;
             background-color: rgba(61, 19, 234, 0.3);
           }
+          .video-gallery-link {
+            display: contents;
+          }
           .video-gallery-container3 {
             gap: var(--dl-space-space-halfunit);
             width: auto;
@@ -297,27 +305,16 @@ const VideoGallery = (props) => {
             padding-left: var(--dl-space-space-unit);
             border-radius: var(--dl-radius-radius-cardradius);
             padding-right: var(--dl-space-space-unit);
-            animation-name: none;
             flex-direction: row;
             padding-bottom: var(--dl-space-space-halfunit);
-            animation-delay: 0s;
             backdrop-filter: blur(3px);
             justify-content: center;
+            text-decoration: none;
             background-color: rgba(2, 2, 2, 0.48);
-            animation-duration: 300ms;
-            animation-direction: normal;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
           }
           .video-gallery-container3:hover {
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.48);
-            border-color: rgba(0, 0, 0, 0.77);
-            animation-name: fadeIn;
-            animation-delay: 100ms;
-            animation-duration: 1500ms;
-            animation-direction: normal;
-            animation-iteration-count: 1;
-            animation-timing-function: ease;
+            border-color: #00831b;
           }
           .video-gallery-text11 {
             fill: var(--dl-color-theme-accent1);
@@ -326,7 +323,7 @@ const VideoGallery = (props) => {
             font-style: normal;
             font-family: 'Poppins';
             font-weight: 200;
-            line-height: 1.9;
+            line-height: 1.8;
           }
           .video-gallery-icon20 {
             fill: #00ff38;
@@ -492,8 +489,8 @@ VideoGallery.defaultProps = {
   company1LogoAlt: 'Marigold Banquet Hall Logo',
   author1Position: undefined,
   review1: undefined,
-  text2101: undefined,
   action23: undefined,
+  text21011: undefined,
   videoSrc:
     'https://lh3.googleusercontent.com/p/AF1QipNdsFSNysuVAA8K0LKl1H0i7CqKeEsD5BMd6IAm=mm,37,22,18',
 }
@@ -505,8 +502,8 @@ VideoGallery.propTypes = {
   company1LogoAlt: PropTypes.string,
   author1Position: PropTypes.element,
   review1: PropTypes.element,
-  text2101: PropTypes.element,
   action23: PropTypes.element,
+  text21011: PropTypes.element,
   videoSrc: PropTypes.string,
 }
 

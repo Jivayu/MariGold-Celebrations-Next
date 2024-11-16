@@ -143,9 +143,9 @@ const Gallery = (props) => {
               </span>
             </Fragment>
           }
-          text2101={
+          text21011={
             <Fragment>
-              <span className="gallery-text28">Google Profile</span>
+              <span className="gallery-text28">Visit Gallery</span>
             </Fragment>
           }
           author1Name={
@@ -233,17 +233,17 @@ const Gallery = (props) => {
               <span className="gallery-text44">Call Enquiry</span>
             </Fragment>
           }
+          text21011={
+            <Fragment>
+              <span className="gallery-text45">Explore Facilities</span>
+            </Fragment>
+          }
           register12={
             <Fragment>
-              <span className="gallery-text45">WhatsApp Enquiry</span>
+              <span className="gallery-text46">WhatsApp Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name3"
-          text21011={
-            <Fragment>
-              <span className="gallery-text46">Explore Facilities</span>
-            </Fragment>
-          }
         ></NavbarInteractive>
         <Footer
           link1={
@@ -537,7 +537,7 @@ const Gallery = (props) => {
             .gallery-text44 {
               line-height: 1.4;
             }
-            .gallery-text45 {
+            .gallery-text46 {
               line-height: 1.4;
             }
           }

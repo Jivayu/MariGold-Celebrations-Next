@@ -83,17 +83,17 @@ const Home = (props) => {
               <span className="home-text108">Call Enquiry</span>
             </Fragment>
           }
+          text21011={
+            <Fragment>
+              <span className="home-text109">Explore Facilities</span>
+            </Fragment>
+          }
           register12={
             <Fragment>
-              <span className="home-text109">WhatsApp Enquiry</span>
+              <span className="home-text110">WhatsApp Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name"
-          text21011={
-            <Fragment>
-              <span className="home-text110">Explore Facilities</span>
-            </Fragment>
-          }
         ></NavbarInteractive>
         <Hero
           image4Src="/images/circle-background.svg"
@@ -213,16 +213,21 @@ const Home = (props) => {
               <span className="home-text130">Explore Our Facilities</span>
             </Fragment>
           }
+          text2101={
+            <Fragment>
+              <span className="home-text131">Verify Review</span>
+            </Fragment>
+          }
           sectionTitle={
             <Fragment>
-              <span className="home-text131">
+              <span className="home-text132">
                 Facilities At Marigold Celebration
               </span>
             </Fragment>
           }
           feature1Title={
             <Fragment>
-              <span className="home-text132">
+              <span className="home-text133">
                 <span>Spacious Venue with Capacity</span>
                 <br></br>
               </span>
@@ -231,29 +236,29 @@ const Home = (props) => {
           rootClassName="facilities-home1root-class-name"
           feature1Title1={
             <Fragment>
-              <span className="home-text135">Fine Dining Catering</span>
+              <span className="home-text136">Fine Dining Catering</span>
             </Fragment>
           }
           feature1Title11={
             <Fragment>
-              <span className="home-text136">
+              <span className="home-text137">
                 Photography &amp; Videography Services 
               </span>
             </Fragment>
           }
           feature1Title111={
             <Fragment>
-              <span className="home-text137">Décor &amp; Design Services</span>
+              <span className="home-text138">Décor &amp; Design Services</span>
             </Fragment>
           }
           feature1Title1111={
             <Fragment>
-              <span className="home-text138">Parking &amp; Accessibility</span>
+              <span className="home-text139">Parking &amp; Accessibility</span>
             </Fragment>
           }
           sectionDescription={
             <Fragment>
-              <span className="home-text139">
+              <span className="home-text140">
                 At Marigold Banquet Hall, we offer an exceptional range of
                 facilities to ensure your event is as smooth, memorable, and
                 stress-free as possible. Our venue is designed to cater to all
@@ -264,7 +269,7 @@ const Home = (props) => {
           }
           feature1Description={
             <Fragment>
-              <span className="home-text140">
+              <span className="home-text141">
                 Our expansive banquet hall can accommodate up to 2000 guests
                 comfortably. Whether you’re planning an extravagant wedding or
                 an intimate gathering, our flexible seating arrangements and
@@ -275,7 +280,7 @@ const Home = (props) => {
           }
           feature1Description1={
             <Fragment>
-              <span className="home-text141">
+              <span className="home-text142">
                 We offer customizable catering options to suit any event style.
                 From lavish multi-course dinners to casual buffets, our in-house
                 culinary team crafts delicious, bespoke menus that reflect your
@@ -287,7 +292,7 @@ const Home = (props) => {
           }
           feature1Description11={
             <Fragment>
-              <span className="home-text142">
+              <span className="home-text143">
                 Preserve every special moment with our professional photography
                 and videography services. Our experienced team specializes in
                 capturing the essence of your event, whether it’s candid wedding
@@ -299,7 +304,7 @@ const Home = (props) => {
           }
           feature1Description111={
             <Fragment>
-              <span className="home-text143">
+              <span className="home-text144">
                 Our dedicated décor team works closely with you to bring your
                 vision to life. From elegant wedding themes to corporate setups,
                 we provide tailored decoration services that match your event’s
@@ -310,7 +315,7 @@ const Home = (props) => {
           }
           feature1Description1111={
             <Fragment>
-              <span className="home-text144">
+              <span className="home-text145">
                 Our venue offers ample parking space to accommodate all your
                 guests, ensuring a stress-free arrival experience. For added
                 convenience, we provide lift access to all levels, making the
@@ -320,56 +325,51 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          text2101={
-            <Fragment>
-              <span className="home-text145">Verify Review</span>
-            </Fragment>
-          }
         ></FacilitiesHome1>
         <MobileFacilities1
+          slogan1={
+            <Fragment>
+              <span className="home-text146">
+                At Marigold Banquet Hall, we offer an exceptional range of
+                facilities to ensure your event is as smooth, memorable, and
+                stress-free as possible. Our venue is designed to cater to all
+                types of occasions, from grand weddings to corporate events,
+                while providing top-tier amenities.
+              </span>
+            </Fragment>
+          }
+          text2101={
+            <Fragment>
+              <span className="home-text147">More Facilities</span>
+            </Fragment>
+          }
           faq1Question={
             <Fragment>
-              <span className="home-text146">Spacious Venue with Capacity</span>
+              <span className="home-text148">Spacious Venue with Capacity</span>
             </Fragment>
           }
           faq2Question={
             <Fragment>
-              <span className="home-text147">Fine Dining Catering</span>
+              <span className="home-text149">Fine Dining Catering</span>
             </Fragment>
           }
           faq3Question={
             <Fragment>
-              <span className="home-text148">
+              <span className="home-text150">
                 Photography &amp; Videography Services
               </span>
             </Fragment>
           }
           faq4Question={
             <Fragment>
-              <span className="home-text149">Décor &amp; Design Services</span>
+              <span className="home-text151">Décor &amp; Design Services</span>
             </Fragment>
           }
           rootClassName="mobile-facilities1root-class-name"
-          text2101={
-            <Fragment>
-              <span className="home-text150">More Facilities</span>
-            </Fragment>
-          }
           sectionTitle1={
             <Fragment>
-              <span className="home-text151">
-                Facilities At Marigold Celebration
-              </span>
-            </Fragment>
-          }
-          slogan1={
-            <Fragment>
               <span className="home-text152">
-                At Marigold Banquet Hall, we offer an exceptional range of
-                facilities to ensure your event is as smooth, memorable, and
-                stress-free as possible. Our venue is designed to cater to all
-                types of occasions, from grand weddings to corporate events,
-                while providing top-tier amenities.
+                Facilities At Marigold Celebration
               </span>
             </Fragment>
           }
@@ -398,79 +398,24 @@ const Home = (props) => {
               <span className="home-text156">Google Reviews - Best only</span>
             </Fragment>
           }
+          text1013={
+            <Fragment>
+              <span className="home-text157">marigoldcelebration.in</span>
+            </Fragment>
+          }
+          text1014={
+            <Fragment>
+              <span className="home-text158">marigoldcelebration.in</span>
+            </Fragment>
+          }
           text2101={
             <Fragment>
-              <span className="home-text157">Verify Review</span>
+              <span className="home-text159">Verify Review</span>
             </Fragment>
           }
           text2171={
             <Fragment>
-              <span className="home-text158">
-                Perfect for marriage, reception and big parties. The two storey
-                hall is perfect for any kind of function. The celebration can
-                take place at ground floor and the dining at first floor. Lift
-                and stairs both are available. Hall is spacious and completly
-                air conditioned. Rooms are also avaliable for guests. A small
-                lawn is also avaliable which can be used for some small function
-                in marriage. Many spots for photo and selfie are avaliable in
-                completed building.
-              </span>
-            </Fragment>
-          }
-          text113251={
-            <Fragment>
-              <span className="home-text159">Atharva Diwate</span>
-            </Fragment>
-          }
-          image1Title={
-            <Fragment>
-              <span className="home-text160">Image 1</span>
-            </Fragment>
-          }
-          image2Title={
-            <Fragment>
-              <span className="home-text161">Corporate Event Venue</span>
-            </Fragment>
-          }
-          image3Title={
-            <Fragment>
-              <span className="home-text162">Social Gathering Decor</span>
-            </Fragment>
-          }
-          rootClassName="google-reviewsroot-class-name"
-          image1Description={
-            <Fragment>
-              <span className="home-text163">
-                <span>Our Banner Ads</span>
-                <br></br>
-              </span>
-            </Fragment>
-          }
-          image2Description={
-            <Fragment>
-              <span className="home-text166">Our Grand Main Hall</span>
-            </Fragment>
-          }
-          image3Description={
-            <Fragment>
-              <span className="home-text167">
-                Our Grand Main Hall with Some Stage Decor arena
-              </span>
-            </Fragment>
-          }
-          text1132513={
-            <Fragment>
-              <span className="home-text168">Atharva Diwate</span>
-            </Fragment>
-          }
-          text1013={
-            <Fragment>
-              <span className="home-text169">marigoldcelebration.in</span>
-            </Fragment>
-          }
-          text21713={
-            <Fragment>
-              <span className="home-text170">
+              <span className="home-text160">
                 Perfect for marriage, reception and big parties. The two storey
                 hall is perfect for any kind of function. The celebration can
                 take place at ground floor and the dining at first floor. Lift
@@ -484,22 +429,17 @@ const Home = (props) => {
           }
           text21013={
             <Fragment>
-              <span className="home-text171">Verify Review</span>
+              <span className="home-text161">Verify Review</span>
             </Fragment>
           }
-          text1132514={
+          text21014={
             <Fragment>
-              <span className="home-text172">Atharva Diwate</span>
+              <span className="home-text162">Verify Review</span>
             </Fragment>
           }
-          text1014={
+          text21713={
             <Fragment>
-              <span className="home-text173">marigoldcelebration.in</span>
-            </Fragment>
-          }
-          text21714={
-            <Fragment>
-              <span className="home-text174">
+              <span className="home-text163">
                 Perfect for marriage, reception and big parties. The two storey
                 hall is perfect for any kind of function. The celebration can
                 take place at ground floor and the dining at first floor. Lift
@@ -511,9 +451,69 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          text21014={
+          text21714={
             <Fragment>
-              <span className="home-text175">Verify Review</span>
+              <span className="home-text164">
+                Perfect for marriage, reception and big parties. The two storey
+                hall is perfect for any kind of function. The celebration can
+                take place at ground floor and the dining at first floor. Lift
+                and stairs both are available. Hall is spacious and completly
+                air conditioned. Rooms are also avaliable for guests. A small
+                lawn is also avaliable which can be used for some small function
+                in marriage. Many spots for photo and selfie are avaliable in
+                completed building.
+              </span>
+            </Fragment>
+          }
+          text113251={
+            <Fragment>
+              <span className="home-text165">Atharva Diwate</span>
+            </Fragment>
+          }
+          image1Title={
+            <Fragment>
+              <span className="home-text166">Image 1</span>
+            </Fragment>
+          }
+          image2Title={
+            <Fragment>
+              <span className="home-text167">Corporate Event Venue</span>
+            </Fragment>
+          }
+          image3Title={
+            <Fragment>
+              <span className="home-text168">Social Gathering Decor</span>
+            </Fragment>
+          }
+          text1132513={
+            <Fragment>
+              <span className="home-text169">Atharva Diwate</span>
+            </Fragment>
+          }
+          text1132514={
+            <Fragment>
+              <span className="home-text170">Atharva Diwate</span>
+            </Fragment>
+          }
+          rootClassName="google-reviewsroot-class-name"
+          image1Description={
+            <Fragment>
+              <span className="home-text171">
+                <span>Our Banner Ads</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          image2Description={
+            <Fragment>
+              <span className="home-text174">Our Grand Main Hall</span>
+            </Fragment>
+          }
+          image3Description={
+            <Fragment>
+              <span className="home-text175">
+                Our Grand Main Hall with Some Stage Decor arena
+              </span>
             </Fragment>
           }
         ></GoogleReviews>
@@ -541,9 +541,9 @@ const Home = (props) => {
               </span>
             </Fragment>
           }
-          text2101={
+          text21011={
             <Fragment>
-              <span className="home-text179">Google Profile</span>
+              <span className="home-text179">Visit Gallery</span>
             </Fragment>
           }
           author1Name={
@@ -775,7 +775,7 @@ const Home = (props) => {
           .home-text132 {
             display: inline-block;
           }
-          .home-text135 {
+          .home-text133 {
             display: inline-block;
           }
           .home-text136 {
@@ -862,6 +862,12 @@ const Home = (props) => {
           .home-text163 {
             display: inline-block;
           }
+          .home-text164 {
+            display: inline-block;
+          }
+          .home-text165 {
+            display: inline-block;
+          }
           .home-text166 {
             display: inline-block;
           }
@@ -878,12 +884,6 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text171 {
-            display: inline-block;
-          }
-          .home-text172 {
-            display: inline-block;
-          }
-          .home-text173 {
             display: inline-block;
           }
           .home-text174 {
@@ -980,7 +980,7 @@ const Home = (props) => {
             .home-text108 {
               line-height: 1.4;
             }
-            .home-text109 {
+            .home-text110 {
               line-height: 1.4;
             }
           }

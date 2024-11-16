@@ -9,8 +9,8 @@ const HeroPlaceholderImage5 = (props) => {
         <img
           id="hero-3"
           alt={props.image6Alt12}
-          loading="lazy"
           src="/images/Marigold Images/stage-decore-400h.webp"
+          loading="lazy"
           className="hero-placeholder-image5-placeholder-image thq-img-ratio-1-1"
         />
       </div>

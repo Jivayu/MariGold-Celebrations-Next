@@ -19,7 +19,6 @@ const SpaciousVenue = (props) => {
               </span>
             </Fragment>
           }
-          rootClassName="event-spaces-componentroot-class-name"
           text21011={
             <Fragment>
               <span className="spacious-venue-text11">
@@ -28,6 +27,7 @@ const SpaciousVenue = (props) => {
               </span>
             </Fragment>
           }
+          rootClassName="event-spaces-componentroot-class-name"
         ></EventSpacesComponent>
         <div className="spacious-venue-content UbuntuLight-14 thq-flex-column">
           <div className="spacious-venue-section-title UbuntuLight-14 thq-flex-column">

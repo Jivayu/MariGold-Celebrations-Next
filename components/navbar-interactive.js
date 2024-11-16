@@ -52,7 +52,7 @@ const NavbarInteractive = (props) => {
               <span className="navbar-interactive-text10">
                 {props.menu6 ?? (
                   <Fragment>
-                    <span className="navbar-interactive-text28">
+                    <span className="navbar-interactive-text29">
                       Facilities
                     </span>
                   </Fragment>
@@ -62,7 +62,7 @@ const NavbarInteractive = (props) => {
                 <a className="navbar-interactive-link13">
                   {props.menu3 ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text26">Gallery</span>
+                      <span className="navbar-interactive-text27">Gallery</span>
                     </Fragment>
                   )}
                 </a>
@@ -93,7 +93,7 @@ const NavbarInteractive = (props) => {
                 <span>
                   {props.login ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text24">Login</span>
+                      <span className="navbar-interactive-text25">Login</span>
                     </Fragment>
                   )}
                 </span>
@@ -105,7 +105,7 @@ const NavbarInteractive = (props) => {
                 <span className="navbar-interactive-text12">
                   {props.register ?? (
                     <Fragment>
-                      <span className="navbar-interactive-text29">Enquiry</span>
+                      <span className="navbar-interactive-text30">Enquiry</span>
                     </Fragment>
                   )}
                 </span>
@@ -120,7 +120,7 @@ const NavbarInteractive = (props) => {
                   <span className="navbar-interactive-text13">
                     {props.text21011 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text31">
+                        <span className="navbar-interactive-text24">
                           Explore Facilities
                         </span>
                       </Fragment>
@@ -197,7 +197,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link19">
                     {props.mmenu2 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text27">
+                        <span className="navbar-interactive-text28">
                           Facilities
                         </span>
                       </Fragment>
@@ -208,7 +208,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link20">
                     {props.mmenu3 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text25">
+                        <span className="navbar-interactive-text26">
                           Gallery
                         </span>
                       </Fragment>
@@ -230,7 +230,7 @@ const NavbarInteractive = (props) => {
                   <a className="navbar-interactive-link22">
                     {props.mmenu5 ?? (
                       <Fragment>
-                        <span className="navbar-interactive-text30">
+                        <span className="navbar-interactive-text31">
                           Contacts
                         </span>
                       </Fragment>
@@ -1149,6 +1149,7 @@ NavbarInteractive.defaultProps = {
   mmenu4: undefined,
   menu5: undefined,
   menu4: undefined,
+  text21011: undefined,
   login: undefined,
   mmenu3: undefined,
   menu3: undefined,
@@ -1160,7 +1161,6 @@ NavbarInteractive.defaultProps = {
   logoSrc: '/images/marigold-logo1.svg',
   register: undefined,
   mmenu5: undefined,
-  text21011: undefined,
 }
 
 NavbarInteractive.propTypes = {
@@ -1173,6 +1173,7 @@ NavbarInteractive.propTypes = {
   mmenu4: PropTypes.element,
   menu5: PropTypes.element,
   menu4: PropTypes.element,
+  text21011: PropTypes.element,
   login: PropTypes.element,
   mmenu3: PropTypes.element,
   menu3: PropTypes.element,
@@ -1184,7 +1185,6 @@ NavbarInteractive.propTypes = {
   logoSrc: PropTypes.string,
   register: PropTypes.element,
   mmenu5: PropTypes.element,
-  text21011: PropTypes.element,
 }
 
 export default NavbarInteractive

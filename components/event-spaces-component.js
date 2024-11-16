@@ -199,8 +199,8 @@ EventSpacesComponent.defaultProps = {
   action23: undefined,
   rootClassName: '',
   featureImageAlt: 'Luxurious Venue at Marigold Banquet Hall',
-  image1Loading: 'lazy',
   text21011: undefined,
+  image1Loading: 'lazy',
 }
 
 EventSpacesComponent.propTypes = {
@@ -208,8 +208,8 @@ EventSpacesComponent.propTypes = {
   action23: PropTypes.element,
   rootClassName: PropTypes.string,
   featureImageAlt: PropTypes.string,
-  image1Loading: PropTypes.string,
   text21011: PropTypes.element,
+  image1Loading: PropTypes.string,
 }
 
 export default EventSpacesComponent

@@ -40,9 +40,9 @@ const GalleryImages = (props) => {
             <div className="gallery-images-container1">
               <img
                 alt="Wedding Hall Setup"
-                loading="lazy"
                 sizes="(min-width: 768px) 800px, 480px"
                 src="/images/Marigold Images/banquet%20hall%20-final%20%20day%20view-%20reduced-600w.webp"
+                loading="lazy"
                 srcSet="/images/Marigold Images//banquet%20hall%20-final%20%20day%20view-%20reduced-600w.webp 800w, /images/Marigold Images/banquet%20hall%20-final%20%20day%20view-%20reduced-mobile.webp 480w"
                 className="gallery-images-image1 thq-img-ratio-4-3"
               />

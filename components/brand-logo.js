@@ -38,6 +38,7 @@ const BrandLogo = (props) => {
           .brand-logo-image:hover {
             transform: scale(1);
           }
+
           .brand-logoroot-class-name1 {
             width: 100px;
             display: none;
@@ -54,6 +55,30 @@ const BrandLogo = (props) => {
             height: auto;
             align-self: center;
           }
+          .brand-logoroot-class-name4 {
+            top: -65px;
+            left: 231px;
+            width: 70px;
+            height: auto;
+            position: static;
+            align-self: center;
+          }
+          .brand-logoroot-class-name5 {
+            top: -65px;
+            left: 231px;
+            width: 70px;
+            height: auto;
+            position: absolute;
+            align-self: center;
+          }
+          .brand-logoroot-class-name6 {
+            top: -65px;
+            left: 231px;
+            width: 70px;
+            height: auto;
+            position: static;
+            align-self: center;
+          }
           @media (max-width: 1200px) {
             .brand-logoroot-class-name3 {
               align-self: center;
@@ -63,6 +88,18 @@ const BrandLogo = (props) => {
             .brand-logoroot-class-name3 {
               width: 20%;
               align-self: center;
+            }
+            .brand-logoroot-class-name4 {
+              top: -79px;
+              left: 399px;
+            }
+            .brand-logoroot-class-name5 {
+              top: -79px;
+              left: 399px;
+            }
+            .brand-logoroot-class-name6 {
+              top: -79px;
+              left: 399px;
             }
           }
           @media (max-width: 599px) {
@@ -82,6 +119,18 @@ const BrandLogo = (props) => {
               display: none;
               align-self: center;
             }
+            .brand-logoroot-class-name4 {
+              top: -100px;
+              left: 238px;
+            }
+            .brand-logoroot-class-name5 {
+              top: -100px;
+              left: 238px;
+            }
+            .brand-logoroot-class-name6 {
+              top: -100px;
+              left: 238px;
+            }
           }
           @media (max-width: 399px) {
             .brand-logo-image {
@@ -90,6 +139,18 @@ const BrandLogo = (props) => {
             .brand-logoroot-class-name3 {
               width: 30%;
               height: 40px;
+            }
+            .brand-logoroot-class-name4 {
+              top: -128px;
+              left: 143px;
+            }
+            .brand-logoroot-class-name5 {
+              top: -128px;
+              left: 143px;
+            }
+            .brand-logoroot-class-name6 {
+              top: -128px;
+              left: 143px;
             }
           }
         `}

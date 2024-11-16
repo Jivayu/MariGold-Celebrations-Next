@@ -315,38 +315,38 @@ const EventsDetails = (props) => {
                         </li>
                       </ul>
                       <GalleryImages
-                        content1={
+                        button={
                           <Fragment>
                             <span className="events-details-text16">
+                              Button
+                            </span>
+                          </Fragment>
+                        }
+                        content1={
+                          <Fragment>
+                            <span className="events-details-text17">
                               Welcome to the Marigold Celebration Gallery.
                             </span>
                           </Fragment>
                         }
-                        image2Description={
-                          <Fragment>
-                            <span className="events-details-text17">
-                              Our Grand Main Hall
-                            </span>
-                          </Fragment>
-                        }
-                        image3Description={
+                        heading1={
                           <Fragment>
                             <span className="events-details-text18">
-                              Our Grand Main Hall with Some Stage Decor arena
-                            </span>
-                          </Fragment>
-                        }
-                        image2Title={
-                          <Fragment>
-                            <span className="events-details-text19">
-                              Corporate Event Venue
+                              Gallery
                             </span>
                           </Fragment>
                         }
                         image1Title={
                           <Fragment>
-                            <span className="events-details-text20">
+                            <span className="events-details-text19">
                               Image 1
+                            </span>
+                          </Fragment>
+                        }
+                        image2Title={
+                          <Fragment>
+                            <span className="events-details-text20">
+                              Corporate Event Venue
                             </span>
                           </Fragment>
                         }
@@ -357,6 +357,7 @@ const EventsDetails = (props) => {
                             </span>
                           </Fragment>
                         }
+                        rootClassName="gallery-imagesroot-class-name1"
                         image1Description={
                           <Fragment>
                             <span className="events-details-text22">
@@ -365,21 +366,20 @@ const EventsDetails = (props) => {
                             </span>
                           </Fragment>
                         }
-                        heading1={
+                        image2Description={
                           <Fragment>
                             <span className="events-details-text25">
-                              Gallery
+                              Our Grand Main Hall
                             </span>
                           </Fragment>
                         }
-                        button={
+                        image3Description={
                           <Fragment>
                             <span className="events-details-text26">
-                              Button
+                              Our Grand Main Hall with Some Stage Decor arena
                             </span>
                           </Fragment>
                         }
-                        rootClassName="gallery-imagesroot-class-name1"
                       ></GalleryImages>
                     </li>
                   </ul>

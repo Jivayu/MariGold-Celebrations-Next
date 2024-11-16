@@ -324,17 +324,17 @@ const Contacts = (props) => {
               <span className="contacts-text61">Call Enquiry</span>
             </Fragment>
           }
+          text21011={
+            <Fragment>
+              <span className="contacts-text62">Explore Facilities</span>
+            </Fragment>
+          }
           register12={
             <Fragment>
-              <span className="contacts-text62">WhatsApp Enquiry</span>
+              <span className="contacts-text63">WhatsApp Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name1"
-          text21011={
-            <Fragment>
-              <span className="contacts-text63">Explore Facilities</span>
-            </Fragment>
-          }
         ></NavbarInteractive>
       </div>
       <style jsx>
@@ -509,7 +509,7 @@ const Contacts = (props) => {
             .contacts-text61 {
               line-height: 1.4;
             }
-            .contacts-text62 {
+            .contacts-text63 {
               line-height: 1.4;
             }
           }

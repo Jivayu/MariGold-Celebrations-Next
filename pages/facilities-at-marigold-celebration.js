@@ -102,17 +102,17 @@ const Facilities = (props) => {
               <span className="facilities-text23">Call Enquiry</span>
             </Fragment>
           }
+          text21011={
+            <Fragment>
+              <span className="facilities-text24">Explore Facilities</span>
+            </Fragment>
+          }
           register12={
             <Fragment>
-              <span className="facilities-text24">WhatsApp Enquiry</span>
+              <span className="facilities-text25">WhatsApp Enquiry</span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name2"
-          text21011={
-            <Fragment>
-              <span className="facilities-text25">Explore Facilities</span>
-            </Fragment>
-          }
         ></NavbarInteractive>
         <PageHeadersFacilities
           action1={
@@ -404,7 +404,7 @@ const Facilities = (props) => {
             .facilities-text23 {
               line-height: 1.4;
             }
-            .facilities-text24 {
+            .facilities-text25 {
               line-height: 1.4;
             }
           }

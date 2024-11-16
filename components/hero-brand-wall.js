@@ -11,7 +11,7 @@ const HeroBrandWall = (props) => {
       <div
         className={`hero-brand-wall-column thq-section-padding ${props.rootClassName} `}
       >
-        <BrandLogo></BrandLogo>
+        <BrandLogo rootClassName="brand-logoroot-class-name"></BrandLogo>
         <div className="hero-brand-wall-content">
           <div className="hero-brand-wall-container1">
             <h1
@@ -71,7 +71,7 @@ const HeroBrandWall = (props) => {
                 <a className="hero-brand-wall-link1 thq-button-outline">
                   {props.action21 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-text19">
+                      <span className="hero-brand-wall-text20">
                         Explore Our Facilities
                       </span>
                     </Fragment>
@@ -86,7 +86,7 @@ const HeroBrandWall = (props) => {
                 <span className="hero-brand-wall-text15">
                   {props.text21011 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-text20">
+                      <span className="hero-brand-wall-text19">
                         Explore Facilities
                       </span>
                     </Fragment>
@@ -314,7 +314,9 @@ const HeroBrandWall = (props) => {
           .hero-brand-wall-text20 {
             display: inline-block;
           }
-
+          .hero-brand-wallroot-class-name {
+            display: none;
+          }
           @media (max-width: 1200px) {
             .hero-brand-wall-column {
               background-size: cover, contain;
@@ -391,18 +393,18 @@ HeroBrandWall.defaultProps = {
   action1: undefined,
   heading1: undefined,
   action2: undefined,
-  action21: undefined,
-  text21011: undefined,
   rootClassName: '',
+  text21011: undefined,
+  action21: undefined,
 }
 
 HeroBrandWall.propTypes = {
   action1: PropTypes.element,
   heading1: PropTypes.element,
   action2: PropTypes.element,
-  action21: PropTypes.element,
-  text21011: PropTypes.element,
   rootClassName: PropTypes.string,
+  text21011: PropTypes.element,
+  action21: PropTypes.element,
 }
 
 export default HeroBrandWall

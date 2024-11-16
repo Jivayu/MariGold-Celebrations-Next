@@ -15,7 +15,7 @@ const FacilitiesHome1 = (props) => {
             <h2 className="facilities-home-1-text10">
               {props.sectionTitle ?? (
                 <Fragment>
-                  <span className="facilities-home-1-text30">
+                  <span className="facilities-home-1-text31">
                     Facilities At Marigold Celebration
                   </span>
                 </Fragment>
@@ -80,7 +80,7 @@ const FacilitiesHome1 = (props) => {
                       >
                         {props.feature1Description ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text28">
+                            <span className="facilities-home-1-text29">
                               Our expansive banquet hall can accommodate up to
                               2000 guests comfortably. Whether you’re planning
                               an extravagant wedding or an intimate gathering,
@@ -129,7 +129,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title12 h2Light">
                         {props.feature1Title1 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text29">
+                            <span className="facilities-home-1-text30">
                               Fine Dining Catering
                             </span>
                           </Fragment>
@@ -191,7 +191,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title13 h2Light">
                         {props.feature1Title11 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text27">
+                            <span className="facilities-home-1-text28">
                               Photography &amp; Videography Services 
                             </span>
                           </Fragment>
@@ -212,7 +212,7 @@ const FacilitiesHome1 = (props) => {
                       >
                         {props.feature1Description11 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text24">
+                            <span className="facilities-home-1-text25">
                               Preserve every special moment with our
                               professional photography and videography services.
                               Our experienced team specializes in capturing the
@@ -316,7 +316,7 @@ const FacilitiesHome1 = (props) => {
                       <h3 className="facilities-home-1-title15 h2Light">
                         {props.feature1Title1111 ?? (
                           <Fragment>
-                            <span className="facilities-home-1-text25">
+                            <span className="facilities-home-1-text26">
                               Parking &amp; Accessibility
                             </span>
                           </Fragment>
@@ -374,7 +374,7 @@ const FacilitiesHome1 = (props) => {
                   <a className="facilities-home-1-link1 thq-button-outline">
                     {props.action2 ?? (
                       <Fragment>
-                        <span className="facilities-home-1-text26">
+                        <span className="facilities-home-1-text27">
                           Explore Our Facilities
                         </span>
                       </Fragment>
@@ -391,7 +391,7 @@ const FacilitiesHome1 = (props) => {
                   <span className="facilities-home-1-text14">
                     {props.text2101 ?? (
                       <Fragment>
-                        <span className="facilities-home-1-text31">
+                        <span className="facilities-home-1-text24">
                           Verify Review
                         </span>
                       </Fragment>
@@ -1021,6 +1021,7 @@ FacilitiesHome1.defaultProps = {
   feature1ImageAlt: 'Elegant Venues Image',
   feature1ImageAlt111: 'Elegant Venues Image',
   feature1Title111: undefined,
+  text2101: undefined,
   feature1ImageSrc111:
     'https://images.unsplash.com/photo-1464692805480-a69dfaafdb0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcyOTU5NzE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
   feature1Description11: undefined,
@@ -1036,7 +1037,6 @@ FacilitiesHome1.defaultProps = {
   feature1Description: undefined,
   feature1Title1: undefined,
   sectionTitle: undefined,
-  text2101: undefined,
 }
 
 FacilitiesHome1.propTypes = {
@@ -1052,6 +1052,7 @@ FacilitiesHome1.propTypes = {
   feature1ImageAlt: PropTypes.string,
   feature1ImageAlt111: PropTypes.string,
   feature1Title111: PropTypes.element,
+  text2101: PropTypes.element,
   feature1ImageSrc111: PropTypes.string,
   feature1Description11: PropTypes.element,
   feature1ImageAlt11: PropTypes.string,
@@ -1065,7 +1066,6 @@ FacilitiesHome1.propTypes = {
   feature1Description: PropTypes.element,
   feature1Title1: PropTypes.element,
   sectionTitle: PropTypes.element,
-  text2101: PropTypes.element,
 }
 
 export default FacilitiesHome1

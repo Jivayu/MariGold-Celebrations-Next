@@ -34,7 +34,7 @@ const MobileFacilities1 = (props) => {
                 <span className="mobile-facilities-1-text11">
                   {props.slogan1 ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text79">
+                      <span className="mobile-facilities-1-text77">
                         At Marigold Banquet Hall, we offer an exceptional range
                         of facilities to ensure your event is as smooth,
                         memorable, and stress-free as possible. Our venue is
@@ -66,7 +66,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq1-question UbuntuLight-14">
                   {props.faq1Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text76">
+                      <span className="mobile-facilities-1-text79">
                         Spacious Venue with Capacity
                       </span>
                     </Fragment>
@@ -222,7 +222,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq2-question1 UbuntuLight-14">
                   {props.faq2Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text74">
+                      <span className="mobile-facilities-1-text75">
                         Fine Dining Catering
                       </span>
                     </Fragment>
@@ -377,7 +377,7 @@ const MobileFacilities1 = (props) => {
                 <p className="mobile-facilities-1-faq2-question2 UbuntuLight-14">
                   {props.faq3Question ?? (
                     <Fragment>
-                      <span className="mobile-facilities-1-text75">
+                      <span className="mobile-facilities-1-text76">
                         Photography &amp; Videography Services
                       </span>
                     </Fragment>
@@ -743,7 +743,7 @@ const MobileFacilities1 = (props) => {
               <span className="mobile-facilities-1-text72">
                 {props.text2101 ?? (
                   <Fragment>
-                    <span className="mobile-facilities-1-text77">
+                    <span className="mobile-facilities-1-text74">
                       More Facilities
                     </span>
                   </Fragment>
@@ -1562,23 +1562,23 @@ const MobileFacilities1 = (props) => {
 MobileFacilities1.defaultProps = {
   rootClassName: '',
   faq4Question: undefined,
+  text2101: undefined,
   faq2Question: undefined,
   faq3Question: undefined,
-  faq1Question: undefined,
-  text2101: undefined,
-  sectionTitle1: undefined,
   slogan1: undefined,
+  sectionTitle1: undefined,
+  faq1Question: undefined,
 }
 
 MobileFacilities1.propTypes = {
   rootClassName: PropTypes.string,
   faq4Question: PropTypes.element,
+  text2101: PropTypes.element,
   faq2Question: PropTypes.element,
   faq3Question: PropTypes.element,
-  faq1Question: PropTypes.element,
-  text2101: PropTypes.element,
-  sectionTitle1: PropTypes.element,
   slogan1: PropTypes.element,
+  sectionTitle1: PropTypes.element,
+  faq1Question: PropTypes.element,
 }
 
 export default MobileFacilities1
