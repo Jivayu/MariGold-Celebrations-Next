@@ -171,7 +171,7 @@ const PageHeadersGallery = (props) => {
               font-size: 14px;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .page-headers-gallery-text2 {
               fill: var(--dl-color-theme-accent1);
               color: var(--dl-color-theme-accent1);

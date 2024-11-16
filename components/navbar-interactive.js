@@ -1046,7 +1046,7 @@ const NavbarInteractive = (props) => {
               line-height: 1.4;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .navbar-interactive-navbar-interactive {
               padding-top: var(--dl-space-space-halfunit);
               padding-left: var(--dl-space-space-oneandhalfunits);

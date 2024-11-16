@@ -1546,7 +1546,7 @@ const GoogleReviews = (props) => {
               color: #00ff38;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .google-reviews-slider {
               box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.4);
             }

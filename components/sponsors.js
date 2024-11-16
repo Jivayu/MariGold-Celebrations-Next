@@ -265,7 +265,7 @@ const Sponsors = (props) => {
               line-height: 24px;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .sponsors-divide {
               width: 20px;
             }

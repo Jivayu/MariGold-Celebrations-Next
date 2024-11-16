@@ -1537,7 +1537,7 @@ const MobileFacilities1 = (props) => {
               background-color: transparent;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .mobile-facilities-1faq8 {
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);

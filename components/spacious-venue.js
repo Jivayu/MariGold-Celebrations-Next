@@ -308,7 +308,7 @@ const SpaciousVenue = (props) => {
               font-family: Ubuntu;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .spacious-venue-list {
               gap: var(--dl-space-space-unit);
               justify-content: flex-start;

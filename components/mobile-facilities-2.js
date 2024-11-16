@@ -828,7 +828,7 @@ const MobileFacilities2 = (props) => {
               flex-direction: column;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .mobile-facilities-2faq8 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);

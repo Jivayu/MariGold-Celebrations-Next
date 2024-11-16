@@ -256,7 +256,7 @@ const Hero = (props) => {
               display: flex;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .hero-max-width {
               justify-content: flex-start;
             }

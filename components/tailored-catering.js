@@ -292,7 +292,7 @@ const TailoredCatering = (props) => {
               font-family: Ubuntu;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .tailored-catering-text12 {
               font-size: 16px;
             }

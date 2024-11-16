@@ -450,7 +450,7 @@ const VideoGallery = (props) => {
               transform: scale(1);
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .video-gallery-video {
               width: 100%;
               transform: scale(1);

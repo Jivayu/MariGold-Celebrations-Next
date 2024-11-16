@@ -353,7 +353,7 @@ const HeroBrandWall2 = (props) => {
               color: #00ff38;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .hero-brand-wall-2-column {
               padding: var(--dl-space-space-unit);
               background-position: bottom, bottom, top lefttop;

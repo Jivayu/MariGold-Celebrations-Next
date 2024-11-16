@@ -984,7 +984,7 @@ const FacilitiesHome1 = (props) => {
               color: #00ff38;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .facilities-home-1-layout302 {
               padding: var(--dl-space-space-unit);
             }

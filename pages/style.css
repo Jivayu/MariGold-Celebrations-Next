@@ -835,7 +835,7 @@
     width: 100%;
   }
 }
-@media(max-width: 480px) {
+@media(max-width: 490px) {
   .accordion {
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-oneandhalfunits);

@@ -406,8 +406,8 @@ const HeroBrandWallSlider = (props) => {
           }
           @media (max-width: 599px) {
             .hero-brand-wall-slider-column {
-              height: 500px;
-              max-height: 500px;
+              height: 600px;
+              max-height: 600px;
               background-size: cover, contain;
               background-position: center, bottom, top lefttop;
             }
@@ -423,7 +423,7 @@ const HeroBrandWallSlider = (props) => {
               height: 500px;
             }
           }
-          @media (max-width: 480px) {
+          @media (max-width: 490px) {
             .hero-brand-wall-slider-column {
               padding: 0px;
               background-position: bottom, bottom, top lefttop;
