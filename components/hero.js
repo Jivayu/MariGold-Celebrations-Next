@@ -17,31 +17,31 @@ const Hero = (props) => {
       <main id="hero" className={`hero-header77 ${props.rootClassName} `}>
         <div id="hero-11" className="hero-max-width thq-section-max-width">
           <HeroBrandWallSlider
+            action1={
+              <Fragment>
+                <span className="hero-text1">Shop Now</span>
+              </Fragment>
+            }
+            action2={
+              <Fragment>
+                <span className="hero-text2">Services</span>
+              </Fragment>
+            }
+            action21={
+              <Fragment>
+                <span className="hero-text3">Explore Our Facilities</span>
+              </Fragment>
+            }
             heading1={
               <Fragment>
-                <span className="hero-text1">
+                <span className="hero-text4">
                   Banquet Hall &amp; Big Events Services in Hingna, Nagpur
                 </span>
               </Fragment>
             }
             text21011={
               <Fragment>
-                <span className="hero-text2">Explore Facilities</span>
-              </Fragment>
-            }
-            action1={
-              <Fragment>
-                <span className="hero-text3">Shop Now</span>
-              </Fragment>
-            }
-            action2={
-              <Fragment>
-                <span className="hero-text4">Services</span>
-              </Fragment>
-            }
-            action21={
-              <Fragment>
-                <span className="hero-text5">Explore Our Facilities</span>
+                <span className="hero-text5">Explore Facilities</span>
               </Fragment>
             }
             rootClassName="hero-brand-wall-sliderroot-class-name"
@@ -86,10 +86,8 @@ const Hero = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
-            margin-top: 66px;
             align-items: center;
             flex-shrink: 0;
-            margin-bottom: var(--dl-space-space-halfunit);
             flex-direction: row;
             justify-content: center;
           }
@@ -232,9 +230,6 @@ const Hero = (props) => {
             }
           }
           @media (max-width: 599px) {
-            .hero-header77 {
-              margin-top: 80px;
-            }
             .hero-content {
               padding: var(--dl-space-space-halfunit);
             }
@@ -260,9 +255,6 @@ const Hero = (props) => {
               gap: 5px;
               display: flex;
             }
-            .heroroot-class-name {
-              margin-top: var(--dl-space-space-sixunits);
-            }
           }
           @media (max-width: 479px) {
             .hero-content {
@@ -273,8 +265,8 @@ const Hero = (props) => {
             }
           }
           @media (max-width: 399px) {
-            .hero-header77 {
-              margin-top: 85px;
+            .hero-max-width {
+              justify-content: flex-start;
             }
             .hero-content {
               padding: var(--dl-space-space-halfunit);
@@ -284,9 +276,6 @@ const Hero = (props) => {
             }
             .hero-row3 {
               gap: auto;
-            }
-            .heroroot-class-name {
-              margin-top: 100px;
             }
           }
         `}

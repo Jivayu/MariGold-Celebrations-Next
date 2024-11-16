@@ -20,7 +20,7 @@ const HeroBrandWallSlider = (props) => {
             >
               {props.heading1 ?? (
                 <Fragment>
-                  <span className="hero-brand-wall-slider-text16">
+                  <span className="hero-brand-wall-slider-text20">
                     Banquet Hall &amp; Big Events Services in Hingna, Nagpur
                   </span>
                 </Fragment>
@@ -61,7 +61,7 @@ const HeroBrandWallSlider = (props) => {
               <span className="hero-brand-wall-slider-text13">
                 {props.action2 ?? (
                   <Fragment>
-                    <span className="hero-brand-wall-slider-text19">
+                    <span className="hero-brand-wall-slider-text17">
                       Services
                     </span>
                   </Fragment>
@@ -75,7 +75,7 @@ const HeroBrandWallSlider = (props) => {
                 <a className="hero-brand-wall-slider-link1 thq-button-outline">
                   {props.action21 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-slider-text20">
+                      <span className="hero-brand-wall-slider-text16">
                         Explore Our Facilities
                       </span>
                     </Fragment>
@@ -90,7 +90,7 @@ const HeroBrandWallSlider = (props) => {
                 <span className="hero-brand-wall-slider-text15">
                   {props.text21011 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-slider-text17">
+                      <span className="hero-brand-wall-slider-text19">
                         Explore Facilities
                       </span>
                     </Fragment>
@@ -117,9 +117,9 @@ const HeroBrandWallSlider = (props) => {
         </div>
         <div
           data-thq="slider"
-          data-pagination="true"
-          data-navigation="true"
           data-autoplay="true"
+          data-navigation="true"
+          data-pagination="true"
           data-pause-autoplay-on-mouse-enter="true"
           className="hero-brand-wall-slider-slider swiper"
         >
@@ -456,21 +456,21 @@ const HeroBrandWallSlider = (props) => {
 }
 
 HeroBrandWallSlider.defaultProps = {
-  rootClassName: '',
-  heading1: undefined,
-  text21011: undefined,
-  action1: undefined,
-  action2: undefined,
   action21: undefined,
+  action2: undefined,
+  action1: undefined,
+  rootClassName: '',
+  text21011: undefined,
+  heading1: undefined,
 }
 
 HeroBrandWallSlider.propTypes = {
-  rootClassName: PropTypes.string,
-  heading1: PropTypes.element,
-  text21011: PropTypes.element,
-  action1: PropTypes.element,
-  action2: PropTypes.element,
   action21: PropTypes.element,
+  action2: PropTypes.element,
+  action1: PropTypes.element,
+  rootClassName: PropTypes.string,
+  text21011: PropTypes.element,
+  heading1: PropTypes.element,
 }
 
 export default HeroBrandWallSlider
