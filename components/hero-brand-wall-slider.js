@@ -335,7 +335,7 @@ const HeroBrandWallSlider = (props) => {
           .hero-brand-wall-slider-slider {
             width: 100%;
             height: 100%;
-            display: inline-block;
+            display: block;
           }
           .hero-brand-wall-slider-slider-slide1 {
             display: flex;
