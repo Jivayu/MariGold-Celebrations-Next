@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 
 import HeroBrandWall from './hero-brand-wall'
-import HeroBrandWall2 from './hero-brand-wall-2'
 import HeroPlaceholderImage4 from './hero-placeholder-image4'
 import HeroPlaceholderImage1 from './hero-placeholder-image1'
 import HeroPlaceholderImage5 from './hero-placeholder-image5'
@@ -20,90 +19,33 @@ const Hero = (props) => {
           <HeroBrandWall
             action1={
               <Fragment>
-                <span className="hero-text10">Shop Now</span>
+                <span className="hero-text1">Shop Now</span>
               </Fragment>
             }
             action2={
               <Fragment>
-                <span className="hero-text11">Services</span>
+                <span className="hero-text2">Services</span>
               </Fragment>
             }
             action21={
               <Fragment>
-                <span className="hero-text12">Explore Our Facilities</span>
+                <span className="hero-text3">Explore Our Facilities</span>
               </Fragment>
             }
             heading1={
               <Fragment>
-                <span className="hero-text13">
+                <span className="hero-text4">
                   Banquet Hall &amp; Big Events Services in Hingna, Nagpur
                 </span>
               </Fragment>
             }
             text21011={
               <Fragment>
-                <span className="hero-text14">Explore Facilities</span>
+                <span className="hero-text5">Explore Facilities</span>
               </Fragment>
             }
             rootClassName="hero-brand-wallroot-class-name"
           ></HeroBrandWall>
-          <HeroBrandWall2
-            action1={
-              <Fragment>
-                <span className="hero-text15">Shop Now</span>
-              </Fragment>
-            }
-            action2={
-              <Fragment>
-                <span className="hero-text16">Services</span>
-              </Fragment>
-            }
-            action12={
-              <Fragment>
-                <span className="hero-text17">Shop Now</span>
-              </Fragment>
-            }
-            action21={
-              <Fragment>
-                <span className="hero-text18">Explore Our Facilities</span>
-              </Fragment>
-            }
-            action23={
-              <Fragment>
-                <span className="hero-text19">Services</span>
-              </Fragment>
-            }
-            heading1={
-              <Fragment>
-                <span className="hero-text20">
-                  Banquet Hall &amp; Big Events Services in Hingna, Nagpur
-                </span>
-              </Fragment>
-            }
-            action212={
-              <Fragment>
-                <span className="hero-text21">Explore Our Facilities</span>
-              </Fragment>
-            }
-            heading12={
-              <Fragment>
-                <span className="hero-text22">
-                  Banquet Hall &amp; Big Events Services in Hingna, Nagpur
-                </span>
-              </Fragment>
-            }
-            text21011={
-              <Fragment>
-                <span className="hero-text23">Explore Facilities</span>
-              </Fragment>
-            }
-            text210112={
-              <Fragment>
-                <span className="hero-text24">Explore Facilities</span>
-              </Fragment>
-            }
-            rootClassName="hero-brand-wall2root-class-name"
-          ></HeroBrandWall2>
           <div className="hero-content">
             <div className="hero-row1">
               <img
@@ -160,49 +102,19 @@ const Hero = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .hero-text10 {
+          .hero-text1 {
             display: inline-block;
           }
-          .hero-text11 {
+          .hero-text2 {
             display: inline-block;
           }
-          .hero-text12 {
+          .hero-text3 {
             display: inline-block;
           }
-          .hero-text13 {
+          .hero-text4 {
             display: inline-block;
           }
-          .hero-text14 {
-            display: inline-block;
-          }
-          .hero-text15 {
-            display: inline-block;
-          }
-          .hero-text16 {
-            display: inline-block;
-          }
-          .hero-text17 {
-            display: inline-block;
-          }
-          .hero-text18 {
-            display: inline-block;
-          }
-          .hero-text19 {
-            display: inline-block;
-          }
-          .hero-text20 {
-            display: inline-block;
-          }
-          .hero-text21 {
-            display: inline-block;
-          }
-          .hero-text22 {
-            display: inline-block;
-          }
-          .hero-text23 {
-            display: inline-block;
-          }
-          .hero-text24 {
+          .hero-text5 {
             display: inline-block;
           }
           .hero-content {
