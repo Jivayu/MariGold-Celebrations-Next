@@ -722,7 +722,6 @@ const HeroBrandWall2 = (props) => {
             .hero-brand-wall-2-column {
               gap: var(--dl-space-space-halfunit);
               width: 100%;
-              max-height: 600px;
             }
             .hero-brand-wall-2-slider-slide1 {
               background-size: cover;
@@ -763,7 +762,6 @@ const HeroBrandWall2 = (props) => {
           @media (max-width: 599px) {
             .hero-brand-wall-2-column {
               padding: 0px;
-              max-height: 450px;
             }
             .hero-brand-wall-2-black-half-cover1 {
               height: 45%;
