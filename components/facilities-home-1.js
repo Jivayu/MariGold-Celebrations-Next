@@ -984,6 +984,11 @@ const FacilitiesHome1 = (props) => {
               color: #00ff38;
             }
           }
+          @media (max-width: 480px) {
+            .facilities-home-1-layout302 {
+              padding: var(--dl-space-space-unit);
+            }
+          }
           @media (max-width: 479px) {
             .facilities-home-1-max-width {
               gap: var(--dl-space-space-oneandhalfunits);
@@ -992,11 +997,6 @@ const FacilitiesHome1 = (props) => {
               width: 100%;
               flex-wrap: wrap;
               margin-top: var(--dl-space-space-unit);
-            }
-          }
-          @media (max-width: 399px) {
-            .facilities-home-1-layout302 {
-              padding: var(--dl-space-space-unit);
             }
           }
         `}

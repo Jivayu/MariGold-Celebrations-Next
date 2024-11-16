@@ -695,7 +695,7 @@ const FAQ14 = (props) => {
               flex-direction: column;
             }
           }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .faq14-max-width {
               gap: var(--dl-space-space-oneandhalfunits);
             }

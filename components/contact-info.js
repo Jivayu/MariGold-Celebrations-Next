@@ -848,7 +848,7 @@ const ContactInfo = (props) => {
               font-size: 22px;
             }
           }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .contact-info-container1 {
               padding-left: 0px;
               padding-right: 0px;

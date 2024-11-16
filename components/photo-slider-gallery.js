@@ -349,19 +349,19 @@ const PhotoSliderGallery = (props) => {
               align-self: center;
             }
           }
-          @media (max-width: 479px) {
-            .photo-slider-gallery-actions {
-              width: 100%;
-              flex-wrap: wrap;
-              margin-top: var(--dl-space-space-unit);
-            }
-          }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .photo-slider-gallery-slider {
               height: 240px;
             }
             .photo-slider-gallery-column {
               width: 100%;
+            }
+          }
+          @media (max-width: 479px) {
+            .photo-slider-gallery-actions {
+              width: 100%;
+              flex-wrap: wrap;
+              margin-top: var(--dl-space-space-unit);
             }
           }
         `}

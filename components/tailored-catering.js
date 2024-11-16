@@ -292,15 +292,7 @@ const TailoredCatering = (props) => {
               font-family: Ubuntu;
             }
           }
-          @media (max-width: 479px) {
-            .tailored-catering-tailored-catering {
-              gap: var(--dl-space-space-oneandhalfunits);
-            }
-            .tailored-catering-list {
-              flex-direction: column;
-            }
-          }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .tailored-catering-text12 {
               font-size: 16px;
             }
@@ -321,6 +313,14 @@ const TailoredCatering = (props) => {
             }
             .tailored-catering-text16 {
               font-size: 14px;
+            }
+          }
+          @media (max-width: 479px) {
+            .tailored-catering-tailored-catering {
+              gap: var(--dl-space-space-oneandhalfunits);
+            }
+            .tailored-catering-list {
+              flex-direction: column;
             }
           }
         `}

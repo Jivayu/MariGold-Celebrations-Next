@@ -450,6 +450,12 @@ const VideoGallery = (props) => {
               transform: scale(1);
             }
           }
+          @media (max-width: 480px) {
+            .video-gallery-video {
+              width: 100%;
+              transform: scale(1);
+            }
+          }
           @media (max-width: 479px) {
             .video-gallery-actions {
               width: 100%;
@@ -468,12 +474,6 @@ const VideoGallery = (props) => {
             .video-gallery-avatar-content {
               align-items: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-          }
-          @media (max-width: 399px) {
-            .video-gallery-video {
-              width: 100%;
-              transform: scale(1);
             }
           }
         `}

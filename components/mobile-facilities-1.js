@@ -1537,6 +1537,12 @@ const MobileFacilities1 = (props) => {
               background-color: transparent;
             }
           }
+          @media (max-width: 480px) {
+            .mobile-facilities-1faq8 {
+              padding-left: var(--dl-space-space-halfunit);
+              padding-right: var(--dl-space-space-halfunit);
+            }
+          }
           @media (max-width: 479px) {
             .mobile-facilities-1-max-width {
               gap: var(--dl-space-space-oneandhalfunits);
@@ -1545,12 +1551,6 @@ const MobileFacilities1 = (props) => {
               width: 100%;
               flex-wrap: wrap;
               margin-top: var(--dl-space-space-unit);
-            }
-          }
-          @media (max-width: 399px) {
-            .mobile-facilities-1faq8 {
-              padding-left: var(--dl-space-space-halfunit);
-              padding-right: var(--dl-space-space-halfunit);
             }
           }
         `}

@@ -2509,7 +2509,7 @@ tabButtons.forEach((tabButton, index) => {
               font-size: 10px;
             }
           }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .schedule-divide {
               width: 20px;
             }

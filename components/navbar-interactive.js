@@ -1046,15 +1046,7 @@ const NavbarInteractive = (props) => {
               line-height: 1.4;
             }
           }
-          @media (max-width: 479px) {
-            .navbar-interactive-navbar-interactive {
-              padding: var(--dl-space-space-unit);
-            }
-            .navbar-interactive-mobile-menu {
-              padding: 16px;
-            }
-          }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .navbar-interactive-navbar-interactive {
               padding-top: var(--dl-space-space-halfunit);
               padding-left: var(--dl-space-space-oneandhalfunits);
@@ -1131,6 +1123,14 @@ const NavbarInteractive = (props) => {
               border-radius: auto;
               padding-right: 2px;
               padding-bottom: 2px;
+            }
+          }
+          @media (max-width: 479px) {
+            .navbar-interactive-navbar-interactive {
+              padding: var(--dl-space-space-unit);
+            }
+            .navbar-interactive-mobile-menu {
+              padding: 16px;
             }
           }
         `}

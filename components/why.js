@@ -397,7 +397,7 @@ const Why = (props) => {
               line-height: 24px;
             }
           }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .why-divide {
               width: 20px;
             }

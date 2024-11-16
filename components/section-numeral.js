@@ -27,7 +27,7 @@ const SectionNumeral = (props) => {
             flex-direction: row;
             background-color: var(--dl-color-gray-black);
           }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .section-numeral-divide {
               width: 20px;
             }

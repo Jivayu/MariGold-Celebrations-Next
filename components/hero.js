@@ -256,15 +256,7 @@ const Hero = (props) => {
               display: flex;
             }
           }
-          @media (max-width: 479px) {
-            .hero-content {
-              padding-top: var(--dl-space-space-oneandhalfunits);
-              padding-left: var(--dl-space-space-oneandhalfunits);
-              padding-right: var(--dl-space-space-oneandhalfunits);
-              padding-bottom: var(--dl-space-space-oneandhalfunits);
-            }
-          }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .hero-max-width {
               justify-content: flex-start;
             }
@@ -276,6 +268,14 @@ const Hero = (props) => {
             }
             .hero-row3 {
               gap: auto;
+            }
+          }
+          @media (max-width: 479px) {
+            .hero-content {
+              padding-top: var(--dl-space-space-oneandhalfunits);
+              padding-left: var(--dl-space-space-oneandhalfunits);
+              padding-right: var(--dl-space-space-oneandhalfunits);
+              padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
         `}

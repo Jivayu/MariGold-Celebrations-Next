@@ -308,15 +308,7 @@ const SpaciousVenue = (props) => {
               font-family: Ubuntu;
             }
           }
-          @media (max-width: 479px) {
-            .spacious-venue-spacious-venue {
-              gap: var(--dl-space-space-oneandhalfunits);
-            }
-            .spacious-venue-list {
-              flex-direction: column;
-            }
-          }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .spacious-venue-list {
               gap: var(--dl-space-space-unit);
               justify-content: flex-start;
@@ -333,6 +325,14 @@ const SpaciousVenue = (props) => {
             }
             .spacious-venue-text19 {
               font-size: 14px;
+            }
+          }
+          @media (max-width: 479px) {
+            .spacious-venue-spacious-venue {
+              gap: var(--dl-space-space-oneandhalfunits);
+            }
+            .spacious-venue-list {
+              flex-direction: column;
             }
           }
         `}

@@ -828,15 +828,15 @@ const MobileFacilities2 = (props) => {
               flex-direction: column;
             }
           }
-          @media (max-width: 479px) {
-            .mobile-facilities-2-max-width {
-              gap: var(--dl-space-space-oneandhalfunits);
-            }
-          }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .mobile-facilities-2faq8 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
+            }
+          }
+          @media (max-width: 479px) {
+            .mobile-facilities-2-max-width {
+              gap: var(--dl-space-space-oneandhalfunits);
             }
           }
         `}

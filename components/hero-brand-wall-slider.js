@@ -423,6 +423,15 @@ const HeroBrandWallSlider = (props) => {
               height: 500px;
             }
           }
+          @media (max-width: 480px) {
+            .hero-brand-wall-slider-column {
+              padding: 0px;
+              background-position: bottom, bottom, top lefttop;
+            }
+            .hero-brand-wall-slider-slider {
+              align-self: center;
+            }
+          }
           @media (max-width: 479px) {
             .hero-brand-wall-slider-column {
               padding: var(--dl-space-space-oneandhalfunits);
@@ -437,15 +446,6 @@ const HeroBrandWallSlider = (props) => {
               width: 100%;
               flex-wrap: wrap;
               margin-top: var(--dl-space-space-unit);
-            }
-          }
-          @media (max-width: 399px) {
-            .hero-brand-wall-slider-column {
-              padding: 0px;
-              background-position: bottom, bottom, top lefttop;
-            }
-            .hero-brand-wall-slider-slider {
-              align-self: center;
             }
           }
         `}

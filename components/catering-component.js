@@ -102,17 +102,17 @@ const CateringComponent = (props) => {
               align-self: center;
             }
           }
+          @media (max-width: 480px) {
+            .catering-component-link {
+              font-size: 14px;
+              font-family: Ubuntu;
+            }
+          }
           @media (max-width: 479px) {
             .catering-component-actions {
               width: 100%;
               flex-wrap: wrap;
               margin-top: var(--dl-space-space-unit);
-            }
-          }
-          @media (max-width: 399px) {
-            .catering-component-link {
-              font-size: 14px;
-              font-family: Ubuntu;
             }
           }
         `}

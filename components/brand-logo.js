@@ -136,7 +136,7 @@ const BrandLogo = (props) => {
               left: 238px;
             }
           }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .brand-logo-image {
               height: auto;
             }

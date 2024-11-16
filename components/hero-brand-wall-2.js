@@ -353,6 +353,12 @@ const HeroBrandWall2 = (props) => {
               color: #00ff38;
             }
           }
+          @media (max-width: 480px) {
+            .hero-brand-wall-2-column {
+              padding: var(--dl-space-space-unit);
+              background-position: bottom, bottom, top lefttop;
+            }
+          }
           @media (max-width: 479px) {
             .hero-brand-wall-2-column {
               padding: var(--dl-space-space-oneandhalfunits);
@@ -367,12 +373,6 @@ const HeroBrandWall2 = (props) => {
               width: 100%;
               flex-wrap: wrap;
               margin-top: var(--dl-space-space-unit);
-            }
-          }
-          @media (max-width: 399px) {
-            .hero-brand-wall-2-column {
-              padding: var(--dl-space-space-unit);
-              background-position: bottom, bottom, top lefttop;
             }
           }
         `}

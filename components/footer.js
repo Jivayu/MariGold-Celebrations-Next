@@ -954,6 +954,26 @@ const Footer = (props) => {
               align-self: center;
             }
           }
+          @media (max-width: 480px) {
+            .footer-content1 {
+              text-align: center;
+            }
+            .footer-content2 {
+              text-align: center;
+            }
+            .footer-row {
+              align-items: center;
+              justify-content: flex-start;
+            }
+            .footer-content3 {
+              font-size: 10px;
+            }
+            .footer-footer-links3 {
+              gap: var(--dl-space-space-halfunit);
+              width: auto;
+              flex-direction: row;
+            }
+          }
           @media (max-width: 479px) {
             .footer-actions {
               width: 100%;
@@ -992,26 +1012,6 @@ const Footer = (props) => {
               align-items: center;
               flex-direction: column;
               justify-content: center;
-            }
-          }
-          @media (max-width: 399px) {
-            .footer-content1 {
-              text-align: center;
-            }
-            .footer-content2 {
-              text-align: center;
-            }
-            .footer-row {
-              align-items: center;
-              justify-content: flex-start;
-            }
-            .footer-content3 {
-              font-size: 10px;
-            }
-            .footer-footer-links3 {
-              gap: var(--dl-space-space-halfunit);
-              width: auto;
-              flex-direction: row;
             }
           }
         `}

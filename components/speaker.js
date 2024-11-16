@@ -93,7 +93,7 @@ const Speaker = (props) => {
               font-size: 10px;
             }
           }
-          @media (max-width: 399px) {
+          @media (max-width: 480px) {
             .speaker-point {
               width: 100%;
               max-width: 20px;
