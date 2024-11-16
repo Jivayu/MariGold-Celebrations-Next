@@ -312,6 +312,8 @@ const HeroBrandWall2 = (props) => {
             backdrop-filter: blur(2px);
             justify-content: center;
             background-color: rgba(0, 0, 0, 0.5);
+            border-top-left-radius: var(--dl-radius-radius-buttonradius);
+            border-top-right-radius: var(--dl-radius-radius-buttonradius);
           }
           .hero-brand-wall-2-content1 {
             gap: var(--dl-space-space-halfunit);
@@ -492,11 +494,13 @@ const HeroBrandWall2 = (props) => {
             display: flex;
             align-self: flex-end;
             align-items: center;
-            border-radius: var(--dl-radius-radius-buttonradius);
+            border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
             backdrop-filter: blur(2px);
             justify-content: center;
             background-color: rgba(0, 0, 0, 0.5);
+            border-top-left-radius: var(--dl-radius-radius-buttonradius);
+            border-top-right-radius: var(--dl-radius-radius-buttonradius);
           }
           .hero-brand-wall-2-content2 {
             gap: var(--dl-space-space-halfunit);
