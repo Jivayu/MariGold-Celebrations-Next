@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 import PropTypes from 'prop-types'
 
@@ -16,36 +16,7 @@ const Hero = (props) => {
     <>
       <main id="hero" className={`hero-header77 ${props.rootClassName} `}>
         <div id="hero-11" className="hero-max-width thq-section-max-width">
-          <HeroBrandWallSlider
-            action1={
-              <Fragment>
-                <span className="hero-text1">Shop Now</span>
-              </Fragment>
-            }
-            action2={
-              <Fragment>
-                <span className="hero-text2">Services</span>
-              </Fragment>
-            }
-            action21={
-              <Fragment>
-                <span className="hero-text3">Explore Our Facilities</span>
-              </Fragment>
-            }
-            heading1={
-              <Fragment>
-                <span className="hero-text4">
-                  Banquet Hall &amp; Big Events Services in Hingna, Nagpur
-                </span>
-              </Fragment>
-            }
-            text21011={
-              <Fragment>
-                <span className="hero-text5">Explore Facilities</span>
-              </Fragment>
-            }
-            rootClassName="hero-brand-wall-sliderroot-class-name"
-          ></HeroBrandWallSlider>
+          <HeroBrandWallSlider rootClassName="hero-brand-wall-sliderroot-class-name"></HeroBrandWallSlider>
           <div className="hero-content">
             <div className="hero-row1">
               <img
@@ -96,21 +67,6 @@ const Hero = (props) => {
             display: flex;
             align-items: center;
             flex-direction: row;
-          }
-          .hero-text1 {
-            display: inline-block;
-          }
-          .hero-text2 {
-            display: inline-block;
-          }
-          .hero-text3 {
-            display: inline-block;
-          }
-          .hero-text4 {
-            display: inline-block;
-          }
-          .hero-text5 {
-            display: inline-block;
           }
           .hero-content {
             gap: 4px;
@@ -183,7 +139,9 @@ const Hero = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-
+          .heroroot-class-name {
+            margin-top: var(--dl-space-space-fiveunits);
+          }
           @media (max-width: 1200px) {
             .hero-row1 {
               flex: 0 0 auto;
