@@ -322,8 +322,10 @@ const HeroBrandWall = (props) => {
             .hero-brand-wall-column {
               gap: var(--dl-space-space-unit);
               width: 100%;
+              height: 600px;
               max-height: 600px;
               background-size: cover, contain;
+              justify-content: center;
               background-repeat: no-repeat, bottom;
               background-position: right, bottom, top lefttop;
             }
@@ -345,6 +347,7 @@ const HeroBrandWall = (props) => {
           }
           @media (max-width: 599px) {
             .hero-brand-wall-column {
+              height: 500px;
               padding: var(--dl-space-space-oneandhalfunits);
               max-height: 500px;
               background-size: cover, contain;

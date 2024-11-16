@@ -26,6 +26,12 @@ const HeroPlaceholderImage1 = (props) => {
             align-self: stretch;
             border-radius: var(--dl-radius-radius-radius10);
           }
+          @media (max-width: 991px) {
+            .hero-placeholder-image1-placeholder-image {
+              width: 280px;
+              height: 280px;
+            }
+          }
         `}
       </style>
     </>
