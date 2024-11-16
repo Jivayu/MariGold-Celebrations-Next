@@ -159,10 +159,9 @@ const HeroBrandWallSlider = (props) => {
       <style jsx>
         {`
           .hero-brand-wall-slider-column {
-            gap: var(--dl-space-space-oneandhalfunits);
             width: 40%;
             display: flex;
-            padding: 2px;
+            padding: 0px;
             position: relative;
             align-self: stretch;
             align-items: center;
@@ -370,7 +369,9 @@ const HeroBrandWallSlider = (props) => {
           .hero-brand-wall-slider-text20 {
             display: inline-block;
           }
-
+          .hero-brand-wall-sliderroot-class-name {
+            padding: 0px;
+          }
           @media (max-width: 1200px) {
             .hero-brand-wall-slider-column {
               background-size: cover, contain;
@@ -379,7 +380,6 @@ const HeroBrandWallSlider = (props) => {
           }
           @media (max-width: 991px) {
             .hero-brand-wall-slider-column {
-              gap: var(--dl-space-space-unit);
               width: 100%;
               height: 600px;
               max-height: 600px;
@@ -407,7 +407,6 @@ const HeroBrandWallSlider = (props) => {
           @media (max-width: 599px) {
             .hero-brand-wall-slider-column {
               height: 500px;
-              padding: 2px;
               max-height: 500px;
               background-size: cover, contain;
               background-position: center, bottom, top lefttop;
@@ -442,7 +441,7 @@ const HeroBrandWallSlider = (props) => {
           }
           @media (max-width: 399px) {
             .hero-brand-wall-slider-column {
-              padding: 2px;
+              padding: 0px;
               background-position: bottom, bottom, top lefttop;
             }
             .hero-brand-wall-slider-slider {
