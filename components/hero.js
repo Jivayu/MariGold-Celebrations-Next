@@ -81,7 +81,6 @@ const Hero = (props) => {
       <style jsx>
         {`
           .hero-header77 {
-            gap: var(--dl-space-space-halfunit);
             width: 100%;
             height: auto;
             display: flex;
@@ -90,9 +89,7 @@ const Hero = (props) => {
             margin-top: 66px;
             align-items: center;
             flex-shrink: 0;
-            padding-left: var(--dl-space-space-halfunit);
             margin-bottom: var(--dl-space-space-halfunit);
-            padding-right: var(--dl-space-space-halfunit);
             flex-direction: row;
             justify-content: center;
           }
@@ -127,6 +124,7 @@ const Hero = (props) => {
             align-items: center;
             flex-shrink: 0;
             flex-direction: column;
+            justify-content: center;
           }
           .hero-row1 {
             gap: var(--dl-space-space-halfunit);
@@ -235,7 +233,6 @@ const Hero = (props) => {
           }
           @media (max-width: 599px) {
             .hero-header77 {
-              gap: var(--dl-space-space-halfunit);
               margin-top: 80px;
             }
             .hero-content {
@@ -277,7 +274,6 @@ const Hero = (props) => {
           }
           @media (max-width: 399px) {
             .hero-header77 {
-              gap: var(--dl-space-space-halfunit);
               margin-top: 85px;
             }
             .hero-content {

@@ -394,6 +394,9 @@ const HeroBrandWallSlider = (props) => {
             .hero-brand-wall-slider-actions1 {
               width: 35%;
             }
+            .hero-brand-wall-sliderroot-class-name {
+              height: 600px;
+            }
           }
           @media (max-width: 767px) {
             .hero-brand-wall-slider-actions1 {
@@ -417,6 +420,9 @@ const HeroBrandWallSlider = (props) => {
               fill: #00ff38;
               color: #00ff38;
             }
+            .hero-brand-wall-sliderroot-class-name {
+              height: 500px;
+            }
           }
           @media (max-width: 479px) {
             .hero-brand-wall-slider-column {
@@ -438,6 +444,9 @@ const HeroBrandWallSlider = (props) => {
             .hero-brand-wall-slider-column {
               padding: 2px;
               background-position: bottom, bottom, top lefttop;
+            }
+            .hero-brand-wall-slider-slider {
+              align-self: center;
             }
           }
         `}
