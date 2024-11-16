@@ -54,6 +54,7 @@ const Slider = (props) => {
             height: 100%;
             display: flex;
             position: relative;
+            border-radius: var(--dl-radius-radius-radius10);
             justify-content: center;
           }
           .slider-slider {
@@ -61,8 +62,11 @@ const Slider = (props) => {
             height: 100%;
             display: block;
             align-self: flex-start;
+            border-radius: var(--dl-radius-radius-radius10);
           }
           .slider-slider-slide1 {
+            width: 100%;
+            height: 100%;
             display: flex;
             background-size: cover;
             background-image: url('/images/Marigold Images/banquet%20hall%20-final%20%20day%20view-hero-1stpart-1500w.webp');
@@ -70,6 +74,8 @@ const Slider = (props) => {
             background-position: center;
           }
           .slider-slider-slide2 {
+            width: 100%;
+            height: 100%;
             display: flex;
             background-size: cover;
             background-image: url('/images/Marigold Images/banquet%20hall%20-final%20%20day%20view-hero-2ndpart-1500w.webp');
@@ -80,13 +86,13 @@ const Slider = (props) => {
             display: block;
           }
           .sliderroot-class-name {
-            flex: 1;
             width: 100%;
-            height: auto;
+            height: 100%;
           }
           @media (max-width: 490px) {
             .slider-slider {
               align-self: center;
+              border-radius: var(--dl-radius-radius-radius4);
             }
           }
         `}

@@ -7,9 +7,7 @@ import Slider from './slider'
 const HeroBrandWallSlider = (props) => {
   return (
     <>
-      <div
-        className={`hero-brand-wall-slider-column thq-section-padding ${props.rootClassName} `}
-      >
+      <div className={`hero-brand-wall-slider-column ${props.rootClassName} `}>
         <Slider rootClassName="sliderroot-class-name"></Slider>
       </div>
       <style jsx>
@@ -64,6 +62,9 @@ const HeroBrandWallSlider = (props) => {
             .hero-brand-wall-slider-column {
               padding: 0px;
               background-position: bottom, bottom, top lefttop;
+            }
+            .hero-brand-wall-sliderroot-class-name {
+              height: 600px;
             }
           }
           @media (max-width: 479px) {
