@@ -750,7 +750,7 @@ const HeroBrandWall2 = (props) => {
               width: 35%;
             }
             .hero-brand-wall-2root-class-name {
-              height: 400px;
+              height: 50vh;
             }
           }
           @media (max-width: 767px) {
