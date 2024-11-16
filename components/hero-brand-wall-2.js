@@ -704,7 +704,9 @@ const HeroBrandWall2 = (props) => {
           .hero-brand-wall-2-text31 {
             display: inline-block;
           }
-
+          .hero-brand-wall-2root-class-name {
+            display: none;
+          }
           @media (max-width: 1200px) {
             .hero-brand-wall-2-container1 {
               align-self: center;
@@ -748,9 +750,6 @@ const HeroBrandWall2 = (props) => {
             }
             .hero-brand-wall-2-actions3 {
               width: 35%;
-            }
-            .hero-brand-wall-2root-class-name {
-              height: 50vh;
             }
           }
           @media (max-width: 767px) {

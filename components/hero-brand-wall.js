@@ -314,9 +314,7 @@ const HeroBrandWall = (props) => {
           .hero-brand-wall-text20 {
             display: inline-block;
           }
-          .hero-brand-wallroot-class-name {
-            display: none;
-          }
+
           @media (max-width: 1200px) {
             .hero-brand-wall-column {
               background-size: cover, contain;
