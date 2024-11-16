@@ -286,8 +286,8 @@ const HeroBrandWall2 = (props) => {
             justify-content: flex-end;
           }
           .hero-brand-wall-2-slider {
+            flex: 1;
             width: 100%;
-            height: 100%;
             display: inline-block;
           }
           .hero-brand-wall-2-slider-slide1 {
@@ -303,7 +303,6 @@ const HeroBrandWall2 = (props) => {
           }
           .hero-brand-wall-2-black-half-cover1 {
             width: 100%;
-            height: 30%;
             display: flex;
             align-self: center;
             align-items: center;
@@ -723,12 +722,17 @@ const HeroBrandWall2 = (props) => {
               gap: var(--dl-space-space-halfunit);
               width: 100%;
             }
+            .hero-brand-wall-2-slider {
+              flex: 1;
+              width: auto;
+              height: auto;
+            }
             .hero-brand-wall-2-slider-slide1 {
               background-size: cover;
               background-position: right;
             }
             .hero-brand-wall-2-black-half-cover1 {
-              height: 40%;
+              width: 100%;
             }
             .hero-brand-wall-2-content1 {
               align-items: center;
@@ -746,7 +750,7 @@ const HeroBrandWall2 = (props) => {
               width: 35%;
             }
             .hero-brand-wall-2root-class-name {
-              height: 600px;
+              height: 400px;
             }
           }
           @media (max-width: 767px) {
@@ -762,9 +766,6 @@ const HeroBrandWall2 = (props) => {
           @media (max-width: 599px) {
             .hero-brand-wall-2-column {
               padding: 0px;
-            }
-            .hero-brand-wall-2-black-half-cover1 {
-              height: 45%;
             }
             .hero-brand-wall-2-content1 {
               left: 31px;
@@ -792,9 +793,6 @@ const HeroBrandWall2 = (props) => {
             .hero-brand-wall-2-icon3 {
               fill: #00ff38;
               color: #00ff38;
-            }
-            .hero-brand-wall-2root-class-name {
-              height: 450px;
             }
           }
           @media (max-width: 479px) {
@@ -828,9 +826,6 @@ const HeroBrandWall2 = (props) => {
             .hero-brand-wall-2-column {
               padding: 0px;
               background-position: bottom, bottom, top lefttop;
-            }
-            .hero-brand-wall-2-black-half-cover1 {
-              height: 50%;
             }
             .hero-brand-wall-2-content1 {
               left: 15px;
