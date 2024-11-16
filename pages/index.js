@@ -5,8 +5,8 @@ import Script from 'dangerous-html/react'
 
 import NavbarInteractive from '../components/navbar-interactive'
 import Hero from '../components/hero'
-import AboutMariGold1 from '../components/about-mari-gold-1'
 import FacilitiesHome1 from '../components/facilities-home-1'
+import AboutMariGold1 from '../components/about-mari-gold-1'
 import MobileFacilities1 from '../components/mobile-facilities-1'
 import GoogleReviews from '../components/google-reviews'
 import VideoGallery from '../components/video-gallery'
@@ -99,17 +99,143 @@ const Home = (props) => {
           image4Src="/images/circle-background.svg"
           rootClassName="heroroot-class-name"
         ></Hero>
+        <FacilitiesHome1
+          slogan={
+            <Fragment>
+              <span className="home-text111">
+                Please Do Consultation With Us For Your Any Requirements.
+              </span>
+            </Fragment>
+          }
+          action2={
+            <Fragment>
+              <span className="home-text112">Explore Our Facilities</span>
+            </Fragment>
+          }
+          text2101={
+            <Fragment>
+              <span className="home-text113">Verify Review</span>
+            </Fragment>
+          }
+          sectionTitle={
+            <Fragment>
+              <span className="home-text114">
+                Facilities At Marigold Celebration
+              </span>
+            </Fragment>
+          }
+          feature1Title={
+            <Fragment>
+              <span className="home-text115">
+                <span>Spacious Venue with Capacity</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          rootClassName="facilities-home1root-class-name"
+          feature1Title1={
+            <Fragment>
+              <span className="home-text118">Fine Dining Catering</span>
+            </Fragment>
+          }
+          feature1Title11={
+            <Fragment>
+              <span className="home-text119">
+                Photography &amp; Videography Services 
+              </span>
+            </Fragment>
+          }
+          feature1Title111={
+            <Fragment>
+              <span className="home-text120">Décor &amp; Design Services</span>
+            </Fragment>
+          }
+          feature1Title1111={
+            <Fragment>
+              <span className="home-text121">Parking &amp; Accessibility</span>
+            </Fragment>
+          }
+          sectionDescription={
+            <Fragment>
+              <span className="home-text122">
+                At Marigold Banquet Hall, we offer an exceptional range of
+                facilities to ensure your event is as smooth, memorable, and
+                stress-free as possible. Our venue is designed to cater to all
+                types of occasions, from grand weddings to corporate events,
+                while providing top-tier amenities.
+              </span>
+            </Fragment>
+          }
+          feature1Description={
+            <Fragment>
+              <span className="home-text123">
+                Our expansive banquet hall can accommodate up to 2000 guests
+                comfortably. Whether you’re planning an extravagant wedding or
+                an intimate gathering, our flexible seating arrangements and
+                multiple event spaces ensure the perfect setting for your
+                occasion.
+              </span>
+            </Fragment>
+          }
+          feature1Description1={
+            <Fragment>
+              <span className="home-text124">
+                We offer customizable catering options to suit any event style.
+                From lavish multi-course dinners to casual buffets, our in-house
+                culinary team crafts delicious, bespoke menus that reflect your
+                taste and preferences. Whether it’s traditional or contemporary
+                cuisine, our chefs ensure a delightful dining experience for
+                your guests.
+              </span>
+            </Fragment>
+          }
+          feature1Description11={
+            <Fragment>
+              <span className="home-text125">
+                Preserve every special moment with our professional photography
+                and videography services. Our experienced team specializes in
+                capturing the essence of your event, whether it’s candid wedding
+                moments or corporate highlights. We also provide event
+                videography, ensuring that every detail is documented in high
+                quality.
+              </span>
+            </Fragment>
+          }
+          feature1Description111={
+            <Fragment>
+              <span className="home-text126">
+                Our dedicated décor team works closely with you to bring your
+                vision to life. From elegant wedding themes to corporate setups,
+                we provide tailored decoration services that match your event’s
+                style. Whether you’re looking for luxurious floral arrangements
+                or modern minimalist designs, we have you covered.
+              </span>
+            </Fragment>
+          }
+          feature1Description1111={
+            <Fragment>
+              <span className="home-text127">
+                Our venue offers ample parking space to accommodate all your
+                guests, ensuring a stress-free arrival experience. For added
+                convenience, we provide lift access to all levels, making the
+                venue fully accessible to everyone. Additionally, our venue’s
+                iconic central location in Hingna, Nagpur, is easily accessible
+                from all parts of the city.
+              </span>
+            </Fragment>
+          }
+        ></FacilitiesHome1>
         <AboutMariGold1
           action={
             <Fragment>
-              <span className="home-text111">
+              <span className="home-text128">
                 Querry ?  feel free to contact us.
               </span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text112">
+              <span className="home-text129">
                 <span>
                   Marigold Celebration Hall, located in the heart of Hingna,
                   Nagpur, is the premier venue for hosting unforgettable events.
@@ -156,21 +282,21 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text123">
+              <span className="home-text140">
                 MariGold Celebration - Hingna, Nagpur
               </span>
             </Fragment>
           }
           heading11={
             <Fragment>
-              <span className="home-text124">
+              <span className="home-text141">
                 Banquet Hall &amp; Events Services Near Nagpur
               </span>
             </Fragment>
           }
           faq1Question={
             <Fragment>
-              <span className="home-text125">
+              <span className="home-text142">
                 Weddings &amp; Receptions | Engagement Ceremonies &amp;
                 Pre-Wedding Functions.
               </span>
@@ -178,7 +304,7 @@ const Home = (props) => {
           }
           faq2Question={
             <Fragment>
-              <span className="home-text126">
+              <span className="home-text143">
                 Birthday Parties &amp; Anniversaries | Social Gatherings &amp;
                 Family Events.
               </span>
@@ -186,7 +312,7 @@ const Home = (props) => {
           }
           faq3Question={
             <Fragment>
-              <span className="home-text127">
+              <span className="home-text144">
                 Corporate Events &amp; Conferences | Award Ceremonies &amp; Gala
                 Dinners.
               </span>
@@ -194,138 +320,12 @@ const Home = (props) => {
           }
           faq4Question={
             <Fragment>
-              <span className="home-text128">
+              <span className="home-text145">
                 Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows.
               </span>
             </Fragment>
           }
         ></AboutMariGold1>
-        <FacilitiesHome1
-          slogan={
-            <Fragment>
-              <span className="home-text129">
-                Please Do Consultation With Us For Your Any Requirements.
-              </span>
-            </Fragment>
-          }
-          action2={
-            <Fragment>
-              <span className="home-text130">Explore Our Facilities</span>
-            </Fragment>
-          }
-          text2101={
-            <Fragment>
-              <span className="home-text131">Verify Review</span>
-            </Fragment>
-          }
-          sectionTitle={
-            <Fragment>
-              <span className="home-text132">
-                Facilities At Marigold Celebration
-              </span>
-            </Fragment>
-          }
-          feature1Title={
-            <Fragment>
-              <span className="home-text133">
-                <span>Spacious Venue with Capacity</span>
-                <br></br>
-              </span>
-            </Fragment>
-          }
-          rootClassName="facilities-home1root-class-name"
-          feature1Title1={
-            <Fragment>
-              <span className="home-text136">Fine Dining Catering</span>
-            </Fragment>
-          }
-          feature1Title11={
-            <Fragment>
-              <span className="home-text137">
-                Photography &amp; Videography Services 
-              </span>
-            </Fragment>
-          }
-          feature1Title111={
-            <Fragment>
-              <span className="home-text138">Décor &amp; Design Services</span>
-            </Fragment>
-          }
-          feature1Title1111={
-            <Fragment>
-              <span className="home-text139">Parking &amp; Accessibility</span>
-            </Fragment>
-          }
-          sectionDescription={
-            <Fragment>
-              <span className="home-text140">
-                At Marigold Banquet Hall, we offer an exceptional range of
-                facilities to ensure your event is as smooth, memorable, and
-                stress-free as possible. Our venue is designed to cater to all
-                types of occasions, from grand weddings to corporate events,
-                while providing top-tier amenities.
-              </span>
-            </Fragment>
-          }
-          feature1Description={
-            <Fragment>
-              <span className="home-text141">
-                Our expansive banquet hall can accommodate up to 2000 guests
-                comfortably. Whether you’re planning an extravagant wedding or
-                an intimate gathering, our flexible seating arrangements and
-                multiple event spaces ensure the perfect setting for your
-                occasion.
-              </span>
-            </Fragment>
-          }
-          feature1Description1={
-            <Fragment>
-              <span className="home-text142">
-                We offer customizable catering options to suit any event style.
-                From lavish multi-course dinners to casual buffets, our in-house
-                culinary team crafts delicious, bespoke menus that reflect your
-                taste and preferences. Whether it’s traditional or contemporary
-                cuisine, our chefs ensure a delightful dining experience for
-                your guests.
-              </span>
-            </Fragment>
-          }
-          feature1Description11={
-            <Fragment>
-              <span className="home-text143">
-                Preserve every special moment with our professional photography
-                and videography services. Our experienced team specializes in
-                capturing the essence of your event, whether it’s candid wedding
-                moments or corporate highlights. We also provide event
-                videography, ensuring that every detail is documented in high
-                quality.
-              </span>
-            </Fragment>
-          }
-          feature1Description111={
-            <Fragment>
-              <span className="home-text144">
-                Our dedicated décor team works closely with you to bring your
-                vision to life. From elegant wedding themes to corporate setups,
-                we provide tailored decoration services that match your event’s
-                style. Whether you’re looking for luxurious floral arrangements
-                or modern minimalist designs, we have you covered.
-              </span>
-            </Fragment>
-          }
-          feature1Description1111={
-            <Fragment>
-              <span className="home-text145">
-                Our venue offers ample parking space to accommodate all your
-                guests, ensuring a stress-free arrival experience. For added
-                convenience, we provide lift access to all levels, making the
-                venue fully accessible to everyone. Additionally, our venue’s
-                iconic central location in Hingna, Nagpur, is easily accessible
-                from all parts of the city.
-              </span>
-            </Fragment>
-          }
-        ></FacilitiesHome1>
         <MobileFacilities1
           slogan1={
             <Fragment>
@@ -745,6 +745,30 @@ const Home = (props) => {
           .home-text112 {
             display: inline-block;
           }
+          .home-text113 {
+            display: inline-block;
+          }
+          .home-text114 {
+            display: inline-block;
+          }
+          .home-text115 {
+            display: inline-block;
+          }
+          .home-text118 {
+            display: inline-block;
+          }
+          .home-text119 {
+            display: inline-block;
+          }
+          .home-text120 {
+            display: inline-block;
+          }
+          .home-text121 {
+            display: inline-block;
+          }
+          .home-text122 {
+            display: inline-block;
+          }
           .home-text123 {
             display: inline-block;
           }
@@ -764,30 +788,6 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text129 {
-            display: inline-block;
-          }
-          .home-text130 {
-            display: inline-block;
-          }
-          .home-text131 {
-            display: inline-block;
-          }
-          .home-text132 {
-            display: inline-block;
-          }
-          .home-text133 {
-            display: inline-block;
-          }
-          .home-text136 {
-            display: inline-block;
-          }
-          .home-text137 {
-            display: inline-block;
-          }
-          .home-text138 {
-            display: inline-block;
-          }
-          .home-text139 {
             display: inline-block;
           }
           .home-text140 {

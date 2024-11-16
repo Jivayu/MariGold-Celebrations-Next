@@ -281,9 +281,6 @@ const HeroBrandWall2 = (props) => {
             position: relative;
             align-self: stretch;
             align-items: center;
-            border-color: var(--dl-color-primary-logo-color-1);
-            border-style: solid;
-            border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
             justify-content: flex-end;
@@ -719,9 +716,9 @@ const HeroBrandWall2 = (props) => {
           }
           @media (max-width: 991px) {
             .hero-brand-wall-2-column {
-              gap: var(--dl-space-space-unit);
+              gap: var(--dl-space-space-halfunit);
               width: 100%;
-              max-height: 500px;
+              max-height: 600px;
             }
             .hero-brand-wall-2-slider-slide1 {
               background-size: cover;
@@ -745,6 +742,9 @@ const HeroBrandWall2 = (props) => {
             .hero-brand-wall-2-actions3 {
               width: 35%;
             }
+            .hero-brand-wall-2root-class-name {
+              height: 600px;
+            }
           }
           @media (max-width: 767px) {
             .hero-brand-wall-2-actions1 {
@@ -759,7 +759,7 @@ const HeroBrandWall2 = (props) => {
           @media (max-width: 599px) {
             .hero-brand-wall-2-column {
               padding: 0px;
-              max-height: 400px;
+              max-height: 450px;
             }
             .hero-brand-wall-2-black-half-cover1 {
               height: 45%;
@@ -790,6 +790,9 @@ const HeroBrandWall2 = (props) => {
             .hero-brand-wall-2-icon3 {
               fill: #00ff38;
               color: #00ff38;
+            }
+            .hero-brand-wall-2root-class-name {
+              height: 450px;
             }
           }
           @media (max-width: 479px) {

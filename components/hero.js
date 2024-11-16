@@ -139,7 +139,7 @@ const Hero = (props) => {
       <style jsx>
         {`
           .hero-header77 {
-            gap: var(--dl-space-space-unit);
+            gap: var(--dl-space-space-halfunit);
             width: 100%;
             height: auto;
             display: flex;
@@ -148,12 +148,14 @@ const Hero = (props) => {
             margin-top: 66px;
             align-items: center;
             flex-shrink: 0;
+            padding-left: var(--dl-space-space-halfunit);
             margin-bottom: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-halfunit);
             flex-direction: row;
             justify-content: center;
           }
           .hero-max-width {
-            gap: var(--dl-space-space-halfunit);
+            gap: 4px;
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -204,7 +206,7 @@ const Hero = (props) => {
             display: inline-block;
           }
           .hero-content {
-            gap: var(--dl-space-space-halfunit);
+            gap: 4px;
             width: 60%;
             height: auto;
             display: flex;
@@ -258,7 +260,7 @@ const Hero = (props) => {
             border-radius: 10px;
           }
           .hero-row2 {
-            gap: var(--dl-space-space-halfunit);
+            gap: 4px;
             flex: 1;
             width: auto;
             display: flex;
@@ -318,6 +320,7 @@ const Hero = (props) => {
           }
           @media (max-width: 599px) {
             .hero-header77 {
+              gap: var(--dl-space-space-halfunit);
               margin-top: 80px;
             }
             .hero-content {
