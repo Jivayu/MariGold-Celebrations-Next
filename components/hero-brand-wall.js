@@ -122,9 +122,6 @@ const HeroBrandWall = (props) => {
             position: relative;
             align-self: stretch;
             align-items: center;
-            border-color: var(--dl-color-primary-logo-color-1);
-            border-style: solid;
-            border-width: 1px;
             border-radius: var(--dl-radius-radius-radius10);
             flex-direction: column;
             background-size: cover;
@@ -325,16 +322,19 @@ const HeroBrandWall = (props) => {
             .hero-brand-wall-column {
               gap: var(--dl-space-space-unit);
               width: 100%;
-              max-height: 500px;
+              max-height: 600px;
               background-size: cover, contain;
               background-repeat: no-repeat, bottom;
-              background-position: center, bottom, top lefttop;
+              background-position: right, bottom, top lefttop;
             }
             .hero-brand-wall-content {
               align-items: center;
             }
             .hero-brand-wall-actions1 {
               width: 35%;
+            }
+            .hero-brand-wallroot-class-name {
+              height: 600px;
             }
           }
           @media (max-width: 767px) {
@@ -346,7 +346,7 @@ const HeroBrandWall = (props) => {
           @media (max-width: 599px) {
             .hero-brand-wall-column {
               padding: var(--dl-space-space-oneandhalfunits);
-              max-height: 400px;
+              max-height: 500px;
               background-size: cover, contain;
               background-position: center, bottom, top lefttop;
             }
@@ -357,6 +357,9 @@ const HeroBrandWall = (props) => {
             .hero-brand-wall-icon1 {
               fill: #00ff38;
               color: #00ff38;
+            }
+            .hero-brand-wallroot-class-name {
+              height: 500px;
             }
           }
           @media (max-width: 479px) {
