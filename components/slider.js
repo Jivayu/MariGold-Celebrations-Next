@@ -58,12 +58,14 @@ const Slider = (props) => {
             justify-content: center;
           }
           .slider-slider {
+            width: 100%;
+            height: 100%;
             display: block;
-            min-width: 100%;
-            min-height: 100%;
             border-radius: var(--dl-radius-radius-radius10);
           }
           .slider-slider-slide1 {
+            width: 100%;
+            height: 100%;
             display: flex;
             background-size: cover;
             background-image: url('/images/Marigold Images/banquet%20hall%20-final%20%20day%20view-hero-1stpart-1500w.webp');
@@ -84,7 +86,6 @@ const Slider = (props) => {
           }
           .sliderroot-class-name {
             width: 100%;
-            height: 100%;
             object-fit: cover;
           }
           @media (max-width: 490px) {

@@ -141,9 +141,7 @@ const Hero = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-          .heroroot-class-name {
-            margin-top: var(--dl-space-space-fourunits);
-          }
+
           @media (max-width: 1200px) {
             .hero-row1 {
               flex: 0 0 auto;
