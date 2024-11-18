@@ -56,6 +56,7 @@ const Hero = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
+            margin-top: var(--dl-space-space-fourunits);
             min-height: 700px;
             align-items: center;
             flex-shrink: 0;

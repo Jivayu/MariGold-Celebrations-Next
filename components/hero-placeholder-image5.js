@@ -22,7 +22,7 @@ const HeroPlaceholderImage5 = (props) => {
           }
           .hero-placeholder-image5-placeholder-image {
             align-self: stretch;
-            min-height: 400px;
+            min-height: 360px;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius10);
           }

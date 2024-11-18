@@ -23,7 +23,7 @@ const HeroPlaceholderImage1 = (props) => {
           .hero-placeholder-image1-placeholder-image {
             width: 100%;
             align-self: normal;
-            min-height: 400px;
+            min-height: 360px;
             object-fit: cover;
             aspect-ratio: 1/1;
             border-radius: var(--dl-radius-radius-radius10);
