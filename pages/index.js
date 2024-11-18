@@ -95,10 +95,7 @@ const Home = (props) => {
           }
           rootClassName="navbar-interactiveroot-class-name"
         ></NavbarInteractive>
-        <Hero
-          image4Src="/images/circle-background.svg"
-          rootClassName="heroroot-class-name"
-        ></Hero>
+        <Hero rootClassName="heroroot-class-name"></Hero>
         <FacilitiesHome1
           slogan={
             <Fragment>

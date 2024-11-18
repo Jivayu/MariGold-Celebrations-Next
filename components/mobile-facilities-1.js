@@ -1421,7 +1421,7 @@ const MobileFacilities1 = (props) => {
           }
           @media (max-width: 599px) {
             .mobile-facilities-1faq8 {
-              display: flex;
+              display: none;
               padding-top: var(--dl-space-space-unit);
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);

@@ -56,7 +56,7 @@ const Hero = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
-            min-height: 800px;
+            min-height: 700px;
             align-items: center;
             flex-shrink: 0;
             padding-top: var(--dl-space-space-halfunit);
@@ -79,7 +79,6 @@ const Hero = (props) => {
             overflow: hidden;
             position: relative;
             align-self: center;
-            min-height: 800px;
             align-items: center;
             flex-shrink: 0;
             flex-direction: column;
@@ -143,7 +142,7 @@ const Hero = (props) => {
             justify-content: center;
           }
           .heroroot-class-name {
-            margin-top: var(--dl-space-space-fiveunits);
+            margin-top: var(--dl-space-space-fourunits);
           }
           @media (max-width: 1200px) {
             .hero-row1 {
