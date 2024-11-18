@@ -170,16 +170,18 @@ const VideoGallery = (props) => {
               </div>
             </div>
           </div>
-          <video
-            id="marigold-celebration-video"
-            src={props.videoSrc}
-            muted="true"
-            poster="/images/Marigold Images/marigold-celebration-banner-1400w.webp"
-            preload="auto"
-            autoPlay="true"
-            controls="true"
-            className="video-gallery-video thq-img-ratio-16-9"
-          ></video>
+          <div className="video-gallery-container5">
+            <video
+              id="marigold-celebration-video"
+              src={props.videoSrc}
+              muted="true"
+              poster="/images/Marigold Images/marigold-celebration-banner-1400w.webp"
+              preload="auto"
+              autoPlay="true"
+              controls="true"
+              className="video-gallery-video thq-img-ratio-16-9"
+            ></video>
+          </div>
         </div>
       </section>
       <style jsx>
@@ -191,7 +193,7 @@ const VideoGallery = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .video-gallery-max-width {
-            gap: var(--dl-space-space-twounits);
+            gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             position: relative;
             align-items: center;
@@ -199,13 +201,10 @@ const VideoGallery = (props) => {
           }
           .video-gallery-content {
             gap: var(--dl-space-space-unit);
-            flex: 1;
-            width: 100%;
+            width: 50%;
             display: flex;
             overflow: hidden;
-            flex-grow: 1;
-            max-width: 800px;
-            align-items: flex-start;
+            align-self: stretch;
             flex-shrink: 0;
             flex-direction: column;
           }
@@ -382,6 +381,12 @@ const VideoGallery = (props) => {
             font-family: 'Ubuntu';
             font-weight: 300;
           }
+          .video-gallery-container5 {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
           .video-gallery-video {
             width: auto;
             height: 340px;
@@ -415,17 +420,16 @@ const VideoGallery = (props) => {
           .video-galleryroot-class-name1 {
             margin-top: 0px;
           }
-          @media (max-width: 1200px) {
-            .video-gallery-video {
-              width: 55%;
-            }
-          }
           @media (max-width: 991px) {
             .video-gallery-max-width {
               flex-direction: column;
             }
             .video-gallery-content {
+              width: 100%;
+              align-self: center;
               align-items: center;
+              padding-left: var(--dl-space-space-threeunits);
+              padding-right: var(--dl-space-space-threeunits);
               justify-content: center;
             }
             .video-gallery-avatar {
@@ -433,13 +437,20 @@ const VideoGallery = (props) => {
               width: 100%;
               justify-content: space-between;
             }
+            .video-gallery-container5 {
+              width: 100%;
+            }
             .video-gallery-video {
-              width: 95%;
+              width: 100%;
               height: auto;
               transform: scale(0.9);
             }
           }
           @media (max-width: 599px) {
+            .video-gallery-content {
+              padding-left: 0px;
+              padding-right: 0px;
+            }
             .video-gallery-actions {
               align-self: center;
             }

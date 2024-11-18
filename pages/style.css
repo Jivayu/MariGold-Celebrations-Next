@@ -360,13 +360,12 @@
 }
 .thq-img-ratio-1-1 {
   width: 100%;
-  object-fit: cover;
   aspect-ratio: 1/1;
   border-radius: var(--dl-radius-radius-cardradius);
 }
 .thq-img-ratio-16-9 {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   aspect-ratio: 16/9;
   border-radius: var(--dl-radius-radius-imageradius);
 }

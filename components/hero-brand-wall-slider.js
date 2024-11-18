@@ -44,6 +44,9 @@ const HeroBrandWallSlider = (props) => {
               background-repeat: no-repeat, bottom;
               background-position: right, bottom, top lefttop;
             }
+            .hero-brand-wall-sliderroot-class-name {
+              min-height: 800px;
+            }
           }
           @media (max-width: 599px) {
             .hero-brand-wall-slider-column {

@@ -56,9 +56,12 @@ const Hero = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
+            min-height: 800px;
             align-items: center;
             flex-shrink: 0;
+            padding-top: var(--dl-space-space-halfunit);
             flex-direction: row;
+            padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
           .hero-max-width {
@@ -75,6 +78,8 @@ const Hero = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
+            align-self: center;
+            min-height: 800px;
             align-items: center;
             flex-shrink: 0;
             flex-direction: column;
@@ -125,7 +130,6 @@ const Hero = (props) => {
           }
           .hero-row2 {
             gap: 4px;
-            flex: 1;
             width: auto;
             display: flex;
             align-items: flex-start;
@@ -133,7 +137,6 @@ const Hero = (props) => {
           }
           .hero-row3 {
             gap: var(--dl-space-space-halfunit);
-            flex: 1;
             width: auto;
             display: flex;
             align-items: flex-start;
@@ -156,6 +159,7 @@ const Hero = (props) => {
             }
             .hero-content {
               width: 100%;
+              min-height: 550px;
             }
             .hero-row2 {
               flex: 0 0 auto;

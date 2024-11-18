@@ -45,68 +45,54 @@ const FromTheOwner = (props) => {
                 </h2>
                 <div className="from-the-owner-divider thq-divider-horizontal"></div>
               </div>
-              <animate-on-reveal
-                animation="fadeIn"
-                duration="2000ms"
-                delay="100ms"
-                direction="normal"
-                easing="ease"
-                iteration="1"
-              >
-                <p
-                  data-thq-animate-on-reveal="true"
-                  className="from-the-owner-text12 UbuntuLight-14"
-                >
-                  {props.content1 ?? (
-                    <Fragment>
-                      <span className="from-the-owner-text41">
-                        <span>Welcome to Marigold Celebration!</span>
-                        <br></br>
-                        <br></br>
-                        <span>
-                          I am Arun Bhende, the proud owner of Marigold
-                          Celebration. It gives me immense pleasure to welcome
-                          you to our banquet hall, where we aim to turn your
-                          special moments into unforgettable memories. At
-                          Marigold Celebration, we understand that every event
-                          is unique and holds a deep significance in your life.
-                          Whether it’s a wedding, reception, corporate event, or
-                          a private celebration, our dedicated team ensures
-                          every detail is meticulously planned and executed to
-                          perfection.
-                        </span>
-                        <br></br>
-                        <br></br>
-                        <span>
-                          Our facilities are designed with modern amenities and
-                          elegant decor to provide a seamless experience for you
-                          and your guests. We take pride in offering flexible
-                          event spaces, premium catering services, and
-                          personalized decor to meet your vision. Your
-                          satisfaction is our priority, and we strive to provide
-                          exceptional service to make your event truly
-                          remarkable.
-                        </span>
-                        <br></br>
-                        <br></br>
-                        <span>
-                          Thank you for considering Marigold Celebration as your
-                          venue of choice. We look forward to hosting you and
-                          making your special day extraordinary.
-                        </span>
-                        <br></br>
-                        <br></br>
-                        <span>Warm regards,</span>
-                        <br></br>
-                        <span>Arun Bhende</span>
-                        <br></br>
-                        <span>Marigold Celebration Team</span>
-                        <br></br>
+              <p className="from-the-owner-text12 UbuntuLight-14">
+                {props.content1 ?? (
+                  <Fragment>
+                    <span className="from-the-owner-text41">
+                      <span>Welcome to Marigold Celebration!</span>
+                      <br></br>
+                      <br></br>
+                      <span>
+                        I am Arun Bhende, the proud owner of Marigold
+                        Celebration. It gives me immense pleasure to welcome you
+                        to our banquet hall, where we aim to turn your special
+                        moments into unforgettable memories. At Marigold
+                        Celebration, we understand that every event is unique
+                        and holds a deep significance in your life. Whether it’s
+                        a wedding, reception, corporate event, or a private
+                        celebration, our dedicated team ensures every detail is
+                        meticulously planned and executed to perfection.
                       </span>
-                    </Fragment>
-                  )}
-                </p>
-              </animate-on-reveal>
+                      <br></br>
+                      <br></br>
+                      <span>
+                        Our facilities are designed with modern amenities and
+                        elegant decor to provide a seamless experience for you
+                        and your guests. We take pride in offering flexible
+                        event spaces, premium catering services, and
+                        personalized decor to meet your vision. Your
+                        satisfaction is our priority, and we strive to provide
+                        exceptional service to make your event truly remarkable.
+                      </span>
+                      <br></br>
+                      <br></br>
+                      <span>
+                        Thank you for considering Marigold Celebration as your
+                        venue of choice. We look forward to hosting you and
+                        making your special day extraordinary.
+                      </span>
+                      <br></br>
+                      <br></br>
+                      <span>Warm regards,</span>
+                      <br></br>
+                      <span>Arun Bhende</span>
+                      <br></br>
+                      <span>Marigold Celebration Team</span>
+                      <br></br>
+                    </span>
+                  </Fragment>
+                )}
+              </p>
             </div>
             <button className="from-the-owner-button thq-button-filled">
               <span className="from-the-owner-action1 menu">

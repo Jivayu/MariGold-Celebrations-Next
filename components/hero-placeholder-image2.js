@@ -21,8 +21,8 @@ const HeroPlaceholderImage2 = (props) => {
             position: relative;
           }
           .hero-placeholder-image2-placeholder-image {
-            max-width: 340px;
             align-self: stretch;
+            min-height: 350px;
             border-radius: var(--dl-radius-radius-radius10);
           }
           @media (max-width: 991px) {

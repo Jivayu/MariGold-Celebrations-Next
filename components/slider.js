@@ -88,6 +88,7 @@ const Slider = (props) => {
           .sliderroot-class-name {
             width: 100%;
             height: 100%;
+            object-fit: cover;
           }
           @media (max-width: 490px) {
             .slider-slider {
