@@ -187,10 +187,10 @@ const VideoGallery = (props) => {
       <style jsx>
         {`
           .video-gallery-testimonial13 {
-            padding-top: var(--dl-space-space-halfunit);
+            padding-top: var(--dl-space-space-oneandhalfunits);
             padding-left: var(--dl-space-space-unit);
             padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .video-gallery-max-width {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -388,8 +388,8 @@ const VideoGallery = (props) => {
             justify-content: center;
           }
           .video-gallery-video {
-            width: auto;
-            height: 340px;
+            width: 100%;
+            height: auto;
             box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.3);
             aspect-ratio: 16/9;
             border-color: var(--dl-color-primary-logo-color-4);
@@ -420,6 +420,22 @@ const VideoGallery = (props) => {
           .video-galleryroot-class-name1 {
             margin-top: 0px;
           }
+          @media (max-width: 1200px) {
+            .video-gallery-max-width {
+              gap: 0;
+              justify-content: space-between;
+            }
+            .video-gallery-content {
+              width: 45%;
+            }
+            .video-gallery-container5 {
+              width: 45%;
+            }
+            .video-gallery-video {
+              width: 100%;
+              height: auto;
+            }
+          }
           @media (max-width: 991px) {
             .video-gallery-max-width {
               flex-direction: column;
@@ -441,7 +457,6 @@ const VideoGallery = (props) => {
               width: 100%;
             }
             .video-gallery-video {
-              width: 100%;
               height: auto;
               transform: scale(0.9);
             }
@@ -459,14 +474,12 @@ const VideoGallery = (props) => {
               color: #00ff38;
             }
             .video-gallery-video {
-              width: 100%;
               height: auto;
               transform: scale(1);
             }
           }
           @media (max-width: 490px) {
             .video-gallery-video {
-              width: 100%;
               transform: scale(1);
             }
           }
