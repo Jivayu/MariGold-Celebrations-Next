@@ -18,7 +18,7 @@ const HeroBrandWallSlider1 = (props) => {
             >
               {props.heading1 ?? (
                 <Fragment>
-                  <span className="hero-brand-wall-slider1-text16">
+                  <span className="hero-brand-wall-slider1-text20">
                     Banquet Hall &amp; Big Events Services in Hingna, Nagpur
                   </span>
                 </Fragment>
@@ -48,7 +48,7 @@ const HeroBrandWallSlider1 = (props) => {
               <span className="thq-body-small">
                 {props.action1 ?? (
                   <Fragment>
-                    <span className="hero-brand-wall-slider1-text18">
+                    <span className="hero-brand-wall-slider1-text16">
                       Shop Now
                     </span>
                   </Fragment>
@@ -59,7 +59,7 @@ const HeroBrandWallSlider1 = (props) => {
               <span className="hero-brand-wall-slider1-text13">
                 {props.action2 ?? (
                   <Fragment>
-                    <span className="hero-brand-wall-slider1-text19">
+                    <span className="hero-brand-wall-slider1-text18">
                       Services
                     </span>
                   </Fragment>
@@ -73,7 +73,7 @@ const HeroBrandWallSlider1 = (props) => {
                 <a className="hero-brand-wall-slider1-link1 thq-button-outline">
                   {props.action21 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-slider1-text20">
+                      <span className="hero-brand-wall-slider1-text17">
                         Explore Our Facilities
                       </span>
                     </Fragment>
@@ -88,7 +88,7 @@ const HeroBrandWallSlider1 = (props) => {
                 <span className="hero-brand-wall-slider1-text15">
                   {props.text21011 ?? (
                     <Fragment>
-                      <span className="hero-brand-wall-slider1-text17">
+                      <span className="hero-brand-wall-slider1-text19">
                         Explore Facilities
                       </span>
                     </Fragment>
@@ -444,21 +444,21 @@ const HeroBrandWallSlider1 = (props) => {
 }
 
 HeroBrandWallSlider1.defaultProps = {
+  action1: undefined,
+  action21: undefined,
+  action2: undefined,
+  text21011: undefined,
   rootClassName: '',
   heading1: undefined,
-  text21011: undefined,
-  action1: undefined,
-  action2: undefined,
-  action21: undefined,
 }
 
 HeroBrandWallSlider1.propTypes = {
+  action1: PropTypes.element,
+  action21: PropTypes.element,
+  action2: PropTypes.element,
+  text21011: PropTypes.element,
   rootClassName: PropTypes.string,
   heading1: PropTypes.element,
-  text21011: PropTypes.element,
-  action1: PropTypes.element,
-  action2: PropTypes.element,
-  action21: PropTypes.element,
 }
 
 export default HeroBrandWallSlider1

@@ -185,7 +185,10 @@ const VideoGallery = (props) => {
       <style jsx>
         {`
           .video-gallery-testimonial13 {
-            margin-top: var(--dl-space-space-fiveunits);
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
           }
           .video-gallery-max-width {
             gap: var(--dl-space-space-twounits);
