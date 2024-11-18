@@ -411,21 +411,25 @@ const FromTheOwner = (props) => {
         {`
           .from-the-owner-faq8 {
             width: 100%;
-            height: auto;
             display: flex;
-            padding: var(--dl-space-space-twounits);
             overflow: hidden;
             position: relative;
+            margin-top: var(--dl-space-space-halfunit);
             align-items: center;
             flex-shrink: 0;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-unit);
+            margin-bottom: var(--dl-space-space-halfunit);
+            padding-right: var(--dl-space-space-unit);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
             background-size: cover;
-            justify-content: center;
-            background-image: url('/images/Marigold Images/wedding-link-1500w.webp');
+            justify-content: space-between;
+            background-image: url('/images/Marigold Images/2023-05-15%20(2)-1500w.webp');
             background-position: center;
           }
           .from-the-owner-max-width {
-            gap: var(--dl-space-space-unit);
+            gap: var(--dl-space-space-halfunit);
             align-self: center;
             align-items: flex-start;
             border-radius: var(--dl-radius-radius-radius10);
@@ -807,11 +811,19 @@ const FromTheOwner = (props) => {
           }
 
           @media (max-width: 1200px) {
+            .from-the-owner-max-width {
+              align-self: center;
+            }
             .from-the-owner-section-title {
               width: 45%;
             }
           }
           @media (max-width: 991px) {
+            .from-the-owner-faq8 {
+              padding: var(--dl-space-space-unit);
+              background-size: cover;
+              background-position: center;
+            }
             .from-the-owner-max-width {
               flex-direction: column;
             }

@@ -26,6 +26,7 @@ const HeroBrandWallSlider = (props) => {
           }
           .hero-brand-wall-sliderroot-class-name {
             padding: 0px;
+            max-height: 800px;
           }
           @media (max-width: 1200px) {
             .hero-brand-wall-slider-column {
@@ -43,9 +44,6 @@ const HeroBrandWallSlider = (props) => {
               background-repeat: no-repeat, bottom;
               background-position: right, bottom, top lefttop;
             }
-            .hero-brand-wall-sliderroot-class-name {
-              height: 600px;
-            }
           }
           @media (max-width: 599px) {
             .hero-brand-wall-slider-column {
@@ -54,17 +52,11 @@ const HeroBrandWallSlider = (props) => {
               background-size: cover, contain;
               background-position: center, bottom, top lefttop;
             }
-            .hero-brand-wall-sliderroot-class-name {
-              height: 500px;
-            }
           }
           @media (max-width: 490px) {
             .hero-brand-wall-slider-column {
               padding: 0px;
               background-position: bottom, bottom, top lefttop;
-            }
-            .hero-brand-wall-sliderroot-class-name {
-              height: 600px;
             }
           }
           @media (max-width: 479px) {

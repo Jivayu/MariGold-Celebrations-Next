@@ -9,7 +9,7 @@ const HeroPlaceholderImage5 = (props) => {
         <img
           id="hero-3"
           alt={props.image6Alt12}
-          src="/images/Marigold Images/stage-decore-400h.webp"
+          src="/images/Marigold Images/stage-decore-300h.webp"
           loading="lazy"
           className="hero-placeholder-image5-placeholder-image thq-img-ratio-1-1"
         />
@@ -21,8 +21,7 @@ const HeroPlaceholderImage5 = (props) => {
             position: relative;
           }
           .hero-placeholder-image5-placeholder-image {
-            width: 320px;
-            height: 320px;
+            max-width: 340px;
             align-self: stretch;
             border-radius: var(--dl-radius-radius-radius10);
           }

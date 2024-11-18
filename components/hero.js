@@ -53,7 +53,6 @@ const Hero = (props) => {
         {`
           .hero-header77 {
             width: 100%;
-            height: auto;
             display: flex;
             overflow: hidden;
             position: relative;
@@ -65,6 +64,7 @@ const Hero = (props) => {
           .hero-max-width {
             gap: 4px;
             display: flex;
+            align-self: stretch;
             align-items: center;
             flex-direction: row;
           }
@@ -189,7 +189,7 @@ const Hero = (props) => {
           }
           @media (max-width: 599px) {
             .hero-content {
-              padding: var(--dl-space-space-halfunit);
+              padding: 0px;
             }
             .hero-row1 {
               gap: 4px;
@@ -219,7 +219,7 @@ const Hero = (props) => {
               justify-content: flex-start;
             }
             .hero-content {
-              padding: var(--dl-space-space-halfunit);
+              padding: 0px;
             }
             .hero-row2 {
               gap: auto;

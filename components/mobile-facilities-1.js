@@ -1415,6 +1415,9 @@ const MobileFacilities1 = (props) => {
               width: 70%;
               margin-top: var(--dl-space-space-unit);
             }
+            .mobile-facilities-1root-class-name {
+              display: none;
+            }
           }
           @media (max-width: 599px) {
             .mobile-facilities-1faq8 {
