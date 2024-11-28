@@ -2342,7 +2342,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.3);
             border-width: 1px;
             border-radius: var(--dl-radius-radius-radius4);
@@ -2374,6 +2374,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.3);
             border-width: 1px;
             flex-direction: column;
@@ -2402,7 +2403,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.3);
             border-width: 1px;
             flex-direction: column;
@@ -2431,7 +2432,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.3);
             border-width: 1px;
             flex-direction: column;
@@ -2468,7 +2469,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2495,7 +2496,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2522,7 +2523,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2549,7 +2550,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2586,7 +2587,7 @@ const PricingPlans = (props) => {
             display: flex;
             align-self: center;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2614,7 +2615,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2641,7 +2642,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2668,7 +2669,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2704,7 +2705,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2731,7 +2732,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2758,7 +2759,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
@@ -2785,7 +2786,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 70px;
-            align-items: center;
+            align-items: stretch;
             border-color: rgba(0, 0, 0, 0.6);
             border-width: 1px;
             flex-direction: column;
