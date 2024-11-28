@@ -2195,7 +2195,7 @@ const PricingPlans = (props) => {
             width: 100%;
             display: flex;
             transform: scale(0.99);
-            align-items: flex-start;
+            align-items: stretch;
             border-color: var(--dl-color-primary-logo-color-5);
             border-style: solid;
             border-width: 1px;
