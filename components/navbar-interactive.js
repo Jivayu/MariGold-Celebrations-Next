@@ -461,6 +461,7 @@ const NavbarInteractive = (props) => {
           .navbar-interactive-link15 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            display: none;
             font-size: 14px;
             font-style: normal;
             font-weight: 300;
