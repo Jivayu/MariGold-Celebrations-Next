@@ -60,7 +60,6 @@ const Hero = (props) => {
             min-height: 700px;
             align-items: center;
             flex-shrink: 0;
-            padding-top: var(--dl-space-space-halfunit);
             flex-direction: row;
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
@@ -142,7 +141,10 @@ const Hero = (props) => {
             align-items: flex-start;
             justify-content: center;
           }
-
+          .heroroot-class-name {
+            display: none;
+            margin-top: 70px;
+          }
           @media (max-width: 1200px) {
             .hero-row1 {
               flex: 0 0 auto;

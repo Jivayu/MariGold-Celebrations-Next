@@ -62,9 +62,9 @@ const Facilities = (props) => {
               <span className="facilities-text15">Contacts</span>
             </Fragment>
           }
-          menu6={
+          menu41={
             <Fragment>
-              <span className="facilities-text16">Facilities</span>
+              <span className="facilities-text16">Plans</span>
             </Fragment>
           }
           mmenu1={

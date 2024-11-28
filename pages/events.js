@@ -63,9 +63,9 @@ const Events = (props) => {
               <span className="events-text15">Contacts</span>
             </Fragment>
           }
-          menu6={
+          menu41={
             <Fragment>
-              <span className="events-text16">Facilities</span>
+              <span className="events-text16">Plans</span>
             </Fragment>
           }
           mmenu1={

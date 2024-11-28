@@ -17,7 +17,10 @@ const FromTheOwner = (props) => {
       >
         <div className="from-the-owner-max-width thq-flex-row thq-section-max-width">
           <div className="from-the-owner-section-title UbuntuLight-14 thq-flex-column">
-            <div className="from-the-owner-content UbuntuLight-14 thq-flex-column">
+            <summary
+              id="From Mr. Arun Bhende"
+              className="from-the-owner-content UbuntuLight-14 thq-flex-column"
+            >
               <div className="from-the-owner-container10">
                 <h1
                   id="About MariGold Celebration"
@@ -93,7 +96,7 @@ const FromTheOwner = (props) => {
                   </Fragment>
                 )}
               </p>
-            </div>
+            </summary>
             <button className="from-the-owner-button thq-button-filled">
               <span className="from-the-owner-action1 menu">
                 {props.action ?? (
@@ -115,10 +118,7 @@ const FromTheOwner = (props) => {
             />
             <BrandLogo rootClassName="brand-logoroot-class-name1"></BrandLogo>
             <div className="from-the-owner-faq1">
-              <div
-                onClick={() => setFaq1Visible(!faq1Visible)}
-                className="from-the-owner-trigger1"
-              >
+              <div className="from-the-owner-trigger1">
                 <h3
                   id="Weddings &amp; Receptions | Engagement Ceremonies &amp; Pre-Wedding Functions."
                   className="from-the-owner-faq1-question UbuntuLight-14"
@@ -844,6 +844,7 @@ const FromTheOwner = (props) => {
 }
 
 FromTheOwner.defaultProps = {
+  rootClassName: '',
   faq2Question: undefined,
   faq1Question: undefined,
   imageAlt1: 'image',
@@ -854,10 +855,10 @@ FromTheOwner.defaultProps = {
   heading11: undefined,
   heading1: undefined,
   content1: undefined,
-  rootClassName: '',
 }
 
 FromTheOwner.propTypes = {
+  rootClassName: PropTypes.string,
   faq2Question: PropTypes.element,
   faq1Question: PropTypes.element,
   imageAlt1: PropTypes.string,
@@ -868,7 +869,6 @@ FromTheOwner.propTypes = {
   heading11: PropTypes.element,
   heading1: PropTypes.element,
   content1: PropTypes.element,
-  rootClassName: PropTypes.string,
 }
 
 export default FromTheOwner

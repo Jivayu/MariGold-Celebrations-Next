@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
 
@@ -8,7 +8,23 @@ const HeroBrandWallSlider = (props) => {
   return (
     <>
       <div className={`hero-brand-wall-slider-column ${props.rootClassName} `}>
-        <Slider rootClassName="sliderroot-class-name"></Slider>
+        <Slider
+          heading1={
+            <Fragment>
+              <span className="hero-brand-wall-slider-text1">
+                Banquet Hall &amp; Big Events Services in Hingna, Nagpur
+              </span>
+            </Fragment>
+          }
+          heading11={
+            <Fragment>
+              <span className="hero-brand-wall-slider-text2">
+                Banquet Hall &amp; Big Events Services in Hingna, Nagpur
+              </span>
+            </Fragment>
+          }
+          rootClassName="sliderroot-class-name"
+        ></Slider>
       </div>
       <style jsx>
         {`
@@ -24,7 +40,17 @@ const HeroBrandWallSlider = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
+          .hero-brand-wall-slider-text1 {
+            display: inline-block;
+          }
+          .hero-brand-wall-slider-text2 {
+            display: inline-block;
+          }
           .hero-brand-wall-sliderroot-class-name {
+            padding: 0px;
+            max-height: 800px;
+          }
+          .hero-brand-wall-sliderroot-class-name1 {
             padding: 0px;
             max-height: 800px;
           }
@@ -47,6 +73,9 @@ const HeroBrandWallSlider = (props) => {
             .hero-brand-wall-sliderroot-class-name {
               min-height: 700px;
             }
+            .hero-brand-wall-sliderroot-class-name1 {
+              min-height: 700px;
+            }
           }
           @media (max-width: 599px) {
             .hero-brand-wall-slider-column {
@@ -62,6 +91,10 @@ const HeroBrandWallSlider = (props) => {
               background-position: bottom, bottom, top lefttop;
             }
             .hero-brand-wall-sliderroot-class-name {
+              max-height: 700px;
+              min-height: 600px;
+            }
+            .hero-brand-wall-sliderroot-class-name1 {
               max-height: 700px;
               min-height: 600px;
             }

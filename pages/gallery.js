@@ -193,9 +193,9 @@ const Gallery = (props) => {
               <span className="gallery-text36">Contacts</span>
             </Fragment>
           }
-          menu6={
+          menu41={
             <Fragment>
-              <span className="gallery-text37">Facilities</span>
+              <span className="gallery-text37">Plans</span>
             </Fragment>
           }
           mmenu1={

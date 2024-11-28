@@ -204,9 +204,11 @@ const VideoGallery = (props) => {
             width: 50%;
             display: flex;
             overflow: hidden;
-            align-self: stretch;
+            align-self: center;
+            align-items: center;
             flex-shrink: 0;
             flex-direction: column;
+            justify-content: center;
           }
           .video-gallery-stars {
             gap: var(--dl-space-space-halfunit);
@@ -382,6 +384,7 @@ const VideoGallery = (props) => {
             font-weight: 300;
           }
           .video-gallery-container5 {
+            gap: var(--dl-space-space-halfunit);
             width: 50%;
             display: flex;
             align-items: center;
@@ -418,7 +421,7 @@ const VideoGallery = (props) => {
             margin-top: 0px;
           }
           .video-galleryroot-class-name1 {
-            margin-top: 0px;
+            align-self: center;
           }
           @media (max-width: 1200px) {
             .video-gallery-max-width {

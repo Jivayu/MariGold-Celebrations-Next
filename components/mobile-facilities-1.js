@@ -48,10 +48,7 @@ const MobileFacilities1 = (props) => {
               </div>
             </div>
             <div className="mobile-facilities-1-faq1">
-              <div
-                onClick={() => setFaq1Visible(!faq1Visible)}
-                className="mobile-facilities-1-trigger1"
-              >
+              <div className="mobile-facilities-1-trigger1">
                 <svg
                   width="24"
                   height="24"

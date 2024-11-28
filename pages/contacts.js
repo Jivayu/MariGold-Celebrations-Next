@@ -284,9 +284,9 @@ const Contacts = (props) => {
               <span className="contacts-text53">Contacts</span>
             </Fragment>
           }
-          menu6={
+          menu41={
             <Fragment>
-              <span className="contacts-text54">Facilities</span>
+              <span className="contacts-text54">Plans</span>
             </Fragment>
           }
           mmenu1={
