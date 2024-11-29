@@ -7,7 +7,7 @@ import Hero1 from '../components/hero1'
 import FacilitiesHome1 from '../components/facilities-home-1'
 import FromTheOwner from '../components/from-the-owner'
 import MobileFacilities1 from '../components/mobile-facilities-1'
-import PricingPlans from '../components/pricing-plans'
+import PricingPlans1 from '../components/pricing-plans-1'
 import GoogleReviews from '../components/google-reviews'
 import VideoGallery from '../components/video-gallery'
 import Footer from '../components/footer'
@@ -385,7 +385,7 @@ const Home = (props) => {
             </Fragment>
           }
         ></MobileFacilities1>
-        <PricingPlans
+        <PricingPlans1
           heading={
             <Fragment>
               <span className="home-text163">Our Plans &amp; Structures</span>
@@ -429,7 +429,7 @@ const Home = (props) => {
               <span className="home-text169">Base Pax | People</span>
             </Fragment>
           }
-          rootClassName="pricing-plansroot-class-name"
+          rootClassName="pricing-plans1root-class-name"
           faq1Question11={
             <Fragment>
               <span className="home-text170">Plan A 700 Only</span>
@@ -478,7 +478,7 @@ const Home = (props) => {
               <span className="home-text180">Plan A 750 Only</span>
             </Fragment>
           }
-        ></PricingPlans>
+        ></PricingPlans1>
         <GoogleReviews
           button={
             <Fragment>

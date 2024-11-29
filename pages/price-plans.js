@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import NavbarInteractive from '../components/navbar-interactive'
 import PageHeadersPricePlans from '../components/page-headers-price-plans'
-import PricingPlans from '../components/pricing-plans'
+import PricingPlans1 from '../components/pricing-plans-1'
 import Footer from '../components/footer'
 
 const PricePlans = (props) => {
@@ -31,6 +31,7 @@ const PricePlans = (props) => {
             property="og:image"
             content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/de8e8e6e-fc3c-415d-9c09-ba0a82a476a4/7f7d755a-0d03-4715-ab49-e885ec4ae90d?org_if_sml=1&amp;force_format=original"
           />
+          <meta name="robots" content="noindex" />
         </Head>
         <NavbarInteractive
           login={
@@ -146,17 +147,18 @@ const PricePlans = (props) => {
           }
           rootClassName="page-headers-price-plansroot-class-name"
         ></PageHeadersPricePlans>
-        <PricingPlans
-          heading={
+        <PricingPlans1
+          faq1Question1={
             <Fragment>
-              <span className="price-plans-text30">
-                Our Plans &amp; Structures
-              </span>
+              <span className="price-plans-text30">Plan A 650 Only</span>
             </Fragment>
           }
-          faq1Question={
+          faq3Question={
             <Fragment>
-              <span className="price-plans-text31">Base Pax | People</span>
+              <span className="price-plans-text31">
+                Corporate Events &amp; Conferences | Award Ceremonies &amp; Gala
+                Dinners.
+              </span>
             </Fragment>
           }
           faq2Question={
@@ -167,83 +169,82 @@ const PricePlans = (props) => {
               </span>
             </Fragment>
           }
-          faq3Question={
-            <Fragment>
-              <span className="price-plans-text33">
-                Corporate Events &amp; Conferences | Award Ceremonies &amp; Gala
-                Dinners.
-              </span>
-            </Fragment>
-          }
-          faq4Question={
-            <Fragment>
-              <span className="price-plans-text34">
-                Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows.
-              </span>
-            </Fragment>
-          }
-          faq1Question1={
-            <Fragment>
-              <span className="price-plans-text35">Plan A 650 Only</span>
-            </Fragment>
-          }
           faq1Question2={
             <Fragment>
-              <span className="price-plans-text36">Base Pax | People</span>
-            </Fragment>
-          }
-          rootClassName="pricing-plansroot-class-name1"
-          faq1Question11={
-            <Fragment>
-              <span className="price-plans-text37">Plan A 700 Only</span>
-            </Fragment>
-          }
-          faq1Question12={
-            <Fragment>
-              <span className="price-plans-text38">Plan A 650 Only</span>
-            </Fragment>
-          }
-          faq1Question21={
-            <Fragment>
-              <span className="price-plans-text39">
-                Services &amp; Features
-              </span>
-            </Fragment>
-          }
-          faq1Question111={
-            <Fragment>
-              <span className="price-plans-text40">Plan A 750 Only</span>
-            </Fragment>
-          }
-          faq1Question112={
-            <Fragment>
-              <span className="price-plans-text41">Plan A 700 Only</span>
-            </Fragment>
-          }
-          faq1Question211={
-            <Fragment>
-              <span className="price-plans-text42">For Plan C</span>
-            </Fragment>
-          }
-          faq1Question212={
-            <Fragment>
-              <span className="price-plans-text43">For Plan B</span>
+              <span className="price-plans-text33">Base Pax | People</span>
             </Fragment>
           }
           faq1Question213={
             <Fragment>
-              <span className="price-plans-text44">
+              <span className="price-plans-text34">
                 <span>For Plan A</span>
                 <br></br>
               </span>
             </Fragment>
           }
-          faq1Question1111={
+          faq4Question={
             <Fragment>
-              <span className="price-plans-text47">Plan A 750 Only</span>
+              <span className="price-plans-text37">
+                Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows.
+              </span>
             </Fragment>
           }
-        ></PricingPlans>
+          faq1Question112={
+            <Fragment>
+              <span className="price-plans-text38">Plan A 700 Only</span>
+            </Fragment>
+          }
+          heading={
+            <Fragment>
+              <span className="price-plans-text39">
+                Our Plans &amp; Structures
+              </span>
+            </Fragment>
+          }
+          faq1Question={
+            <Fragment>
+              <span className="price-plans-text40">Base Pax | People</span>
+            </Fragment>
+          }
+          faq1Question1111={
+            <Fragment>
+              <span className="price-plans-text41">Plan A 750 Only</span>
+            </Fragment>
+          }
+          faq1Question12={
+            <Fragment>
+              <span className="price-plans-text42">Plan A 650 Only</span>
+            </Fragment>
+          }
+          faq1Question111={
+            <Fragment>
+              <span className="price-plans-text43">Plan A 750 Only</span>
+            </Fragment>
+          }
+          faq1Question212={
+            <Fragment>
+              <span className="price-plans-text44">For Plan B</span>
+            </Fragment>
+          }
+          faq1Question21={
+            <Fragment>
+              <span className="price-plans-text45">
+                Services &amp; Features
+              </span>
+            </Fragment>
+          }
+          faq1Question211={
+            <Fragment>
+              <span className="price-plans-text46">For Plan C</span>
+            </Fragment>
+          }
+          faq1Question11={
+            <Fragment>
+              <span className="price-plans-text47">Plan A 700 Only</span>
+            </Fragment>
+          }
+          rootClassName="pricing-plans1root-class-name1"
+        ></PricingPlans1>
         <Footer
           link1={
             <Fragment>
@@ -363,8 +364,9 @@ const PricePlans = (props) => {
             width: 100%;
             display: flex;
             min-height: 100vh;
-            align-items: center;
+            align-items: stretch;
             flex-direction: column;
+            justify-content: space-between;
             background-color: rgba(0, 0, 0, 0.7);
           }
           .price-plans-text10 {
@@ -442,12 +444,6 @@ const PricePlans = (props) => {
           .price-plans-text34 {
             display: inline-block;
           }
-          .price-plans-text35 {
-            display: inline-block;
-          }
-          .price-plans-text36 {
-            display: inline-block;
-          }
           .price-plans-text37 {
             display: inline-block;
           }
@@ -470,6 +466,12 @@ const PricePlans = (props) => {
             display: inline-block;
           }
           .price-plans-text44 {
+            display: inline-block;
+          }
+          .price-plans-text45 {
+            display: inline-block;
+          }
+          .price-plans-text46 {
             display: inline-block;
           }
           .price-plans-text47 {

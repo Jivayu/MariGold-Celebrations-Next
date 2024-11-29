@@ -188,23 +188,22 @@ const VideoGallery = (props) => {
         {`
           .video-gallery-testimonial13 {
             padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-unit);
-            padding-right: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .video-gallery-max-width {
-            gap: var(--dl-space-space-oneandhalfunits);
             display: flex;
             position: relative;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
           }
           .video-gallery-content {
             gap: var(--dl-space-space-unit);
-            width: 50%;
+            width: 40%;
             display: flex;
             overflow: hidden;
-            align-self: center;
+            align-self: stretch;
             align-items: center;
             flex-shrink: 0;
             flex-direction: column;
@@ -334,7 +333,8 @@ const VideoGallery = (props) => {
             color: #00ff38;
           }
           .video-gallery-container4 {
-            gap: var(--dl-space-space-unit);
+            gap: var(--dl-space-space-halfunit);
+            width: 80%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -357,13 +357,14 @@ const VideoGallery = (props) => {
           }
           .video-gallery-avatar {
             gap: var(--dl-space-space-oneandhalfunits);
-            width: 100%;
+            width: 80%;
             display: flex;
             align-items: center;
           }
           .video-gallery-avatar-content {
             flex: 1;
             display: flex;
+            margin-top: var(--dl-space-space-unit);
             align-items: flex-start;
             flex-direction: column;
           }
