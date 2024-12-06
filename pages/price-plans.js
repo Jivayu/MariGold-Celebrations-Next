@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 import NavbarInteractive from '../components/navbar-interactive'
 import PageHeadersPricePlans from '../components/page-headers-price-plans'
-import PricingPlans1 from '../components/pricing-plans-1'
+import Plans from '../components/plans'
 import Footer from '../components/footer'
 
 const PricePlans = (props) => {
@@ -147,143 +147,133 @@ const PricePlans = (props) => {
           }
           rootClassName="page-headers-price-plansroot-class-name"
         ></PageHeadersPricePlans>
-        <PricingPlans1
-          faq1Question1={
+        <Plans
+          action1={
             <Fragment>
-              <span className="price-plans-text30">Plan A 650 Only</span>
+              <span className="price-plans-text30">Contact</span>
             </Fragment>
           }
-          faq3Question={
+          action2={
             <Fragment>
-              <span className="price-plans-text31">
-                Corporate Events &amp; Conferences | Award Ceremonies &amp; Gala
-                Dinners.
+              <span className="price-plans-text31">Email us</span>
+            </Fragment>
+          }
+          content1={
+            <Fragment>
+              <span className="price-plans-text32">
+                Complete Transperancy  | More Coming Soon !
+              </span>
+            </Fragment>
+          }
+          content2={
+            <Fragment>
+              <span className="price-plans-text33">
+                <span>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+              </span>
+            </Fragment>
+          }
+          heading1={
+            <Fragment>
+              <span className="price-plans-text36">
+                Compare Plans &amp; Pricing
+              </span>
+            </Fragment>
+          }
+          heading2={
+            <Fragment>
+              <span className="price-plans-text37">Still have a question?</span>
+            </Fragment>
+          }
+          faq1Question={
+            <Fragment>
+              <span className="price-plans-text38">
+                Visit &amp; Enquire MariGold Celebration For More Benefits.
               </span>
             </Fragment>
           }
           faq2Question={
             <Fragment>
-              <span className="price-plans-text32">
-                Birthday Parties &amp; Anniversaries | Social Gatherings &amp;
-                Family Events.
+              <span className="price-plans-text39">
+                What amenities are provided at Marigold Banquet Hall?
               </span>
             </Fragment>
           }
-          faq1Question2={
+          faq3Question={
             <Fragment>
-              <span className="price-plans-text33">Base Pax | People</span>
-            </Fragment>
-          }
-          faq1Question213={
-            <Fragment>
-              <span className="price-plans-text34">
-                <span>For Plan A</span>
-                <br></br>
+              <span className="price-plans-text40">
+                Does Marigold Banquet Hall offer personalized decor services?
               </span>
             </Fragment>
           }
           faq4Question={
             <Fragment>
-              <span className="price-plans-text37">
-                Religious &amp; Cultural Events | Exhibitions &amp; Trade Shows.
+              <span className="price-plans-text41">
+                Is there flexibility in event spaces at Marigold Banquet Hall?
               </span>
             </Fragment>
           }
-          faq1Question112={
+          faq5Question={
             <Fragment>
-              <span className="price-plans-text38">Plan A 700 Only</span>
-            </Fragment>
-          }
-          heading={
-            <Fragment>
-              <span className="price-plans-text39">
-                Our Plans &amp; Structures
+              <span className="price-plans-text42">
+                How does Marigold Celebration ensure memorable experiences?
               </span>
             </Fragment>
           }
-          faq1Question={
-            <Fragment>
-              <span className="price-plans-text40">Base Pax | People</span>
-            </Fragment>
-          }
-          faq1Question1111={
-            <Fragment>
-              <span className="price-plans-text41">Plan A 750 Only</span>
-            </Fragment>
-          }
-          faq1Question12={
-            <Fragment>
-              <span className="price-plans-text42">Plan A 650 Only</span>
-            </Fragment>
-          }
-          faq1Question111={
-            <Fragment>
-              <span className="price-plans-text43">Plan A 750 Only</span>
-            </Fragment>
-          }
-          faq1Question212={
-            <Fragment>
-              <span className="price-plans-text44">For Plan B</span>
-            </Fragment>
-          }
-          faq1Question21={
-            <Fragment>
-              <span className="price-plans-text45">
-                Services &amp; Features
-              </span>
-            </Fragment>
-          }
-          faq1Question211={
-            <Fragment>
-              <span className="price-plans-text46">For Plan C</span>
-            </Fragment>
-          }
-          faq1Question11={
-            <Fragment>
-              <span className="price-plans-text47">Plan A 700 Only</span>
-            </Fragment>
-          }
-          rootClassName="pricing-plans1root-class-name1"
-        ></PricingPlans1>
+          rootClassName="plansroot-class-name"
+        ></Plans>
         <Footer
           link1={
             <Fragment>
-              <span className="price-plans-text48">Home</span>
+              <span className="price-plans-text43">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="price-plans-text49">Facilities</span>
+              <span className="price-plans-text44">Facilities</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="price-plans-text50">Gallery</span>
+              <span className="price-plans-text45">Gallery</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="price-plans-text51">Events</span>
+              <span className="price-plans-text46">Events</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="price-plans-text52">Contacts</span>
+              <span className="price-plans-text47">Contacts</span>
             </Fragment>
           }
           link6={
             <Fragment>
-              <span className="price-plans-text53">Corporate Events</span>
+              <span className="price-plans-text48">Corporate Events</span>
             </Fragment>
           }
           link7={
             <Fragment>
-              <span className="price-plans-text54">Weddings Plannings</span>
+              <span className="price-plans-text49">Weddings Plannings</span>
             </Fragment>
           }
           link8={
             <Fragment>
-              <span className="price-plans-text55">
+              <span className="price-plans-text50">
                 <span>Events Management</span>
                 <br></br>
               </span>
@@ -291,17 +281,17 @@ const PricePlans = (props) => {
           }
           link9={
             <Fragment>
-              <span className="price-plans-text58">Special Occasions</span>
+              <span className="price-plans-text53">Special Occasions</span>
             </Fragment>
           }
           link10={
             <Fragment>
-              <span className="price-plans-text59">Book Now</span>
+              <span className="price-plans-text54">Book Now</span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="price-plans-text60">
+              <span className="price-plans-text55">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
@@ -310,49 +300,49 @@ const PricePlans = (props) => {
           }
           content3={
             <Fragment>
-              <span className="price-plans-text61">MariGold Celebration</span>
+              <span className="price-plans-text56">MariGold Celebration</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="price-plans-text62">
+              <span className="price-plans-text57">
                 terms &amp; conditions.
               </span>
             </Fragment>
           }
           termsLink1={
             <Fragment>
-              <span className="price-plans-text63">T &amp; C</span>
+              <span className="price-plans-text58">T &amp; C</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="price-plans-text64">cookie policy.</span>
+              <span className="price-plans-text59">cookie policy.</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="price-plans-text65">privacy policy.</span>
+              <span className="price-plans-text60">privacy policy.</span>
             </Fragment>
           }
           column1Title={
             <Fragment>
-              <span className="price-plans-text66">Contact Us</span>
+              <span className="price-plans-text61">Contact Us</span>
             </Fragment>
           }
           column2Title={
             <Fragment>
-              <span className="price-plans-text67">Services</span>
+              <span className="price-plans-text62">Services</span>
             </Fragment>
           }
           cookiesLink1={
             <Fragment>
-              <span className="price-plans-text68">C &amp; P</span>
+              <span className="price-plans-text63">C &amp; P</span>
             </Fragment>
           }
           privacyLink1={
             <Fragment>
-              <span className="price-plans-text69">P P</span>
+              <span className="price-plans-text64">P P</span>
             </Fragment>
           }
           rootClassName="footerroot-class-name5"
@@ -367,7 +357,7 @@ const PricePlans = (props) => {
             align-items: stretch;
             flex-direction: column;
             justify-content: space-between;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(237, 237, 237, 0.7);
           }
           .price-plans-text10 {
             display: inline-block;
@@ -441,7 +431,7 @@ const PricePlans = (props) => {
           .price-plans-text33 {
             display: inline-block;
           }
-          .price-plans-text34 {
+          .price-plans-text36 {
             display: inline-block;
           }
           .price-plans-text37 {
@@ -486,12 +476,6 @@ const PricePlans = (props) => {
           .price-plans-text50 {
             display: inline-block;
           }
-          .price-plans-text51 {
-            display: inline-block;
-          }
-          .price-plans-text52 {
-            display: inline-block;
-          }
           .price-plans-text53 {
             display: inline-block;
           }
@@ -499,6 +483,12 @@ const PricePlans = (props) => {
             display: inline-block;
           }
           .price-plans-text55 {
+            display: inline-block;
+          }
+          .price-plans-text56 {
+            display: inline-block;
+          }
+          .price-plans-text57 {
             display: inline-block;
           }
           .price-plans-text58 {
@@ -520,21 +510,6 @@ const PricePlans = (props) => {
             display: inline-block;
           }
           .price-plans-text64 {
-            display: inline-block;
-          }
-          .price-plans-text65 {
-            display: inline-block;
-          }
-          .price-plans-text66 {
-            display: inline-block;
-          }
-          .price-plans-text67 {
-            display: inline-block;
-          }
-          .price-plans-text68 {
-            display: inline-block;
-          }
-          .price-plans-text69 {
             display: inline-block;
           }
           @media (max-width: 599px) {

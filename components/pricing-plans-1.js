@@ -4511,7 +4511,6 @@ const PricingPlans1 = (props) => {
             display: none;
             align-self: stretch;
           }
-
           @media (max-width: 1200px) {
             .pricing-plans-1-max-width {
               align-self: center;
