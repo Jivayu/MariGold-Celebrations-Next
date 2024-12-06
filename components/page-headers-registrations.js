@@ -19,7 +19,7 @@ const PageHeadersRegistrations = (props) => {
               <h2 className="page-headers-registrations-text1 h2 thq-heading-2">
                 {props.heading1 ?? (
                   <Fragment>
-                    <span className="page-headers-registrations-text5">
+                    <span className="page-headers-registrations-text7">
                       Welcome to Marigold Celebration Hall - Where Every Detail
                       Matters
                     </span>
@@ -29,7 +29,7 @@ const PageHeadersRegistrations = (props) => {
               <p className="page-headers-registrations-text2 thq-body-large">
                 {props.content1 ?? (
                   <Fragment>
-                    <span className="page-headers-registrations-text6">
+                    <span className="page-headers-registrations-text8">
                       Welcome to the Marigold Celebration Gallery. Explore our
                       exquisite spaces and beautifully crafted events,
                       showcasing weddings, corporate gatherings, and special
@@ -44,7 +44,7 @@ const PageHeadersRegistrations = (props) => {
                 <span>
                   {props.action1 ?? (
                     <Fragment>
-                      <span className="page-headers-registrations-text7">
+                      <span className="page-headers-registrations-text5">
                         Contact Us
                       </span>
                     </Fragment>
@@ -55,7 +55,7 @@ const PageHeadersRegistrations = (props) => {
                 <span>
                   {props.action2 ?? (
                     <Fragment>
-                      <span className="page-headers-registrations-text8">
+                      <span className="page-headers-registrations-text6">
                         View Event Spaces
                       </span>
                     </Fragment>
@@ -185,24 +185,24 @@ const PageHeadersRegistrations = (props) => {
 }
 
 PageHeadersRegistrations.defaultProps = {
-  rootClassName: '',
   backgroundImageSrc:
     'https://images.unsplash.com/photo-1617610690765-178c88b48d05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMDE4MjE2NHw&ixlib=rb-4.0.3&q=80&w=1500',
-  backgroundImageAlt: 'Banquet Hall',
-  heading1: undefined,
-  content1: undefined,
   action1: undefined,
   action2: undefined,
+  backgroundImageAlt: 'Banquet Hall',
+  heading1: undefined,
+  rootClassName: '',
+  content1: undefined,
 }
 
 PageHeadersRegistrations.propTypes = {
-  rootClassName: PropTypes.string,
   backgroundImageSrc: PropTypes.string,
-  backgroundImageAlt: PropTypes.string,
-  heading1: PropTypes.element,
-  content1: PropTypes.element,
   action1: PropTypes.element,
   action2: PropTypes.element,
+  backgroundImageAlt: PropTypes.string,
+  heading1: PropTypes.element,
+  rootClassName: PropTypes.string,
+  content1: PropTypes.element,
 }
 
 export default PageHeadersRegistrations

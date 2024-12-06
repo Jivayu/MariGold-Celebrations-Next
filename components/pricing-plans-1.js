@@ -1105,7 +1105,7 @@ const PricingPlans1 = (props) => {
         {`
           .pricing-plans-1faq8 {
             width: 100%;
-            display: flex;
+            display: none;
             overflow: hidden;
             position: relative;
             margin-top: var(--dl-space-space-halfunit);
@@ -4505,11 +4505,6 @@ const PricingPlans1 = (props) => {
           }
           .pricing-plans-1-text269 {
             display: inline-block;
-          }
-          .pricing-plans-1root-class-name {
-            width: 100%;
-            display: none;
-            align-self: stretch;
           }
           @media (max-width: 1200px) {
             .pricing-plans-1-max-width {

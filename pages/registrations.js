@@ -33,17 +33,17 @@ const RegistrationsBookingMenuSelections = (props) => {
           <meta name="robots" content="noindex" />
         </Head>
         <NavbarInteractive
-          mmenu1={
+          login={
             <Fragment>
               <span className="registrations-booking-menu-selections-text10">
-                Home
+                Login
               </span>
             </Fragment>
           }
-          register12={
+          menu1={
             <Fragment>
               <span className="registrations-booking-menu-selections-text11">
-                WhatsApp Enquiry
+                Home
               </span>
             </Fragment>
           }
@@ -54,24 +54,24 @@ const RegistrationsBookingMenuSelections = (props) => {
               </span>
             </Fragment>
           }
-          menu1={
+          menu3={
             <Fragment>
               <span className="registrations-booking-menu-selections-text13">
-                Home
+                Gallery
               </span>
             </Fragment>
           }
-          register1={
+          menu4={
             <Fragment>
               <span className="registrations-booking-menu-selections-text14">
-                Call Enquiry
+                Events
               </span>
             </Fragment>
           }
-          mmenu4={
+          menu5={
             <Fragment>
               <span className="registrations-booking-menu-selections-text15">
-                Events
+                Contacts
               </span>
             </Fragment>
           }
@@ -82,83 +82,89 @@ const RegistrationsBookingMenuSelections = (props) => {
               </span>
             </Fragment>
           }
-          menu5={
+          mmenu1={
             <Fragment>
               <span className="registrations-booking-menu-selections-text17">
-                Contacts
-              </span>
-            </Fragment>
-          }
-          menu4={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text18">
-                Events
-              </span>
-            </Fragment>
-          }
-          text21011={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text19">
-                Explore Facilities
-              </span>
-            </Fragment>
-          }
-          login={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text20">
-                Login
-              </span>
-            </Fragment>
-          }
-          mmenu3={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text21">
-                Gallery
-              </span>
-            </Fragment>
-          }
-          menu3={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text22">
-                Gallery
+                Home
               </span>
             </Fragment>
           }
           mmenu2={
             <Fragment>
-              <span className="registrations-booking-menu-selections-text23">
+              <span className="registrations-booking-menu-selections-text18">
                 Facilities
               </span>
             </Fragment>
           }
-          register={
+          mmenu3={
             <Fragment>
-              <span className="registrations-booking-menu-selections-text24">
-                Enquiry
+              <span className="registrations-booking-menu-selections-text19">
+                Gallery
+              </span>
+            </Fragment>
+          }
+          mmenu4={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text20">
+                Events
               </span>
             </Fragment>
           }
           mmenu5={
             <Fragment>
-              <span className="registrations-booking-menu-selections-text25">
+              <span className="registrations-booking-menu-selections-text21">
                 Contacts
+              </span>
+            </Fragment>
+          }
+          register={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text22">
+                Enquiry
+              </span>
+            </Fragment>
+          }
+          register1={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text23">
+                Call Enquiry
+              </span>
+            </Fragment>
+          }
+          text21011={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text24">
+                Explore Facilities
+              </span>
+            </Fragment>
+          }
+          register12={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text25">
+                WhatsApp Enquiry
               </span>
             </Fragment>
           }
           rootClassName="navbar-interactiveroot-class-name6"
         ></NavbarInteractive>
         <PageHeadersRegistrations
-          heading1={
+          action1={
             <Fragment>
               <span className="registrations-booking-menu-selections-text26">
-                Welcome to Marigold Celebration Hall - Where Every Detail
-                Matters
+                Contact Us
+              </span>
+            </Fragment>
+          }
+          action2={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text27">
+                View Event Spaces
               </span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="registrations-booking-menu-selections-text27">
+              <span className="registrations-booking-menu-selections-text28">
                 Welcome to the Marigold Celebration Gallery. Explore our
                 exquisite spaces and beautifully crafted events, showcasing
                 weddings, corporate gatherings, and special occasions celebrated
@@ -166,169 +172,163 @@ const RegistrationsBookingMenuSelections = (props) => {
               </span>
             </Fragment>
           }
-          action1={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text28">
-                Contact Us
-              </span>
-            </Fragment>
-          }
-          action2={
+          heading1={
             <Fragment>
               <span className="registrations-booking-menu-selections-text29">
-                View Event Spaces
+                Welcome to Marigold Celebration Hall - Where Every Detail
+                Matters
               </span>
             </Fragment>
           }
           rootClassName="page-headers-registrationsroot-class-name"
         ></PageHeadersRegistrations>
         <iframe
-          src="https://form.jotform.com/243363656096060"
           id="JotFormIFrame-243363656096060"
+          src="https://form.jotform.com/243363656096060"
           allowFullScreen="true"
           className="registrations-booking-menu-selections-iframe"
         ></iframe>
         <Footer
-          privacyLink1={
+          link1={
             <Fragment>
               <span className="registrations-booking-menu-selections-text30">
-                P P
-              </span>
-            </Fragment>
-          }
-          content3={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text31">
-                MariGold Celebration
-              </span>
-            </Fragment>
-          }
-          link4={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text32">
-                Events
-              </span>
-            </Fragment>
-          }
-          column1Title={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text33">
-                Contact Us
-              </span>
-            </Fragment>
-          }
-          termsLink1={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text34">
-                T &amp; C
+                Home
               </span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="registrations-booking-menu-selections-text35">
+              <span className="registrations-booking-menu-selections-text31">
                 Facilities
-              </span>
-            </Fragment>
-          }
-          link10={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text36">
-                Book Now
-              </span>
-            </Fragment>
-          }
-          link6={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text37">
-                Corporate Events
-              </span>
-            </Fragment>
-          }
-          termsLink={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text38">
-                terms &amp; conditions.
-              </span>
-            </Fragment>
-          }
-          link5={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text39">
-                Contacts
-              </span>
-            </Fragment>
-          }
-          link8={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text40">
-                <span>Events Management</span>
-                <br></br>
-              </span>
-            </Fragment>
-          }
-          cookiesLink={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text43">
-                cookie policy.
-              </span>
-            </Fragment>
-          }
-          link1={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text44">
-                Home
-              </span>
-            </Fragment>
-          }
-          link9={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text45">
-                Special Occasions
-              </span>
-            </Fragment>
-          }
-          cookiesLink1={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text46">
-                C &amp; P
-              </span>
-            </Fragment>
-          }
-          column2Title={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text47">
-                Services
-              </span>
-            </Fragment>
-          }
-          link7={
-            <Fragment>
-              <span className="registrations-booking-menu-selections-text48">
-                Weddings Plannings
               </span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="registrations-booking-menu-selections-text49">
+              <span className="registrations-booking-menu-selections-text32">
                 Gallery
+              </span>
+            </Fragment>
+          }
+          link4={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text33">
+                Events
+              </span>
+            </Fragment>
+          }
+          link5={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text34">
+                Contacts
+              </span>
+            </Fragment>
+          }
+          link6={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text35">
+                Corporate Events
+              </span>
+            </Fragment>
+          }
+          link7={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text36">
+                Weddings Plannings
+              </span>
+            </Fragment>
+          }
+          link8={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text37">
+                <span>Events Management</span>
+                <br></br>
+              </span>
+            </Fragment>
+          }
+          link9={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text40">
+                Special Occasions
+              </span>
+            </Fragment>
+          }
+          link10={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text41">
+                Book Now
               </span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="registrations-booking-menu-selections-text50">
+              <span className="registrations-booking-menu-selections-text42">
                 We warmly invite you to visit and explore Marigold Banquet Hall.
                 It would be our pleasure to assist you with your event planning
                 needs and show you everything we have to offer!
               </span>
             </Fragment>
           }
+          content3={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text43">
+                MariGold Celebration
+              </span>
+            </Fragment>
+          }
+          termsLink={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text44">
+                terms &amp; conditions.
+              </span>
+            </Fragment>
+          }
+          termsLink1={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text45">
+                T &amp; C
+              </span>
+            </Fragment>
+          }
+          cookiesLink={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text46">
+                cookie policy.
+              </span>
+            </Fragment>
+          }
           privacyLink={
             <Fragment>
-              <span className="registrations-booking-menu-selections-text51">
+              <span className="registrations-booking-menu-selections-text47">
                 privacy policy.
+              </span>
+            </Fragment>
+          }
+          column1Title={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text48">
+                Contact Us
+              </span>
+            </Fragment>
+          }
+          column2Title={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text49">
+                Services
+              </span>
+            </Fragment>
+          }
+          cookiesLink1={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text50">
+                C &amp; P
+              </span>
+            </Fragment>
+          }
+          privacyLink1={
+            <Fragment>
+              <span className="registrations-booking-menu-selections-text51">
+                P P
               </span>
             </Fragment>
           }
@@ -436,13 +436,13 @@ const RegistrationsBookingMenuSelections = (props) => {
           .registrations-booking-menu-selections-text37 {
             display: inline-block;
           }
-          .registrations-booking-menu-selections-text38 {
-            display: inline-block;
-          }
-          .registrations-booking-menu-selections-text39 {
-            display: inline-block;
-          }
           .registrations-booking-menu-selections-text40 {
+            display: inline-block;
+          }
+          .registrations-booking-menu-selections-text41 {
+            display: inline-block;
+          }
+          .registrations-booking-menu-selections-text42 {
             display: inline-block;
           }
           .registrations-booking-menu-selections-text43 {
@@ -473,10 +473,10 @@ const RegistrationsBookingMenuSelections = (props) => {
             display: inline-block;
           }
           @media (max-width: 599px) {
-            .registrations-booking-menu-selections-text11 {
+            .registrations-booking-menu-selections-text23 {
               line-height: 1.4;
             }
-            .registrations-booking-menu-selections-text14 {
+            .registrations-booking-menu-selections-text25 {
               line-height: 1.4;
             }
             .registrations-booking-menu-selections-iframe {
