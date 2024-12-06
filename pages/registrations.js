@@ -409,7 +409,7 @@ const RegistrationsBookingMenuSelections = (props) => {
             width: 1439px;
             display: block;
             min-width: 1200px;
-            min-height: 110vh;
+            min-height: 200vh;
             aspect-ratio: auto;
           }
           .registrations-booking-menu-selections-text30 {
