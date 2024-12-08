@@ -152,7 +152,6 @@ const PageHeadersRegistrations = (props) => {
           .page-headers-registrations-text8 {
             display: inline-block;
           }
-
           @media (max-width: 1200px) {
             .page-headers-registrations-content {
               width: 85%;
