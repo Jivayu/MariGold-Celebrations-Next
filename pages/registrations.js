@@ -47,9 +47,9 @@ const RegistrationsBookingMenuSelections = (props) => {
           .registrations-booking-menu-selections-iframe {
             flex: 0;
             width: 1439px;
+            height: 100vh;
             display: block;
             min-width: 1200px;
-            min-height: 200vh;
             aspect-ratio: auto;
           }
           @media (max-width: 599px) {
