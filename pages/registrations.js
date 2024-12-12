@@ -29,9 +29,10 @@ const RegistrationsBookingMenuSelections = (props) => {
           <meta name="robots" content="noindex" />
         </Head>
         <iframe
-          id="JotFormIFrame-243363656096060"
-          src="https://form.jotform.com/243363656096060"
+          id="JotFormIFrame-243440862622454"
+          src='https://www.jotform.com/app/243440862622454?appEmbedded=1" style="height: 1000 px; width: 1000 px; border: 0;'
           allowFullScreen="true"
+          allow="geolocation, microphone, camera"
           className="registrations-booking-menu-selections-iframe"
         ></iframe>
       </div>
