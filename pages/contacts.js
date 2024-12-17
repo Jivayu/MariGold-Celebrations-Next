@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 
+import { useTranslations } from 'next-intl'
+
 import PageHeadersContacts from '../components/page-headers-contacts'
 import ContactInfo from '../components/contact-info'
 import Footer from '../components/footer'
@@ -520,3 +522,14 @@ const Contacts = (props) => {
 }
 
 export default Contacts
+
+export async function getStaticProps(context) {
+  const messages = (await import('/locales/' + context.locale + '.json'))
+    .default
+  return {
+    props: {
+      messages,
+      ...context,
+    },
+  }
+}

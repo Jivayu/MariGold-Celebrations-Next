@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import { useTranslations } from 'next-intl'
+
 const RegistrationsBookingMenuSelections = (props) => {
   return (
     <>
@@ -31,8 +33,8 @@ const RegistrationsBookingMenuSelections = (props) => {
         <iframe
           id="JotFormIFrame-243440862622454"
           src='https://www.jotform.com/app/243440862622454?appEmbedded=1" style="height: 1000 px; width: 1000 px; border: 0;'
-          allowFullScreen="true"
           allow="geolocation, microphone, camera"
+          allowFullScreen="true"
           className="registrations-booking-menu-selections-iframe"
         ></iframe>
       </div>
@@ -65,3 +67,14 @@ const RegistrationsBookingMenuSelections = (props) => {
 }
 
 export default RegistrationsBookingMenuSelections
+
+export async function getStaticProps(context) {
+  const messages = (await import('/locales/' + context.locale + '.json'))
+    .default
+  return {
+    props: {
+      messages,
+      ...context,
+    },
+  }
+}

@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 
+import { useTranslations } from 'next-intl'
+
 import PageHeadersGallery from '../components/page-headers-gallery'
 import GalleryImages from '../components/gallery-images'
 import VideoGallery from '../components/video-gallery'
@@ -548,3 +550,14 @@ const Gallery = (props) => {
 }
 
 export default Gallery
+
+export async function getStaticProps(context) {
+  const messages = (await import('/locales/' + context.locale + '.json'))
+    .default
+  return {
+    props: {
+      messages,
+      ...context,
+    },
+  }
+}

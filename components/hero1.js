@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 
 import PropTypes from 'prop-types'
+import { useTranslations } from 'next-intl'
 
 import HeroPlaceholderImage4 from './hero-placeholder-image4'
 import HeroPlaceholderImage1 from './hero-placeholder-image1'

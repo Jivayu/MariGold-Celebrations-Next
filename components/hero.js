@@ -1,6 +1,7 @@
 import React from 'react'
 
 import PropTypes from 'prop-types'
+import { useTranslations } from 'next-intl'
 
 import HeroBrandWallSlider from './hero-brand-wall-slider'
 import HeroPlaceholderImage4 from './hero-placeholder-image4'

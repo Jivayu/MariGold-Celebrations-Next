@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 
+import { useTranslations } from 'next-intl'
+
 import NavbarInteractive from '../components/navbar-interactive'
 import PageHeadersEvents from '../components/page-headers-events'
 import EventsDetails from '../components/events-details'
@@ -835,3 +837,14 @@ const Events = (props) => {
 }
 
 export default Events
+
+export async function getStaticProps(context) {
+  const messages = (await import('/locales/' + context.locale + '.json'))
+    .default
+  return {
+    props: {
+      messages,
+      ...context,
+    },
+  }
+}

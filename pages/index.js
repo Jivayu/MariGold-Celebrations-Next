@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 
+import { useTranslations } from 'next-intl'
+
 import NavbarInteractive from '../components/navbar-interactive'
 import Hero from '../components/hero'
 import Hero1 from '../components/hero1'
@@ -979,3 +981,14 @@ const Home = (props) => {
 }
 
 export default Home
+
+export async function getStaticProps(context) {
+  const messages = (await import('/locales/' + context.locale + '.json'))
+    .default
+  return {
+    props: {
+      messages,
+      ...context,
+    },
+  }
+}

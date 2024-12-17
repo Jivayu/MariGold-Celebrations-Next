@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
 
+import { useTranslations } from 'next-intl'
+
 import NavbarInteractive from '../components/navbar-interactive'
 import PageHeadersFacilities from '../components/page-headers-facilities'
 import AllFacilitiesOfMarigold from '../components/all-facilities-of-marigold'
@@ -415,3 +417,14 @@ const Facilities = (props) => {
 }
 
 export default Facilities
+
+export async function getStaticProps(context) {
+  const messages = (await import('/locales/' + context.locale + '.json'))
+    .default
+  return {
+    props: {
+      messages,
+      ...context,
+    },
+  }
+}

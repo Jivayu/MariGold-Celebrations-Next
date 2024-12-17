@@ -1,11 +1,12 @@
 import React from 'react'
 
 import PropTypes from 'prop-types'
+import { useTranslations } from 'next-intl'
 
 const BrandLogo = (props) => {
   return (
     <>
-      <a href="https://marigoldcelebration.in">
+      <a href="https://marigoldcelebration.in" className="brand-logo-link">
         <div className={`brand-logo-container ${props.rootClassName} `}>
           <img
             id="Marigold Celebration Brand Logo"
@@ -18,6 +19,9 @@ const BrandLogo = (props) => {
       </a>
       <style jsx>
         {`
+          .brand-logo-link {
+            display: contents;
+          }
           .brand-logo-container {
             display: flex;
             padding: 2px;

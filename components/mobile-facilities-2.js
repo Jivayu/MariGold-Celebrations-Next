@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
+import { useTranslations } from 'next-intl'
 
 const MobileFacilities2 = (props) => {
   const [faq2Visible, setFaq2Visible] = useState(false)

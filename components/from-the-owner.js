@@ -1,6 +1,7 @@
 import React, { useState, Fragment } from 'react'
 
 import PropTypes from 'prop-types'
+import { useTranslations } from 'next-intl'
 
 import BrandLogo from './brand-logo'
 
@@ -8,7 +9,7 @@ const FromTheOwner = (props) => {
   const [faq2Visible, setFaq2Visible] = useState(false)
   const [faq3Visible, setFaq3Visible] = useState(false)
   const [faq4Visible, setFaq4Visible] = useState(false)
-  const [faq1Visible, setFaq1Visible] = useState(false)
+  const [faq1Visible, setFaq1Visible] = useState(true)
   return (
     <>
       <section
