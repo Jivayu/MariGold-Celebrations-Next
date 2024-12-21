@@ -642,7 +642,11 @@ const Pricing10 = (props) => {
             width: 100%;
             display: flex;
             align-items: center;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-unit);
+            padding-right: var(--dl-space-space-unit);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
           }
           .pricing10-content {
             gap: 2px;
@@ -661,7 +665,7 @@ const Pricing10 = (props) => {
           }
           .pricing10-column1 {
             gap: var(--dl-space-space-twounits);
-            width: 20%;
+            width: 15%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             flex-grow: 1;
@@ -710,7 +714,7 @@ const Pricing10 = (props) => {
           }
           .pricing10-text101 {
             width: auto;
-            font-size: 48px;
+            font-size: 35px;
             text-align: center;
             font-family: 'Spectral';
           }
@@ -733,7 +737,7 @@ const Pricing10 = (props) => {
           }
           .pricing10-column2 {
             gap: var(--dl-space-space-twounits);
-            width: 20%;
+            width: 15%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             flex-grow: 1;
@@ -780,7 +784,7 @@ const Pricing10 = (props) => {
             font-weight: 600;
           }
           .pricing10-text106 {
-            font-size: 48px;
+            font-size: 35px;
             text-align: center;
             font-family: 'Spectral';
           }
@@ -803,7 +807,7 @@ const Pricing10 = (props) => {
           }
           .pricing10-column3 {
             gap: var(--dl-space-space-twounits);
-            width: 20%;
+            width: 15%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             flex-grow: 1;
@@ -849,7 +853,7 @@ const Pricing10 = (props) => {
             font-weight: 600;
           }
           .pricing10-text111 {
-            font-size: 48px;
+            font-size: 35px;
             text-align: center;
             font-family: 'Spectral';
           }
@@ -889,7 +893,7 @@ const Pricing10 = (props) => {
           .pricing10-text115 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 18px;
+            font-size: 14px;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
@@ -920,7 +924,11 @@ const Pricing10 = (props) => {
           .pricing10-text116 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container14 {
             flex: 1;
@@ -940,10 +948,12 @@ const Pricing10 = (props) => {
           .pricing10-text117 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container15 {
             flex: 1;
@@ -963,10 +973,12 @@ const Pricing10 = (props) => {
           .pricing10-text118 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container16 {
             flex: 1;
@@ -987,10 +999,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container17 {
             gap: 2px;
@@ -1017,7 +1031,11 @@ const Pricing10 = (props) => {
           .pricing10-text120 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container19 {
             flex: 1;
@@ -1038,10 +1056,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container20 {
             flex: 1;
@@ -1062,10 +1082,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container21 {
             flex: 1;
@@ -1086,10 +1108,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container22 {
             gap: 2px;
@@ -1116,7 +1140,11 @@ const Pricing10 = (props) => {
           .pricing10-text124 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container24 {
             flex: 1;
@@ -1137,10 +1165,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container25 {
             flex: 1;
@@ -1161,10 +1191,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container26 {
             flex: 1;
@@ -1185,10 +1217,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container27 {
             gap: 2px;
@@ -1215,7 +1249,11 @@ const Pricing10 = (props) => {
           .pricing10-text128 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container29 {
             flex: 1;
@@ -1236,10 +1274,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container30 {
             flex: 1;
@@ -1260,10 +1300,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container31 {
             flex: 1;
@@ -1284,10 +1326,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             height: auto;
+            font-size: 14px;
             align-self: center;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
+            line-height: 1.6;
           }
           .pricing10-container32 {
             gap: 2px;
@@ -1386,7 +1430,7 @@ const Pricing10 = (props) => {
           .pricing10-text136 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
-            font-size: 18px;
+            font-size: 14px;
             font-style: normal;
             font-family: 'Spectral';
             font-weight: 300;
@@ -1416,7 +1460,11 @@ const Pricing10 = (props) => {
           .pricing10-text137 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container40 {
             flex: 1;
@@ -1437,10 +1485,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             width: 80%;
+            font-size: 12px;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container41 {
             flex: 1;
@@ -1461,10 +1511,12 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             width: 80%;
+            font-size: 12px;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container42 {
             flex: 1;
@@ -1486,11 +1538,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container43 {
             gap: 2px;
@@ -1515,7 +1569,11 @@ const Pricing10 = (props) => {
           .pricing10-text141 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container45 {
             flex: 1;
@@ -1537,11 +1595,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container46 {
             flex: 1;
@@ -1563,11 +1623,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container47 {
             flex: 1;
@@ -1589,11 +1651,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container48 {
             gap: 2px;
@@ -1618,7 +1682,11 @@ const Pricing10 = (props) => {
           .pricing10-text145 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container50 {
             flex: 1;
@@ -1640,11 +1708,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container51 {
             flex: 1;
@@ -1666,11 +1736,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container52 {
             flex: 1;
@@ -1690,11 +1762,13 @@ const Pricing10 = (props) => {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
             width: 80%;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container53 {
             gap: 2px;
@@ -1719,7 +1793,11 @@ const Pricing10 = (props) => {
           .pricing10-text149 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container55 {
             flex: 1;
@@ -1741,11 +1819,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container56 {
             flex: 1;
@@ -1767,11 +1847,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container57 {
             flex: 1;
@@ -1793,11 +1875,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container58 {
             gap: 2px;
@@ -1822,7 +1906,11 @@ const Pricing10 = (props) => {
           .pricing10-text153 {
             fill: var(--dl-color-theme-accent1);
             color: var(--dl-color-theme-accent1);
+            font-size: 14px;
+            font-style: normal;
             font-family: 'Spectral';
+            font-weight: 500;
+            line-height: 1.6;
           }
           .pricing10-container60 {
             flex: 1;
@@ -1844,11 +1932,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container61 {
             flex: 1;
@@ -1870,11 +1960,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-container62 {
             flex: 1;
@@ -1896,11 +1988,13 @@ const Pricing10 = (props) => {
             color: var(--dl-color-theme-accent1);
             width: 80%;
             height: auto;
+            font-size: 12px;
             align-self: center;
             font-style: normal;
             text-align: left;
             font-family: 'Spectral';
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.6;
           }
           .pricing10-text157 {
             display: inline-block;
